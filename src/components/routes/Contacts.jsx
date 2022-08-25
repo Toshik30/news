@@ -1,16 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './style.module.scss'
 import { authefication } from '../../store/auth/authSlice';
 import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
-
 
 export default function Contacts() {
-    const [login, setLogin] = useState({name:'', email: '', password: ''})
     
-    const auths = useSelector(state => state.auth)
-    const dispatch = useDispatch(auths)
-    console.log(login)
+    const dispatch = useDispatch()
+    const handleChange = ({target: {name, value}}) => dispatch(authefication({value, name}))
+    
   
     return (
         <section className={styles.contacts}>
@@ -38,20 +35,24 @@ export default function Contacts() {
                     <div className={styles.contacts__registration__form}>
                         <h2>The best way to reach our support staff is to fill out the form below with as much detail as possible.</h2>
                         <form>
-                            <input onChange={(e) => dispatch(authefication(e.target.value))} 
-                                type="text" 
+                            <input onChange={handleChange} 
+                                type="text"
+                                name='name' 
                                 placeholder='Name' 
                                 className={styles.input} 
                             />
                             <input 
-                                onChange={(e) => setLogin({...login, email: e.target.value})}
-                                type="text" 
+                                onChange={handleChange} 
+                                type="email" 
+                                name='email'
                                 placeholder='E-mail' 
                                 className={styles.input}
                             />
                             <input 
-                                onChange={(e) => setLogin({...login, password: e.target.value})}
-                                type="password" placeholder='Password' 
+                                onChange={handleChange} 
+                                type="password" 
+                                name='password'
+                                placeholder='Password' 
                                 className={styles.input} 
                             />
                             <input type="submit" value="Registration"  className={styles.button_primary__blue} />
