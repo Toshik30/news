@@ -1,0 +1,224 @@
+@import '../../styled/_variables';
+
+.contacts {
+    &__description {
+        padding: 30px 0px;
+        margin: 0 auto 30px;
+        text-align: center;
+        h1 {
+            font-size: 40px;
+            color: $black-color;
+        }
+        h3 {
+            color: $gray-color;
+        }
+    }
+    
+    &__registration {
+        padding: 50px 0px;
+        margin-bottom: 80px;
+        @extend %flex-center;
+        flex-wrap: wrap;
+        color: $black-color;
+        &__address {
+            max-width: 400px;
+            box-shadow: $box-shadow;
+            padding: 20px;
+            &__element {
+                margin-top: 14px;
+                h3 {
+                    margin-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+        &__form {
+            box-shadow: $box-shadow;
+            padding: 60px 30px;
+            max-width: 500px;
+            h2 {
+                margin-bottom: 20px;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                .input {
+                    padding: 12px 14px;
+                    font-size: 14px;
+                    margin-bottom: 12px;
+                    border-radius: $border-r-medium;
+                    border: $button-border-gray;
+                }
+            } 
+        }
+        &__address, &__form {
+            transition: .5s box-shadow;
+            &:hover {
+                box-shadow: 0 0 20px 5px #ced4da;;
+            }
+        }
+    }
+}
+.blog {
+    padding-top: 60px;
+    h1 {
+        font-size: 40px;
+        color: $black-color;
+        text-align: center;
+    }
+    .wrapper{
+        @extend %flex-between;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin-top: 70px;
+        & > a {
+            box-shadow: $box-shadow;
+            flex: 30%;
+            flex: auto 1 auto;
+            max-width: 350px;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 30px;
+            transition: .4s all;
+            img {
+                width: 100%;
+                object-fit: contain;
+                height: 200px;
+            }
+            p {
+                color: $gray-color;
+                margin-top: 10px;
+            }
+            &:hover {
+                transform: translateY(-20px);
+                box-shadow: 0 5px 10px 15px #ced4da;
+            }
+        }
+    }
+}
+.detailed {
+    padding: 60px 0px;
+    &__company {
+        box-shadow: $box-shadow;
+        padding: 40px;
+        img {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        h2 {
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: $black-color;
+        }
+        p {
+            color: $gray-color;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.about {
+    padding: 60px 0px;
+    .about_us {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__description {
+            max-width: 600px;
+            h1 {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 14px;
+                color: $gray-color;
+                line-height: 1.5rem;
+            }
+        }
+        .animate__block {
+            text-align: center;
+            strong {
+                color: $gray-color;
+                font-weight: 800;
+                opacity: .7;
+            }
+            &__round {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background: $blue-color;
+                font-weight: 600;
+                @extend %flex-center;
+                color: $white-color;
+                text-align: center;
+                padding: 20px;
+                margin: 60px 0px;
+                position: relative;
+                animation: rotateShadow 12s linear infinite;
+                transition: .4s animation;
+                
+                .arrow {
+                    height: 130%;
+                    width: 130%;
+                    border: 2px solid $blue-color;
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                    position: absolute;
+                    border-radius: 100%;
+                    animation: rotateArrow 15s linear infinite;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        border-left: 6px solid transparent;
+                        border-right: 6px solid transparent;
+                        border-bottom: 15px solid $blue-color;
+                        top: 82%;
+                        right: 83.3%;
+                        transform: rotate(125deg);
+                    }
+            
+                }
+            }
+        }
+        @keyframes rotateArrow {
+            0% {transform: rotate(-0deg);}
+            100% { transform: rotate(-360deg); }
+        }
+        @keyframes rotateShadow {
+            0% {box-shadow: -15px -5px 0px 5px #fff; }
+            25% {box-shadow: 15px 10px 0px 0px #fff;}
+            75% {box-shadow: 5px -10px 0px 15px #fff;}
+            100% {box-shadow: -15px -5px 0px 5px #fff; }
+        }
+    }
+    .interwiew {
+        margin-top: 40px;
+        &__header {
+            background: $blue-color;
+            color: $white-color;
+            padding: 20px 15px;
+            width: fit-content;
+        }
+        &__wrapper {
+            @extend %flex-between;
+            flex-wrap: wrap;
+            & > div {
+                width: 50%;
+                padding-top: 60px;
+            }
+            &__description {
+                background: $blue-color;
+                align-items: stretch;
+                color: $white-color;
+                padding: 60px 20px;
+            }
+        }
+    }
+}

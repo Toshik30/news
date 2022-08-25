@@ -1,0 +1,43 @@
+@import '../../styled/_variables';
+.news {
+    &__list {
+        background: transparent;
+    }
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 120px;
+        &:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+    }
+    &__image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+            color: $gray-color;
+            font-size: $fz-description;
+            margin-top: 10px;
+        }
+    }
+    &__description {
+        max-width: 410px;
+        margin: 0 auto;
+        @extend %flex-between;
+        flex-direction: column;
+        align-items: flex-start;
+        color: $some-black-color;
+        h2 {
+            font-size: $fz-heading;
+            line-height: 64px;
+            letter-spacing: 1.5px;
+        }
+        p {
+            font-size: $fz-primary;
+        }
+    }
+}
+.button_primary {
+    color: $black-color;
+}

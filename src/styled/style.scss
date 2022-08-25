@@ -1,0 +1,39 @@
+@import './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: $bg-color;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a,li,button {
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+}
+section {
+    margin-top: 92px;
+    min-height: calc(100vh - 92px);
+}
+input, textarea {
+    &:focus-visible {
+        outline: none;
+        outline-offset: none;
+    }
+    
+}
+.container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+

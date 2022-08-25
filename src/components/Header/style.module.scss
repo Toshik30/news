@@ -1,0 +1,41 @@
+@import '../../styled/_variables';
+header {
+    background: #000000;
+    color: $white-color;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.nav {
+  @extend %flex-between;
+  padding: 20px 0px;
+}
+.logo {
+    flex: 20%;
+}
+
+nav {
+    display: flex;
+    ul {
+        display: flex;
+        a {
+            padding: 0 26px;
+            color: $white-color;
+            font-weight: 600;
+            transition: .4s color;
+            &:hover {
+                color: $blue-color;
+            }
+            &.active {
+                color: $blue-color;
+            }
+        }
+        
+    }
+}
+.navigate {
+    display: flex;
+    flex: 20%;
+    justify-content: flex-end;
+}

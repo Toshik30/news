@@ -1,0 +1,66 @@
+$black-color: #141414;
+$some-black-color: #0E1016;
+$bg-color: #E5E5E5;
+$gray-color: #35393F;
+$white-color: #ffffff;
+$green-color: #0C9F64;
+$yellow-color: #FEC104;
+$blue-color: #0099FF;
+$pink-color: #F64775;
+
+$fz-description: 16px;
+$fz-primary: 22px;
+$fz-heading: 56px;
+
+$button-border-gray: 2px solid #F8F4F4;
+$border-r-small: 4px;
+$border-r-medium: 8px;
+$border-r-round: 40px;
+$box-shadow: 0 0 15px 2px #ced4da;
+
+%primary-button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 14px 20px;
+    border-radius: $border-r-medium;
+}
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 14px 20px;
+    border-radius: $border-r-medium 0px 0px $border-r-medium;
+    border-right: none;
+    border-color: $blue-color;
+    border-style: solid;
+    background: transparent; 
+}
+.button_primary {
+    @extend %primary-button;
+    border: $button-border-gray;
+    margin-right: 10px;
+    transition: .4s border;
+    background: transparent;
+    color: $white-color;
+    &:hover {
+        border: 2px solid $gray-color;
+    }
+    &__blue {
+        background: $blue-color;
+        color: #F4F6F8;
+        @extend %primary-button;
+        @extend %flex-center;
+        border: transparent;
+    }
+}

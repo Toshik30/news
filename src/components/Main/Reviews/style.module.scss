@@ -1,0 +1,88 @@
+@import '../../../styled/_variables';
+.reviews_block {
+    column-count: 4;
+    column-gap: 10px;
+}
+.review_list {
+    background: $blue-color;
+    color: $white-color;
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: $border-r-medium;
+    display: grid;
+    
+    margin-bottom: 10px;
+    break-inside: avoid;
+    .review {
+        font-size: 14px;
+        word-break: break-all;
+        margin-top: 10px;
+    }
+}
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background: $white-color;
+        position: absolute;
+        transform: rotate(45deg);
+    }
+    &::after {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background: $white-color;
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+}
+.form_review {
+    display: flex;
+    flex-direction: column;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    @extend %flex-center;
+    border-radius: 50%;
+    background: $yellow-color;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.name_user {
+    font-weight: 600;
+    font-size: 18px;
+}
+.form_review {
+    margin: 40px 0px;
+    max-width: 400px;
+    width: 100%;
+    .input_form {
+        padding: 8px 12px;
+        border-radius: $border-r-medium;
+        margin-bottom: 8px;
+        border: $button-border-gray;
+    }
+    textarea {
+        height: 90px;
+    }
+}
+.test {
+    width: 400px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}

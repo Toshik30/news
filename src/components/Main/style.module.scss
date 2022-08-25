@@ -1,0 +1,25 @@
+@import '../../styled/_variables';
+section {
+    margin-top: 92px;
+}
+.main_page {
+    text-align: center;
+}
+.heading {
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    max-width: 900px;
+    margin:30px auto 70px ;
+    &__description {
+        font-size: 26px;
+        line-height: 36px;
+        color: $gray-color;
+        max-width: 510px;
+        margin: 0 auto 30px;
+    }
+}
+.companys {
+    margin: 10px 0px 90px ;
+}

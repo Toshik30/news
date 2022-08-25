@@ -1,0 +1,22 @@
+@import '../../styled/_variables';
+
+.description {
+    font-size: $fz-primary - 4px;
+    color: #b2b2b2;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.submit {
+    border-radius: 0px $border-r-medium $border-r-medium 0px;
+    @extend %primary-button;
+    border-color: transparent;
+    background: $blue-color;
+    color: $white-color;
+}
+.input {
+    &__block {
+        margin: 40px auto 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,47 @@
+@import '../../styled/_variables';
+
+.footer {
+    background: #000000;
+    padding: 25px 0px;
+    color: $white-color;
+    &__nav {
+        @extend %flex-between;
+        margin-bottom: 20px;
+        .logo {
+            font-size: 40px;
+        }
+    }
+    &__body {
+        display: flex;
+        @extend %flex-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        .contacts {
+            max-width: 300px;
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__check {
+        @extend %flex-between;
+        align-items: flex-start;
+        ul {
+            min-width: 150px;
+        }
+        li {
+            font-size: 16px;
+            margin-bottom: 7px;
+        }
+        h5 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            transition: .4s color;
+            cursor: pointer;
+            &:hover {
+                color: $blue-color;
+                transition: .4s;
+            }
+        }
+    }
+}
