@@ -53,12 +53,14 @@ $box-shadow: 0 0 15px 2px #ced4da;
     transition: .4s border;
     background: transparent;
     color: $white-color;
+    
     &:hover {
         border: 2px solid $gray-color;
     }
     &__blue {
         background: $blue-color;
         color: #F4F6F8;
+        width: fit-content;
         @extend %primary-button;
         @extend %flex-center;
         border: transparent;

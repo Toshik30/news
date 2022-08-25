@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
 import styles from './style.module.scss'
-import { authefication, autheficationEmail } from '../../store/auth/authSlice';
+import { authefication } from '../../store/auth/authSlice';
 import { useDispatch } from 'react-redux';
-
+import { useSelector } from 'react-redux';
 
 
 export default function Contacts() {
     const [login, setLogin] = useState({name:'', email: '', password: ''})
-    const dispatch = useDispatch()
-
+    
+    const auths = useSelector(state => state.auth)
+    const dispatch = useDispatch(auths)
     console.log(login)
-    const handleChangeValue =  (value) => {
-        setLogin({...login, password: value})
-    }
+  
     return (
         <section className={styles.contacts}>
             <div className='container'>
@@ -39,10 +38,19 @@ export default function Contacts() {
                     <div className={styles.contacts__registration__form}>
                         <h2>The best way to reach our support staff is to fill out the form below with as much detail as possible.</h2>
                         <form>
-                            <input onChange={(e) => dispatch(authefication(e.target.value))} type="text" placeholder='Name' className={styles.input} />
-                            <input onChange={(e) => dispatch(autheficationEmail(e.target.value))} type="text" placeholder='E-mail' className={styles.input} />
+                            <input onChange={(e) => dispatch(authefication(e.target.value))} 
+                                type="text" 
+                                placeholder='Name' 
+                                className={styles.input} 
+                            />
                             <input 
-                                onChange={(e) => handleChangeValue(e.target.value)}
+                                onChange={(e) => setLogin({...login, email: e.target.value})}
+                                type="text" 
+                                placeholder='E-mail' 
+                                className={styles.input}
+                            />
+                            <input 
+                                onChange={(e) => setLogin({...login, password: e.target.value})}
                                 type="password" placeholder='Password' 
                                 className={styles.input} 
                             />
