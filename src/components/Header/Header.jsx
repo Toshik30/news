@@ -2,8 +2,10 @@ import React from 'react';
 import styles from './style.module.scss';
 import { NavLink ,Link } from 'react-router-dom';
 import { ROUTES_LINK } from '../selectors/routes';
+
 export default function Header() {
   const activeLink = ({ isActive }) => isActive ? styles.active : 'inactive'
+  
   return (
     <header>
         <div className="container">

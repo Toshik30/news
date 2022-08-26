@@ -7,6 +7,7 @@ export default function ReviewsList() {
     const reviewsList = useLiveQuery(() => db.reviews.toArray())
     const handleDeleteReview = async(id) => {
         db.reviews.delete(id)
+        
         await db.reviews.toArray();  
   }
   return (

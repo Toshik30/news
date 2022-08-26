@@ -32,7 +32,7 @@ export default function Reviews() {
                 className={styles.input_form}
                 maxLength={20}
                 value={name}
-                onChange={e => setName(e.target.value)}
+                onChange={(e) => setName(e.target.value)}
             />
             <textarea 
                 type="text"
@@ -41,7 +41,7 @@ export default function Reviews() {
                 className={styles.input_form}
                 maxLength={200}
                 value={review}
-                onChange={e => setReview(e.target.value)}
+                onChange={(e) => setReview(e.target.value)}
             />
             <Rating
                 onClick={handleRating}
@@ -52,7 +52,10 @@ export default function Reviews() {
                 fillColor='orange'
                 emptyColor='gray'
             />
-            <button className={styles.button_primary__blue} onClick={addReview}>Submit</button>
+            <button 
+                className={styles.button_primary__blue} 
+                onClick={addReview}>Submit
+            </button>
        </div>
     )
 }
