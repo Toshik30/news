@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { DETAILED_NEWS } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
@@ -8,13 +8,22 @@ export default function Blog() {
   const random = () => {
     return Math.random().toString(36).slice(2)
   }
+  const [filter, setFilter] = useState([])
+
+  const handleFilterNews = (name) => {
+    console.log(filter);
+    setFilter(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(name)))
+  }
   return (
     <section className={styles.blog}>
         <div className='container'>
             <h1>Blog</h1>
-            <InputSearch></InputSearch>
+            <InputSearch
+              value={filter}
+              handleFilterNews={handleFilterNews}
+            />
             <div className={styles.wrapper}>
-              {DETAILED_NEWS.map((item) => (
+              {filter.map((item) => (
                 <Link 
                   key={random()}
                   to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}

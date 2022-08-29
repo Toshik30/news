@@ -9,10 +9,15 @@ header {
 }
 .nav {
   @extend %flex-between;
-  padding: 20px 0px;
+//   padding: 20px 0px;
 }
 .logo {
     flex: 20%;
+
+    img {
+        max-width: 100px;
+        object-fit: contain;
+    }
 }
 
 nav {
@@ -38,4 +43,15 @@ nav {
     display: flex;
     flex: 20%;
     justify-content: flex-end;
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        max-width: 30px;
+        border-radius: 50%;
+    }
+    strong {
+        padding: 0px 8px;
+    }
 }

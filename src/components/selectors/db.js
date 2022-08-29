@@ -6,6 +6,6 @@ db.version(1).stores({
   
 })
 export const dbb = new Dexie('myUsers')
-dbb.version(1).stores({
+dbb.version(2).stores({
     isAuth: '++id, name, email, password'
 })

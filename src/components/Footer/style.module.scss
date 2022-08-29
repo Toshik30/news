@@ -9,6 +9,10 @@
         margin-bottom: 20px;
         .logo {
             font-size: 40px;
+            img {
+                max-width: 100px;
+                object-fit: contain;
+            }
         }
     }
     &__body {

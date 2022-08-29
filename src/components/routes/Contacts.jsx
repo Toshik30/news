@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './style.module.scss'
 import { authefication } from '../../store/auth/authSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -6,7 +5,6 @@ import { dbb } from '../selectors/db';
 import { useLiveQuery } from 'dexie-react-hooks';
 
 export default function Contacts() {
-    
     const dispatch = useDispatch()
     const handleChange = ({target: {name, value}}) => dispatch(authefication({value, name}))
     const arrAuth = useSelector(state => state.auth)
@@ -17,11 +15,10 @@ export default function Contacts() {
     async function handleAuth() {
         try {
             if(arrAuth.name.length !== 0) {
-                await dbb.isAuth.add(arrAuth)
-            }
-            
+                await dbb.isAuth.put(arrAuth)
+            } 
             } catch(error) {
-                console.error('wrong value')
+                console.error('error :' + error)  
         }
     }
     
@@ -71,7 +68,12 @@ export default function Contacts() {
                                 placeholder='Password' 
                                 className={styles.input} 
                             />
-                            <input onClick={() => handleAuth(users)} type="submit" value="Registration"  className={styles.button_primary__blue} />
+                            <input 
+                                onClick={() => handleAuth(users)} 
+                                type="submit" 
+                                value="Registration"  
+                                className={styles.button_primary__blue} 
+                            />
                         </form>
                     </div>
                 </div>

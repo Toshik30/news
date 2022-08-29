@@ -1,20 +1,28 @@
 import React from 'react'
+import { LOGO } from '../selectors/dataImages';
 import styles from './style.module.scss';
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footer__nav}>
-          <div className={styles.logo}>footer</div>
+          <div className={styles.logo}>
+            <img src={LOGO} alt="logo" />
+          </div>
           <button className={styles.button_primary__blue}>Button</button>
         </div>
         <div className={styles.footer__body}>
           <div className={styles.footer__check}>
             <ul>
               <h5>About:</h5>
-              <li>Blog</li>
-              <li>Contact</li>
+              <li>
+                <Link to='/blog'>Blog</Link>
+              </li>
+              <li>
+                <Link to='/contacts'>Contacts</Link>
+              </li>
             </ul>
             <ul>
               <h5>Legal:</h5>
