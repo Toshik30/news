@@ -24,9 +24,9 @@ export default function About() {
                     </div>
                 ))}
             </div>
-            <ReviewsList></ReviewsList>
+            <ReviewsList/>
             {isAuthenticated && (
-                <Reviews></Reviews>
+                <Reviews/>
             )}
 
             {/* <DragAndDrop></DragAndDrop> */}

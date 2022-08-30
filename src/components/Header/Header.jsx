@@ -10,8 +10,8 @@ export default function Header() {
     const activeLink = ({ isActive }) => isActive ? styles.active : 'inactive'
     // const named = useLiveQuery(() => dbb.isAuth.toArray())
 
-    const { loginWithRedirect, logout, user, isAuthenticated, isLoading } = useAuth0()
-    console.log(isLoading);
+    const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0()
+  
     return (
         <header>
             <div className="container">

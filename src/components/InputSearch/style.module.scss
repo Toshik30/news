@@ -14,9 +14,49 @@
     background: $blue-color;
     color: $white-color;
 }
+
 .input {
     &__block {
         margin: 40px auto 0px;
         text-align: center;
+        width: fit-content;
+        position: relative;
     }
 }
+// .result {
+//     height: 40;
+//     opacity: 0;
+//     transform: translateY(-115%);
+//     // pointer-events: none;
+// }
+// .result:focus-within {
+//     width: 100%;
+//     max-width: inherit;
+//     position: absolute;
+//     z-index: 10;
+//     background: $bg-color;
+//     border: 2px solid $blue-color;
+//     border-top: none;
+//     top: 46px;
+//     border-radius: 0px 0px $border-r-medium $border-r-medium ;
+//     animation: ani 1s forwards;
+//     transform: translateY(0%);
+//     pointer-events: auto;
+   
+   
+//     & > a {
+//         display: block;
+//         text-align: start;
+//         padding: 10px 20px;
+//     }
+// }
+// @keyframes ani {
+//     0% {
+//         height: 0;
+//         opacity: 0;
+//     }
+//     100% {
+//         height: fit-content;
+//         opacity: 1;
+//     }
+// }

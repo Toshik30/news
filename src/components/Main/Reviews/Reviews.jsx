@@ -8,9 +8,8 @@ export default function Reviews() {
   const [review, setReview] = useState('');
   const [rating, setRating] = useState(0);
 
-  const handleRating = (rate) => {
-    setRating(rate)
-  }
+  const handleRating = (rate) => setRating(rate)
+ 
   async function addReview() {
     try {
         if(name && review && rating !== 0) {

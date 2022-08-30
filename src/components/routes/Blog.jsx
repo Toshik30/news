@@ -8,10 +8,9 @@ export default function Blog() {
   const random = () => {
     return Math.random().toString(36).slice(2)
   }
-  const [filter, setFilter] = useState([])
-
+  const [filter, setFilter] = useState(DETAILED_NEWS)
+  
   const handleFilterNews = (name) => {
-    console.log(filter);
     setFilter(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(name)))
   }
   return (
@@ -19,7 +18,6 @@ export default function Blog() {
         <div className='container'>
             <h1>Blog</h1>
             <InputSearch
-              value={filter}
               handleFilterNews={handleFilterNews}
             />
             <div className={styles.wrapper}>

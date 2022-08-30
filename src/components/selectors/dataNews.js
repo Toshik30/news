@@ -25,7 +25,7 @@ export const DATA_NEWS = [
 
 export const DETAILED_NEWS = [
     {
-        id: '',
+        id: '0',
         name: 'Samsung',
         date: Date.now(),
         shortDescription: 'Samsung hglhgflgf gfhgfhgflkhjgflhgjljglfhjgf',
@@ -36,7 +36,7 @@ export const DETAILED_NEWS = [
         path: `/blog/Samsung` //i have a questions
     },
     {
-        id: '',
+        id: '1',
         name: 'apple',
         date: Date.now(),
         shortDescription: 'Appleh.gmh hgfhgfklhjgfl hgfjghfhl ffgf hgfhgfhfghgfhgfhgfhg',
@@ -47,7 +47,7 @@ export const DETAILED_NEWS = [
         path: '/blog/apple'
     },
     {
-        id: '',
+        id: '2',
         name: 'google',
         date: Date.now(),
         shortDescription: 'Google treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjd',
@@ -58,7 +58,7 @@ export const DETAILED_NEWS = [
         path: '/blog/google'
     },
     {
-        id: '',
+        id: '3',
         name: 'mcdonalds',
         date: Date.now(),
         shortDescription: 'Mcdonalds mb,mb,nnmbn gkkg kffld d',
@@ -69,7 +69,7 @@ export const DETAILED_NEWS = [
         path: '/blog/mcdonalds'
     },
     {
-        id: '',
+        id: '4',
         name: 'tesla',
         date: Date.now(),
         shortDescription: 'Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr- Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-',
@@ -80,7 +80,7 @@ export const DETAILED_NEWS = [
         path: '/blog/tesla'
     },
     {
-        id: '',
+        id: '5',
         name: 'Amazon amaf ffdfd',
         date: Date.now(),
         shortDescription: 'Amazon 333903mfkm glfkgjfl 30303-034-211',
