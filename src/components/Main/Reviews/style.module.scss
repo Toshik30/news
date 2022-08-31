@@ -1,8 +1,13 @@
 @import '../../../styled/_variables';
+@import '../../../styled/_mixins';
 .reviews_block {
     column-count: 4;
     column-gap: 10px;
     margin-bottom: 40px;
+    @include md {
+        column-count: 3;
+      
+    }
 }
 .review_list {
     background: $blue-color;

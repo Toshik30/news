@@ -1,5 +1,5 @@
-@import './variables';
-
+@import './variables.scss';
+@import './mixins.scss';
 * {
     margin: 0;
     padding: 0;
@@ -35,5 +35,9 @@ input, textarea {
     max-width: 1360px;
     margin: 0 auto;
     padding: 0 2.5rem;
+    @include md {
+        padding: 0 1rem;
+      
+    }
 }
 

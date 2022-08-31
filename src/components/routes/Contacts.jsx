@@ -8,10 +8,7 @@ export default function Contacts() {
     const dispatch = useDispatch()
     const handleChange = ({target: {name, value}}) => dispatch(authefication({value, name}))
     const arrAuth = useSelector(state => state.auth)
-
     const users = useLiveQuery(() => dbb.isAuth.toArray())
-    console.log(users);
-
     async function handleAuth() {
         try {
             if(arrAuth.name.length !== 0) {

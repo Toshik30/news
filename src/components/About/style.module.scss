@@ -1,4 +1,5 @@
 @import '../../styled/_variables';
+@import '../../styled/_mixins';
 .news {
     &__list {
         background: transparent;
@@ -10,11 +11,19 @@
         &:nth-child(2n) {
             flex-direction: row-reverse;
         }
+        @include md {
+            justify-content: space-between;
+        }
     }
     &__image {
         display: flex;
         flex-direction: column;
         align-items: center;
+        img {
+            @include md {
+                max-width: 500px;
+            }
+        }
         span {
             color: $gray-color;
             font-size: $fz-description;
@@ -28,13 +37,28 @@
         flex-direction: column;
         align-items: flex-start;
         color: $some-black-color;
+        @include md {
+            margin: 0;
+        }
         h2 {
             font-size: $fz-heading;
             line-height: 64px;
             letter-spacing: 1.5px;
+            @include md {
+                font-size: 48px;
+                line-height: 50px;
+                margin-bottom: 10px;
+            }
         }
         p {
             font-size: $fz-primary;
+            @include md {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+        }
+        @include md {
+            max-width: 400px;
         }
     }
 }

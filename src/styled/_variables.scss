@@ -35,6 +35,10 @@ $box-shadow: 0 0 15px 2px #ced4da;
     justify-content: center;
     align-items: center;
 }
+$screen-tablet: 1024px;
+$screen-phone: 768px;
+$screen-small-phone: 320px;
+
 .input_text {
     font-weight: 400;
     font-size: 18px;

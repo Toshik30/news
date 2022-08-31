@@ -1,26 +1,16 @@
 import styles from './style.module.scss';
 import Carousel from './Swiper/Carousel';
 import About from '../About/About';
-import DatalistInput from 'react-datalist-input';
 import { DETAILED_NEWS } from '../selectors/dataNews';
 import { Link } from 'react-router-dom';
-import React, { useState, useMemo, useCallback } from 'react';
-export default function Main() {
+import React, { useState } from 'react';
 
-    const [, setItem] = useState();
-    const onSelect = useCallback((selectedItem) => {
-        console.log('selectedItem', selectedItem);
-        setItem(selectedItem);
-      }, []);
-      const items = useMemo( () => DETAILED_NEWS.map((item, index) => ({
-            id: item.name,
-            value: item.name,
-            key: index,
-            ...item,
-            node: <Link to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}>{item.name}</Link>
-          })),
-        [],
-      );
+export default function Main() {
+    const [isFocused, setIsFocused] = useState(false)
+    const [search, setSearch] = useState(DETAILED_NEWS)
+    const handleSearchValue = (value) => {
+        setSearch(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(value)))
+    }
     return (
         <section>
             <div className="container">
@@ -31,11 +21,26 @@ export default function Main() {
                     <h4 className={styles.heading__description}>
                         Everything you need to organise your hiring and make a great impression.
                     </h4>
-                    <DatalistInput
-                        placeholder="Search...." 
-                        items={items} 
-                        onSelect={onSelect}
-                    />
+                    <div className={styles.datalist} onBlur={(e) => !e.currentTarget.contains(e.relatedTarget) ?  setIsFocused() : ''}>
+                       
+                        <input
+                            className={styles.input_text} 
+                            type="text"
+                            placeholder='Search..'         
+                            onFocus={() => setIsFocused(isFocused ? styles.work : styles.ctn)}
+                            onChange={(e) => handleSearchValue(e.target.value.toLowerCase())}
+                        />
+                        <div className={isFocused ? styles.work : styles.ctn}  >
+                            {search.map((item, index) => 
+                            <Link 
+                                key={index}
+                                target='_blank'
+                                to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}
+                            >{item.name}
+                            </Link>
+                            )}
+                        </div>
+                    </div>
                     <div className={styles.companys}>
                         <Carousel/>
                     </div>

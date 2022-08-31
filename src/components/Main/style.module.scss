@@ -1,4 +1,5 @@
 @import '../../styled/_variables';
+@import '../../styled/_mixins';
 section {
     margin-top: 92px;
 }
@@ -19,7 +20,62 @@ section {
         max-width: 510px;
         margin: 0 auto 30px;
     }
+    @include md {
+        font-size: 40px;
+    }
 }
 .companys {
     margin: 10px 0px 90px ;
+}
+.datalist { 
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 50px;
+   
+    .input_text {
+        border-radius: 8px;
+        transition: .4s all;
+        &::placeholder {
+            font-weight: 700;
+            color: $blue-color;
+        }
+        &:focus {
+            border-radius: 8px 8px 0px 0px;
+            border-bottom: none;
+        }
+    }
+}
+.ctn {
+    transform: translateX(-100%);
+    position: absolute;
+    opacity: 0;
+    transition: .5s all;
+    pointer-events: none;
+   
+    & > a {
+        display: block;
+    }
+}
+.work {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    text-align: start;
+    background: $bg-color;
+    transform: translateX(0%);
+    opacity: 1;
+    transition: .5s all;
+    border: 2px solid $blue-color;
+    border-top: none;
+    border-radius: 0px 0px 8px 8px ;
+    overflow-y: scroll;
+    height: 200px;
+    & > a {
+        display: block;
+        padding: 12px 10px;
+        &:hover {
+            background: $blue-color;
+            color: $white-color;
+        }
+    }
 }

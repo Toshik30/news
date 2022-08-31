@@ -10,12 +10,30 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 export default function Carousel () {
   return (
     <Swiper
-        slidesPerView={6}
-        spaceBetween={30}
+      slidesPerView={2}
+      spaceBetween={30}
         loop={true}
         autoplay={{delay: 2500, disableOnInteraction: false}}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+          900: {
+            slidesPerView: 4,
+            spaceBetween: 30
+          },
+          1240: {
+            slidesPerView: 6,
+            spaceBetween: 30
+          }
+        }}
     >
         {DATA_IMAGES.map((item, index) => (
             <SwiperSlide key={index}><img src={item} alt='img'/></SwiperSlide>

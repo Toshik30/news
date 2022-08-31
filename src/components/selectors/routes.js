@@ -4,11 +4,11 @@ export const ROUTES_LINK = [
         path: '/',
         id: '1',
     },
-    // {
-    //     name: 'Product',
-    //     path: '/products',
-    //     id: '2',
-    // },
+    {
+        name: 'Product',
+        path: '/products',
+        id: '2',
+    },
     {
         name: 'Contact',
         path: '/contacts',

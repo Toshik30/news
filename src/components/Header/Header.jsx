@@ -21,7 +21,7 @@ export default function Header() {
                         <img src={LOGO} alt="logo" />
                     </Link>
                 </div>
-                <nav>
+                <nav className={styles.navigation}>
                     <ul>
                         {ROUTES_LINK.map((item) => (
                         <NavLink
@@ -46,8 +46,21 @@ export default function Header() {
                         <Link to='/' onClick={() => loginWithRedirect()} className='button_primary__blue'>Login</Link>
                     }
                 </div>
+                
                 </div>
             </div>
+            <nav className={styles.burger}>
+                {ROUTES_LINK.map((item) => (
+                        <NavLink
+                            key={item.id}
+                            to={item.path}
+                            className={activeLink}
+                            value={item.name}
+                        >
+                            {item.name}
+                        </NavLink> 
+                        ))}  
+                </nav>
         </header>
     )
 }
