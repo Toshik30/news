@@ -5,11 +5,15 @@ import { ROUTES_LINK } from '../selectors/routes';
 // import { useLiveQuery } from 'dexie-react-hooks';
 import { useAuth0 } from '@auth0/auth0-react';
 import { LOGO } from '../selectors/dataImages';
+import { useState } from 'react';
 
 export default function Header() {
+    const [activeBurger, setActiveBurger] = useState(false)
     const activeLink = ({ isActive }) => isActive ? styles.active : 'inactive'
     // const named = useLiveQuery(() => dbb.isAuth.toArray())
-
+    const handleActive = () => {
+        setActiveBurger(current => !current)
+    }
     const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0()
   
     return (
@@ -18,7 +22,7 @@ export default function Header() {
                 <div className={styles.nav}>
                 <div className={styles.logo}>
                     <Link to='/'>
-                        <img src={LOGO} alt="logo" />
+                       
                     </Link>
                 </div>
                 <nav className={styles.navigation}>
@@ -46,20 +50,30 @@ export default function Header() {
                         <Link to='/' onClick={() => loginWithRedirect()} className='button_primary__blue'>Login</Link>
                     }
                 </div>
-                
+                <div className={`${styles.burger_button} ${ activeBurger ? styles.burger_button_active : ''}`} onClick={handleActive} >
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                </div>
                 </div>
             </div>
-            <nav className={styles.burger}>
+            <nav className={`${styles.burger} ${ activeBurger ? styles.burger_active : ''}`}>
+                <div className={`${styles.burger_button} ${ activeBurger ? styles.burger_button_active : ''}`} onClick={handleActive} >
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                </div>
                 {ROUTES_LINK.map((item) => (
-                        <NavLink
-                            key={item.id}
-                            to={item.path}
-                            className={activeLink}
-                            value={item.name}
-                        >
-                            {item.name}
-                        </NavLink> 
-                        ))}  
+                    <NavLink
+                        key={item.id}
+                        to={item.path}
+                        className={styles.burger_link}
+                        value={item.name}
+                        onClick={() => setActiveBurger()}
+                    >
+                        {item.name}
+                    </NavLink> 
+                    ))}  
                 </nav>
         </header>
     )

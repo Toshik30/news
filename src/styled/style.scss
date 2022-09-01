@@ -16,12 +16,19 @@ a {
 a,li,button {
     cursor: pointer;
 }
+img {
+    max-width: 100%;
+}
 ul {
     list-style-type: none;
 }
 section {
     margin-top: 92px;
-    min-height: calc(100vh - 92px);
+    min-height: calc(100vh - 330px);
+    @include md {
+        margin-top: 70px;
+        min-height: calc(100vh - 70px);
+    }
 }
 input, textarea {
     &:focus-visible {
@@ -37,7 +44,9 @@ input, textarea {
     padding: 0 2.5rem;
     @include md {
         padding: 0 1rem;
-      
+    }
+    @include xs {
+        padding: 0 5px;
     }
 }
 

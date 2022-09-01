@@ -1,5 +1,5 @@
 import React from 'react'
-import { LOGO } from '../selectors/dataImages';
+import { LOGO_FOOTER } from '../selectors/dataImages';
 import styles from './style.module.scss';
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className={styles.footer__nav}>
           <div className={styles.logo}>
-            <img src={LOGO} alt="logo" />
+            <img src={LOGO_FOOTER} alt="logo" />
           </div>
           <button className={styles.button_primary__blue}>Button</button>
         </div>

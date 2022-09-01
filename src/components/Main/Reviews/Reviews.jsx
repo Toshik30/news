@@ -7,16 +7,17 @@ export default function Reviews() {
   const [name, setName] = useState('');
   const [review, setReview] = useState('');
   const [rating, setRating] = useState(0);
-
+  const [pathLocation, setPathLocation] = useState(window.location.pathname);
   const handleRating = (rate) => setRating(rate)
  
   async function addReview() {
     try {
         if(name && review && rating !== 0) {
-            await db.reviews.add({ name,review,rating })
+            await db.reviews.add({ name,review,rating,pathLocation })
         setName('')
         setReview('')
         setRating('')
+        setPathLocation('')
         }
     } catch(error) {
         console.error(`Failed to add ${name}: ${error}`);

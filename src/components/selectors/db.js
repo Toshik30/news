@@ -2,7 +2,7 @@ import Dexie from "dexie";
 
 export const db = new Dexie('myDatabase')
 db.version(1).stores({
-    reviews: '++id, name, review, rating'
+    reviews: '++id, name, review, rating, pathname'
   
 })
 export const dbb = new Dexie('myUsers')

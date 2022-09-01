@@ -20,7 +20,7 @@ export const ROUTES_LINK = [
         id: '4',
     },
     {
-        name: 'Blog',
+        name: 'Reviews',
         path: '/blog',
         id: '5',
     },

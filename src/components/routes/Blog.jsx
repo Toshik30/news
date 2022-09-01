@@ -16,7 +16,7 @@ export default function Blog() {
   return (
     <section className={styles.blog}>
         <div className='container'>
-            <h1>Blog</h1>
+            <h1>Reviews</h1>
             <InputSearch
               handleFilterNews={handleFilterNews}
             />

@@ -2,9 +2,13 @@ import React from 'react'
 import { DETAILED_NEWS } from '../selectors/dataNews'
 import { useLocation, Link } from 'react-router-dom'
 import styles from './style.module.scss'
+import { useAuth0 } from '@auth0/auth0-react';
+import ReviewsList from '../Main/Reviews/ReviewsList';
+import Reviews from '../Main/Reviews/Reviews';
 
 export default function BlogDetailed() {
   const location = useLocation()
+  const { isAuthenticated } = useAuth0()
   return (
     <section className={styles.detailed}>
       <Link to='/blog' className={styles.button_primary__blue}>Backspace</Link>
@@ -16,6 +20,10 @@ export default function BlogDetailed() {
                 <p>{elem.fullDescription}</p>
             </div>
         ))}
+         <ReviewsList/>
+            {isAuthenticated && (
+                <Reviews/>
+            )}
       </div>
     </section>
   )

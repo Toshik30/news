@@ -1,10 +1,11 @@
 @import '../../styled/_variables';
 @import '../../styled/_mixins';
-section {
-    margin-top: 92px;
-}
+
 .main_page {
     text-align: center;
+    @include xs {
+        padding-top: 10px;
+    }
 }
 .heading {
     font-size: 120px;
@@ -19,9 +20,21 @@ section {
         color: $gray-color;
         max-width: 510px;
         margin: 0 auto 30px;
+        @include xs {
+            font-size: 20px;
+            line-height: 24px;
+        }
     }
     @include md {
-        font-size: 40px;
+        font-size: 80px;
+        line-height: 90px;
+        max-width: 700px;
+        margin-bottom: 40px;
+    }
+    @include xs {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 20px;
     }
 }
 .companys {
@@ -68,8 +81,7 @@ section {
     border: 2px solid $blue-color;
     border-top: none;
     border-radius: 0px 0px 8px 8px ;
-    overflow-y: scroll;
-    height: 200px;
+    
     & > a {
         display: block;
         padding: 12px 10px;

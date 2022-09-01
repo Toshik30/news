@@ -16,10 +16,10 @@ export default function Main() {
             <div className="container">
                 <div className={styles.main_page}>
                     <h1 className={styles.heading}>
-                        Where hiring comes together.
+                        The place that united us
                     </h1>
                     <h4 className={styles.heading__description}>
-                        Everything you need to organise your hiring and make a great impression.
+                        Everything you need to find a reputation.
                     </h4>
                     <div className={styles.datalist} onBlur={(e) => !e.currentTarget.contains(e.relatedTarget) ?  setIsFocused() : ''}>
                        

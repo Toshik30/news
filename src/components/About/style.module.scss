@@ -13,6 +13,10 @@
         }
         @include md {
             justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        @include sm {
+            justify-content: center;
         }
     }
     &__image {
@@ -22,6 +26,10 @@
         img {
             @include md {
                 max-width: 500px;
+                width: 100%;
+            }
+            @include xs {
+                width: 100%;
             }
         }
         span {
@@ -40,6 +48,7 @@
         @include md {
             margin: 0;
         }
+       
         h2 {
             font-size: $fz-heading;
             line-height: 64px;
@@ -49,6 +58,10 @@
                 line-height: 50px;
                 margin-bottom: 10px;
             }
+            @include xs {
+                font-size: 35px;
+                line-height: 35px;
+            }
         }
         p {
             font-size: $fz-primary;
@@ -56,9 +69,17 @@
                 font-size: 20px;
                 margin-bottom: 15px;
             }
+            @include xs {
+                font-size: 18px;
+                line-height: 18px;
+            }
         }
         @include md {
             max-width: 400px;
+        }
+        @include sm {
+            max-width: 500px ;
+            margin-top: 30px;
         }
     }
 }

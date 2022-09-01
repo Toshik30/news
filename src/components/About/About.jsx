@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './style.module.scss';
 import { DATA_NEWS } from '../selectors/dataNews';
-import Reviews from '../Main/Reviews/Reviews';
-import ReviewsList from '../Main/Reviews/ReviewsList';
-// import DragAndDrop from '../Main/Reviews/DragAndDrop';
-import { useAuth0 } from '@auth0/auth0-react';
+// import Reviews from '../Main/Reviews/Reviews';
+// import ReviewsList from '../Main/Reviews/ReviewsList';
+// import { useAuth0 } from '@auth0/auth0-react';
+
 export default function About() {
-    const { isAuthenticated } = useAuth0()
+    // const { isAuthenticated } = useAuth0()
     return (
         <div className="container">
             <div className={styles.news__list}>
@@ -24,12 +24,11 @@ export default function About() {
                     </div>
                 ))}
             </div>
-            <ReviewsList/>
+            {/* <ReviewsList/>
             {isAuthenticated && (
                 <Reviews/>
-            )}
+            )} */}
 
-            {/* <DragAndDrop></DragAndDrop> */}
         </div>
     )
 }
