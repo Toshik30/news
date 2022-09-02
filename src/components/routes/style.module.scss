@@ -124,6 +124,44 @@
     @include sm {
         padding: 20px 0px 40px;
     }
+   
+       
+.arrow {
+    position: relative;
+    width: 150px;
+    left: 20px;
+    transition: all 0.2s linear 0s;
+    background: $blue-color;
+    color: $white-color;
+    border-radius: $border-r-medium;
+    padding: 12px 30px;
+        &:before {
+            content: "\f053";
+            font-family: 'FontAwesome';
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 30px !important;
+            background-color: rgba($white-color,0.3);
+            border-radius: 50% 0 0 50%;
+            transform: scale(0,1);
+            transform-origin: right center;
+            transition: all 0.2s linear 0s;
+        }
+        &:hover {
+            text-indent: -20px;
+            &:before {
+                transform: scale(1,1);
+                text-indent: 0;
+            }
+        }
+    }
+    
     &__company {
         box-shadow: $box-shadow;
         padding: 40px;

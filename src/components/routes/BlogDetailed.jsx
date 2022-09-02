@@ -11,7 +11,7 @@ export default function BlogDetailed() {
   const { isAuthenticated } = useAuth0()
   return (
     <section className={styles.detailed}>
-      <Link to='/blog' className={styles.button_primary__blue}>Backspace</Link>
+      <Link to='/blog' className={styles.arrow}>Backspace</Link>
       <div className="container">
         {DETAILED_NEWS.filter((item) => item.path.replace(/ /g, '').toLowerCase() === location.pathname).map((elem, index) => (
             <div key={index} className={styles.detailed__company}>

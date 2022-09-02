@@ -4,7 +4,7 @@ import { ROUTES_LINK } from '../selectors/routes';
 // import { dbb } from '../selectors/db';
 // import { useLiveQuery } from 'dexie-react-hooks';
 import { useAuth0 } from '@auth0/auth0-react';
-import { LOGO } from '../selectors/dataImages';
+// import { LOGO } from '../selectors/dataImages';
 import { useState } from 'react';
 
 export default function Header() {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { LOGO_FOOTER } from '../selectors/dataImages';
 import styles from './style.module.scss';
 import { Link } from 'react-router-dom'

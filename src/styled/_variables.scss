@@ -65,8 +65,24 @@ $screen-small-phone: 425px;
         background: $blue-color;
         color: #F4F6F8;
         width: fit-content;
+        position: relative;
         @extend %primary-button;
         @extend %flex-center;
         border: transparent;
+        overflow: hidden;
+        &:before {
+            content: '';
+            position: absolute;
+            border-radius: $border-r-medium;
+            left: 0;
+            height: 100%;
+            width: 0%;
+            background: #ffffff4f;
+            transition: .4s all ;
+           
+        }
+        &:hover:before {
+            width: 100%;
+        }
     }
 }
