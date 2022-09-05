@@ -14,7 +14,7 @@ export default function About() {
                     <div className={styles.news__block} key={index}>
                         <div className={styles.news__image}>
                             <img src={item.image} alt="img" />
-                            <span>{item.imageDescription}</span>
+                            <p>{item.imageDescription}</p>
                         </div>
                         <div className={styles.news__description}>
                             <h2>{item.heading}</h2>

@@ -16,13 +16,13 @@
     
     &__registration {
         padding: 50px 0px;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
         @extend %flex-center;
         flex-wrap: wrap;
         color: $black-color;
         &__address {
             max-width: 400px;
-            box-shadow: $box-shadow;
+            box-shadow: 0 0 15px -5px #ced4da;
             padding: 20px;
             &__element {
                 margin-top: 14px;
@@ -125,7 +125,7 @@
         padding: 20px 0px 40px;
     }
    
-       
+    
 .arrow {
     position: relative;
     width: 150px;
@@ -135,9 +135,11 @@
     color: $white-color;
     border-radius: $border-r-medium;
     padding: 12px 30px;
+   
         &:before {
             content: "\f053";
             font-family: 'FontAwesome';
+            overflow: hidden;
             font-weight: 400;
             display: flex;
             align-items: center;
@@ -146,10 +148,10 @@
             top: 0;
             right: 0;
             height: 100%;
-            width: 30px !important;
+            width: 30px;
             background-color: rgba($white-color,0.3);
-            border-radius: 50% 0 0 50%;
-            transform: scale(0,1);
+            border-radius: 50% 25% 25% 50%;
+            transform: scale(0,.8);
             transform-origin: right center;
             transition: all 0.2s linear 0s;
         }

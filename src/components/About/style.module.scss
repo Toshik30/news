@@ -7,13 +7,13 @@
     &__block {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 120px;
+        padding-bottom: 120px;
         &:nth-child(2n) {
             flex-direction: row-reverse;
         }
         @include md {
             justify-content: space-between;
-            margin-bottom: 50px;
+            padding-bottom: 50px;
         }
         @include sm {
             justify-content: center;
@@ -32,7 +32,7 @@
                 width: 100%;
             }
         }
-        span {
+        p {
             color: $gray-color;
             font-size: $fz-description;
             margin-top: 10px;

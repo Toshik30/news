@@ -7,6 +7,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 100;
+    display: flex;
+    align-items: center
 }
 .nav {
   @extend %flex-between;
@@ -157,4 +159,38 @@ header {
            margin-left: 20px;
         }
    }
+}
+.toggler_theme {
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid $blue-color;
+    position: absolute;
+    padding: 2px;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    left: 20px;
+    align-items: center;
+    @include md {
+        left: 100px;
+    }
+    & > div {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        position: absolute;
+        transition: .4s all;
+        
+        &.day {
+            background: url(../../images/sun.png) ;
+            background-size: cover;
+            transform: translate(0px, 0px) rotate(180deg);
+        }
+        &.night {
+            background: url(../../images/moon.png) ;
+            background-size: cover;
+            transform: translate(24px, 0px) rotate(-0deg);
+        }
+    }
 }

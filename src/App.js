@@ -8,10 +8,17 @@ import Contacts from './components/routes/Contacts';
 import AboutUs from './components/routes/AboutUs';
 import Products from './components/routes/Products';
 import BlogDetailed from './components/routes/BlogDetailed';
+import { createContext, useState } from 'react';
 
+
+
+export  const ThemeContext = createContext('')
 function App() {
+  const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('className')) || false)
+  console.log(theme);
   return (
-    <div className="App">
+    <ThemeContext.Provider value={{theme, setTheme}}>
+      <div className={theme ? 'dark' : ''} >
       <Header/>
         <Routes>
           <Route path='/' element={<Main/>} />
@@ -23,6 +30,7 @@ function App() {
         </Routes>
       <Footer/>
     </div>
+    </ThemeContext.Provider>
   );
 }
 

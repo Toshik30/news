@@ -3,9 +3,10 @@ import { NavLink ,Link } from 'react-router-dom';
 import { ROUTES_LINK } from '../selectors/routes';
 // import { dbb } from '../selectors/db';
 // import { useLiveQuery } from 'dexie-react-hooks';
-import { useAuth0 } from '@auth0/auth0-react';
 // import { LOGO } from '../selectors/dataImages';
-import { useState } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
+import { useState, useContext } from 'react';
+import { ThemeContext } from '../../App';
 
 export default function Header() {
     const [activeBurger, setActiveBurger] = useState(false)
@@ -15,9 +16,18 @@ export default function Header() {
         setActiveBurger(current => !current)
     }
     const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0()
-  
+    const {theme, setTheme} = useContext(ThemeContext)
+    
+    const handleChangeTheme = () => {
+      localStorage.setItem('className', JSON.stringify(!theme))
+      setTheme(!theme)
+    }
+
     return (
-        <header>
+        <header >
+            <div onClick={handleChangeTheme} className={styles.toggler_theme}>
+                <div className={theme ? styles.night : styles.day}></div>
+            </div>
             <div className="container">
                 <div className={styles.nav}>
                 <div className={styles.logo}>

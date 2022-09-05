@@ -9,7 +9,7 @@ export default function Reviews() {
   const [rating, setRating] = useState(0);
   const [pathLocation, setPathLocation] = useState(window.location.pathname);
   const handleRating = (rate) => setRating(rate)
- 
+
   async function addReview() {
     try {
         if(name && review && rating !== 0) {

@@ -23,10 +23,10 @@ ul {
     list-style-type: none;
 }
 section {
-    margin-top: 92px;
+    margin-top: 60px;
+    padding-top: 10px;
     min-height: calc(100vh - 330px);
     @include md {
-        margin-top: 70px;
         min-height: calc(100vh - 70px);
     }
 }
@@ -48,4 +48,13 @@ input, textarea {
         padding: 0 5px;
     }
 }
-
+.dark {
+    div {
+        p,h1,h2,h3,h4,strong,button {
+            color: white !important;
+        }
+    }
+    section {
+        background: linear-gradient(180deg, #000000 0%, #35393f 40%, #35393f 70%, #000000 100%);
+    }
+}
