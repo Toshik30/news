@@ -2,14 +2,16 @@ import styles from './style.module.scss';
 import { useState } from 'react'
 import { db } from '../../selectors/db';
 import { Rating } from 'react-simple-star-rating';
+import { useSelector, useDispatch } from 'react-redux';
 
 export default function Reviews() {
   const [name, setName] = useState('');
   const [review, setReview] = useState('');
   const [rating, setRating] = useState(0);
   const [pathLocation, setPathLocation] = useState(window.location.pathname);
-  const handleRating = (rate) => setRating(rate)
+  const handleRating = (rate) => setRating(rate);
 
+  const dispatch = useDispatch();
   async function addReview() {
     try {
         if(name && review && rating !== 0) {
