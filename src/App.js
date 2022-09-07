@@ -15,7 +15,6 @@ import { createContext, useState } from 'react';
 export  const ThemeContext = createContext('')
 function App() {
   const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('className')) || false)
-  console.log(theme);
   return (
     <ThemeContext.Provider value={{theme, setTheme}}>
       <div className={theme ? 'dark' : ''} >

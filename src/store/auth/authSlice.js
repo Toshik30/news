@@ -12,7 +12,6 @@ const authSlice = createSlice({
             state[action.payload.name] = action.payload.value
         }   
     }
-
 })
 export const { authefication } = authSlice.actions
 export default authSlice.reducer

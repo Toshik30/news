@@ -1,32 +1,37 @@
 import styles from './style.module.scss';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { db } from '../../selectors/db';
 import { Rating } from 'react-simple-star-rating';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux/es/exports';
+import { createReview } from '../../../store/reviews/reviewSlice';
+import { useLiveQuery } from 'dexie-react-hooks';
 
 export default function Reviews() {
-  const [name, setName] = useState('');
-  const [review, setReview] = useState('');
-  const [rating, setRating] = useState(0);
-  const [pathLocation, setPathLocation] = useState(window.location.pathname);
-  const handleRating = (rate) => setRating(rate);
+    const [name, setName] = useState('');
+    const [review, setReview] = useState('');
+    const [rating, setRating] = useState(0);
+    const [pathLocation, setPathLocation] = useState(window.location.pathname);
+    const handleRating = (rate) => setRating(rate);
+    const dispatch = useDispatch()
+    const arrReviews = useLiveQuery(() => db.reviews.toArray())
 
-  const dispatch = useDispatch();
-  async function addReview() {
-    try {
-        if(name && review && rating !== 0) {
-            await db.reviews.add({ name,review,rating,pathLocation })
-        setName('')
-        setReview('')
-        setRating('')
-        setPathLocation('')
-        }
-    } catch(error) {
-        console.error(`Failed to add ${name}: ${error}`);
+    async function addReview(date) {
+        try {
+            if(name && review && rating !== 0) {
+                await db.reviews.add({ name,review,rating,pathLocation,date })
+                setName('')
+                setReview('')
+                setRating('')
+                setPathLocation(window.location.pathname)
+            }
+        } catch(error) {
+            console.error(`Failed to add ${name}: ${error}`);
+        } 
     }
-  }
-  
-  return (
+    useEffect(() => {
+        dispatch(createReview(arrReviews))
+    })
+    return (
        <div className={styles.form_review}>
             <input 
                 type="text"
@@ -56,7 +61,7 @@ export default function Reviews() {
             />
             <button 
                 className={styles.button_primary__blue} 
-                onClick={addReview}>Submit
+                onClick={() => addReview(new Intl.DateTimeFormat('en-Us').format(new Date()))}>Submit
             </button>
        </div>
     )

@@ -27,7 +27,6 @@ export const DETAILED_NEWS = [
     {
         id: '0',
         name: 'Samsung',
-        date: Date.now(),
         shortDescription: 'Samsung hglhgflgf gfhgfhgflkhjgflhgjljglfhjgf',
         shortHeading: 'Samsung',
         fullDescription: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporisLorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporis',
@@ -38,7 +37,6 @@ export const DETAILED_NEWS = [
     {
         id: '1',
         name: 'apple',
-        date: Date.now(),
         shortDescription: 'Appleh.gmh hgfhgfklhjgfl hgfjghfhl ffgf hgfhgfhfghgfhgfhgfhg',
         shortHeading: 'Apple',
         fullDescription: `Poisoned Apple is a small online business based in South Wales, United Kingdom. Owned and run by me, Lianne, a fan of all things Disney and other pop culture franchises including Harry Potter, Marvel, Star Wars to name a few! Here at Poisoned Apple we love fashion and accessories (especially bags!) so have combined these interests and built this store, stocking a growing range of fashion items, handbags, backpacks, accessories, keyrings, pin badges, glassware, gifts, homeware and collectables. All of our magical products are fully licensed and we only stock reputable and well known brands such as Funko, Loungefly, Danielle Nicole, Mad Beauty, The Carat Shop, Pyramid, Banpresto, Cerda and more! Our brand list is always growing and new stock drops are frequent, so be sure to keep an eye on our socials on Facebook and Instagram for updates. Our username is @PoisonedAppleUK if you'd like to follow or give us a quick like! Poisoned Apple customers can purchase with the confidence that they will always receive a quality product, packaged with care and delivered quickly. Thank you again for visiting our Trustpilot page and for reading about Poisoned Apple. I hope you come again and don't forget to check out our fab customer and product reviews! Best wishes Lianne x`,
@@ -49,7 +47,6 @@ export const DETAILED_NEWS = [
     {
         id: '2',
         name: 'google',
-        date: Date.now(),
         shortDescription: 'Google treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjd',
         shortHeading: 'Google',
         fullDescription: 'Google treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjd',
@@ -60,7 +57,6 @@ export const DETAILED_NEWS = [
     {
         id: '3',
         name: 'mcdonalds',
-        date: Date.now(),
         shortDescription: 'Mcdonalds mb,mb,nnmbn gkkg kffld d',
         shortHeading: 'Mcdonalds',
         fullDescription: 'Tesla MR-scanning og idrætsklinik udfører avancerede undersøgelser af skader på led, knogler, sener og muskler.Vores patienter er bl.a. professionelle sportsfolk, og klinikkens læger har mange års erfaring i at diagnosticere og rådgive om behandling af idrætsskader.Ved hjælp af MR-scanneren stiller vi en præcis diagnose, så du slipper for unødvendige kikkertundersøgelser og hurtigt kan få den rigtige behandling og genoptræning.Går du ikke allerede til behandling med din skade, henviser vi dig til anerkendte ortopædkirurger og fysioterapeuter.',
@@ -71,7 +67,6 @@ export const DETAILED_NEWS = [
     {
         id: '4',
         name: 'tesla',
-        date: Date.now(),
         shortDescription: 'Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr- Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-',
         shortHeading: 'Tesla',
         fullDescription: 'Tesla MR-scanning og idrætsklinik udfører avancerede undersøgelser af skader på led, knogler, sener og muskler.Vores patienter er bl.a. professionelle sportsfolk, og klinikkens læger har mange års erfaring i at diagnosticere og rådgive om behandling af idrætsskader.Ved hjælp af MR-scanneren stiller vi en præcis diagnose, så du slipper for unødvendige kikkertundersøgelser og hurtigt kan få den rigtige behandling og genoptræning.Går du ikke allerede til behandling med din skade, henviser vi dig til anerkendte ortopædkirurger og fysioterapeuter.',
@@ -82,7 +77,6 @@ export const DETAILED_NEWS = [
     {
         id: '5',
         name: 'Amazon amaf ffdfd',
-        date: Date.now(),
         shortDescription: 'Amazon 333903mfkm glfkgjfl 30303-034-211',
         shortHeading: 'Amazon',
         fullDescription: `Thanks for the excellent service and communication around my recent treadmill purchase and delivery. The treadmill is great! The condition far exceeded the level i expected for a 'refurbished' product
