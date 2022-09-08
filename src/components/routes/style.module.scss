@@ -168,7 +168,7 @@
         box-shadow: $box-shadow;
         padding: 40px;
         margin-bottom: 20px;
-        img {
+        .image {
             max-width: 300px;
             width: 100%;
             margin: 0 auto 20px;
@@ -178,13 +178,13 @@
             }
         }
         h2 {
-            margin-bottom: 20px;
             text-transform: uppercase;
             color: $black-color;
         }
         p {
             color: $gray-color;
             line-height: 1.5rem;
+            margin: 15px 0px;
         }
         @include sm {
             margin-top: 20px;

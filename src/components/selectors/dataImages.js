@@ -7,6 +7,7 @@ import Slide6 from '../../images/Slide6.png';
 import Slide7 from '../../images/Slide7.png';
 import logo from '../../images/logo1.png';
 import logoFooter from '../../images/logo.png';
+
 export const DATA_IMAGES = [
     Slide1, Slide2, Slide3, Slide4, Slide5, Slide6, Slide7,
 ]
