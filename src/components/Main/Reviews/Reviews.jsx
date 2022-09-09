@@ -22,7 +22,6 @@ export default function Reviews() {
                 setName('')
                 setReview('')
                 setRating('')
-                setPathLocation(window.location.pathname)
             }
         } catch(error) {
             console.error(`Failed to add ${name}: ${error}`);

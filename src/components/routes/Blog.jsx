@@ -28,7 +28,7 @@ export default function Blog() {
                 >
                   <img src={item.image} alt="img" />
                   <h3>{item.shortHeading}</h3>
-                  <p className={styles.paragraph}>{item.shortDescription.substring(0, 100)}</p>
+                  <p className={styles.paragraph}>{item.fullDescription.substring(0, 100)}</p>
                 </Link>
               ))}
             </div>

@@ -1,15 +1,25 @@
-import Dashboard from '../../images/Dashboard.png';
-import About from '../../images/About.png';
-// import tesla from '../../images/tesla.png';
-// import amazon from '../../images/amazon.png';
-import apple from '../../images/apple.png';
-import samsung from '../../images/samsung.png';
-import google from '../../images/google.png';
-import mcdonalds from '../../images/mcdonalds.png';
-import fin from '../../images/fin.png';
-import finexchange from '../../images/Fin-Exchange.png';
-import wsunion from '../../images/wsunion.png';
+import Dashboard from '../../images/Dashboard.png'
+import About from '../../images/About.png'
+import fin from '../../images/fin.png'
+import finexchange from '../../images/Fin-Exchange.png'
+import wsunion from '../../images/wsunion.png'
 import wsunionPage from '../../images/wsunionPage.png'
+import sapphire from '../../images/sapphire-logo.png'
+import sapphirePage from '../../images/sapphiremarkets.png'
+import glex from '../../images/glex24-logo.png'
+import glexPage from '../../images/glex24Page.png'
+import fxedeal from '../../images/fxedeal-logo.png'
+import fxedealPage from '../../images/fxedealPage.png'
+import amplixx from '../../images/amplixx-logo.png'
+import amplixxPage from '../../images/amplixxPage.png'
+import finex from '../../images/finex-logo.svg'
+import finexPage from '../../images/finexPage.png'
+import fibo from '../../images/fibo-logo.webp'
+import fiboPage from '../../images/FiboPage.webp'
+import finaguide from '../../images/finaguide-logo.png'
+import finaguidePage from '../../images/finaguidePage.png'
+import greendax from '../../images/greendax-logo.png'
+import greendaxPage from '../../images/greendaxPage.png'
 export const DATA_NEWS = [
     {
         heading: 'An all-in-one tool for your entire team.',
@@ -25,72 +35,8 @@ export const DATA_NEWS = [
     },
 ]
 
-
 export const DETAILED_NEWS = [
     {
-        id: '0',
-        name: 'Samsung',
-        shortDescription: 'Samsung hglhgflgf gfhgfhgflkhjgflhgjljglfhjgf',
-        shortHeading: 'Samsung',
-        fullDescription: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporisLorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nemo voluptatem dolor perferendis, unde corporis est nobis sit vero! Quae eius dolorem omnis vero officiis quam, eos nemo non corporis',
-        heading: 'Samsung hglhgflgf gfhgfhgflkhjgflhgjljglfhjgf',
-        image: samsung,
-        path: `/blog/Samsung` //i have a questions
-    },
-    {
-        id: '1',
-        name: 'apple',
-        shortDescription: 'Appleh.gmh hgfhgfklhjgfl hgfjghfhl ffgf hgfhgfhfghgfhgfhgfhg',
-        shortHeading: 'Apple',
-        fullDescription: `Poisoned Apple is a small online business based in South Wales, United Kingdom. Owned and run by me, Lianne, a fan of all things Disney and other pop culture franchises including Harry Potter, Marvel, Star Wars to name a few! Here at Poisoned Apple we love fashion and accessories (especially bags!) so have combined these interests and built this store, stocking a growing range of fashion items, handbags, backpacks, accessories, keyrings, pin badges, glassware, gifts, homeware and collectables. All of our magical products are fully l`,
-        heading: 'About Poisoned Apple',
-        image: apple,
-        path: '/blog/apple'
-    },
-    {
-        id: '2',
-        name: 'google',
-        shortDescription: 'Google treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjd',
-        shortHeading: 'Google',
-        fullDescription: 'Google treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle treltjoiu43 4234jl jlgjflg dfkgljf kldjgldfjgldfjglkdf gjldfdfjgldfgldf gfjdGoogle trel',
-        heading: 'Google treltjoiu43',
-        image: google,
-        path: '/blog/google'
-    },
-    {
-        id: '3',
-        name: 'mcdonalds',
-        shortDescription: 'Mcdonalds mb,mb,nnmbn gkkg kffld d',
-        shortHeading: 'Mcdonalds',
-        fullDescription: 'Tesla MR-scanning og idrætsklinik udfører avancerede undersøgelser af skader på led, knogler, sener og muskler.Vores patienter er bl.a. professionelle sportsfolk, og klinikkens læger har mange års erfaring i at diagnosticere og rådgive om behandling af idrætsskader.Ved hjælp af MR-scanneren stiller vi en præcis diagnose, så du slipper for unødvendige kikkertundersøgelser og hurtigt kan få den rigtige behandling og genoptræning.Går du ikke allerede til behandling med din skade, henviser vi dig til anerkendte ortopædkirurger og fysioterapeuter.',
-        heading: 'McDonalds tretoreitre rjor trtr',
-        image: mcdonalds,
-        path: '/blog/mcdonalds'
-    },
-    // {
-    //     id: '4',
-    //     name: 'tesla',
-    //     shortDescription: 'Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr- Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-Tesla gfg;ggf flkfd;kslfkd;sfd;;fk;dfkd;ekewprpir-ewr-',
-    //     shortHeading: 'Tesla',
-    //     fullDescription: 'Tesla MR-scanning og idrætsklinik udfører avancerede undersøgelser af skader på led, knogler, sener og muskler.Vores patienter er bl.a. professionelle sportsfolk, og klinikkens læger har mange års erfaring i at diagnosticere og rådgive om behandling af idrætsskader.Ved hjælp af MR-scanneren stiller vi en præcis diagnose, så du slipper for unødvendige kikkertundersøgelser og hurtigt kan få den rigtige behandling og genoptræning.Går du ikke allerede til behandling med din skade, henviser vi dig til anerkendte ortopædkirurger og fysioterapeuter.',
-    //     heading: 'Tesla Mr-scanning og idrætsklinik.',
-    //     image: tesla,
-    //     path: '/blog/tesla'
-    // },
-    // {
-    //     id: '5',
-    //     name: 'Amazon amaf ffdfd',
-    //     shortDescription: 'Amazon 333903mfkm glfkgjfl 30303-034-211',
-    //     shortHeading: 'Amazon',
-    //     fullDescription: `Thanks for the excellent service and communication around my recent treadmill purchase and delivery. The treadmill is great! The condition far exceeded the level i expected for a 'refurbished' product
-    //     A big thank you to the delivery and installation team that delivered the treadmill. They did a great job, keeping me up to date with their progress before delivery and installing and setting up the treadmill, running through the functions and making sure everything was working well.
-    //     I will certainly be recommending that anyone who asks me about good quality and good service for this kind of equipment checks out your company!`,
-    //     heading: 'Amazon Leisure',
-    //     image: amazon,
-    //     path: '/blog/Amazon amaf ffdfd'
-    // },
-    {
-        id: '6',
         name: 'Fin Exchange',
         shortDescription: 'We offer trading on commodities crypto, including gold and oil. finexchnge.com opens the door to thousands of markets all over the world.',
         shortHeading: 'Fin Exchange',
@@ -125,10 +71,10 @@ export const DETAILED_NEWS = [
         path: '/blog/Fin Exchange'
     },
     {
-        id: '7',
         name: 'World Stocks Traders Union Review',
         shortDescription: 'wstunion provides unlimited opportunities and encourages to magnify profit.',
         fullDescription: `Read our World Stocks Traders Union review to see if we recommend this broker for trading. Just to clear doubts, this is a wstunion.com review.`,
+        shortHeading: 'Wsunion',
         heading: 'World Stocks Traders Union Review',
         descriptionLvl: {
             image: wsunionPage,
@@ -139,7 +85,7 @@ export const DETAILED_NEWS = [
             },
             rev2: {
                 heading: 'How does it work?',
-                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please dont fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
                 desc1: ''
             },
             rev3: {
@@ -157,5 +103,252 @@ export const DETAILED_NEWS = [
         },
         image: wsunion,
         path: '/blog/World Stocks Traders Union Review'
+    },
+    {
+        name: 'Sapphire Markets Review',
+        shortDescription: 'Read our Sapphire Markets review to see if we recommend this broker for trading. Just to clear doubts, this is a sapphiremarkets.com review.',
+        shortHeading: 'Sapphire Markets Review (sapphiremarkets.com Scam)',
+        fullDescription: `Read our Sapphire Markets review to see if we recommend this broker for trading. Just to clear doubts, this is a sapphiremarkets.com review.`,
+        heading: 'Sapphire Markets',
+        descriptionLvl: {
+            image: sapphirePage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                desc1: 'So Sapphire Markets is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+                desc1: ''
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+                desc2: 'If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.',
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc1: `The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us.`
+            },
+        },
+        image: sapphire,
+        path: '/blog/Sapphire Markets Review'
+    },
+    {
+        name: 'Glex24',
+        shortDescription: 'Read our Glex24 review to see if we recommend this broker for trading. Just to clear doubts, this is a glex24.com review.',
+        shortHeading: 'Glex24 Review (glex24.com Scam)',
+        fullDescription: `Read our Glex24 review to see if we recommend this broker for trading. Just to clear doubts, this is a glex24.com review.`,
+        heading: 'Glex24 Review',
+        descriptionLvl: {
+            image: glexPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                desc1: 'So Glex24 is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc1: `The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us`
+            },
+        },
+        image: glex,
+        path: '/blog/Glex24'
+    },
+    {
+        name: 'FxEdeal',
+        shortDescription: 'Read our FxEdeal review to see if we recommend this broker for trading. Just to clear doubts, this is a fxedeal.com review.',
+        shortHeading: 'FxEdeal Review (fxedeal.com Scam)',
+        fullDescription: `Read our FxEdeal review to see if we recommend this broker for trading. Just to clear doubts, this is a fxedeal.com review.`,
+        heading: 'FxEdeal Review',
+        descriptionLvl: {
+            image: fxedealPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                desc1: 'So FxEdeal is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: 'If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.',
+                desc1: `First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2: 'The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us.'
+            },
+        },
+        image: fxedeal,
+        path: '/blog/FxEdeal'
+    },
+    {
+        name: 'Amplixx',
+        shortDescription: 'Read our Amplixx review to see if we recommend this broker for trading. Just to clear doubts, this is a amplixx.com review.',
+        shortHeading: 'Amplixx Review (amplixx.com Scam)',
+        fullDescription: `Read our Amplixx review to see if we recommend this broker for trading. Just to clear doubts, this is a amplixx.com review.`,
+        heading: 'Amplixx Review (amplixx.com Scam)',
+        descriptionLvl: {
+            image: amplixxPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                desc1: 'So Amplixx is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: 'If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.',
+                desc1: `First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2: 'The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us.'
+            },
+        },
+        image: amplixx,
+        path: '/blog/Amplixx'
+    },
+    {
+        name: 'Finex Stock',
+        shortHeading: 'Finex Stock Review (finexstock.eu Scam)',
+        fullDescription: `Read our Finex Stock review to see if we recommend this broker for trading. Just to clear doubts, this is a finexstock.eu review.`,
+        heading: 'Finex Stock Review (finexstock.eu Scam)',
+        descriptionLvl: {
+            image: finexPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                desc1:'So Finex Stock is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: 'If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.',
+                desc1: `First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2: 'The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us.'
+            },
+        },
+        image: finex,
+        path: '/blog/Finex Stock'
+    },
+    {
+        name: 'Fibo Traders',
+        shortHeading: 'Fibo Traders Review (fibotraders.com Scam)',
+        fullDescription: `Read our Fibo Traders review to see if we recommend this broker for trading. Just to clear doubts, this is a fibotraders.com review.`,
+        heading: 'Fibo Traders Review (fibotraders.com Scam)',
+        descriptionLvl: {
+            image: fiboPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.',
+                decs1: 'So Fibo Traders is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.'
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: 'If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.',
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: 'If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.',
+                desc1: `First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2:'The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. Just contact us at personalreviews1@gmail.com but do not let your broker know they you read this article or that you are in contact with us.'
+            },
+        },
+        image: fibo,
+        path: '/blog/Fibo Traders'
+    },
+    {
+        name: 'Finaguide',
+        shortHeading: 'Finaguide Review (finaguide.com)',
+        fullDescription: `Read our Finaguide review to see if we recommend this broker for trading. Just to clear doubts, this is a finaguide.com review.`,
+        heading: 'Finaguide Review (finaguide.com)',
+        descriptionLvl: {
+            image: finaguidePage,
+            rev1: {
+                heading: 'About Finaguide',
+                desc: 'Finaguide is an international brokerage company that accepts clients all over the world except U.S.A and countries where these kinds of services are not permitted. They are currently serving thousands of clients, which shows that they are actually doing pretty well, especially taking into account that they manage to stay on the market at a time like this. They also claim their analysts have a deep knowledge of the market and do a heavy research on trades, and that’s what we have tested after opening an account with them.'
+            },
+            rev2: {
+                heading: 'Opening the account',
+                desc: 'After registering and opening an account with Finaguide we made a contact with company employees. The account manager was ready to help us walk through the client area and trading terminals upon our request in just a couple of minutes. Actually, the platforms and the client area were pretty intuitive themselves but the account manager also offered help educating us on the market and trading methods and concepts, and it looks like Finaguide would be suitable for newcomers and those who wish to systemize the knowledge of trading. You can begin with a Starter account and later you can upgrade if you like so you can take advantage of the professional accounts.',
+            },
+            rev3: {
+                heading: 'Deposit and Withdrawals',
+                desc: 'It seems that there are multiple deposit methods in Finaguide. You may deposit funds with the credit card, a bank transfer or a crypto currency transfer. Conditions are completely the same, there are no deposit fees, so you can choose the method according to your preferences. The only requirement is to use the same method for withdrawals, which is nothing unusual. The deposited money will be on your account instantly. If you need to withdraw you have to submit a request from the client area and once the withdrawal process is verified, the transfer will arrive to you as soon as possible depending on the withdrawal method.',
+            },
+            rev4: {
+                heading: 'Trading Platforms',
+                desc: 'Finaguide offers a unique platform with unlimited potential. As they say, it has all the tools you need to conquer the exciting world of CFD trading. Well, this sounds quite interesting and we are eager to see those tools. Our first impression is that this really is a unique platform with a modern design. It has everything you could possibly need and it’s fully customizable. You can change interval, type of the chart, indicators, label, etc. It works without interruption and the best thing of all, it’s optimized for every device. You can trade wherever you are, which is great. If you have some time, take our advice and go to the trading platform after you submitted your KYC documents. Just to get familiar with the tools and the way it works.',
+            },
+        },
+        image: finaguide,
+        path: '/blog/Finaguide'
+    },
+    {
+        name: 'Greendax',
+        shortHeading: 'Greendax Review (greendax.com)',
+        fullDescription: `Read our Greendax review to see if we recommend this broker for trading. Just to clear doubts, this is a greendax.com review.`,
+        heading: 'Greendax Review (greendax.com)',
+        descriptionLvl: {
+            image: greendaxPage,
+            rev1: {
+                heading: 'About Greendax',
+                desc: 'Greendax is an international brokerage company that accepts clients all over the world except U.S.A and countries where these kinds of services are not permitted. They are currently serving thousands of clients, which shows that they are actually doing pretty well, especially taking into account that they manage to stay on the market at a time like this. They also claim their analysts have a deep knowledge of the market and do a heavy research on trades, and that’s what we have tested after opening an account with them.'
+            },
+            rev2: {
+                heading: 'Opening the account',
+                desc: 'After registering and opening an account with Greendax we made a contact with company employees. The account manager was ready to help us walk through the client area and trading terminals upon our request in just a couple of minutes. Actually, the platforms and the client area were pretty intuitive themselves but the account manager also offered help educating us on the market and trading methods and concepts, and it looks like Greendax would be suitable for newcomers and those who wish to systemize the knowledge of trading. You can begin with a Starter account and later you can upgrade if you like so you can take advantage of the professional accounts.',
+            },
+            rev3: {
+                heading: 'Deposit and Withdrawals',
+                desc: 'It seems that there are multiple deposit methods in Greendax. You may deposit funds with the credit card, a bank transfer or a crypto currency transfer. Conditions are completely the same, there are no deposit fees, so you can choose the method according to your preferences. The only requirement is to use the same method for withdrawals, which is nothing unusual. The deposited money will be on your account instantly. If you need to withdraw you have to submit a request from the client area and once the withdrawal process is verified, the transfer will arrive to you as soon as possible depending on the withdrawal method.',
+            },
+            rev4: {
+                heading: 'Trading Platforms',
+                desc: 'Greendax offers a unique platform with unlimited potential. As they say, it has all the tools you need to conquer the exciting world of CFD trading. Well, this sounds quite interesting and we are eager to see those tools. Our first impression is that this really is a unique platform with a modern design. It has everything you could possibly need and it’s fully customizable. You can change interval, type of the chart, indicators, label, etc. It works without interruption and the best thing of all, it’s optimized for every device. You can trade wherever you are, which is great. If you have some time, take our advice and go to the trading platform after you submitted your KYC documents. Just to get familiar with the tools and the way it works.',
+            },
+        },
+        image: greendax,
+        path: '/blog/Greendax'
     },
 ]
