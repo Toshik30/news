@@ -36,10 +36,10 @@ export default function BlogDetailed() {
                 </> : null}
             </div>
         ))}
-         <ReviewsList/>
-            {isAuthenticated && (
-                <Reviews/>
-            )}
+          <ReviewsList/>
+          {isAuthenticated && (
+              <Reviews/>
+          )}
       </div>
     </section>
   )

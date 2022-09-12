@@ -24,7 +24,7 @@ export default function Header() {
     }
 
     return (
-        <header >
+        <header>
             <div onClick={handleChangeTheme} className={styles.toggler_theme}>
                 <div className={theme ? styles.night : styles.day}></div>
             </div>

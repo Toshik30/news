@@ -10,7 +10,7 @@ export default function Reviews() {
     const [name, setName] = useState('');
     const [review, setReview] = useState('');
     const [rating, setRating] = useState(0);
-    const [pathLocation, setPathLocation] = useState(window.location.pathname);
+    const [pathLocation, ] = useState(window.location.pathname);
     const handleRating = (rate) => setRating(rate);
     const dispatch = useDispatch()
     const arrReviews = useLiveQuery(() => db.reviews.toArray())

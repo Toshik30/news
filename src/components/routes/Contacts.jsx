@@ -65,12 +65,11 @@ export default function Contacts() {
                                 placeholder='Password' 
                                 className={styles.input} 
                             />
-                            <input 
+                            <button 
                                 onClick={() => handleAuth(users)} 
                                 type="submit" 
-                                value="Registration"  
                                 className={styles.button_primary__blue} 
-                            />
+                            >Registration</button>
                         </form>
                     </div>
                 </div>

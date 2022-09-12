@@ -9,7 +9,10 @@ export default function Blog() {
     return Math.random().toString(36).slice(2)
   }
   const [filter, setFilter] = useState(DETAILED_NEWS)
-  
+  const [showMore, setShowMore] = useState(6)
+  const handleShowMore = () => {
+    setShowMore(showMore + 3)
+  }
   const handleFilterNews = (name) => {
     setFilter(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(name)))
   }
@@ -28,10 +31,11 @@ export default function Blog() {
                 >
                   <img src={item.image} alt="img" />
                   <h3>{item.shortHeading}</h3>
-                  <p className={styles.paragraph}>{item.fullDescription.substring(0, 100)}</p>
+                  <p className={styles.paragraph}>{item.fullDescription.substring(0, 100) + '...'}</p>
                 </Link>
-              ))}
+              )).splice(0, showMore)}
             </div>
+            {filter.length >= showMore ? <button className={styles.show_more} onClick={handleShowMore}>Show more</button> : null} 
         </div>
     </section>
   )

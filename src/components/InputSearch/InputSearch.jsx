@@ -11,8 +11,7 @@ export default function InputSearch ({handleFilterNews}) {
             type="text"
             placeholder='Search...' 
           />
-          <input className={styles.submit} type="submit" value="Searching"  />
-  
+          <button className={styles.submit} type="submit"   >Searching</button>
         </div>
     </div>
   )

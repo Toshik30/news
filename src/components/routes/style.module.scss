@@ -66,6 +66,7 @@
 }
 .blog {
     padding-top: 60px;
+    padding-bottom: 30px;
     @include sm {
         margin-top: 20px;
     }
@@ -78,6 +79,7 @@
         @extend %flex-between;
         flex-wrap: wrap;
         align-items: stretch;
+        transition: .6s all;
         margin-top: 70px;
         & > a {
             box-shadow: $box-shadow;
@@ -117,6 +119,25 @@
         @include xs {
             justify-content: center;
         }
+    }
+    .show_more {
+        background: transparent;
+        border: none;
+        font-weight: 800;
+        position: relative;
+        transition: .2s all;
+        animation: trim .9s linear infinite;       
+        &:hover {
+            transition: .2s all;
+            animation: none;
+        }
+    }
+    @keyframes trim {
+        0%{transform: rotate(5deg)}
+        25%{transform: rotate(-5deg)}
+        50%{transform: rotate(0deg)}
+        75%{transform: rotate(0deg)}
+        100%{transform: rotate(5deg)}
     }
 }
 .detailed {
@@ -303,5 +324,17 @@
                 padding: 60px 20px;
             }
         }
+    }
+}
+.polygon {
+    width: 200px;
+    height: 200px;
+    background: url(https://catholic-daily-reflections.com/wp-content/uploads/2018/03/luke_banks_2-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .7s clip-path;
+    clip-path: polygon(0 24%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 50%, 100% 73%, 100% 100%, 0 100%, 0 71%, 0 50%);
+    &:hover {
+        clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
     }
 }

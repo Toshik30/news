@@ -49,6 +49,7 @@ input, textarea {
     }
 }
 .dark {
+    color: white;
     div {
         p,h1,h2,h3,h4,strong,button {
             color: white !important;
@@ -56,5 +57,9 @@ input, textarea {
     }
     section {
         background: linear-gradient(180deg, #000000 0%, #35393f 40%, #35393f 70%, #000000 100%);
+    }
+    input, textarea {
+        color: inherit ;
+        background: inherit;
     }
 }
