@@ -1,11 +1,16 @@
 import React, { useState, useEffect, useMemo } from 'react'
-import { DETAILED_NEWS } from '../selectors/dataNews'
+import { DETAILED_NEWS,getNews } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
+import { useRef } from 'react'
+
+const COUNT = 2;
+const random = () => {return Math.random().toString(36).slice(2)}
 
 export default function Blog() {
-  const random = () => {return Math.random().toString(36).slice(2)}
+  const [hasMore, setHasMore] = useState(true);
+  const [news, setNews] = useState([]);
   const [showedItemsCount, setShowedItemsCount] = useState(6)
   const featuredReviews = useMemo(() => (DETAILED_NEWS.slice(0, showedItemsCount)), [showedItemsCount]);
   const [filter, setFilter] = useState([])
@@ -14,13 +19,27 @@ export default function Blog() {
     setFilter(featuredReviews)
   },[featuredReviews])
   
-  const handleShowedItemsCount = () => {
-    setShowedItemsCount(showedItemsCount + 3)
-    setFilter(featuredReviews)
+  const handleShowMore = () => {
+    handleLoadMore();
   }
+  
   const handleFilterNews = (value) => {
     setFilter(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
   }
+
+  const handleLoadMore = async (offset = news.length, countToLoad = news.length + COUNT) => {
+    if (hasMore) {
+      const { data, count } = await getNews(offset, countToLoad);
+
+      setNews([...news, ...data]);
+      setHasMore(count >= countToLoad);
+    }
+  }
+
+  useEffect(() => {
+    handleLoadMore();
+  }, [])
+
   return (
     <section className={styles.blog}>
         <div className='container'>
@@ -29,7 +48,7 @@ export default function Blog() {
               handleFilterNews={handleFilterNews}
             />
             <div className={styles.wrapper}>
-              {filter.map((item) => (
+              {news.map((item) => (
                 <Link 
                   key={random()}
                   to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}
@@ -40,7 +59,7 @@ export default function Blog() {
                 </Link>
               ))}
             </div>
-            {featuredReviews.length >= showedItemsCount ? <button className={styles.show_more} onClick={handleShowedItemsCount}>Show more</button> : null} 
+            {featuredReviews.length >= showedItemsCount ? <button className={styles.show_more} onClick={handleShowMore}>Show more</button> : null} 
         </div>
     </section>
   )
