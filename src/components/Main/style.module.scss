@@ -99,7 +99,8 @@
     border: 2px solid $blue-color;
     border-top: none;
     border-radius: 0px 0px 8px 8px ;
-    
+    max-height: 150px;
+    overflow-y: scroll;
     & > a {
         display: block;
         padding: 12px 10px;

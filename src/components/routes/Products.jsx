@@ -42,6 +42,7 @@ export default function Products() {
             {testArr.length !== showMore ? <button onClick={handleShowMore}>hello</button> : null} 
         </div>
         <div className={styles.polygon}></div>
+        <div className={styles.polygon1}></div>
     </section>
   )
 }

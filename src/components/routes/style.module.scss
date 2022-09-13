@@ -322,6 +322,10 @@
                 background: $blue-color;
                 color: $white-color;
                 padding: 60px 20px;
+                & > p {
+                    margin-top: 10px;
+                    font-style: italic;
+                }
             }
         }
     }
@@ -336,5 +340,19 @@
     clip-path: polygon(0 24%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 50%, 100% 73%, 100% 100%, 0 100%, 0 71%, 0 50%);
     &:hover {
         clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    }
+}
+
+.polygon1 {
+    width: 200px;
+    height: 200px;
+    background: url(https://catholic-daily-reflections.com/wp-content/uploads/2018/03/luke_banks_2-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .7s clip-path;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    &:hover {
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 0);
     }
 }

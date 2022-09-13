@@ -1,15 +1,17 @@
 import React from 'react'
 import styles from './style.module.scss'
 import author from '../../images/businessman.png'
+
 export default function AboutUs() {
   return (
     <section className={styles.about}>
         <div className="container">
           <div className={styles.about_us}>
             <div className={styles.about_us__description}>
-              <h1>We're Postpilot.</h1>
-              <p>Trustpilot was founded in 2007 with a vision to create an independent currency of trust. We're a digital platform that brings businesses and consumers together to foster trust and inspire collaboration. We're free to use, open to everybody, and built on transparency.</p>
-              <p>Trustpilot hosts reviews to help consumers shop with confidence, and deliver rich insights to help businesses improve the experiences they offer. The more consumers use our platform and share their own opinions, the richer the insights we offer businesses, and the more opportunities they have to earn the trust of consumers from all around the world.</p>
+              <h1>We are journalism professionals</h1>
+              <p>Experienced information market monitoring experts are committed to providing exceptional service to our readers in Europe and Canada</p>
+              <p>Trust Breaking's dedicated account managers fully understand our Clients' goals, allowing them to focus on the objectivity and truthfulness of the information provided.</p>
+              <p>We do not cooperate with scammers or suspicious companies. Our aim is to deliver information in an honest way.</p>
             </div>
             <div className={styles.animate__block}>
                 <strong>CONSUMERS:</strong>
@@ -31,9 +33,11 @@ export default function AboutUs() {
                 <img src={author} alt="img" />
               </div>
               <div className={styles.interwiew__wrapper__description}>
-                <h3>“I started Trustpilot to give all consumers a powerful voice and all companies a way to listen, respond, and continually improve. That builds trust because this happens in a transparent environment with no pre-moderation or censorship.I started Trustpilot to give all consumers a powerful voice and all companies a way to listen, respond, and continually improve. That builds trust because this happens in a transparent environment with no pre-moderation or censorship.”</h3>
-                <p>Peter Holten Mühlmann</p>
-                <p>founder and CEO, Trustpilot</p>
+                <h3>“My name is Harry Nelson and I am a Trust Breaking SEO. 
+                    We've all had disappointments, from eating in a disgusting restaurant or buying property in a 'bad neighbourhood'. I as any other person encounter this on a regular basis and by reading reviews of anything or checking the reputation of a brand, the company has realised that it is all bought-and-pasted good reviews, I am outraged at how easily large resources go under the influence of money and have decided to put a stop to it! I have decided I will create my own, honest, non-compromising review site where I can honestly look my readers in the eye and give feedback at whatever the cost. ”</h3>
+                <h3>Our team is growing rapidly, we are already known in over 30 countries in Europe and North America. We are heading in the right direction.</h3>
+                <p>Harry Nelson</p>
+                <p>Trust Breaking SEO</p>
               </div>
             </div>
           </div>

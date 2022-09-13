@@ -1,20 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { DETAILED_NEWS } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
 
 export default function Blog() {
-  const random = () => {
-    return Math.random().toString(36).slice(2)
+  const random = () => {return Math.random().toString(36).slice(2)}
+  const [showedItemsCount, setShowedItemsCount] = useState(6)
+  const featuredReviews = useMemo(() => (DETAILED_NEWS.slice(0, showedItemsCount)), [showedItemsCount]);
+  const [filter, setFilter] = useState([])
+
+  useEffect(() => {
+    setFilter(featuredReviews)
+  },[featuredReviews])
+  
+  const handleShowedItemsCount = () => {
+    setShowedItemsCount(showedItemsCount + 3)
+    setFilter(featuredReviews)
   }
-  const [filter, setFilter] = useState(DETAILED_NEWS)
-  const [showMore, setShowMore] = useState(6)
-  const handleShowMore = () => {
-    setShowMore(showMore + 3)
-  }
-  const handleFilterNews = (name) => {
-    setFilter(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(name)))
+  const handleFilterNews = (value) => {
+    setFilter(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
   }
   return (
     <section className={styles.blog}>
@@ -33,9 +38,9 @@ export default function Blog() {
                   <h3>{item.shortHeading}</h3>
                   <p className={styles.paragraph}>{item.fullDescription.substring(0, 100) + '...'}</p>
                 </Link>
-              )).splice(0, showMore)}
+              ))}
             </div>
-            {filter.length >= showMore ? <button className={styles.show_more} onClick={handleShowMore}>Show more</button> : null} 
+            {featuredReviews.length >= showedItemsCount ? <button className={styles.show_more} onClick={handleShowedItemsCount}>Show more</button> : null} 
         </div>
     </section>
   )
