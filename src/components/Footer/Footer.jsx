@@ -36,8 +36,9 @@ export default function Footer() {
             </ul>
           </div>
           <div className={styles.contacts}>
-            <p>Receive must-read articles and trends on company culture, hiring and work/life balance.</p>
-            <p>Address</p>
+            <p>Receive must-read articles and trends on company culture.</p>
+            <p>Address:</p>
+            <p>Angel Square, Manchester M60 0AG, United Kingdom</p>
             <p>+55767 695064645</p>
           </div>
         </div>

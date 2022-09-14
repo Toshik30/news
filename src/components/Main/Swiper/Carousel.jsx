@@ -1,9 +1,8 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import  './style.scss'
 import { DATA_IMAGES } from '../../selectors/dataImages';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 
@@ -36,7 +35,7 @@ export default function Carousel () {
         }}
     >
         {DATA_IMAGES.map((item, index) => (
-            <SwiperSlide key={index}><img src={item} alt='img'/></SwiperSlide>
+            <SwiperSlide className="custom_slide" key={index}><img src={item} alt='img'/></SwiperSlide>
         ))}
     </Swiper>
   )

@@ -14,14 +14,14 @@ export default function AboutUs() {
               <p>We do not cooperate with scammers or suspicious companies. Our aim is to deliver information in an honest way.</p>
             </div>
             <div className={styles.animate__block}>
-                <strong>CONSUMERS:</strong>
-                <h4>Share your experiences</h4>
+                {/* <strong>CONSUMERS:</strong> */}
+                <h4>How does it work ?</h4>
                 <div className={styles.animate__block__round}>
                   <span className={styles.arrow}></span>
-                  <span>We bring consumers and businesses together to make things better</span>
+                  <span>We work with independent experts in many fields, and we also take into account the experiences of ordinary people and social surveys. </span>
                 </div>
                 <strong>BUSINESSES:</strong>
-                <h4>Create better experiences</h4>
+                <h4>Which is built on experience</h4>
             </div>
           </div>
           <div className={styles.interwiew}>

@@ -1,0 +1,14 @@
+.custom_slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: initial !important;
+    background: #e5e5e5;
+    padding: 8px;
+    // filter: grayscale(100%);
+}
+.dark {
+    .custom_slide {
+        background: #f9f9f914;
+    }
+}

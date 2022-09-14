@@ -1,10 +1,8 @@
 import styles from './style.module.scss';
-import { useState, useEffect } from 'react'
-import { db } from '../../selectors/db';
+import { useState } from 'react'
 import { Rating } from 'react-simple-star-rating';
-import { useDispatch } from 'react-redux/es/exports';
-import { createReview } from '../../../store/reviews/reviewSlice';
-import { useLiveQuery } from 'dexie-react-hooks';
+import { useDispatch } from 'react-redux';
+import { handleAddNewReview } from '../../../store/reviews/reviewSlice';
 
 export default function Reviews() {
     const [name, setName] = useState('');
@@ -13,23 +11,11 @@ export default function Reviews() {
     const [pathLocation, ] = useState(window.location.pathname);
     const handleRating = (rate) => setRating(rate);
     const dispatch = useDispatch()
-    const arrReviews = useLiveQuery(() => db.reviews.toArray())
-
-    async function addReview(date) {
-        try {
-            if(name && review && rating !== 0) {
-                await db.reviews.add({ name,review,rating,pathLocation,date })
-                setName('')
-                setReview('')
-                setRating('')
-            }
-        } catch(error) {
-            console.error(`Failed to add ${name}: ${error}`);
-        } 
+    
+    const addReview = () => {
+        dispatch(handleAddNewReview({name,review,rating,pathLocation, date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
     }
-    useEffect(() => {
-        dispatch(createReview(arrReviews))
-    })
+   
     return (
        <div className={styles.form_review}>
             <input 
@@ -42,7 +28,6 @@ export default function Reviews() {
             />
             <textarea 
                 type="text"
-                required
                 placeholder='Your review...'
                 className={styles.input_form}
                 maxLength={200}
@@ -59,8 +44,8 @@ export default function Reviews() {
                 emptyColor='gray'
             />
             <button 
-                className={styles.button_primary__blue} 
-                onClick={() => addReview(new Intl.DateTimeFormat('en-Us').format(new Date()))}>Submit
+                className={styles.button_primary__blue}  
+                onClick={addReview}>Submit
             </button>
        </div>
     )

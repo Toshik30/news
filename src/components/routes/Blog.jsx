@@ -1,44 +1,32 @@
-import React, { useState, useEffect, useMemo } from 'react'
-import { DETAILED_NEWS,getNews } from '../selectors/dataNews'
+import React, { useState, useEffect } from 'react'
+import { DETAILED_NEWS, getNews } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
-import { useRef } from 'react'
 
-const COUNT = 2;
+const COUNT = 6;
 const random = () => {return Math.random().toString(36).slice(2)}
 
 export default function Blog() {
   const [hasMore, setHasMore] = useState(true);
   const [news, setNews] = useState([]);
-  const [showedItemsCount, setShowedItemsCount] = useState(6)
-  const featuredReviews = useMemo(() => (DETAILED_NEWS.slice(0, showedItemsCount)), [showedItemsCount]);
-  const [filter, setFilter] = useState([])
-
-  useEffect(() => {
-    setFilter(featuredReviews)
-  },[featuredReviews])
-  
+  const [, setFilterReviews] = useState([])
   const handleShowMore = () => {
     handleLoadMore();
   }
-  
   const handleFilterNews = (value) => {
-    setFilter(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
+    setFilterReviews(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
   }
-
   const handleLoadMore = async (offset = news.length, countToLoad = news.length + COUNT) => {
     if (hasMore) {
       const { data, count } = await getNews(offset, countToLoad);
-
       setNews([...news, ...data]);
       setHasMore(count >= countToLoad);
     }
   }
-
   useEffect(() => {
-    handleLoadMore();
-  }, [])
+    handleLoadMore()
+  },[])
 
   return (
     <section className={styles.blog}>
@@ -59,7 +47,7 @@ export default function Blog() {
                 </Link>
               ))}
             </div>
-            {featuredReviews.length >= showedItemsCount ? <button className={styles.show_more} onClick={handleShowMore}>Show more</button> : null} 
+            <button className={styles.show_more} onClick={handleShowMore}>Show more</button>
         </div>
     </section>
   )
