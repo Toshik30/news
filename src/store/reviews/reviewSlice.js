@@ -3,13 +3,19 @@ import { db } from "../../components/selectors/db";
 
 export const addNewReviews = createAsyncThunk(
     'Reviews/addNewReviews',
+    async function() {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users/1/posts')
+        const data = await response.json()
+        return data
+    }
+    
 )
 const reviewsSlice = createSlice({
     name: 'Reviews',
     initialState: {
         isLoading: false,
         arrReviews: [],
-        users: [],
+        users: []
     },
     reducers: {
         createReview(state, action) {
@@ -37,7 +43,8 @@ const reviewsSlice = createSlice({
             state.isLoading = true
         },
         [addNewReviews.fulfilled]: (state, action) => {
-            
+            state.isLoading = false
+            state.users = action.payload
         },
         [addNewReviews.rejected]: (state, action) => {
 

@@ -2,7 +2,6 @@ import styles from './style.module.scss';
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../selectors/db'
 import { Rating } from 'react-simple-star-rating';
-import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import { useDispatch } from 'react-redux';
 import { handleDeleteReview } from '../../../store/reviews/reviewSlice';

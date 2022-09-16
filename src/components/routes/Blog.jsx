@@ -14,6 +14,7 @@ export default function Blog() {
   const handleShowMore = () => {
     handleLoadMore();
   }
+
   const handleFilterNews = (value) => {
     setFilterReviews(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
   }
