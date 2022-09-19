@@ -1,21 +1,19 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { getNews } from "../../components/selectors/dataNews";
 import { db } from "../../components/selectors/db";
 
 export const addNewReviews = createAsyncThunk(
     'Reviews/addNewReviews',
-    async function() {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users/1/posts')
-        const data = await response.json()
-        return data
+    async () => {
+       return await getNews()
     }
-    
 )
+
 const reviewsSlice = createSlice({
     name: 'Reviews',
     initialState: {
         isLoading: false,
         arrReviews: [],
-        users: []
     },
     reducers: {
         createReview(state, action) {
@@ -31,11 +29,14 @@ const reviewsSlice = createSlice({
                 pathLocation: action.payload.pathLocation,
                 date: action.payload.date
             })
-            
         },
         handleDeleteReview(state, action) {
             db.reviews.delete(state.id = action.payload.id)
             db.reviews.toArray();  
+        },
+        handleFilterReviews(state, action) {
+            console.log(state, action.payload)
+            state = action.payload
         }
     },
     extraReducers:{
@@ -44,14 +45,11 @@ const reviewsSlice = createSlice({
         },
         [addNewReviews.fulfilled]: (state, action) => {
             state.isLoading = false
-            state.users = action.payload
-        },
-        [addNewReviews.rejected]: (state, action) => {
-
+            state.arrReviews = action.payload.data  
         }
     }
 })
 
 
-export const { createReview,handleDeleteReview, handleAddNewReview } = reviewsSlice.actions
+export const { createReview,handleDeleteReview, handleAddNewReview,handleFilterReviews } = reviewsSlice.actions
 export default reviewsSlice.reducer

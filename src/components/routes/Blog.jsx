@@ -1,32 +1,39 @@
-import React, { useState, useEffect } from 'react'
-import { DETAILED_NEWS, getNews } from '../selectors/dataNews'
+import React, { useEffect, useMemo } from 'react'
+// import { DETAILED_NEWS,  } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
+import { addNewReviews } from '../../store/reviews/reviewSlice'
+import { useDispatch, useSelector } from 'react-redux'
+// import { DETAILED_NEWS } from '../selectors/dataNews'
 
-const COUNT = 6;
-const random = () => {return Math.random().toString(36).slice(2)}
-
+// const COUNT = 6;
 export default function Blog() {
-  const [hasMore, setHasMore] = useState(true);
-  const [news, setNews] = useState([]);
-  const [, setFilterReviews] = useState([])
-  const handleShowMore = () => {
-    handleLoadMore();
-  }
+  // const [hasMore, setHasMore] = useState(true);
+  // const [news, setNews] = useState(DETAILED_NEWS);
+  // const [, setFilterReviews] = useState([])
+  const dispatch = useDispatch()
+  const arrReviews = useSelector((state) => state.reviews.arrReviews)
+  const items = useMemo(() =>  arrReviews, [])
 
+  const handleShowMore = () => {
+    // handleLoadMore();
+  }
+  
   const handleFilterNews = (value) => {
-    setFilterReviews(DETAILED_NEWS.filter(({name}) => name.toLowerCase().includes(value)))
+    console.log(items)
+    items.filter(({name}) => name.toLowerCase().includes(value))
   }
-  const handleLoadMore = async (offset = news.length, countToLoad = news.length + COUNT) => {
-    if (hasMore) {
-      const { data, count } = await getNews(offset, countToLoad);
-      setNews([...news, ...data]);
-      setHasMore(count >= countToLoad);
-    }
-  }
+  // const handleLoadMore = async (offset = news.length, countToLoad = news.length + COUNT) => {
+  //   if (hasMore) {
+  //     const { data, count } = await getNews(offset, countToLoad);
+  //     setNews([...news, ...data]);
+  //     setHasMore(count >= countToLoad);
+  //   }
+  // }
+
   useEffect(() => {
-    handleLoadMore()
+    dispatch(addNewReviews())
   },[])
 
   return (
@@ -37,9 +44,9 @@ export default function Blog() {
               handleFilterNews={handleFilterNews}
             />
             <div className={styles.wrapper}>
-              {news.map((item) => (
+              {arrReviews?.map((item, index) => (
                 <Link 
-                  key={random()}
+                  key={index}
                   to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}
                 >
                   <img src={item.image} alt="img" />

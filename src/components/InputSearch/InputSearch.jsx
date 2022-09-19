@@ -1,7 +1,7 @@
 import styles from './style.module.scss';
 
+
 export default function InputSearch ({handleFilterNews}) {
-  
   return (
     <div className='container'>
         <div className={styles.input__block}>
