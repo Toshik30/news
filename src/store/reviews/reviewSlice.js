@@ -13,6 +13,7 @@ const reviewsSlice = createSlice({
     name: 'Reviews',
     initialState: {
         isLoading: false,
+        search: '',
         arrReviews: [],
     },
     reducers: {
@@ -35,8 +36,7 @@ const reviewsSlice = createSlice({
             db.reviews.toArray();  
         },
         handleFilterReviews(state, action) {
-            console.log(state, action.payload)
-            state = action.payload
+            state.search = action.payload
         }
     },
     extraReducers:{

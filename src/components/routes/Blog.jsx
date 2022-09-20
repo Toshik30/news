@@ -1,36 +1,17 @@
 import React, { useEffect, useMemo } from 'react'
-// import { DETAILED_NEWS,  } from '../selectors/dataNews'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
 import { addNewReviews } from '../../store/reviews/reviewSlice'
 import { useDispatch, useSelector } from 'react-redux'
-// import { DETAILED_NEWS } from '../selectors/dataNews'
 
-// const COUNT = 6;
 export default function Blog() {
-  // const [hasMore, setHasMore] = useState(true);
-  // const [news, setNews] = useState(DETAILED_NEWS);
-  // const [, setFilterReviews] = useState([])
+
   const dispatch = useDispatch()
   const arrReviews = useSelector((state) => state.reviews.arrReviews)
-  const items = useMemo(() =>  arrReviews, [])
+  const inputValue = useSelector((state) => state.reviews.search)
 
-  const handleShowMore = () => {
-    // handleLoadMore();
-  }
-  
-  const handleFilterNews = (value) => {
-    console.log(items)
-    items.filter(({name}) => name.toLowerCase().includes(value))
-  }
-  // const handleLoadMore = async (offset = news.length, countToLoad = news.length + COUNT) => {
-  //   if (hasMore) {
-  //     const { data, count } = await getNews(offset, countToLoad);
-  //     setNews([...news, ...data]);
-  //     setHasMore(count >= countToLoad);
-  //   }
-  // }
+  const itemsToRender = useMemo(() => arrReviews.filter(({name}) => name.toLowerCase().includes(inputValue)) , [arrReviews, inputValue])
 
   useEffect(() => {
     dispatch(addNewReviews())
@@ -40,11 +21,9 @@ export default function Blog() {
     <section className={styles.blog}>
         <div className='container'>
             <h1>Reviews</h1>
-            <InputSearch
-              handleFilterNews={handleFilterNews}
-            />
+            <InputSearch/>
             <div className={styles.wrapper}>
-              {arrReviews?.map((item, index) => (
+              {itemsToRender?.map((item, index) => (
                 <Link 
                   key={index}
                   to={`/blog/${item.name.replace(/ /g, '').toLowerCase()}`}
@@ -55,7 +34,7 @@ export default function Blog() {
                 </Link>
               ))}
             </div>
-            <button className={styles.show_more} onClick={handleShowMore}>Show more</button>
+            <button className={styles.show_more} >Show more</button>
         </div>
     </section>
   )
