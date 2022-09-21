@@ -24,11 +24,6 @@ export default function About() {
                     </div>
                 ))}
             </div>
-            {/* <ReviewsList/>
-            {isAuthenticated && (
-                <Reviews/>
-            )} */}
-
         </div>
     )
 }

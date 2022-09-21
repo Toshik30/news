@@ -26,7 +26,7 @@ export default function AboutUs() {
           </div>
           <div className={styles.interwiew}>
             <div className={styles.interwiew__header}>
-              <h2>Our 2022 Transparency Report has landed</h2>
+              <h2>We collect reviews about the company</h2>
             </div>
             <div className={styles.interwiew__wrapper}>
               <div className={styles.interwiew__wrapper__author}>

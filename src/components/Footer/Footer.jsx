@@ -10,14 +10,14 @@ export default function Footer() {
           <div className={styles.logo}>
             <img src={LOGO_FOOTER} alt="logo" />
           </div>
-          <button className={styles.button_primary__blue}>Button</button>
+          <Link className={styles.button_primary__blue} to='/blog'> Go reviews</Link>
         </div>
         <div className={styles.footer__body}>
           <div className={styles.footer__check}>
             <ul>
               <h5>About:</h5>
               <li>
-                <Link to='/blog'>Blog</Link>
+                <Link to='/blog'>Reviews</Link>
               </li>
               <li>
                 <Link to='/contacts'>Contacts</Link>

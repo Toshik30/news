@@ -22,16 +22,16 @@ import greendax from '../../images/greendax-logo.png'
 import greendaxPage from '../../images/greendaxPage.png'
 export const DATA_NEWS = [
     {
-        heading: 'An all-in-one tool for your entire team.',
-        description: 'No more ping-ponging between emails, spreadsheets, and other apps. Bring everything together in one place.',
+        heading: 'Leaders in Foreign Exchange',
+        description: `"Our company's mission is to provide outstanding exchange rates, expert guidance and a simple, friendly service that people will want to recommend to others." – Jon Beddell (CEO).`,
         image: Dashboard,
-        imageDescription: 'All your jobs, candidates, messages and notes in one place.',
+        imageDescription: 'Award-Winning International Money Transfers',
     },
     {
-        heading: 'An experience candidates simply love.',
-        description: 'Treat candidates with a rich career site, beautiful job posts, tailored application forms and faster response times.',
+        heading: 'Go beyond Trading',
+        description: 'Invest in Stocks & ETFs, trade CFDs and keep your funds safe with our wallet. Take your skills to the next level at Admirals Academy and practice risk-free on our Demo Account ',
         image: About,
-        imageDescription: 'Career page created with Homerun.',
+        imageDescription: 'Trade, invest, spend and manage your money with ease with Admirals!',
     },
 ]
 
@@ -357,5 +357,5 @@ export const getNews = (offset, count) => new Promise((res) => {
     setTimeout(() => {
         const data = DETAILED_NEWS.slice(offset, count)
         res({ data, count: DETAILED_NEWS.length })
-    }, 100)
+    }, 1000)
 })

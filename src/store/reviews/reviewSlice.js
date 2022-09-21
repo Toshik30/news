@@ -17,9 +17,6 @@ const reviewsSlice = createSlice({
         arrReviews: [],
     },
     reducers: {
-        createReview(state, action) {
-            state.arrReviews = action.payload
-        },
         handleAddNewReview(state, action) {
             state.isLoading = true
             state.arrReviews = action.payload
@@ -51,5 +48,5 @@ const reviewsSlice = createSlice({
 })
 
 
-export const { createReview,handleDeleteReview, handleAddNewReview,handleFilterReviews } = reviewsSlice.actions
+export const { handleDeleteReview, handleAddNewReview,handleFilterReviews } = reviewsSlice.actions
 export default reviewsSlice.reducer
