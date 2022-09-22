@@ -41,8 +41,9 @@ const reviewsSlice = createSlice({
             state.isLoading = true
         },
         [addNewReviews.fulfilled]: (state, action) => {
+            console.log(state, action.payload.count)
             state.isLoading = false
-            state.arrReviews = action.payload.data  
+            state.arrReviews = action.payload.data
         }
     }
 })
