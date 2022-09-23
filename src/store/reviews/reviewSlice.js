@@ -14,6 +14,7 @@ const reviewsSlice = createSlice({
     initialState: {
         isLoading: false,
         search: '',
+        companys: [],
         arrReviews: [],
     },
     reducers: {
@@ -43,7 +44,7 @@ const reviewsSlice = createSlice({
         [addNewReviews.fulfilled]: (state, action) => {
             console.log(state, action.payload.count)
             state.isLoading = false
-            state.arrReviews = action.payload.data
+            state.companys = action.payload.data
         }
     }
 })

@@ -8,10 +8,10 @@ import { useDispatch, useSelector } from 'react-redux'
 export default function Blog() {
 
   const dispatch = useDispatch()
-  const arrReviews = useSelector((state) => state.reviews.arrReviews)
+  const arrCompanys = useSelector((state) => state.reviews.companys)
   const inputValue = useSelector((state) => state.reviews.search)
 
-  const itemsToRender = useMemo(() => arrReviews.filter(({name}) => name.toLowerCase().includes(inputValue)) , [arrReviews, inputValue])
+  const itemsToRender = useMemo(() => arrCompanys.filter(({name}) => name.toLowerCase().includes(inputValue)) , [arrCompanys, inputValue])
 
   useEffect(() => {
     dispatch(addNewReviews())
