@@ -34,7 +34,11 @@ export default function Blog() {
                 </Link>
               ))}
             </div>
-            <button className={styles.show_more} >Show more</button>
+            <button 
+              className={styles.show_more}
+              onClick={() => dispatch(addNewReviews(arrCompanys.length + 3))}
+            >
+              Show more</button>
         </div>
     </section>
   )

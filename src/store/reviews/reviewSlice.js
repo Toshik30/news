@@ -4,8 +4,11 @@ import { db } from "../../components/selectors/db";
 
 export const addNewReviews = createAsyncThunk(
     'Reviews/addNewReviews',
-    async () => {
-       return await getNews()
+    async (elem) => {
+    const tt = 6
+    console.log(tt);
+    return await getNews(elem, tt)
+      
     }
 )
 
@@ -42,7 +45,6 @@ const reviewsSlice = createSlice({
             state.isLoading = true
         },
         [addNewReviews.fulfilled]: (state, action) => {
-            console.log(state, action.payload.count)
             state.isLoading = false
             state.companys = action.payload.data
         }

@@ -22,9 +22,11 @@ export default function BlogDetailed() {
                   <h2>{elem.descriptionLvl?.rev1?.heading}</h2>
                   <p>{elem.descriptionLvl?.rev1?.desc}</p>
                   <p>{elem.descriptionLvl?.rev1?.desc1}</p>
+                  <p>{elem.descriptionLvl?.rev1?.desc2}</p>
                   <h2>{elem.descriptionLvl?.rev2?.heading}</h2>
                   <p>{elem.descriptionLvl?.rev2?.desc}</p>
                   <p>{elem.descriptionLvl?.rev2?.desc1}</p>
+                  <p>{elem.descriptionLvl?.rev2?.desc2}</p>
                   {elem.descriptionLvl?.image ? <img src={elem.descriptionLvl?.image} style={{margin: '20px 0px'}} alt="img" /> : null}
                   <h2>{elem.descriptionLvl?.rev3?.heading}</h2>
                   <p>{elem.descriptionLvl?.rev3?.desc}</p>
@@ -33,6 +35,7 @@ export default function BlogDetailed() {
                   <h2>{elem.descriptionLvl?.rev4?.heading}</h2>
                   <p>{elem.descriptionLvl?.rev4?.desc}</p>
                   <p>{elem.descriptionLvl?.rev4?.desc1}</p>
+                  <p>{elem.descriptionLvl?.rev4?.desc2}</p>
                 </> : null}
             </div>
         ))}
