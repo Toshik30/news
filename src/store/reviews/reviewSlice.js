@@ -2,19 +2,21 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { getNews } from "../../components/selectors/dataNews";
 import { db } from "../../components/selectors/db";
 
+
 export const addNewReviews = createAsyncThunk(
     'Reviews/addNewReviews',
-    async ({start, end}) => {
-    return await getNews(start, end)
-      
-    }
+    async ({start, end}) => getNews(start, end)
 )
+
 const reviewsSlice = createSlice({
     name: 'Reviews',
     initialState: {
         isLoading: false,
         search: '',
-        companys: [],
+        companys: {
+            entities: [],
+            count: undefined,
+        },
         arrReviews: [],
     },
     reducers: {
@@ -36,19 +38,15 @@ const reviewsSlice = createSlice({
         handleFilterReviews(state, action) {
             state.search = action.payload
         },
-        showMore(state, action) {
-            state.moreShowed = action.payload
-            console.log(state.moreShowed)
-        }
     },
     extraReducers:{
         [addNewReviews.pending]: (state) => {
             state.isLoading = true
         },
-        [addNewReviews.fulfilled]: (state, action) => {
-            console.log(action.payload)
+        [addNewReviews.fulfilled]: (state, { payload }) => {
             state.isLoading = false
-            state.companys = action.payload.data
+            state.companys.entities.push(...payload.data)
+            state.companys.count = payload.count
         }
     }
 })

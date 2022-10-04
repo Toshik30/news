@@ -5,16 +5,24 @@ import InputSearch from '../InputSearch/InputSearch'
 import { addNewReviews, showMore } from '../../store/reviews/reviewSlice'
 import { useDispatch, useSelector } from 'react-redux'
 
+const COUNT = 3;
+
 export default function Blog() {
 
   const dispatch = useDispatch()
-  const arrCompanys = useSelector((state) => state.reviews.companys)
+  const {entities, count} = useSelector((state) => state.reviews.companys)
   const inputValue = useSelector((state) => state.reviews.search)
 
-  const itemsToRender = useMemo(() => arrCompanys.filter(({name}) => name.toLowerCase().includes(inputValue)) , [arrCompanys, inputValue])
+  const itemsToRender = useMemo(() => entities.filter((company) => company?.name?.toLowerCase().includes(inputValue)) , [entities, inputValue])
+
+  const loadMore = (start = entities.length, end = entities.length + COUNT) => {
+    if (count === undefined || count > entities.length) {
+      dispatch(addNewReviews({start, end}))
+    }
+  }
 
   useEffect(() => {
-    dispatch(addNewReviews({start: 0, end: itemsToRender.length = itemsToRender.length + 6}))
+    loadMore()
   },[])
 
   return (
@@ -36,7 +44,7 @@ export default function Blog() {
             </div>
             <button 
               className={styles.show_more}
-              onClick={() => dispatch(showMore())}
+              onClick={() => loadMore()}
             >
               Show more</button>
         </div>
