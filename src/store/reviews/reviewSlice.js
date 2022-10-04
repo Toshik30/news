@@ -4,14 +4,11 @@ import { db } from "../../components/selectors/db";
 
 export const addNewReviews = createAsyncThunk(
     'Reviews/addNewReviews',
-    async (elem) => {
-    const tt = 6
-    console.log(tt);
-    return await getNews(elem, tt)
+    async ({start, end}) => {
+    return await getNews(start, end)
       
     }
 )
-
 const reviewsSlice = createSlice({
     name: 'Reviews',
     initialState: {
@@ -38,6 +35,10 @@ const reviewsSlice = createSlice({
         },
         handleFilterReviews(state, action) {
             state.search = action.payload
+        },
+        showMore(state, action) {
+            state.moreShowed = action.payload
+            console.log(state.moreShowed)
         }
     },
     extraReducers:{
@@ -45,6 +46,7 @@ const reviewsSlice = createSlice({
             state.isLoading = true
         },
         [addNewReviews.fulfilled]: (state, action) => {
+            console.log(action.payload)
             state.isLoading = false
             state.companys = action.payload.data
         }
@@ -52,5 +54,5 @@ const reviewsSlice = createSlice({
 })
 
 
-export const { handleDeleteReview, handleAddNewReview,handleFilterReviews } = reviewsSlice.actions
+export const { handleDeleteReview, handleAddNewReview,handleFilterReviews, showMore } = reviewsSlice.actions
 export default reviewsSlice.reducer

@@ -1138,5 +1138,5 @@ export const getNews = (offset, count) => new Promise((res) => {
     setTimeout(() => {
         const data = DETAILED_NEWS.slice(offset, count)
         res({ data, count: DETAILED_NEWS.length })
-    }, 1000)
+    }, 300)
 })

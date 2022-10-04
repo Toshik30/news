@@ -2,7 +2,7 @@ import React, { useEffect, useMemo } from 'react'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
-import { addNewReviews } from '../../store/reviews/reviewSlice'
+import { addNewReviews, showMore } from '../../store/reviews/reviewSlice'
 import { useDispatch, useSelector } from 'react-redux'
 
 export default function Blog() {
@@ -14,7 +14,7 @@ export default function Blog() {
   const itemsToRender = useMemo(() => arrCompanys.filter(({name}) => name.toLowerCase().includes(inputValue)) , [arrCompanys, inputValue])
 
   useEffect(() => {
-    dispatch(addNewReviews())
+    dispatch(addNewReviews({start: 0, end: itemsToRender.length = itemsToRender.length + 6}))
   },[])
 
   return (
@@ -36,6 +36,7 @@ export default function Blog() {
             </div>
             <button 
               className={styles.show_more}
+              onClick={() => dispatch(showMore())}
             >
               Show more</button>
         </div>
