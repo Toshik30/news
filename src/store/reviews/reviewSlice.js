@@ -45,6 +45,7 @@ const reviewsSlice = createSlice({
         },
         [addNewReviews.fulfilled]: (state, { payload }) => {
             state.isLoading = false
+            console.log(payload);
             state.companys.entities.push(...payload.data)
             state.companys.count = payload.count
         }
@@ -52,5 +53,5 @@ const reviewsSlice = createSlice({
 })
 
 
-export const { handleDeleteReview, handleAddNewReview,handleFilterReviews, showMore } = reviewsSlice.actions
+export const { handleDeleteReview, handleAddNewReview,handleFilterReviews } = reviewsSlice.actions
 export default reviewsSlice.reducer

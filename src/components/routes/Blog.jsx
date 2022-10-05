@@ -2,10 +2,10 @@ import React, { useEffect, useMemo } from 'react'
 import styles from './style.module.scss'
 import { Link } from 'react-router-dom'
 import InputSearch from '../InputSearch/InputSearch'
-import { addNewReviews, showMore } from '../../store/reviews/reviewSlice'
+import { addNewReviews } from '../../store/reviews/reviewSlice'
 import { useDispatch, useSelector } from 'react-redux'
 
-const COUNT = 3;
+const COUNT = 12;
 
 export default function Blog() {
 

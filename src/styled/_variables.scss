@@ -57,6 +57,7 @@ $screen-small-phone: 425px;
     transition: .4s border;
     background: transparent;
     color: $white-color;
+    opacity: 0;
     
     &:hover {
         border: 2px solid $gray-color;

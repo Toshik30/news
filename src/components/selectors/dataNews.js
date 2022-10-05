@@ -66,6 +66,36 @@ import kaarat from '../../images/kaarat-logo.png'
 import kaaratPage from '../../images/kaaratPage.png'
 import tradehall from '../../images/tradehall-logo.png'
 import tradehallPage from '../../images/tradehallPage.png'
+import protrade from '../../images/247protrade-logo.png'
+import protradePage from '../../images/247protradePage.png'
+import holdingsProfit from '../../images/holdingsProfit-logo.png'
+import holdingsProfitPage from '../../images/holdingsProfitPage.png'
+import forexTradingPro from '../../images/forexTradingPro-logo.svg'
+import forexTradingProPage from '../../images/forexTradingProPage.png'
+import feBroker from '../../images/feBroker-logo.png'
+import feBrokerPage from '../../images/feBrokerPage.png'
+import zetano from '../../images/zetano-logo.svg'
+import zetanoPage from '../../images/zetanoPage.png'
+import allfinaGroup from '../../images/allfinaGroup-logo.png'
+import allfinaGroupPage from '../../images/allfinaGroupPage.png'
+import pilotgain from '../../images/pilotgain-logo.png'
+import pilotgainPage from '../../images/pilotgainPage.png'
+import olympus from '../../images/olympus-logo.png'
+import olympusPage from '../../images/olympusPage.png'
+import tradeSimple from '../../images/tradeSimple-logo.png'
+import tradeSimplePage from '../../images/tradeSimplePage.png'
+import afgroup from '../../images/afgroup-logo.png'
+import afgroupPage from '../../images/afgroupPage.png'
+import EuroInvestec from '../../images/EuroInvestec-logo.png'
+import EuroInvestecPage from '../../images/EuroInvestecPage.png'
+import milleniumOne from '../../images/milleniumOne-logo.svg'
+import milleniumOnePage from '../../images/milleniumOnePage.png'
+import alfabtc from '../../images/alfabtc-logo.svg'
+import alfabtcPage from '../../images/alfabtcPage.png'
+import aiko from '../../images/aiko-logo.svg'
+import aikoPage from '../../images/aikoPage.png'
+import keler from '../../images/keler-logo.svg'
+import kelerPage from '../../images/kelerPage.png'
 export const DATA_NEWS = [
     {
         heading: 'Leaders in Foreign Exchange',
@@ -1104,6 +1134,509 @@ export const DETAILED_NEWS = [
         },
         image: tradehall,
         path: '/blog/Tradehall'
+    },
+    {
+        name: '247protrade',
+        shortHeading: '247protrade Review (247protrade.com Scam)',
+        fullDescription: `Making the 247protrade review is actually a pleasure for us, and we hope to save as many people as possible from losing their hard earned money. `,
+        heading: '247protrade Review (247protrade.com Scam)',
+        descriptionLvl: {
+            image: protradePage,
+            rev1: {
+                heading: 'Make sure you leave reviews about 247protrade in other sites',
+                desc: 'Another way to hurt them and save other people from falling victims is to leave bad reviews on other sites, and describe shortly what happened. If you fallen victim please leave a review and a comment on this site at the comment section. Also, when these people change their website they tend to call the old clients, so if they call you from a new website please write it down on the comment or let us know it by contacting us.',
+                desc1:'That would be really appreciated by us and families all over world. Also if you get phone calls from other companies please put the name of these companies also in the comment or send it to us. We will expose them too.'
+            },
+            rev2: {
+                heading: 'What about wires?',
+                desc: 'If you sent them a wire, there is no way to perform a chargeback on a wire. For this step you need to raise the fight to a different level. Tell them that you will go to the authorities and file a complaint against them. That will get them to rethink the refund possibility. Another thing you can do is prepare a letter or email for the regulating agencies. Depending on the country where you live, you can search on google to find the regulating agency for Forex brokers in that country. ',
+                desc1: `After that you can prepare a letter or an email describing how you got deceived from them. Make sure you show this letter or email to them, and tell them you will send it to the regulating agency if they don’t refund your money.`
+            },
+            rev3: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.`,
+                desc1:`First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2: `The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: protrade,
+        path: '/blog/247protrade'
+    },
+    {
+        name: 'Holdings Profit',
+        shortHeading: 'Holdings Profit Review (holdingsprofit.com Scam)',
+        fullDescription: `Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen.`,
+        heading: 'Holdings Profit Review (holdingsprofit.com Scam)',
+        descriptionLvl: {
+            image: holdingsProfitPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: 'Holdings Profit is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.',
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Holdings Profit Review Conclusions',
+                desc: `Making the Holdings Profit review is actually a pleasure for us, and we hope to save as many people as possible from losing their hard earned money. A good rule of thumb is to carefully review all the Forex companies and any other company for that matter, before you perform any transaction. We hope that our Holdings Profit review has been helpful to you.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: holdingsProfit,
+        path: '/blog/Holdings Profit'
+    },
+    {
+        name: 'Forex Trading Pro',
+        shortHeading: 'Forex Trading Pro Review (forextrading.pro Scam)',
+        fullDescription: `Making the Forex Trading Pro review is actually a pleasure for us, and we hope to save as many people as possible from losing their hard earned money. A good rule of thumb is to carefully review all the Forex companies and any other company for that matter, before you perform any transaction.`,
+        heading: 'Forex Trading Pro Review (forextrading.pro Scam)',
+        descriptionLvl: {
+            image: forexTradingProPage,
+            rev1: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM!',
+                desc1:'After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.'
+            },
+            rev2: {
+                heading: 'Withdrawing funds',
+                desc: 'You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.',
+                desc1: `If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good.`,
+                desc2: `It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev3: {
+                heading: 'How to get your money back?',
+                desc:`If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.`,
+                desc1:`First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc2:`The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. If you haven’t done this before or you are not sure where to start or how to present your case to your bank or credit card company, we can assist you in preparing your chargeback case. `
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: forexTradingPro,
+        path: '/blog/Forex Trading Pro'
+    },
+    {
+        name: 'FeBroker',
+        shortHeading: 'FeBroker Review (febroker.com Scam)',
+        fullDescription: `FeBroker is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`,
+        heading: 'FeBroker Review (febroker.com Scam)',
+        descriptionLvl: {
+            image: feBrokerPage,
+            rev1: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. ',
+                desc1:'They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!'
+            },
+            rev2: {
+                heading: 'FeBroker Review Conclusions',
+                desc: 'Making the FeBroker review is actually a pleasure for us, and we hope to save as many people as possible from losing their hard earned money. A good rule of thumb is to carefully review all the Forex companies and any other company for that matter, before you perform any transaction.',
+            },
+            rev3: {
+                heading: ''
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: feBroker,
+        path: '/blog/FeBroker '
+    },
+    {
+        name: 'Zetano',
+        shortHeading: 'Zetano',
+        fullDescription: `Zetano Review – What Do You Need To Know About Zetano.com Broker?`,
+        heading: 'Zetano',
+        descriptionLvl: {
+            image: zetanoPage,
+            rev1: {
+                heading: 'Zetano Is A Licensed Broker?',
+                desc: 'Zetano is a brand of Wonderinterest Trading Ltd, a firm registered in Cyprus. The owner has been active since 2016 when it obtained a CySEC license number 307/16. This license covers two brands – Zetano and Investago. The company has another office in the Czech Republic, registered as Wonderinterest Trading s.r.o.',
+                desc1:'According to CySEC, Zetano is on the UK’s temporary regime, meaning that it hasn’t obtained an FCA license and cannot provide its services fully to UK residents.',
+                desc2: `CySEC license means the firm needs to have operational capital of 730,000 EUR at any moment. Moreover, it has to participate in the ICF compensation fund with 20,000 EUR per customer. All in all, your funds are safe if you reside in the EEA zone.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: `Unlike Zetano, scam brokers respond to nobody. They have no obligations whatsoever and don’t need to keep your funds in reputable banks or segregated accounts. They can simply vanish, and tracking them down can be quite a hassle.
+
+                Instead of trying your luck with such, find a legit firm with a Tier1 license.`,
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Zetano?',
+                desc: `Zetano reviews are pretty mixed. The broker has a solid rating of 4 stars on Trustpilot, with customers being generally satisfied. Of course, there is always the other side and those who have lost their funds for one reason or another.`,
+                desc1: `Overall, Zetano has been rated positively. What concerns us is that the company that has been in the business since 2016 has such a low number of reviews. Zetano domain has been active since 2018 and, in 4 years, earned only 4 Trustpilot reviews.`
+            },
+            rev4: {
+                heading: 'What Should I Do If I Lost Money With Zetano Broker?',
+                desc: `If you lose your funds due to any illicit activities by the broker or an employee, you can request a chargeback. Your bank may recover funds from the merchant if you can prove that you haven’t received the proper service.`,
+                desc1: `Contact us via online chat to book a free consultation and we may be able to assist with the refund. Our experts will be happy to assist.`
+            },
+        },
+        image: zetano,
+        path: '/blog/zetano'
+    },
+    {
+        name: 'PilotGain',
+        shortHeading: 'PilotGain Review – Why Avoiding Pilotgain.com Is the Safest Choice?',
+        fullDescription: `PilotGain is one of the anonymous new brokers trying to exploit inexperienced investors. Their fraudulent operation was uncovered and exposed by the German authorities.
+
+        Since it’s clear that the firm is not legitimate, we decided to highlight the main issues. Read our detailed PilotGain review and gather all the information.`,
+        heading: 'PilotGain Review – Why Avoiding Pilotgain.com Is the Safest Choice?',
+        descriptionLvl: {
+            image: pilotgainPage,
+            rev1: {
+                heading: 'Is PilotGain a Regulated Broker?',
+                desc: `PilotGain is not a regulated broker. Despite the website stating “we’re regulated by the law,” the firm has no license whatsoever.
+                The Terms and Conditions say that the broker works under Bulgarian laws. Bulgaria is an EU country; it has a Tier2 regulator, FSC. The search through its databases gave no results for PilotGain.`,
+                desc1:`Furthermore, we checked other reputable license providers, such as ASIC, BaFin, and CONSOB, and found no traces of this firm.
+                In top of that, we seriously recommend you not to invest in the fake brokers Olympus Brokers, TradeSimple, and AF Group. Do not trade with these unlicensed brokers if you want to save your money!`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: `Unlicensed brokers are hard to deal with. They use all kinds of lures and manipulate clients into activating their trading accounts based on false pretenses. Once you’re in, getting your funds back is a complex, almost impossible task.
+
+                Don’t trust unlicensed firms. They can vanish with your funds at any time.`,
+            },
+            rev3: {
+                heading: 'Is PilotGain a Legit Broker or a Scam?',
+                desc: `PilotGain is not a legitimate Forex and CFD trading provider. The firm operates under Bulgarian governing laws without an FSC license. The German regulator issued a warning against the scheme.`
+            },
+            rev4: {
+                heading: 'Does the Broker Offer to Try Trading On a Demo Account?',
+                desc: `This broker doesn’t offer a Demo account. Instead, clients are asked to deposit money right away. Besides, this is a frequent tactic used by scammers. They put pressure on their customers to invest before researching the brokerage and finding BaFin warning, for example.`,
+            },
+        },
+        image: pilotgain,
+        path: '/blog/PilotGain'
+    },
+    {
+        name: 'Allfina Group',
+        shortHeading: 'Allfina Group Review – Is Allfinagroup.pro a Trading Scam?',
+        fullDescription: `Allfina Group is another bogus broker on the financial markets that numerous regulators have exposed. It’s an offshore trading firm running a business from the notorious Saint Vincent and the Grenadines.
+
+        The trading platform advertised on the website is not nearly what clients are offered. At the same time, some main information about the initial deposit and trading conditions are missing.`,
+        heading: 'Allfina Group Review – Is Allfinagroup.pro a Trading Scam?',
+        descriptionLvl: {
+            image: allfinaGroupPage,
+            rev1: {
+                heading: 'Is Allfina Group a Regulated Broker?',
+                desc: 'Allfina Group is a brand of Bright Group LLC, registered in Saint Vincent and the Grenadines. This offshore country has no regulator taking care of Forex and CFD brokers. Instead, they direct them to get a license in the service country. This would imply that Allfina Group needs to be regulated by the FCA, CNMV, ASIC, BaFin, or a similar Tier1 license provider.',
+                desc1:'After checking databases, we found nothing. Well, not really anything, but a whole lot of regulatory warnings against the scam.',
+                desc2: `On top of that, we seriously recommend you not to invest in the fake broker’s PilotGain, Olympus Brokers, and TradeSimple. Do not trade with these unlicensed brokers if you want to save your money!`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: `Unlicensed brokers are not safe. They can vanish at any time, and the details they give are not necessarily accurate. For instance, dozens of scam brokers claim to have registered at the same address as Allfina Group.
+
+                If you can’t find the scammer, recovering your funds is even more complicated.`,
+            },
+            rev3: {
+                heading: 'What Platform Does Allfina Group Offer to Trade On?',
+                desc: `Allfina Group says to offer MetaTrader web version. Allegedly, it has a “full range of features and settings that will facilitate your activities and help you increase your profit.”`,
+                desc1: `Upon registering an account, we got access to an oversimplified WebTrader that certainly doesn’t belong to MetaQuotes. It’s a proprietary trading tool without any special functions.`,
+                desc2: `Since we believe that MetaTrader is the best software you can get, we advise you to find a legit firm with MT4 or MT5 on offer. This is how you’ll ensure functionality, reliability, and safety.`
+            },
+            rev4: {
+                heading: 'Scammed by Allfina Group Broker? – Let Us Hear Your Story',
+                desc: `Let us know if you were scammed by Allfina Group or a similar fraudulent company. Our chargeback specialists may be able to assist you with a refund.
+
+                Contact us via online chat to book a free consultation, and our experts will evaluate your case.`,
+            },
+        },
+        image: allfinaGroup,
+        path: '/blog/allfinaGroup'
+    },
+    {
+        name: 'Olympus Brokers',
+        shortHeading: 'Olympus Brokers Review – Who’s Behind the Olympusbrokers.com Scam?',
+        fullDescription: `If nothing, Olympus Brokers is an excellent example of what a trading scam looks like. It’s unregulated, banned by regulators, and there are plenty of negative reviews. The firm has all the red flags a potential investor should look for.
+
+        Our detailed Olympus Brokers review will elaborate on all the issues and give you hints on how to recognize and avoid fraud.
+        
+        What is more, we strongly advise you not to invest in TradeSimple, AF Group and FutureProfit fraudulent brokers.`,
+        heading: 'Olympus Brokers Review – Who’s Behind the Olympusbrokers.com Scam?',
+        descriptionLvl: {
+            image: olympusPage,
+            rev1: {
+                heading: 'Is Olympus Brokers a Regulated Broker?',
+                desc: 'Olympus Brokers says to be owned by Olympus Ltd, registered in Canada. However, the Terms and Conditions and other legal documents don’t answer the regulation question. ',
+                desc1:'Canada has one of the strictest financial controls, with each state having its own regulator. Based on the address in Ontario, Olympus Brokers should be licensed by OSC. But it’s not.',
+                desc2: `Moreover, the broker is not licensed by the FCA, ASIC, CONSOB, BaFin, or any Tier1 authority. Financial services are provided unsupervised, and you have no money-back guarantee if something goes wrong.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: `Unlicensed brokers have no obligations toward customers. Instead of offering reputable market solutions, they care only about themselves. Olympus Brokers is the best example, offering unregulated trading terms and proprietary tools. 
+
+                All this means you have absolutely no fund security, and the company can vanish anytime with your funds.`,
+                desc1: `Olympus Brokers is not a legitimate financial services provider. The company has been blacklisted in Italy after a number of scam reports. Negative reviews indicate lots of withdrawal issues.`
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Olympus Brokers?',
+                desc: `Traders are not quite satisfied with Olympus Brokers. The majority of reviews indicate that recovering your funds from this bogus broker is nearly impossible.`,
+                desc1: `Clients are more than welcome to invest their money and virtually trade. Yet, when they want their profits back, they face one issue – all the trades were virtual, and so was the profit. It was a lure to make them feel comfortable and invest more.`,
+                desc3: `In reality, their access to funds is blocked, and so is the trading account.`
+            },
+            rev4: {
+                heading: 'What Is Known About Olympus Brokers’ Trading Conditions?',
+                desc: `Trading conditions are vital elements that, along with the regulation, serve to assess the brokerage. You can tell if the broker is too pricey or offers unregulated terms based on spread and leverage. Often, spread below the average indicates that the firm is interested only in your deposit since it’s not profiting from commissions.
+
+                When it comes to the firm, leverage is unspecified. The spread is under 1 pip. With the average being 1.5 pips for the EUR/USD benchmark, it’s clear what’s happening here.`,
+            },
+        },
+        image: olympus,
+        path: '/blog/Olympus Brokers'
+    },
+    {
+        name: 'TradeSimple',
+        shortHeading: `TradeSimple Review – Stay Away From Tradesimple.org Trading Scam
+        `,
+        fullDescription: `The first indicator of issues is the TradeSimple domain. Typically, domains containing .org, .gov, .edu, and similar abbreviations are used for government and non-government organizations. Yet, here we have a broker using the said domain. 
+
+        Furthermore, the company lacks transparency and provides much misguiding information. Our detailed TradeSimple review elaborated on all the red flags. Let’s begin.
+        
+        In top of that, we seriously recommend you not to invest in the fake brokers AF Group, FutureProfit, and EuroInvestec. Do not trade with these unlicensed brokers if you want to save your money!`,
+        heading: 'TradeSimple Review – Stay Away From Tradesimple.org Trading Scam',
+        descriptionLvl: {
+            image: tradeSimplePage,
+            rev1: {
+                heading: 'Is TradeSimple a Regulated Broker?',
+                desc: 'TradeSimple claims to be a brand owned by Apollo MS Ltd, registered in London, UK. While this may be true, as such a company exists, here’s the issue. The firm entered the House of Companies register on the 13th of January this year. The nature of the business is registered as public relations and communication activities, advertising agencies, and media representation services. ',
+                desc1:'None of the aforementioned businesses matches the company’s actual operations – providing Forex and CFD trading. For such activity, the firm would need an FCA license. And according to our research, it doesn’t have one.',
+                desc2: `Additionally, this company falsely claims to hold licenses with ASIC, IFSC, FSA, Bank of America, and CySEC and to follow MiFID rules. FSA of SVG and Bank of America don’t issue licenses for Forex and CFD trading brokers, so it’s clear that this is a notorious lie. Upon checking the rest of the databases, we found nothing about TradeSimple.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed brokers often misguide their users by providing partial information or no details at all. Here, we have a broker that registered its business but didn’t apply to provide financial services. Thus, nobody directed them to obtain an FCA license. ',
+                desc1: `The Financial Conduct Authority requires UK-based brokers to have minimal operational capital of 730,000 GBP and to participate in the Compensation Scheme fund with 85,000 GBP per trader. Since TradeSimple didn’t get a license, it doesn’t need to follow these rules. Therefore, you will have no right to be reimbursed.`
+            },
+            rev3: {
+                heading: '​​Is TradeSimple a Legit Broker or a Scam?',
+                desc: `TradeSimple claims to be a UK-based brokerage. Despite false claims, it has no FCA license, and there are no proofs for the claim. Combined with negative reviews, false claims strongly indicate that the broker cannot be trusted.`,
+            },
+            rev4: {
+                heading: 'TradeSimple Minimum Deposit and Withdrawal Terms',
+                desc: `The minimum deposit with TradeSimple broker is $250. Since most regulated firms allow customers to start with $100 or less, this is unfavorable.
+
+                When it comes to withdrawals, we know virtually nothing. The T&C explains withdrawal as profit, funds, and/or money transacted or taken from clients’ accounts. Yet terms remain uncovered.
+                
+                Payment methods are not disclosed either. You should decline the offer if you’re asked to deposit your funds using any suspicious method, such as crypto. Otherwise, recovering your funds may be quite a challenge.`,
+            },
+        },
+        image: tradeSimple,
+        path: '/blog/TradeSimple'
+    },
+    {
+        name: 'AF Group',
+        shortHeading: 'AF Group Review – Why Would Be Best To Avoid Afgroup.pro Broker?',
+        fullDescription: `AF Group broker says clients have several reasons to trade with them. Some of the mentioned benefits are full transparency, prioritizing clients, and full responsibility for their support and services. Generally speaking, these are great perks. Or so would they be if they were real.
+        Read this detailed AF Group review to learn more about this vicious scammer.
+        To add to the foregoing, we strongly advise you to ignore brokers such as FutureProfit, EuroInvestec, and Novelis Capital.`,
+        heading: 'AF Group Review – Why Would Be Best To Avoid Afgroup.pro Broker?',
+        descriptionLvl: {
+            image: afgroupPage,
+            rev1: {
+                heading: 'How Safe Is It to Start Trading with AF Group?',
+                desc: 'AF Group’s main issue is the lack of transparency. While they claim to provide “healthy trading and serve in full transparency,” we know nothing. There’s no name of the owner, legal jurisdiction, or anything of value. If things go wrong, traders will be unable to start legal action. And that’s how their main benefit just collapsed.',
+                desc1:'As per prioritizing clients, this is true for as long as clients make deposits. Once they ask for a withdrawal, they see the broker’s true nature.',
+                desc2: `And speaking of responsibility, they did everything they could to avoid it. By staying anonymous, they directly disabled traders from pursuing responsible ones and recovering stolen funds.`
+            },
+            rev2: {
+                heading: 'So Is AF Group a Decent Broker or a Scam?',
+                desc: 'Should you trust AF Group with your money and should this be your broker of choice? This detailed AF Group review will break it down for you.',
+            },
+            rev3: {
+                heading: 'Warning Issued by the Central Bank of Russia (CBR)',
+                desc: `The Central Bank of Russia issued an official warning against AF Group. According to it, this firm provides illegal financial services to Russian citizens.
+                Usually, when one regulator bans the broker, others are to follow. Thus, we can expect afgroup.pro to be blacklisted in more countries.`
+            },
+            rev4: {
+                heading: 'AF Group Trading Platform – Available Trade Software',
+                desc: `Speaking of the missing information, here’s the biggest problem. AF Group says to offer AF Group WebTrader. Unfortunately, access to this state-of-the-art software is disabled. The broker requires customers to wait for their accounts to be approved. From our experience, you can end up waiting for several hours.`,
+                desc1: `Since we weren’t immediately approved, we cannot confirm whether this web-based platform is available or is a part of the scam. However, we’re sure that finding a legit firm with MetaTrader is a far better choice. MT4 and MT5 have set themselves as industry standards, and choosing either of these platforms ensures fund safety and a variety of trading features.`
+            },
+        },
+        image: afgroup,
+        path: '/blog/AF Group'
+    },
+    {
+        name: 'EuroInvestec',
+        shortHeading: 'EuroInvestec Review – How To Avoid Euroinvestec.com Trading Fraud',
+        fullDescription: `Overviewing the EuroInvestec website, we found lots of discrepancies. And it was enough for us to suspect this business and start a detailed investigation. 
+
+        When assessing the brokerage, it’s essential to have the correct information. We deliver everything in our thorough EuroInvestec review.
+        
+        In top of that, we seriously recommend you not to invest in the fake brokers Novelis Capital, Invest Kingdom, and Bullden. Do not trade with these unlicensed brokers if you want to save your money!`,
+        heading: 'EuroInvestec Review – How To Avoid Euroinvestec.com Trading Fraud',
+        descriptionLvl: {
+            image: EuroInvestecPage,
+            rev1: {
+                heading: 'How Safe Is It to Start Investing and Trading with EuroInvestec?',
+                desc: 'EuroInvestec is an anonymous trading firm. Typically, legit brokers will go above and beyond to deliver legal information, such as the company owner and a license number.',
+                desc1:'With this firm, we have a whole lot of fake details. In their Terms and Conditions, it’s stated that the owner is FX Publications Inc., and the governing law is the law of England. As the name itself suggests, FX Publications Inc. is dealing with the journalism part of the FX market, running the website dailyfx.com.',
+                desc2: `As per the legal jurisdiction, if any firm wants to provide financial services from the UK, it should have an FCA license. Upon searching through the regulatory databases, we found nothing. `
+            },
+            rev2: {
+                heading: 'In That Case, Is EuroInvestec a Legitimate Broker Or A Scam?',
+                desc: 'EuroInvestec is not a legit financial services provider. The broker misuses another company’s name as its owner. Based on their negative rating, we advise you to avoid this trading firm.',
+            },
+            rev3: {
+                heading: 'Scammed by EuroInvestec Broker? – Let Us Hear Your Story',
+                desc: `If you find yourself a victim of the EuroInvestec scam, report it immediately. Scam brokers tend to disappear after regulators issue a ban. So don’t wait for it to happen. File a dispute for a chargeback and recover your money now.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: EuroInvestec,
+        path: '/blog/EuroInvestec'
+    },
+    {
+        name: 'MilleniumOne',
+        shortHeading: 'MilleniumOne Review – Who’s Behind the MilleniumOne.com Scam?',
+        fullDescription: `If you check the table above, you’ll see that we know virtually nothing about MilleniumOne broker. The firm hasn’t shared anything more than a shell corporation registered in Saint Vincent and the Grenadines. We lack details about the initial deposit, which is quite a concern.
+        All in all, our detailed MilleniumOne review should highlight everything we know and why we suspect the firm to be a scam.
+        Also, we recommend you not to invest in the fraudulent brokers AlfaBTC, Capitality and Aiko Markets.`,
+        heading: 'MilleniumOne Review – Who’s Behind the MilleniumOne.com Scam?',
+        descriptionLvl: {
+            image: milleniumOnePage,
+            rev1: {
+                heading: 'MilleniumOne is Scamming Traders?',
+                desc: 'MilleniumOne is said to be owned by Fiesta LLC, registered in December 2021 in Saint Vincent and the Grenadines. Since the firm shares address with hundreds of scheme firms and is incorporated by the same third-party affiliate, we can see the pattern.',
+                desc1:`Additionally, the FSA of SVG issued a series of warnings, the latest being from February this year, to remind us of one fact. They do not provide licenses to Forex, CFD, or binary options firms. All such companies need to obtain a license in the country of service.
+                We found nothing after checking Tier1 databases of the FCA, ASIC, BaFin, and more.`
+            },
+            rev2: {
+                heading: 'What Do Traders Think Of MilleniumOne?',
+                desc: `Truth to be said, MilleniumOne has quite a lot of negative reviews. According to those, customers are unable to withdraw their funds. 
+                Instead of approving requests, MilleniumOne employees are doing everything to dissuade unsuspecting victims. If someone’s too persistent, their trading accounts are blocked, and access to money is denied.`,
+                desc1:`The company offers a decent-looking WebTrader. It has somewhat advanced functions, pending orders, Stop Loss, and Take Profit. Instead of a plain TradingView chart, clients can actually apply some strategies and gain profits.
+                Note that all this is worth nothing with offshore scam brokers like MilleniumOne here.`
+            },
+            rev3: {
+                heading: 'Security Methods Provided by MilleniumOne',
+                desc: `The company claims to offer negative balance protection and keeps clients’ funds in segregated accounts. This should be the default and not something to brag about.`,
+                desc1:`Allegedly, if you lose your money, negative balance protection will save you from falling into debt towards the brokerage.`,
+                desc2:`As per segregated accounts, it’s stated that your funds are held in “accounts at regulated banks.” Without further specifications, this sounds like another fairytale to lure you into depositing.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: milleniumOne,
+        path: '/blog/MilleniumOne'
+    },
+    {
+        name: 'AlfaBTC',
+        shortHeading: 'AlfaBTC Review – Disturbing Facts About Alfabtc.com Brokerage',
+        fullDescription: `By name, one may mistake AlfaBTC for a crypto brokerage. In fact, this firm offers trading in Forex and CFD markets. Sadly, it does so without a valid financial license.
+        Our AlfaBTC review will help you expose the scheme and save your funds from this anonymous financial swindler.`,
+        heading: 'AlfaBTC Review – Disturbing Facts About Alfabtc.com Brokerage',
+        descriptionLvl: {
+            image: alfabtcPage,
+            rev1: {
+                heading: 'AlfaBTC Is a Scam Broker? ',
+                desc: 'AlfaBTC is said to be registered in the UK. However, there are no proofs to support this claim. Any firm that wants to provide financial services from the UK needs an FCA license. And, as you can guess, AlfaBTC doesn’t have one.',
+                desc1:'Additionally, the company is quite cryptic about the owner, legal jurisdiction, and basic trading conditions. All in all, there is no guarantee that your funds will be kept in segregated accounts nor that you will be able to withdraw any profits you potentially make.',
+                desc2: `AlfaBTC is not a regulated broker. The company claims to be registered in the UK but has no FCA license. The broker was exposed for posting fake reviews, indicating you should not trust what you read on forums.
+                What is more, we strongly advise you not to invest in Capitality, Aiko Markets and OptiumGroup fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'False Regulation Claims',
+                desc: 'AlfaBTC is allegedly regulated by CCA – Crypto Conduct Authority. This means that clients have up to 100,000 EUR compensation funds. If it were true, it would be amazing.',
+                desc1:`CCA says to be a team of independent industry experts and professionals dealing with crypto and blockchain. Since they’re not under any government oversight, this alleged authority body can register just about anyone and doesn’t have an obligation to pay out any reimbursement. They can set their own terms and conditions and violate them as they please.
+                If you check their list of regulated entities, you will find all of them to be unauthorized or offshore firms.`
+            },
+            rev3: {
+                heading: ''
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: alfabtc,
+        path: '/blog/AlfaBTC'
+    },
+    {
+        name: 'Aiko Markets',
+        shortHeading: 'Aiko Markets Review – Is Aikomarkets.com A Scam Trading Brokerage?',
+        fullDescription: `Aiko Markets is a relatively new broker in the financial market, trying to find a way of reaching investors. Thus, we have a catchy slogan: “Trade Easily. Live Freely.”
+
+        While this sounds tremendous and may lead you to check out the broker’s offer, you should notice one thing. Nowhere on the website can you find any regulations mentioned.
+        
+        Read this detailed Aiko Markets review and find out everything about the brokerage.
+        
+        What is more, we strongly advise you not to invest in OptiumGroup, TheExchangeBank and Keler Group fraudulent brokers.`,
+        heading: 'Aiko Markets Review – Is Aikomarkets.com A Scam Trading Brokerage?',
+        descriptionLvl: {
+            image: aikoPage,
+            rev1: {
+                heading: 'Is Aiko Markets a Trustworthy And Licensed Broker?',
+                desc: 'Aiko Markets is a brand of Aiko International Ltd, registered in Saint Vincent and the Grenadines. This offshore country has become a widely known hub for scheme brokers thanks to a lack of regulatory supervision. The FSA strictly declared itself unauthorized for Forex and binary options trading firms, directing brokers to opt for a license in the country of service.',
+                desc1:'We found nothing after checking Tier1 databases, such as FCA, ASIC, BaFin, and more. Simply speaking, Aiko Markets cannot be trusted.'
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed brokers don’t follow any rules, nor must they form a compensation fund. If something goes wrong, no regulator will take responsibility and reimburse you. ',
+                desc1:`That’s why dealing with Tier1 licensed brokers is highly recommended. These have various mechanisms of protecting your funds and are responsible to a higher authority.`
+            },
+            rev3: {
+                heading: 'So Is Aiko Markets a Legit Broker or a Scam?',
+                desc:`Aiko Markets is not a legit Forex and CFD trading brokerage. The company is based in Saint Vincent and the Grenadines and not authorized by any Tier1 regulatory body.`,
+                desc1:`Aiko Markets is not a pretty popular broker. According to the website inspection, the server is based in China. 
+                Furthermore, numerous negative reviews suggest that this firm doesn’t approve withdrawals. Once they get ahold of clients’ money, they’ll become non-responsive, blocking all communication and customers’ access to a trading account`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: aiko,
+        path: '/blog/Aiko Markets'
+    },
+    {
+        name: 'Keler Group',
+        shortHeading: `Keler Group Review – Watch Out For Kelergroup.com Scam`,
+        fullDescription: `Keler Group claims to help you create a new digital economy. While this may sound tempting, it means nothing without actual proof that you’ll be able to withdraw the profit you make. 
+        Since Keler Group is unregulated and there are a lot of concerns regarding the broker’s business, we’ve done a detailed review. Read carefully.
+        Also, we recommend you not to invest in the fraudulent brokers TraderActive, PrismCapital and GMT Trading.`,
+        heading: 'Keler Group Review – Watch Out For Kelergroup.com Scam',
+        descriptionLvl: {
+            image: kelerPage,
+            rev1: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Licensed brokers have several obligations – maintaining the level of capital, providing negative balance protection, limiting the leverage, and keeping your funds in segregated accounts.',
+                desc1:'With companies such as Keler Group, you won’t see it. Instead, your funds will be transferred directly to the broker’s wallet. And they can disappear at any time.'
+            },
+            rev2: {
+                heading: 'So Is Keler Group a Decent Broker or a Scam?',
+                desc: 'Keler Group is an online financial services provider without a license. The company is anonymous, hiding behind false addresses in Switzerland.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Keler Group?',
+                desc: `Keler Group is rated 2.5 stars, having been marked as poor on Trustpilot. Instead of us talking, we’ll show you an example of a review.`
+            },
+            rev4: {
+                heading: 'Why Is Paying In Cryptocurrency Unsafe?',
+                desc: `Crypto payments are unsafe due to the transaction nature. Digital coins are anonymous; funds are transferred from one wallet ID to another. Yet, discovering who’s behind the ID can be quite a challenge.
+
+                Furthermore, these transactions are not subject to a chargeback or a recall, so even if you wanted to try and recover the money, it’d be hard.`,
+            },
+        },
+        image: keler,
+        path: '/blog/Keler Group'
     },
     // {
     //     name: 'FxRevenues',
