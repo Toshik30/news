@@ -36,6 +36,7 @@ const reviewsSlice = createSlice({
             db.reviews.toArray();  
         },
         handleFilterReviews(state, action) {
+            console.log(action);
             state.search = action.payload
         },
     },

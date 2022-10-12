@@ -8,7 +8,10 @@ import Contacts from './components/routes/Contacts';
 import AboutUs from './components/routes/AboutUs';
 import Products from './components/routes/Products';
 import BlogDetailed from './components/routes/BlogDetailed';
+
 import { createContext, useState } from 'react';
+import { PrivacyPolicy } from './components/Modal/PrivacyPolicy';
+import { Terms } from './components/Modal/Terms';
 
 
 
@@ -26,6 +29,8 @@ function App() {
           <Route path='/contacts' element={<Contacts />}/>
           <Route path='/aboutus' element={<AboutUs/>} />
           <Route path='/products' element={<Products />} />
+          <Route path='/policy'  element={<PrivacyPolicy/>} />
+          <Route path='/terms'  element={<Terms/>} />
         </Routes>
       <Footer/>
     </div>

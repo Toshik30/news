@@ -25,15 +25,19 @@ export default function Footer() {
             </ul>
             <ul>
               <h5>Legal:</h5>
-              <li>Terms</li>
-              <li>Privacy</li>
+              <li>
+                <Link to='/terms'>Terms</Link>
+              </li>
+              <li>
+                <Link to='/policy'>Privacy</Link>
+              </li>
             </ul>
-            <ul>
+            {/* <ul>
               <h5>Social:</h5>
               <li>Telegram</li>
               <li>Facebook</li>
               <li>LinkedIn</li>
-            </ul>
+            </ul> */}
           </div>
           <div className={styles.contacts}>
             <p>Receive must-read articles and trends on company culture.</p>

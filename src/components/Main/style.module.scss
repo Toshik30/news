@@ -1,6 +1,8 @@
 @import '../../styled/_variables';
 @import '../../styled/_mixins';
-
+.section {
+    min-height: 100vh;
+}
 .main_page {
     text-align: center;
     @include xs {

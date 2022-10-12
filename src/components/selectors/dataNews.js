@@ -156,6 +156,42 @@ import clearpoint from '../../images/clearpoint-logo.png'
 import clearpointPage from '../../images/clearpointPage.png'
 import cryptolloyds from '../../images/cryptolloyds-logo.png'
 import cryptolloydsPage from '../../images/cryptolloydsPage.png'
+import aax from '../../images/aax-logo.png'
+import aaxPage from '../../images/aaxPage.png'
+import securitize from '../../images/securitize-logo.svg'
+import securitizePage from '../../images/securitizePage.png'
+import bstrade from '../../images/bstrade-logo.png'
+import bstradePage from '../../images/bstradePage.png'
+import ctyptoEU from '../../images/ctyptoEU-logo.svg'
+import ctyptoEUPage from '../../images/ctyptoEUPage.png'
+import dakengr from '../../images/dakengr-logo.png'
+import dakengrPage from '../../images/dakengrPage.png'
+import empire from '../../images/empire-logo.png'
+import empirePage from '../../images/empirePage.png'
+import tradeunion from '../../images/tradeunion-logo.png'
+import tradeunionPage from '../../images/tradeunionPage.png'
+import soltechx from '../../images/soltechx-logo.svg'
+import soltechxPage from '../../images/soltechxPage.png'
+import icorp from '../../images/icorp-logo.png'
+import icorpPage from '../../images/icorpPage.png'
+import btec from '../../images/btec-logo.png'
+import btecPage from '../../images/btecPage.png'
+import thunder from '../../images/thunder-logo.svg'
+import thunderPage from '../../images/thunderPage.png'
+import cupiro from '../../images/cupiro-logo.svg'
+import cupiroPage from '../../images/cupiroPage.png'
+import analystque from '../../images/analystque-logo.png'
+import analystquePage from '../../images/analystquePage.png'
+import globalventures from '../../images/globalventures-logo.png'
+import globalventuresPage from '../../images/globalventuresPage.png'
+import neural from '../../images/neural-logo.png'
+import neuralPage from '../../images/neuralPage.png'
+import margex from '../../images/margex-logo.svg'
+import margexPage from '../../images/margexPage.png'
+import dualix from '../../images/dualix-logo.svg'
+import dualixPage from '../../images/dualixPage.png'
+import orientero from '../../images/orientero-logo.svg'
+import orienteroPage from '../../images/orienteroPage.png'
 export const DATA_NEWS = [
     {
         heading: 'Leaders in Foreign Exchange',
@@ -2584,6 +2620,570 @@ export const DETAILED_NEWS = [
         image: cryptolloyds,
         path: '/blog/Crypto Lloyds'
     },
+    {
+        name: 'Aax',
+        shortHeading: 'Aax Review – How We Discovered Aax.com Broker And Its Scam?',
+        fullDescription: `Aax broker is a typical offshore firm without regulation or any relevant details. The company offers only crypto trading, targeting those interested in digital currencies, explaining the lack of license with the fact that crypto is an unregulated asset. And while it was true once crypto first took over the market, nowadays, hundreds of regulators are in charge of this matter. Read our Aax review and find out how this scheme operates.`,
+        heading: 'Aax Review – How We Discovered Aax.com Broker And Its Scam?',
+        descriptionLvl: {
+            image: aaxPage,
+            rev1: {
+                heading: 'What About Aax Regulation?',
+                desc: 'Aax brand belongs to Aax Limited, registered in Seychelles. Upon checking the FSA register, we discovered that Aax never opted for a license. If a company cannot get a Tier3 license from the offshore zone, imagine how hard it would be to get a Tier1 regulation from the FCA, ASIC, BaFin, or any reputable license provider.',
+            },
+            rev2: {
+                heading: 'Why Is It Important For A Broker To Be Licensed?',
+                desc: 'Brokers with Tier1 licenses must follow strict rules about leverage, funds, compensations, and more. These firms are not likely to defraud investors since they will have to reimburse them by the regulator’s orders.',
+                desc1: `Companies like Aax, on the other hand, are free to do anything they like since nobody supervises their activities. 
+                In top of that, we seriously recommend you not to invest in the fake brokers CryptoHold, FinanBelt, and SwissFXM. Do not trade with these unlicensed brokers if you want to save your money!`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Aax',
+                desc: `“This is a SCAM exchange. Stay away!
+                They trick you for a sign up bonus but you have to spend many $$ to unlock. Then they will spam you with emails and newsletters which you can’t disable.
+                I have contacted support but they refused to tell me how to disable those. Then I have requested to fully close my account which takes 1 week! Hopefully this will end the scam.”
+               – Trustpilot Customer`,
+                desc1: `“I decided to test this exchange with it’s futures. I only put in 20 dollars to test it out. Anyway they seem to liquidate positions even when the mark price has not reached the liquidation price and not only that they also cancel your stop loss orders so they can liquidate you. Stay very far away.”
+                – Trustpilot Customer`
+            },
+            rev4: {
+                heading: 'Aax Range of Trading Instruments & Markets',
+                desc: `As mentioned, Aax is a crypto trading provider. It’s the only asset clients have, and the platform allows trading, buying, selling, and converting. Basically, it functions like any other crypto exchange but without necessary regulations. `,
+                desc1: `According to its website, the broker requires a minimum of $100 to get you started. However, reviews have shown that this firm doesn’t choose much. They accept as low as $10 just to get you on board and extort more funds from you by proposing fake financial plans and promising you a better future.`
+            },
+        },
+        image: aax,
+        path: '/blog/Aax'
+    },
+    {
+        name: 'AGM Markets',
+        shortHeading: 'AGM Markets Review – BaFin Warning, Agmmarkets.net Is A Scam Clone Firm',
+        fullDescription: `AGM Markets looks like a legitimate, Cyprus-based firm with regulations in Cyprus and Italy. And while the website is entirely in Italian, we thought it might be due to their regulation. Imagine our disappointment to learn that this brand is a part of the scheme, along with a related firm – ACMarketsFX. Read our review and get all the information.`,
+        heading: 'AGM Markets Review – BaFin Warning, Agmmarkets.net Is A Scam Clone Firm',
+        descriptionLvl: {
+            image: securitizePage,
+            rev1: {
+                heading: 'What About AGM Markets Regulation?',
+                desc: 'AGM Markets says to be a brand of AC Markets (Europe) Limited, based in Cyprus. Furthermore, the company has listed CySEC and CONSOB regulation numbers. However, a bit deeper research into the CySEC register showed us that AC Markets (Europe) Ltd has several approved domains, none of which are agmmarkets.net or acmarketsfx.com, that this brand has previously used. In addition, CONSOB regulation number 4782 belongs to AAA Trade Ltd, another legitimate firm not related to AGM Markets trading scam.',
+                desc1:'Since the firm provides investment services in the UK, we have checked if it’s authorized for that. As’s the case with the rest of the European countries, AGM Markets operates in the UK illegally.'
+            },
+            rev2: {
+                heading: 'Why Must A Broker Have a License?',
+                desc: `A broker must have a license in order to provide funds’ safety and ensure that you can get reimbursed in any case. Furthermore, regulators limit their leverage, implying that trading risks are limited. AGM Markets or ACMarketsFX has no license and follows no rules.
+                Note that AGM Markets took over the disclaimer and legal documents from FXPlanB and Fibinance, potentially related scheme firms.            
+                Also, If at all possible, avoid unregulated brokers like Weltex, NewFX, and FavorTrades.`,
+            },
+            rev3: {
+                heading: 'Traders Reviews About AGM Markets',
+                desc: `AGM Markets reviews are mainly negative. Clients expressed their disappointment after discovering that AGM Markets is not, in fact, regulated and that they have been dealing with a scheme. The majority of customers cannot get withdrawals since AGM Markets doesn’t care to approve them.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: securitize,
+        path: '/blog/AGM Markets'
+    },
+    {
+        name: 'BSTrade',
+        shortHeading: 'BSTrade Detailed Review – Bstrade.co Scam Right From Saint Vincent and the Grenadines',
+        fullDescription: `Symbolically named BSTrade, it’s all this firm offers. There’s nothing legitimate or good about investing with this firm, and we will show you exactly why we think so. Read our Best Stocks Trade review and get all the details.`,
+        heading: 'BSTrade Detailed Review – Bstrade.co Scam Right From Saint Vincent and the Grenadines',
+        descriptionLvl: {
+            image: bstradePage,
+            rev1: {
+                heading: 'What About BSTrade Regulation?',
+                desc: 'BSTrade, a.k.a Best Stocks Trade, is a brand of Florishing Group LLC from Saint Vincent and the Grenadines. Knowing that this offshore island has no financial regulator, rather just a register of firms, we’ve checked if the brand ever registered its business. The company was registered in October 2021 by an external firm in charge of fictive companies. Furthermore, the brand shares its address with numerous others, including Istrade, AZAForex, BullsonTrade, etc.',
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'If you want a money-back guarantee, your broker must have a license. The firm must be regulated, preferably by a Tier1 regulator such as ASIC, FCA, or BaFin. These authority bodies make sure that every Forex brand will have a compensation fund to reimburse potential scam victims. ',
+                desc1: `Sadly, BSTrade is not one of those. It’s just another offshore scheme.
+                In addition, we strongly advise you not to invest in Istrade,  LiraFX and StakingTrades fraudulent brokers. So don’t fall for these dishonest scam brokers!`
+            },
+            rev3: {
+                heading: 'Traders Reviews About BSTrade Scam',
+                desc: `Instead of talking in the name of the victims, we will show you one of the BSTrade reviews.
+                “Really bad… It’s a scam.
+                No one should do business with this company.
+                When you try to withdraw your money they don’t let it.” – Trustpilot customer
+                `
+            },
+            rev4: {
+                heading: 'Problems With Accessing The Platform',
+                desc: `The most significant sign of a scam was our attempt to check the platform. Once you sign in, you will see a message to contact support so that they can unlock the platform for you. Therefore, we’re not sure whether or not you will get any access.`,
+                desc1: `This proprietary WebTrader without a mobile app is not even worth mentioning. It cannot be compared to reputable software like MT4 or MT5, which is what we highly recommend.`,
+                desc2: `However, the other two account types have no minimum deposit, so we’re unsure how you can qualify for any. The main differences are the spread and leverage, both increasing with each account type. Also, with the Premium account, you can get a morning market report, and with Business, you’re entitled to daily fundamental and technical analysis.`
+            },
+        },
+        image: bstrade,
+        path: '/blog/BSTrade'
+    },
+    {
+        name: 'Crypto EU',
+        shortHeading: 'Crypto EU Review – Brand New Broker Cryptoeu.net Turns To Be A Scam',
+        fullDescription: `There are so many inconsistent things about Crypto EU broker that we just had to research. We have to try and understand who this firm is and whether or not your money is safe. Read this review and you will understand the level of scheme you’re being dragged into.`,
+        heading: 'Crypto EU Review – Brand New Broker Cryptoeu.net Turns To Be A Scam',
+        descriptionLvl: {
+            image: ctyptoEUPage,
+            rev1: {
+                heading: 'What About Crypto EU Regulation?',
+                desc: 'Crypto EU claims to be based in the UK and working under the FCA regulation. However, the company registration number they provided, HE 367623, belongs to Cyprus-based firm Degalmo Enterprises Limited. So, does the firm operate with an FCA or CySEC license?',
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'Brokers ought to have a license to prove they’re legitimate firms, and they’re going to deal carefully with your funds. While Crypto EU claims to provide a high level of security and keeps funds in EU banks, there’s no proof of that. It turns out that neither CySEC nor the FCA have ever regulated broker, and the Cyprus-based firm has nothing to do with this online scheme. ',
+                desc1: `Furthermore, we found one more company using the same registration number, with exactly the same website – UXTrades. It seems that the scam is widespread, and Crypto EU is just a part of it.`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Crypto EU Scam',
+                desc: `Clients complain about withdrawal issues, the fact the firm is not actually regulated, and the non-existing trading platform. Basically, it looks like the firm is there to take an initial deposit and disappear.`
+            },
+            rev4: {
+                heading: 'Supported Trading Platforms – Available Trading Software',
+                desc: `We don’t really know what kind of a platform the broker offers. Nothing on the website indicates whether the platform exists and which one it would be. The Account Types section implies that Android trading is enabled, but it doesn’t mention any apps or a WebTrader you can get.`,
+                desc1: `We also have no information about leverage, spread, or other essential trading conditions. And that’s the main reason to avoid this illicit investment firm.`
+            },
+        },
+        image: ctyptoEU,
+        path: '/blog/Crypto EU'
+    },
+    {
+        name: 'DakkenGroup',
+        shortHeading: 'DakkenGroup Review – What We Know About Dakkengroup.com Scam?',
+        fullDescription: `DakkenGroup is an offshore broker claiming to offer cutting-edge technology solutions, full access to financial markets, and more. Upon receiving numerous complaints, we’ve decided to review DakkenGroup and its operations and present all the facts.`,
+        heading: 'DakkenGroup Review – What We Know About Dakkengroup.com Scam?',
+        descriptionLvl: {
+            image: dakengrPage,
+            rev1: {
+                heading: 'What About DakkenGroup Regulation?',
+                desc: 'DakkenGroup is a brand of Clandestiny Group LLC, based in Saint Vincent and the Grenadines. This Caribbean island is known as an offshore haven since it doesn’t have a financial regulator dealing with Forex and binary options firms. The FSA declared itself not in charge and directed brokers to opt for a license in the country of service.',
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: `Most Tier1 license providers, such as FCA, ASIC, and BaFin, are ensuring that your broker follows the rules, keeps your funds in segregated accounts, and has a compensation fund to recover your money in case of issues. Those are the main reasons to look for a licensed firm from a reputable country. 
+                DakkenGroup is not just an offshore broker but also has no financial regulations. It means it can use funds for the company’s expenses or even vanish without consequences.`,
+            },
+            rev3: {
+                heading: 'Traders Reviews About DakkenGroup Scam',
+                desc: `If you check portals for reviews, such as Trustpilot, the broker has a negative rating. Many clients report that broker is taking money, and account managers promise everything and anything, but once you ask for a payout, they will simply stop responding.`
+            },
+            rev4: {
+                heading: 'DakkenGroup – Bad Trading Conditions',
+                desc: `Besides unregulated leverage, the broker says to offer a fixed spread from0.5 pips. It’s good, but they never mentioned the limit, so you can get 0.5 pips for EUR/USD pair, while the broker may charge 3 pips for BTC trading. And not knowing such a thing is always a minus.
+                Furthermore, the company maintains the right to charge an inactivity fee of 10% each month if your account is inactive for more than 6 months. There are also high commissions for withdrawals, starting from 25 USD/EUR on the minimum withdrawal amount of 100 USD/EUR, and a Bonus Policy requiring you to have a turnover of 25 times the bonus amount before being able to request a withdrawal.`,
+                desc1: `Depositing via a crypto wallet is always the riskiest since following these transactions is complex. 
+                The minimum deposit is $250. The minimum withdrawal amount is $100, with 50 units charged for wire transfer, 25 units for cards and e-wallets, and an additional 10% processing fee for the latest method. 
+                As mentioned, if you take any bonuses, you cannot withdraw your money before repaying the amount 25 times. So, suppose you got $100; you have to trade $2,500 before getting a payout. Implying you have to invest more to reach such an amount, which is the point of this clause.`
+            },
+        },
+        image: dakengr,
+        path: '/blog/DakkenGroup'
+    },
+    {
+        name: 'Empire FXM',
+        shortHeading: 'Empire FXM Review – CONSOB Warning Against Empirefxm.com Scam',
+        fullDescription: `Empire FXM is another offshore broker on the already too long list. Since we’re pretty skeptical about those, we had to review the firm and confirm our suspicions. Read what we discovered and why Empire FXM broker ended up on the Italian warning list.`,
+        heading: 'Empire FXM Review – CONSOB Warning Against Empirefxm.com Scam',
+        descriptionLvl: {
+            image: empirePage,
+            rev1: {
+                heading: 'What About Empire FXM Regulation?',
+                desc: 'Empire FXM is an FT Global Financial Ltd brand from the Marshall Islands. Knowing that GLOFSA is not a trustworthy regulator, we assumed that this firm is not licensed. And we were right. The broker is not registered offshore or with any Tier1 regulator such as FCA, ASIC, or BaFin.',
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'A broker ought to have a license to provide a high level of safety. While Empire FXM claims to provide 100% funds security, it’s hard to believe. We have no information about banks where the funds are held, and the firm doesn’t follow ESMA and MiFID rules ensuring that money is kept in segregated accounts. Since this is the case, the trading company is not safe and isn’t worth your money or time.',
+            },
+            rev3: {
+                heading: 'Empire FXM Deposit, Withdrawal Methods',
+                desc: `The firm will charge a dormant fee of 10% each month if your account is inactive for more than 6 months. Furthermore, you will have to pay $30 for withdrawals. The minimum deposit amount is 250 EUR, while the minimum withdrawal amount is $100.
+                The company gives bonuses called non-deposited funds. Yet, there are no specified conditions for repaying the bonus before withdrawing money. It means an account manager can make up any condition, and you cannot complain.`
+            },
+            rev4: {
+                heading: 'Scammed by Empire FXM Broker? – Let Us Hear Your Story',
+                desc: `If you find yourself a victim of the Empire FXM scam, let us know. Our chargeback specialists have experience dealing with bogus brokers and can assist you in filing a dispute.`,
+            },
+        },
+        image: empire,
+        path: '/blog/Empire FXM'
+    },
+    {
+        name: 'Trade Union',
+        shortHeading: 'Trade-Union.pro Review – Warning, Active Forex Trading Fraud',
+        fullDescription: `Trade Union or Trade-Union.pro is a brand of the already notorious Incendiary Group Ltd. As such, this broker is probably unlicensed, like the other brand we’ve had a chance to review, InFlux Finance. Read our Trade Union review and find out all about this particular investment firm.`,
+        heading: 'Trade-Union.pro Review – Warning, Active Forex Trading Fraud',
+        descriptionLvl: {
+            image: tradeunionPage,
+            rev1: {
+                heading: 'What About Trade-Union.pro Regulation?',
+                desc: `Trade Union is owned by Incendiary Group Ltd, a company registered in the Commonwealth of Dominica. Since FSU is known as quite a loose regulator, and many firms never opt for a license, we wanted to check if the Trade Union broker even tried to regulate the business.`,
+                desc1:`In addition to the above, we strongly advise you not to invest in Soltechx, UnicoFX and Btec Global fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: `A broker must have a license in order to provide safe trading under regulated conditions. As banks and other financial institutions need supervisors since they’re dealing with a lot of money, the same thing stands for Forex and binary options firms. As mentioned, the Trade Union never obtained a license with the FSU or any Tier1 regulator, including FCA, ASIC, or BaFin.
+                Therefore, investing your money with such a firm is risky, and we do not recommend it.`,
+            },
+            rev3: {
+                heading: 'Traders Reviews About Trade-Union.pro Scam',
+                desc:`Since the broker is not regulated and belongs to the same company that has been on the BaFin blacklist for their other brand, no wonder reviews are negative. Clients mainly complain about withdrawal issues, but they’re also frustrated by the lack of information and transparency. The broker seems to fabricate reasons to delay withdrawals until they finally freeze clients’ trading accounts.`,
+                desc1:`Also remember the names of the Gravity Trade,  Foxane and Avalon WM trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+            rev4: {
+                heading: 'Trade-Union.pro Deposit, Withdrawal Methods, and Bonuses',
+                desc: `Once you sign up with the firm, you’ll be prompted to create an account before depositing. We find it inconvenient since it’s enough to register once; there is no need to sign up again for the account to be made. `,
+                desc1:`The minimum deposit is $250, while the minimum withdrawal amount is not specified. However, the firm has a whole list of demands you need to fulfill before getting a withdrawal. One of the ridiculous requests is a demand to repay the bonus plus the initial deposit 25 times before even being able to submit a payout request.`
+            },
+        },
+        image: tradeunion,
+        path: '/blog/Trade Union'
+    },
+    {
+        name: 'Soltechx',
+        shortHeading: 'Soltechx Review – Don’t Fall For The Soltechx.com Offshore Scheme',
+        fullDescription: `Let’s say that Soltechx might be a new name on the market, but its owner is definitely not new. In fact, it’s a notorious offshore firm behind other schemes blacklisted by financial regulators. Since we’ve discovered this, it has raised questions about Soltechx and its legitimacy.`,
+        heading: 'Soltechx Review – Don’t Fall For The Soltechx.com Offshore Scheme',
+        descriptionLvl: {
+            image: soltechxPage,
+            rev1: {
+                heading: 'What About Soltechx Regulation?',
+                desc: `Soltechx is a brand of Max LLC, well-known as an owner of BudsFX. This brand was blacklisted by the UK FCA and Swiss FINMA and conveniently vanished. Right after, we’ve got Soltechx, the extension of BudsFX, following the same scheme patterns.`,
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'A broker must have a license to avoid problems and create a safe trading environment. Licensed firms have compensation funds, and regulators use those to reimburse potential victims. Since Max LLC is based in Saint Vincent and the Grenadines, it’s not likely to have a license.',
+                desc1:`SVG has a financial regulator, FSA, that declared itself unauthorized for Forex and binary options firms. All investment firms should opt for a license in the country of service, which Max LLC never did. Therefore, you’re dealing with another scam offshore firm.`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Soltechx Scam',
+                desc:`As expected, Soltechx clients are experiencing withdrawal issues, making it the primary complaint. Besides, they’re telling all kinds of stories about account managers luring them into schemes promising anything and everything. Yet, when the payout day comes, their accounts are frozen, and the company is not responding anymore.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: soltechx,
+        path: '/blog/Soltechx'
+    },
+    {
+        name: 'Icorp Securities',
+        shortHeading: 'Icorp Securities Review – A Promising New Broker Or Another Market Scam?',
+        fullDescription: `Icorp Securities is a new broker on the financial market with a solid website. However, there is an issue with the lack of basic information, which made us investigate further. Read our Icorp Securities review and find all the details about the firm.`,
+        heading: 'Icorp Securities Review – A Promising New Broker Or Another Market Scam?',
+        descriptionLvl: {
+            image: icorpPage,
+            rev1: {
+                heading: 'What About Icorp Securities Regulation?',
+                desc: `Icorp Securities is an entirely anonymous brand, not listing the company owner, headquarters, etc. The Terms and Conditions suggest that the governing law is the law of Estonia. Despite this Eastern European country being a part of the EU, we all know it’s a known place for financial cover-ups. It’s a sort of an offshore entity in the middle of Europe, used by many scam brands.`,
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'Also, if you want to have a money-back guarantee, you need to find a Tier1 regulated broker. These firms have significant compensation funds, and regulators can easily get your money back. ',
+                desc1:`So, you have nothing if you deal with anonymous companies like Icorp Securities. Additionally, no regulator, no compensation fund, not even a way to find a broker after your money is stolen. That’s how many become trading scam victims.`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Icorp Securities Scam',
+                desc:`Traders reviews are pointing toward the most severe issues. The firm is not legitimate, and clients who request withdrawals have difficulty. Basically, once you submit a payout request, you can expect your trading account to be frozen and nobody from the broker’s support team will ever reach out again.`
+            },
+            rev4: {
+                heading: 'Problem With Withdrawing Funds',
+                desc: `With everything being said, you already figured that Icorp Securities is not happy to grant withdrawals. They did everything they could to prevent you, including legally adding insane Terms and conditions. Therefore, no wonder that most complaints are about this problem, and clients have no idea how to recover stolen funds.`,
+            },
+        },
+        image: icorp,
+        path: '/blog/Icorp Securities'
+    },
+    {
+        name: 'Btec Global Detailed',
+        shortHeading: 'Btec Global Detailed Review – Anonymous Firm Scamming Worldwide',
+        fullDescription: `Probably due to its reputation as the global financial base, many scam companies choose to present themselves as Swiss-based brokers. Btec Global is just one of many claiming to be the Swiss best and most reputable mining and investing company.`,
+        heading: 'Btec Global Detailed Review – Anonymous Firm Scamming Worldwide',
+        descriptionLvl: {
+            image: btecPage,
+            rev1: {
+                heading: 'What About Btec Global Regulation?',
+                desc: `Btec Global has presented a fake certificate at the bottom of the page, allegedly coming from Switzerland Trade and Enterprise Commission (STEC). However, it’s enough to say that such a regulator doesn’t exist, and the Swiss official authority body in charge of Forex and CFD trading firms is FINMA.`,
+                desc1:`Also, we have nothing on the Btec Global owners, liquidity providers, banks, etc.`
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'A broker must have a license to work according to rules and provide a safe trading environment. Besides, Tier1 regulators obligate firms to form compensation funds to reimburse potential victims, which serves as a money-back guarantee.',
+                desc1: `Since Btec Global is based in the Tier1 zone but hasn’t gotten a license, we can conclude it’s a fraudulent firm after the clients’ money and will probably vanish after reaching the goal.`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Btec Global Scam',
+                desc:`Traders have filed many complaints against Btec Global, but you could never say that if you check reviews. This firm has a solid rating on Trustpilot, thanks to the fake accounts they use. Many offshore firms have the same tactic – creating accounts especially for praising their company so that they could gain more customers. `,
+                desc1:`We believe that the FINMA warning says enough about who the trading company really is`
+            },
+            rev4: {
+                heading: 'Btec Global Deposit and Withdrawal Methods',
+                desc: `Another proof that the trading company is a scam is the fact that the firm accepts only crypto deposits. You’re prompted to transfer your funds to the company’s wallet, and only then can you start trading. Besides, you’re given bonuses on each deposit, but no Bonus Policy will explain the terms.`,
+                desc1:`When it comes to withdrawals, there’s nothing on the broker’s website besides the fact you can withdraw your funds only via crypto. This lack of information is just another red flag in the long line of red flags.`
+            },
+        },
+        image: btec,
+        path: '/blog/Btec Global Detailed'
+    },
+    {
+        name: 'Cupiro',
+        shortHeading: 'Cupiro Detailed Review – All You Need To Know About Сupiro.io Scam',
+        fullDescription: `Cupiro claims to “empower you to be the best trader you can be.” Since the firm is relatively new and established this year, it could explain why it still didn’t get a license. However, there are some concerning facts about the company elaborated through our Cupiro review.`,
+        heading: 'Cupiro Detailed Review – All You Need To Know About Сupiro.io Scam',
+        descriptionLvl: {
+            image: cupiroPage,
+            rev1: {
+                heading: 'What About Cupiro Regulation?',
+                desc: `Cupiro is a brand of Rebelism Limited, based in the British Virgin Islands. The company is registered there, and we appreciate the information. However, having offshore headquarters always raises certain questions. Was the company established there for an easier tax system, or do they have a more vicious goal in mind? It’s a question only the regulation should explain.`,
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'A broker must have a license in order to fulfill certain regulatory requirements and create a safe trading environment. Tier1 regulators obligate Forex firms to form humongous compensation funds and use them to reimburse clients if there’s an issue.',
+                desc1: `Sadly, Cupiro didn’t get a license yet, and it’s unclear whether it plans to obtain one. This, along with the fact firm is based offshore, leads us to believe that your funds might be at risk.`,
+                desc2:`“This company is a crypto currency scam. I work for the bank and I spoke to a customer that has been scam by this company. Please do not give them money.”
+                – Trustpilot customer`
+            },
+            rev3: {
+                heading: 'Traders Reviews About Cupiro Scam',
+                desc:`While you may be astonished by Cupiro reviews on Trustpilot, check again. All the reviews were written in the past 7 days, and even though the company says not to accept US clients, you will see reviews from this country. 
+
+                However, here’s an example of a review from Canada, just to confirm the regulatory warning.`
+            },
+            rev4: {
+                heading: 'Cupiro Charges Unusual Hefty Fees',
+                desc: `Some Cupiro complaints led us to check the company’s Terms and Conditions. It showed us that the firm is charging a rather high inactivity fee, $85 per month, if your account wasn’t active for 3 months in a row. Furthermore, after 6 months, they have the right to close your account and keep your funds.`,
+                desc1:`There is a clause stating, “If you do not have sufficient available funds deposited with the Company or in your bank account to pay the purchase price of an Order along with the respective fees and commissions, the company may refuse to execute the order.” Per se, it looks alright, but it practically means that the broker will try to charge your bank account instead of explaining and informing you that you need to deposit more funds. `,
+                desc2:`While stating there are no deposit and withdrawal fees, the Terms and Conditions says it’s only if you withdraw using a credit card. Wire transfer withdrawals have a $30 withdrawal fee.
+                If you do not verify your account within 15 days of opening an account, you will be charged $30.`
+            },
+        },
+        image: cupiro,
+        path: '/blog/Cupiro'
+    },
+    {
+        name: 'Thunder Forex',
+        shortHeading: 'Thunder Forex Detailed Review – Offshore Scam Broker Alert, Be Careful When Investing',
+        fullDescription: `Thunder Forex is an online trading Forex and CFD provider looking pretty solid. From the website itself, we may conclude the company pays good attention to the provided information and trading offers in general. However, it’s yet another offshore firm, so a few questions are to ask.`,
+        heading: 'Thunder Forex Detailed Review – Offshore Scam Broker Alert, Be Careful When Investing',
+        descriptionLvl: {
+            image: thunderPage,
+            rev1: {
+                heading: 'What About Thunder Forex Regulation?',
+                desc: `While some brokers go offshore to lower taxes or be able to provide financial services to a broader spectrum of clients, some are deciding to do so simply because offshore regulation is either non-existing or very loose.`,
+                desc1:`Thunder Forex is a brand of Thunder Forex Ltd from Seychelles, and from all we can see, it doesn’t follow regulatory rules when it comes to leverage or keeping funds in segregated accounts.
+                In addition, we strongly advise you not to invest in Roicraft, ZMarket Global and OriginInvest fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'Why Must a Broker Have a License?',
+                desc: 'A license obligates brokers to pay more attention to clients’ funds’ safety and to follow certain rules to reduce risks. While it’s not possible to entirely eliminate the risk, having regulated leverage certainly helps maintain that risk at a low level. ',
+                desc1: `Once we’ve checked about Thunder Forex regulation, we found nothing. This firm is like many other offshore ones, hiding and avoiding strings.`
+            },
+            rev3: {
+                heading: 'Traders’ Reviews About Thunder Forex',
+                desc:`Of course, reviews cannot be good when the broker is not legitimate. Clients complain about withdrawal issues, account managers extorting the funds, too high leverage against regulatory standards, and more. `
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: thunder,
+        path: '/blog/Thunder Forex'
+    },
+    {
+        name: 'AnalystQue',
+        shortHeading: 'AnalystQue Detailed Review – Urgent Warning Against This Offshore Trading Scam',
+        fullDescription: `Our love for the AnalystQue website quickly faded after realizing we were dealing with another offshore anonymous. While the web page itself seems impressive, nothing else is. Read our AnalystQue review and find all the information about this offshore trading firm.`,
+        heading: 'AnalystQue Detailed Review – Urgent Warning Against This Offshore Trading Scam',
+        descriptionLvl: {
+            image: analystquePage,
+            rev1: {
+                heading: 'What About AnalystQue Regulation?',
+                desc: `AnalystQue is a brand of AnalystQue Inc., based in the Commonwealth of Dominica. Even this information is well hidden, only to be found in the Terms and Conditions. Since most offshore brokers don’t bother to obtain a license, we’ve checked what’s AnalystQue regulation status.`,
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License?',
+                desc: 'It turns out that AnalystQue is not registered with the FCA, ASIC, BaFin, or any other Tier1 regulator. It’s another offshore firm you can add to the list of frauds.',
+                desc1: `Of course, sometimes companies have offshore entities simply because of easier tax regulations and so that they could provide services to a broad range of clients, but it seems it’s a bit more than that with AnalystQue. Stick with this review until the end, and you will understand all the ways this firm is abusing its unregulated status.`
+            },
+            rev3: {
+                heading: 'Fund Withdrawal Issues',
+                desc:`Being unregulated implies specific issues. No offshore company will approve withdrawal requests without being pressured. It seems that AnalystQue is one of those, trying hard to keep all the stolen funds. The company allows deposits only in cryptocurrencies, so it’s hard to track it later once you transfer the money. And being aware of it, the broker is using it to freeze clients’ accounts and not approve any payout requests.`
+            },
+            rev4: {
+                heading: 'Traders About AnalystQue Scam',
+                desc: `AnalystQue reviews are rather poor, with the broker being awarded 2.9 stars on Trustpilot. Here’s just one of the examples:`,
+                desc1:`“It’s a scam . I realised then ended the call telling them not to contact me again .
+                They called me several times immediately after giving me abuse. 
+                They are trying to get victims to deposit bitcoin into their account” – Trustpilot Customer`
+            },
+        },
+        image: analystque,
+        path: '/blog/AnalystQue'
+    },
+    {
+        name: 'FxReGlobal Venturesvenues',
+        shortHeading: 'Global Ventures Detailed Review – FCA Warning Against globventures.com Scam',
+        fullDescription: `Once the UK regulator blacklisted the Global Ventures broker, it thought changing the domain would be enough to make investors forget who it really is. However, we’re here to expose everything in our Global Ventures review and to show you why you shouldn’t invest a penny with this scam firm.`,
+        heading: 'Global Ventures Detailed Review – FCA Warning Against globventures.com Scam',
+        descriptionLvl: {
+            image: globalventuresPage,
+            rev1: {
+                heading: 'What About Global Ventures Regulation?',
+                desc: `Global Ventures is an entirely anonymous brand, not listing owner, headquarters, and similar. The only indication of its operations can be found in the Terms and Conditions, where the broker vaguely indicates that the governing law is the law of Cyprus. Implying that the company should have CySEC regulation.`,
+                desc1:``
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License?',
+                desc: 'Upon checking CySEC, ASIC, FCA, and other Tier1 registers, we found nothing on Global Ventures. Therefore, we can conclude that this investment firm is yet another scheme, and you better stay away. Companies with no supervision can quickly go bankrupt or shut down their business, and you will remain without funds.',
+            },
+            rev3: {
+                heading: 'Virtually Anonymous Website',
+                desc:`As mentioned, Global Ventures gives no information whatsoever. We have no indications which company runs this operation, where that company is based, or who is in charge. Besides, once you give your money away, it’s essential to know where this money is held in banks so that you know that the bank won’t declare bankruptcy and your money will disappear with it.`
+            },
+            rev4: {
+                heading: 'Fund Withdrawal Issues',
+                desc: `So far, Global Ventures has caused many withdrawal issues. Clients are prompted to invest large amounts of money, but it’s challenging once they need to get something in return. The company has stopped answering calls and emails, and account managers are suspending clients’ access to the trading account.
+                If you have experienced something similar, it’s time to file a complaint right away.`,
+                desc1:`Global Ventures reviews indicate that clients invest money through Jubiter.com, a fraudulent crypto exchange working with many other scam brands. Once your funds are converted into cryptocurrencies, they’re transferred to Global Ventures, dealing with them further. Since crypto is hard to track, this broker doesn’t bother to make any payouts and simply restricts clients’ access to their accounts.`
+            },
+        },
+        image: globalventures,
+        path: '/blog/Global Ventures'
+    },
+    {
+        name: 'Neural 4X',
+        shortHeading: 'Neural 4X Detailed Review – Stay Away From Neural4x.eu Trading Scam',
+        fullDescription: `Neural 4X seems like a legitimate EU trading firm with an appealing domain. However, this might not be the case. Read our Neural 4X review and learn everything about this investment firm before investing your money.`,
+        heading: 'Neural 4X Detailed Review – Stay Away From Neural4x.eu Trading Scam',
+        descriptionLvl: {
+            image: neuralPage,
+            rev1: {
+                heading: 'What About Neural 4X Regulation?',
+                desc: `Neural 4X is a brand owned by Notesco Limited, based in Bermuda. Knowing that this offshore country is not the most reliable headquarters and provides almost no regulatory supervision, we asked many questions. `,
+                desc1:`Furthermore, the company has a UK domain as well and claims to be a part of Notesco UK Limited, a firm trading under the name IronFX.
+                In addition, we strongly advise you not to invest in Global Solution, Trading 360 and Zivyard fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License? ',
+                desc: `Neural 4X is not regulated in Bermuda or any other Tier1 zone. The UK entity has an FCA license, but it’s unclear whether these two firms are anyhow related.
+                Simply speaking, investing your money with a Neural 4X broker means investing with yet another offshore scheme.`,
+            },
+            rev3: {
+                heading: 'Virtually Anonymous Website',
+                desc:`Yes, Neural 4X provided some information, but it’s far from enough. Since the broker is offshore, we need more assurance that funds are safe than stating who’s the owner and where the firm is based. There’s nothing on the banks where the funds are held nor the regulatory rules this company follows. Presuming it follows any. Furthermore, some facts, such as minimum deposit and commissions, are quite unclear, making investing with this firm even less desirable.`,
+                desc1:`Since Neural 4X is not regulated, it can follow its own rules. Meaning there are none. The company is taking money and showing fake accounts to customers. Still, once they decide to ask for the payout, suddenly, account managers are not available and the account access is frozen.`,
+                desc2:`This happens with most offshore firms, so it’s recommended to avoid them. If, however, you’re already involved with Neural 4X, it’s time to seek help.`
+            },
+            rev4: {
+                heading: 'Traders About Neural 4X Scam',
+                desc: `Neural 4X reviews are mainly negative, expressing clients’ frustration about withdrawals. They also state that account managers are asking them to access their devices via AnyDesk, just to steal all the money and disappear.`,
+                desc1:`Also remember the names of the CTA Capitals,  Expert Financial Solutions and  HonorFX  trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+        },
+        image: neural,
+        path: '/blog/Neural 4X'
+    },
+    {
+        name: 'Margex',
+        shortHeading: 'Margex Detailed Review – All We Know About Margex.com Trading Scam',
+        fullDescription: `One of the most active brokers on social media such as YouTube and Facebook currently is Margex broker. The company claims to offer clean crypto investing without market price manipulation through its unique solution – the MP Shield system.
+        Read our Margex review and find out the truth before investing any money with this scheme firm.`,
+        heading: 'Margex Detailed Review – All We Know About Margex.com Trading Scam',
+        descriptionLvl: {
+            image: margexPage,
+            rev1: {
+                heading: 'What About Margex Regulation?',
+                desc: `Margex is a brand owned by Margex Trading Solutions Ltd, another offshore firm. The company is registered in Seychelles and, from all we know, is not regulated by the FSA. If you check the main page, you will find no relevant information whatsoever, so we did some research.`,
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License?',
+                desc: 'Margex is not registered with any Tier1 license provider, including FCA, ASIC, BaFin, etc. It means you’re dealing with an offshore scheme firm taking only Bitcoin as a payment method. We could just stop here, and it would be enough to conclude that Margex is conducting a scam.',
+            },
+            rev3: {
+                heading: 'Margex Warnings From Financial Regulators',
+                desc:`Since the broker is promoting itself all the time, it was noticed by the Spanish regulator. CNMV issued an official warning, stating that Margex broker is not authorized to provide financial services and operates illegally.
+                After many complaints, the same warning was republished in Belgium by the FSMA.
+                Also, in Norway, by their financial authority body, Finanstilsynet.      
+                In addition to the above, we strongly advise you not to invest in ZuluTrade, Richmond Super and FX Elite Trader fraudulent brokers.`,
+                desc1:`Knowing everything, you shouldn’t be surprised to learn about Margex issues with withdrawals. Since the company is only taking money in Bitcoins, it’s challenging to find it once the transfer is done. And being unregulated means that this firm can run its scheme and not return any funds, as they cannot be penalized for their actions. However, regulators are on track, and soon, this firm will probably vanish, like many others.
+                If you have any withdrawal issues, you should file a complaint before the firm is gone.`
+            },
+            rev4: {
+                heading: 'Traders About Margex Scam',
+                desc: `Margex has already been reported numerous times, but it’s still operating. Clients complain via different portals and social media, warning others not to fall for the scheme. No, the company doesn’t have any special software regulating market prices. And no, you will not become rich overnight.`,
+                desc1:`While many brokers advertise on social media, Margex has done a better job than most. They frequently post their ads, including fake trading results and Trustpilot reviews. They claim they’re making thousands of dollars daily for their clients thanks to the MP Shield system, yet we see no explanation for how it works.
+                Based on many regulatory warnings, we can conclude that Margex is just another scheme, and you shouldn’t risk your money with such.`
+            },
+        },
+        image: margex,
+        path: '/blog/Margex'
+    },
+    {
+        name: 'Dualix',
+        shortHeading: 'Dualix Detailed Review – Who Is Dualix Broker And Why To Stay Away',
+        fullDescription: `While Dualix broker still doesn’t give up on its CySEC license and claims to have it, the reality is a bit different. It looks like its owner, Maxiflex Ltd, is entirely out of business. Read our Dualix review to find out everything about this and related brands.`,
+        heading: 'Dualix Detailed Review – Who Is Dualix Broker And Why To Stay Away',
+        descriptionLvl: {
+            image: dualixPage,
+            rev1: {
+                heading: 'Is Dualix Regulated? – Why Does It Matter?',
+                desc: `Dualix Forex brand is one of the Maxiflex Ltd brands, along with AGM Markets, Maxigrid, EuropeFX, and more. Until last year, the broker had a valid CySEC license, one you can still find on its website. `,
+                desc1:`However, after being fined in March last year with 75,000 EUR and still conducting fraudulent activities, Maxiflex Ltd’s license was wholly suspended. What does it mean for its brands?
+                In addition to the above, we strongly advise you not to invest in VNSmart,  FX Elite Trader and  EUFinance fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License?',
+                desc: `Dualix’s regulation with CySEC was temporarily suspended at first, so the broker had up to 30 days to stop fraudulent activities. Since they haven’t done so, the license was completely withdrawn for Dualix and AMG Markets, while EuropeFX, EuropeCapitalGroup, and EuropeStocks are suspended.
+                CySEC stated that the license was withdrawn since the broker appears to “conduct business and/or to be engaged in the conducting business and/or to facilitate the conducting of business not stated in its authorisation.”`,
+            },
+            rev3: {
+                heading: 'Where Is Dualix Trading Scam Active?',
+                desc:`Our review has shown that the Dualix trading scam is mainly active in the UK and Cyprus. As the FCA stated back in 2020, the company is promoting itself as a crypto service provider to many UK celebrities, and that’s how they target clients.`,
+                desc1:`Since we’re absolutely sure that there is a good reason for the Dualix broker to lose its license, we want to advise you to be extra careful with this firm.`
+            },
+            rev4: {
+                heading: 'Dualix – Avoid This Trading Scam at All Costs',
+                desc: `Since Dualix conveniently forgot to inform clients that it’s not licensed anymore, we advise you to avoid it by any means.`,
+                desc1:`If, however, you’re already involved with this fraudulent firm, it’s time to seek help. Since Dualix proved to be unreliable Forex and CFD trading provider and refuses to process withdrawal requests, you need to get your money back as soon as possible.`,
+                desc2:`If you find that Dualix login is disabled for no valid reason and access to your account is frozen, you should file a report right away. If not, there are no guarantees ever to get your funds back.`
+            },
+        },
+        image: dualix,
+        path: '/blog/Dualix'
+    },
+    {
+        name: 'Oriontero',
+        shortHeading: 'Oriontero Detailed Review – Learn How Not To Be Scammed By Oriontero Broker',
+        fullDescription: `Alright, we have to ask what is going on with Oriontero broker and its website. When you log in, the first thing you see is a giant white horse that drags attention from any text next to it. Furthermore, the company promises the best trading technology, and it turns out it delivers nothing. Read our Oriontero review and find out more details.`,
+        heading: 'Oriontero Detailed Review – Learn How Not To Be Scammed By Oriontero Broker',
+        descriptionLvl: {
+            image: orienteroPage,
+            rev1: {
+                heading: 'Is Oriontero Regulated? – Why Is It Important?',
+                desc: `Why is it important for any financial service provider, including banks, to be regulated?
+                Because once there is an issue, you need someone above the provider to resolve the problem and ensure you won’t lose your money. It’s the same with Forex brokers.`,
+                desc1:`Since this particular firm didn’t provide us with any details regarding owner, headquarters, and more, we were blindly searching through financial registers looking for Oriontero regulation.`
+            },
+            rev2: {
+                heading: 'What’s Wrong With A Trading License?',
+                desc: 'Once we’ve checked FCA, BaFin, ASIC, and more, we’ve determined that Oriontero is an anonymous and unregulated investment firm. And you surely don’t want to be involved with such.',
+            },
+            rev3: {
+                heading: 'Oriontero Trading Reviews – Stay Away!',
+                desc:`If our warnings are not enough, check Oriontero’s reviews. You won’t find a single good word about this investment company. Clients complain about account managers, withdrawals, trading platforms, and anything they can.
+                Also remember the names of the LeumInvest, DeliTraders and Tredero trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+            rev4: {
+                heading: 'Oriontero Affiliate and Loyalty Program – Scam Scheme',
+                desc: `And finally, we come to the proof that Oriontero Forex broker is nothing but a Ponzi scheme. The company invites anyone who considers themselves “active internet users and social media influencers” to apply for an affiliate program. Of course, they are entitled to a percentage of the deposit others make. However, since the broker doesn’t intend to pay out to you or anyone you bring, it all comes down to good old MLM marketing. Be aware of it, and don’t get involved.`,
+            },
+        },
+        image: orientero,
+        path: '/blog/Oriontero'
+    },
     // {
     //     name: 'FxRevenues',
     //     shortHeading: '',
@@ -2593,15 +3193,16 @@ export const DETAILED_NEWS = [
     //         image: fxrevenuesPage,
     //         rev1: {
     //             heading: '',
-    //             desc: '',
-    //             desc1:''
+    //             desc: ``,
+    //             desc1:``
     //         },
     //         rev2: {
     //             heading: '',
     //             desc: '',
     //         },
     //         rev3: {
-    //             heading: ''
+    //             heading: '',
+    //             desc:``
     //         },
     //         rev4: {
     //             heading: '',
@@ -2615,7 +3216,7 @@ export const DETAILED_NEWS = [
 
 export const getNews = (offset, count) => new Promise((res) => {
     setTimeout(() => {
-        const data = DETAILED_NEWS.slice(offset, count)
+        const data = DETAILED_NEWS.slice(offset, count).sort(() => Math.random() - 0.5)
         res({ data, count: DETAILED_NEWS.length })
     }, 300)
 })

@@ -33,14 +33,14 @@ export default function Contacts() {
                             <h3>US</h3>
                             <p>1528 South El Camino Real, Suite 110 San Mateo, CA 94402</p>
                             <p>+1 888-278-3699</p>
-                            <p>business@sitejabber.com</p>
+                            <p>support@trustbreaking.com</p>
                         </div>
-                        <div className={styles.contacts__registration__address__element}>
+                        {/* <div className={styles.contacts__registration__address__element}>
                             <h3>Australia / APAC</h3>
                             <p>Level 13 and Ground Floor, 50 Cavill Avenue Surfers Paradise QLD, 4214</p>
                             <p>+1 61 5635 4283</p>
                             <p>apac@sitejabber.com</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className={styles.contacts__registration__form}>
                         <h2>The best way to reach our support staff is to fill out the form below with as much detail as possible.</h2>
