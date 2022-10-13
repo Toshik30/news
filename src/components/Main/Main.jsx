@@ -12,7 +12,7 @@ export default function Main() {
         setSearch(DETAILED_NEWS.filter((item) => item.name.toLowerCase().includes(value)))
     }
     return (
-        <section className={styles.section}>
+        <section >
             <div className="container">
                 <div className={styles.main_page}>
                     <h1 className={styles.heading}>
