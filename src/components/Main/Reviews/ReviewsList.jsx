@@ -3,13 +3,14 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../selectors/db'
 import { Rating } from 'react-simple-star-rating';
 import { useAuth0 } from '@auth0/auth0-react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { handleDeleteReview } from '../../../store/reviews/reviewSlice';
 
 export default function ReviewsList() {
     const reviewsList = useLiveQuery(() => db?.reviews?.toArray())
     const dispatch = useDispatch()
- 
+    const test = useSelector((state) => state.reviews.arrReviews)
+    console.log(test)
     const { user } = useAuth0()
     return (
         <div className={styles.reviews_block}>

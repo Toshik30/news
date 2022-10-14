@@ -22,7 +22,7 @@ const reviewsSlice = createSlice({
     reducers: {
         handleAddNewReview(state, action) {
             state.isLoading = true
-            state.arrReviews = action.payload
+            state.arrReviews = [...state.arrReviews, action.payload]
             db.reviews.add({ 
                 name : action.payload.name,
                 review: action.payload.review,

@@ -43,6 +43,7 @@ export default function BlogDetailed() {
           {isAuthenticated && (
               <Reviews/>
           )}
+          <Reviews/>
       </div>
     </section>
   )
