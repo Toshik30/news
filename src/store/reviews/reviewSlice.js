@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
 import { getNews } from "../../components/selectors/dataNews";
 import { db } from "../../components/selectors/db";
 
@@ -24,6 +25,13 @@ const reviewsSlice = createSlice({
             state.isLoading = true
             state.arrReviews = [...state.arrReviews, action.payload]
             db.reviews.add({ 
+                name : action.payload.name,
+                review: action.payload.review,
+                rating: action.payload.rating,
+                pathLocation: action.payload.pathLocation,
+                date: action.payload.date
+            })
+            axios.post(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`,{
                 name : action.payload.name,
                 review: action.payload.review,
                 rating: action.payload.rating,
