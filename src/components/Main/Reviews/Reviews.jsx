@@ -3,28 +3,22 @@ import { useState } from 'react'
 import { Rating } from 'react-simple-star-rating';
 import { useDispatch } from 'react-redux';
 import { handleAddNewReview } from '../../../store/reviews/reviewSlice';
-import axios from 'axios';
-import { useEffect } from 'react';
+// import axios from 'axios';
+// import { useEffect } from 'react';
 
 export default function Reviews() {
     const [name, setName] = useState('');
     const [review, setReview] = useState('');
     const [rating, setRating] = useState(0);
     const [pathLocation, ] = useState(window.location.pathname);
-    const [APIdata, setAPIdata] = useState([])
+    // const [APIdata, setAPIdata] = useState([])
     const handleRating = (rate) => setRating(rate);
     const dispatch = useDispatch()
     
     const addReview = () => {
-        axios.post(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`, {
-            name,review,rating,pathLocation,date: new Intl.DateTimeFormat('en-Us').format(new Date())
-            
-        }, setName(''),setReview(''),setRating(''))
         dispatch(handleAddNewReview({name,review,rating,pathLocation, date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
-        axios.get(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`)
     }
- 
-    console.log(APIdata)
+   
     return (
        <div className={styles.form_review}>
             <input 

@@ -1,19 +1,16 @@
 import { useEffect, useState } from 'react';
 import styles from './style.module.scss';
-// import { useLiveQuery } from 'dexie-react-hooks'
-// import { db } from '../../selectors/db'
 import { Rating } from 'react-simple-star-rating';
 import { useAuth0 } from '@auth0/auth0-react';
-import { useDispatch } from 'react-redux';
+import { useDispatch,useSelector } from 'react-redux';
 import { handleDeleteReview } from '../../../store/reviews/reviewSlice';
 import axios from 'axios';
 
 export default function ReviewsList() {
-    // const reviewsList = useLiveQuery(() => db?.reviews?.toArray())
     const dispatch = useDispatch()
     const [APIdata, setAPIdata] = useState([])
-    // const test = useSelector((state) => state.reviews.arrReviews)
-    // console.log(test)
+    const test = useSelector((state) => state.reviews.arrReviews)
+    console.log(test)
     const { user } = useAuth0()
     useEffect(() => {
         axios.get(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`)
@@ -21,7 +18,6 @@ export default function ReviewsList() {
             setAPIdata(incomingData.data)
         })
     },[])
-    console.log(APIdata)
     return (
         <div className={styles.reviews_block}>
             {APIdata?.filter((item) => item.pathLocation === window.location.pathname)?.map(({name,id, review, date, rating}, index) => (
@@ -41,6 +37,10 @@ export default function ReviewsList() {
                         onClick={() => dispatch(handleDeleteReview({id}))}
                     />
                 )}
+                 <span 
+                        className={styles.close} 
+                        onClick={() => dispatch(handleDeleteReview({id}))}
+                    />
             </div>
             ))}
         </div>
