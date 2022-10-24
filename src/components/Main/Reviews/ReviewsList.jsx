@@ -2,15 +2,13 @@ import { useEffect, useState } from 'react';
 import styles from './style.module.scss';
 import { Rating } from 'react-simple-star-rating';
 import { useAuth0 } from '@auth0/auth0-react';
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { handleDeleteReview } from '../../../store/reviews/reviewSlice';
 import axios from 'axios';
 
 export default function ReviewsList() {
     const dispatch = useDispatch()
     const [APIdata, setAPIdata] = useState([])
-    // const test = useSelector((state) => state.reviews.arrReviews)
-    // console.log(test);
     const { user } = useAuth0()
     useEffect(() => {
         axios.get(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`)
