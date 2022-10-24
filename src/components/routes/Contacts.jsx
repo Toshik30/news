@@ -30,9 +30,9 @@ export default function Contacts() {
                     <div className={styles.contacts__registration__address}>
                         <h2>Our information</h2>
                         <div className={styles.contacts__registration__address__element}>
-                            <h3>US</h3>
-                            <p>1528 South El Camino Real, Suite 110 San Mateo, CA 94402</p>
-                            <p>+1 888-278-3699</p>
+                            <h3>UK</h3>
+                            <p>Angel Square, Manchester M60 0AG, United Kingdom</p>
+                            <p>+55767 695064645</p>
                             <p>support@trustbreaking.com</p>
                         </div>
                         {/* <div className={styles.contacts__registration__address__element}>

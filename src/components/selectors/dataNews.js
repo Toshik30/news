@@ -192,6 +192,24 @@ import dualix from '../../images/dualix-logo.svg'
 import dualixPage from '../../images/dualixPage.png'
 import orientero from '../../images/orientero-logo.svg'
 import orienteroPage from '../../images/orienteroPage.png'
+import gfemarket from '../../images/gfemarket-logo.svg'
+import gfemarketPage from '../../images/gfemarketPage.png'
+import revolutexpert from '../../images/revolutexpert-logo.png'
+import revolutexpertPage from '../../images/gfemarketPage.png'
+import pibexa from '../../images/pibexa-logo.png'
+import pibexaPage from '../../images/pibexaPage.png'
+import adarcapital from '../../images/adarcapital-logo.png'
+import adarcapitalPage from '../../images/adarcapitalPage.png'
+import w2wcapital from '../../images/w2wcapital-logo.png'
+import w2wcapitalPage from '../../images/w2wcapitalPage.png'
+import morganfinance from '../../images/morganfinance-logo.svg'
+import morganfinancePage from '../../images/morganfinancePage.png'
+import everrisebrokers from '../../images/everrisebrokers-logo.png'
+import everrisebrokersPage from '../../images/everrisebrokersPage.png'
+import goldmar from '../../images/goldmar-logo.png'
+import goldmarPage from '../../images/goldmarPage.png'
+import jmtrade from '../../images/jmtrade-logo.png'
+import jmtradePage from '../../images/jmtradePage.png'
 export const DATA_NEWS = [
     {
         heading: 'Leaders in Foreign Exchange',
@@ -3183,6 +3201,289 @@ export const DETAILED_NEWS = [
         },
         image: orientero,
         path: '/blog/Oriontero'
+    },
+    {
+        name: 'GFE Markets',
+        shortHeading: 'GFE Markets Review – Gfemarketc.com, A Scam That Vanished',
+        fullDescription: `GFE Markets is an unregulated offshore broker that started providing trading services in April 2022. However, the first website is already inaccessible, and they operate under a new domain. While we cannot know for sure if the issue is temporary, we have enough experience with scammers that vanished with clients’ funds.
+        Read our honest GFE Markets review and find out what to do if scammed.`,
+        heading: 'GFE Markets Review – Gfemarketc.com, A Scam That Vanished',
+        descriptionLvl: {
+            image: gfemarketPage,
+            rev1: {
+                heading: 'GFE Markets Is A Safe and Reliable Forex Trading Platform?',
+                desc: `GFE Markets is a brand of GFE Management Ltd, registered in Saint Vincent and the Grenadines. This offshore island is a notorious HQ of unregulated trading firms thanks to the lack of regulatory supervision.`,
+                desc1:`Since FSA declared itself unauthorized for Forex, CFD, and binary options trading firms, brokers in SVG are under the radar. They are obligated to get a license from the local authorities, but the majority of them don’t do so. Therefore, we have a number of fraudsters, including the GFE Markets broker here.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: `Unlicensed brokers didn’t get a license because they could not or were unwilling to fulfill the criteria. Tier1 authorities require a large sum of operational capital to ensure the broker’s solvency. Further, legitimate brokers must be transparent, keep clients’ funds in segregated accounts, and limit leverage.
+                None of these apply to unregulated scammers. They can vanish anytime, and it seems that GFE Markets tried just that.`,
+            },
+            rev3: {
+                heading: 'Changing The Domain – Hiding Past Fraud',
+                desc:`GFE Markets has a new domain, gfemarket.com. However, this domain only has a Home page. All other pages are related to the inactive domain gfemarkets.com which is no longer available.
+                As this is the case, we have all the reasons to believe that GFE Markets tried to hide its nature and convince investors that they’re dealing with two different companies. Don’t be deceived, and don’t fall for this cheap trick.`
+            },
+            rev4: {
+                heading: 'What Is Known About GFE Markets’ Trading Conditions?',
+                desc: `You need a legitimate company if you’re looking for a broker with favorable trading conditions. Despite what GFE Markets and similar phony platforms advertise, they don’t deliver. Relying on unlicensed scammers to be honest about commissions is equal to gambling. Thus, you need a regulated firm.`,
+            },
+        },
+        image: gfemarket,
+        path: '/blog/GFE Markets'
+    },
+    {
+        name: 'RevolutExpert',
+        shortHeading: 'RevolutExpert Review – Here’s Why To Avoid Revolutexpert.ltd Broker',
+        fullDescription: `RevolutExpert is an offshore brand with no trading license. This information alone is enough to dissuade any potential investors. 
+        Keep reading if you’re still interested in what this brokerage offers. Our comprehensive RevolutExpert review will give you all the details.`,
+        heading: 'RevolutExpert Review – Here’s Why To Avoid Revolutexpert.ltd Broker',
+        descriptionLvl: {
+            image: revolutexpertPage,
+            rev1: {
+                heading: 'RevolutExpert Is A Safe and Reliable Forex Trading Platform?',
+                desc: `RevolutExpert is owned by Sanguine Solutions Ltd, registered in 2021 in Saint Vincent and the Grenadines. This offshore island is a famous hub for financial swindlers due to the lack of regulatory supervision.`,
+                desc1:`Ever since the FSA declared itself unauthorized for Forex and CFD trading companies, many entities have established their offices in the country. Knowing that they can easily avoid any oversight, they unscrupulously scam their customers, robbing them of their funds. RevolutExpert is unregulated and no different than any other unlicensed offshore brand.`
+            },
+            rev2: {
+                heading: 'Is RevolutExpert a Trustable Broker?',
+                desc: `Unlicensed brokers have no approval to provide financial services. They don’t need to comply with regulatory regimes or keep clients’ funds safe as unauthorized entities. Further, they can easily declare bankruptcy or close the website and vanish with the money.
+                If you want to trade and be safe, finding a legitimate company under a Tier1 license such as FCA, ASIC, or BaFin is the first step.`,
+                desc1:`RevolutExpert is an offshore trading fraud. The owner, Sanguine Solutions Ltd, has been banned in several countries for scam activities. This brand has a low consumer index and trust score.`
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of RevolutExpert?',
+                desc:`There are a number of negative RevolutExpert reviews describing customers’ experiences. According to these, the scam brokerage pressures clients to invest without letting them research the firm. They promise various bonuses and promotions to lure potential investors.`,
+                desc1:`Further, they don’t approve any withdrawal requests. Clients who ask for their funds back cannot get them, and the broker stops any contact after the payment request is made.`
+            },
+            rev4: {
+                heading: 'What Platform Does RevolutExpert Provide?',
+                desc: `Despite promising MetaTrader, RevolutExpert doesn’t deliver. The vague statement can be found on the website, saying that the brokerage provides MT without specifying if it’s MT4 or MT5.
+                However, the only thing available upon registration of an account is a plain WebTrader. It doesn’t even have good basic functions, not to mention advanced features. 
+                Of course, it’s not anywhere near the real MetaTrader and cannot be compared to it. Further, there are no mobile apps for any device.`,
+            },
+        },
+        image: revolutexpert,
+        path: '/blog/RevolutExpert'
+    },
+    {
+        name: 'Pibexa',
+        shortHeading: 'Pibexa Review – Why Was Pibexa.com Blacklisted in Spain?',
+        fullDescription: `Pibexa is a long-lasting trading scam with several regulatory bans. Despite this, they still operate and encourage customers to invest.
+        Thanks to their offer of what appears to be favorable trading conditions and deposit bonuses, they hook inexperienced investors. Read our detailed Pibexa review to learn how to recognize trade fraud.`,
+        heading: 'Pibexa Review – Why Was Pibexa.com Blacklisted in Spain?',
+        descriptionLvl: {
+            image: pibexaPage,
+            rev1: {
+                heading: 'Are Traders’ Funds Safe With Pibexa?',
+                desc: `Pibexa is an offshore brand of Artosolution Ltd, registered in Saint Vincent and the Grenadines in 2019. Ever since, the brokerage has provided its services without regulatory supervision.`,
+                desc1:`Unlike legitimate firms, Pibexa doesn’t offer safety mechanisms, such as negative balance protection and keeping customers’ funds in segregated accounts.`,
+                desc2:`Since the Terms and Conditions imply that issues should be resolved in front of the English courts, we’ve checked Tier1 regulators. Once we searched through the databases of the FCA, ASIC, BaFin, CNMV, and others, we found numerous warnings against the Pibexa scam.`
+            },
+            rev2: {
+                heading: '',
+                desc: '',
+            },
+            rev3: {
+                heading: '',
+                desc:``
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: pibexa,
+        path: '/blog/Pibexa'
+    },
+    {
+        name: 'Adar Capital',
+        shortHeading: 'Adar Capital Review – Can You Be Scammed by Adar.capital Broker?',
+        fullDescription: `Scrolling through the Adar Capital website, one can already conclude that the broker is a fraud. There is no license, and their legal documents are childish and provide mismatching information.
+        Read our comprehensive Adar Capital review. It will show you why we believe that your funds are not safe with this cyber-fraud.`,
+        heading: 'Adar Capital Review – Can You Be Scammed by Adar.capital Broker?',
+        descriptionLvl: {
+            image: adarcapitalPage,
+            rev1: {
+                heading: 'Adar Capital Has a Legal Forex License?',
+                desc: `Adar Capital is a Sonorous Group LLC brand registered in March 2022 in Saint Vincent and the Grenadines. This is an instant red flag since SVG doesn’t have a regulator overseeing Forex and CFD trading brokers.`,
+                desc1:`Rarely do brokers comply with the FSA directive and obtain regulation in the country of service. Most of them ignore the rules and hide under the authority’s radar. 
+                Just in case, we’ve searched for Adar Capital and its owner in the registers of the FCA, ASIC, BaFin, CNMV, etc. Instead of a license, we found a warning stating that Adar Capital imposes itself as an FCA-regulated firm.`
+            },
+            rev2: {
+                heading: 'Is Adar Capital a Trustable Broker?',
+                desc: `Unlike real FCA-licensed brokers that must keep clients’ funds in segregated accounts and participate in the FSCS compensation fund with 85,000 GBP per customer, unlicensed brokers have no obligations. Furthermore, the FCA demands brokerage companies maintain a minimum capital of 730,000 GBP, so they cannot easily declare bankruptcy.
+                You have no guarantees with offshore scammers. They can vanish anytime, and recovering your funds is not an easy task.`,
+                desc1:`Adar Capital is an offshore-based Forex and CFD brokerage. The UK regulator has blacklisted the company for falsely presenting as a part of an FCA-regulated trading firm.`
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Adar Capital?',
+                desc:`Similar to regulators, traders only have complaints about Adar Capital. According to reviews, this scam firm is pressuring clients into investing, falsely presenting itself as a legit business.
+                Once clients invest their funds and request a withdrawal, Adar Capital employees freeze their trading accounts. They steal as much as possible and disappear, knowing they can hide offshore. This is a common tactic for financial swindlers.`
+            },
+            rev4: {
+                heading: 'What Is Known About Adar Capital’s Trading Conditions?',
+                desc: `Offshore brokers often offer allegedly appealing trading conditions. They give access to high leverage and low spreads, luring customers into a scam. Once you sign up, leverage will ensure you lose funds quickly. The broker may not charge a high spread, but all other commissions will be high.`,
+            },
+        },
+        image: adarcapital,
+        path: '/blog/Adar Capital'
+    },
+    {
+        name: 'W2W Capital',
+        shortHeading: 'W2W Capital Review – How Is W2wcapital.com Scam Perpetrated?',
+        fullDescription: `W2W Capital appears to be another financial swindler targeting Spanish-speaking areas. With the entire website being in Spanish, finding the facts was quite a task.
+        The company is based offshore and offers a basic trading platform and too high leverage. If it’s not enough to convince you to give up on investing, read this detailed W2W Capital review until the end.`,
+        heading: 'W2W Capital Review – How Is W2wcapital.com Scam Perpetrated?',
+        descriptionLvl: {
+            image: w2wcapitalPage,
+            rev1: {
+                heading: 'How Safe and Secure is W2W Capital a Broker?',
+                desc: `W2W Capital is owned by W2W Capital LLC, registered in Saint Vincent and the Grenadines. The company entered the FSA register in February 2022 but never obtained a license. Since SVG doesn’t deal with regulations, Forex and CFD brokers are directed to opt for regulation in the service country.`,
+                desc1:`This firm is unlicensed according to the register of major Tier1 license providers, including FCA, ASIC, BaFin, and CONSOB. Practically, it means it doesn’t follow ESMA rules, MiFID directives, or any other legal prerogatives.`
+            },
+            rev2: {
+                heading: 'So Is W2W Capital a Scam?',
+                desc: `Unlicensed brokers don’t follow any legal guidelines. They don’t keep funds in segregated accounts, don’t disclose banks where funds are transferred, and in most cases, don’t offer negative balance protection. If something goes wrong, you cannot count on any legal help from regulators. Since the actual owner is offshore, getting to them is quite challenging.`,
+                desc1: `W2W Capital is an offshore trading firm. Since it operates without a valid license, the brokerage has been blacklisted in Spain, Norway, and Belgium. This is official proof that you’re better not investing with W2W Capital.`
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of W2W Capital?',
+                desc:`Even though the company was registered just a few months ago, W2W Capital already has many negative reviews. Customer reported withdrawal issues.
+                As it seems, this firm is not allowing any payouts. Clients are pressured to invest more, and employees promise them anything and everything, but, in the end, money is gone.`
+            },
+            rev4: {
+                heading: 'What Platform Does W2W Capital Offer?',
+                desc: `W2W Capital provides a web-based distribution of MT4. While MetaTrader is recognized as the best trading software nowadays, it means nothing in the hands of a scammer.`,
+                desc1: `Yes, we agree. There are a lot of tools and technical indicators. However, the firm didn’t purchase access to an app, only internet-based software, which is the first issue. Additionally, scheme brokers can manipulate the trade outcome by imposing too much leverage and spread, so your funds are not safe.`
+            },
+        },
+        image: w2wcapital,
+        path: '/blog/W2W Capital'
+    },
+    {
+        name: 'MorganFinance',
+        shortHeading: 'MorganFinance Review – The Harsh Truth About Morganfinance.trade Scam',
+        fullDescription: `MorganFinance represents its brand as financial services offered exclusively by professionals. Yet, this group of pros failed to get a license for financial advising and providing Forex and CFD trading. Our detailed MorganFinance review will show you how these people operate and who’s behind the scenes. Make sure to take notes.`,
+        heading: 'MorganFinance Review – The Harsh Truth About Morganfinance.trade Scam',
+        descriptionLvl: {
+            image: morganfinancePage,
+            rev1: {
+                heading: 'How Safe and Secure is MorganFinance a Broker?',
+                desc: `MorganFinance is a brand of Effervescent Group Ltd, registered in 2021 in Saint Vincent and the Grenadines. Once established, the parent company opened a website under the domain morganfinance.trade in February 2022.`,
+                desc1:`Since SVG doesn’t have a financial regulator, instead just the company register, we’ve searched for MorganFinance regulation elsewhere. After checking the databases of the FCA, ASIC, BaFin, CONSOB, and numerous others, we found nothing. It’s a clear indicator that MorganFinance is not a genuine trading brokerage and that your funds are not safe.`
+            },
+            rev2: {
+                heading: 'So Is MorganFinance a Decent Broker or a Scam?',
+                desc: `Unlicensed brokers pose a danger to your funds. If there’s no supervisor to their activities, financial firms can declare bankruptcy or simply disappear, and you won’t see a penny back.
+                On the other hand, legitimate brokers have numerous tools to prevent risks, such as participation in the regulator’s compensation scheme, negative balance protection, and leverage cap.`,
+                desc1: `MorganFinance is an offshore trading firm registered in Saint Vincent and the Grenadines. The website has been active since February 2022, and there are already numerous negative reviews. The trust index is low.`
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of MorganFinance?',
+                desc:`As usually happens with scammers, MorganFinance earned negative reviews quite quickly. Clients have reported withdrawal issues and blocked accounts. Typically, scammers prevent their customers from getting paid by freezing their access to accounts and money.
+                If you notice that you cannot log in to your trading account for more than a few hours and there’s no valid reason for it, make sure to report the fraud.`
+            },
+            rev4: {
+                heading: 'Trading Platform From MorganFinance',
+                desc: `On its website, MorganFinance advertises MT4 and MT5. You can find characteristics of both software, and the firm praises them highly. However, when talking about the software they provide, it’s vaguely written MT without specifications.
+                Once we registered an account, we got access to the basic WebTrader. This software is not nearly close to MetaTrader and has no advanced tools.
+                Financial swindlers often abuse the name MetaTrader, luring customers into investing. Since there’s no Demo account, the only way to find out what you’ll be offered is by paying the money first. And then, it’s too late.`,
+            },
+        },
+        image: morganfinance,
+        path: '/blog/MorganFinance'
+    },
+    {
+        name: 'Everrise',
+        shortHeading: 'Everrise Brokers Review (everrisebrokers.com Scam)',
+        fullDescription: `Read our Everrise Brokers review to see if we recommend this broker for trading. Just to clear doubts, this is an everrisebrokers.com review.`,
+        heading: 'Everrise Brokers Review (everrisebrokers.com Scam)',
+        descriptionLvl: {
+            image: everrisebrokersPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So Everrise Brokers is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.
+
+                If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: everrisebrokers,
+        path: '/blog/Everrise'
+    },
+    {
+        name: 'Goldmar',
+        shortHeading: 'Goldmar Review (goldmar.co Scam)',
+        fullDescription: `Read our Goldmar review to see if we recommend this broker for trading. Just to clear doubts, this is a goldmar.co review.`,
+        heading: 'Goldmar Review (goldmar.co Scam)',
+        descriptionLvl: {
+            image: goldmarPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So Goldmar is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.`,
+                desc1: `If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+            },
+        },
+        image: goldmar,
+        path: '/blog/Goldmar'
+    },
+    {
+        name: 'JM Trade',
+        shortHeading: 'JM Trade Review (jmtrade.com Scam)',
+        fullDescription: `Read our JM Trade review to see if we recommend this broker for trading. Just to clear doubts, this is a jmtrade.com review.`,
+        heading: 'JM Trade Review (jmtrade.com Scam)',
+        descriptionLvl: {
+            image: jmtradePage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So JM Trade is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.`,
+                desc1: `If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.`,
+                desc1: `First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`
+            },
+        },
+        image: jmtrade,
+        path: '/blog/JM Trade'
     },
     // {
     //     name: 'FxRevenues',

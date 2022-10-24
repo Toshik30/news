@@ -9,8 +9,8 @@ import axios from 'axios';
 export default function ReviewsList() {
     const dispatch = useDispatch()
     const [APIdata, setAPIdata] = useState([])
-    const test = useSelector((state) => state.reviews.arrReviews)
-    console.log(test)
+    // const test = useSelector((state) => state.reviews.arrReviews)
+    // console.log(test);
     const { user } = useAuth0()
     useEffect(() => {
         axios.get(`https://sheet.best/api/sheets/b3a38273-5d35-499b-bfca-a5d93b6ad2e1`)
