@@ -210,6 +210,24 @@ import goldmar from '../../images/goldmar-logo.png'
 import goldmarPage from '../../images/goldmarPage.png'
 import jmtrade from '../../images/jmtrade-logo.png'
 import jmtradePage from '../../images/jmtradePage.png'
+import finansysfx from '../../images/finansysfx-logo.png'
+import finansysfxPage from '../../images/finansysfxPage.png'
+import ecmtrader from '../../images/ecmtrader-logo.png'
+import ecmtraderPage from '../../images/ecmtraderPage.png'
+import dtsecurities from '../../images/dtsecurities-logo.png'
+import dtsecuritiesPage from '../../images/dtsecuritiesPage.png'
+import atomictrade from '../../images/atomictrade-logo.svg'
+import atomictradePage from '../../images/atomictradePage.png'
+import vonwayforex from '../../images/vonwayforex-logo.png'
+import vonwayforexPage from '../../images/vonwayforexPage.png'
+import bittrade from '../../images/bittrade-logo.webp'
+import bittradePage from '../../images/bittradePage.png'
+import bitcointreasure from '../../images/bitcointreasure-logo.png'
+import bitcoinbanker from '../../images/bitcoinbanker-logo.webp'
+import bitcoinbankerPage from '../../images/bitcoinbankerPage.png'
+import wixi from '../../images/wixi-logo.webp'
+import wixiPage from '../../images/wixiPage.png'
+
 export const DATA_NEWS = [
     {
         heading: 'Leaders in Foreign Exchange',
@@ -3484,6 +3502,277 @@ export const DETAILED_NEWS = [
         },
         image: jmtrade,
         path: '/blog/JM Trade'
+    },
+    {
+        name: 'FinansysFx',
+        shortHeading: 'FinansysFx Review (finansysfx.io Scam)',
+        fullDescription: `Read our FinansysFx review to see if we recommend this broker for trading. Just to clear doubts, this is a finansysfx.io review.`,
+        heading: 'FinansysFx Review (finansysfx.io Scam)',
+        descriptionLvl: {
+            image: finansysfxPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So FinansysFx is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.
+                If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.`,
+                desc1:`Another way to hurt them and save other people from falling victims is to leave bad reviews on other sites, and describe shortly what happened. If you fallen victim please leave a review and a comment on this site at the comment section. Also, when these people change their website they tend to call the old clients, so if they call you from a new website please write it down on the comment or let us know it by contacting us. That would be really appreciated by us and families all over world. Also if you get phone calls from other companies please put the name of these companies also in the comment or send it to us. We will expose them too.`
+            },
+        },
+        image: finansysfx,
+        path: '/blog/FinansysFx'
+    },
+    {
+        name: 'Ecm Trader',
+        shortHeading: 'Ecm Trader Review (ecmtrader.com Scam)',
+        fullDescription: `Read our Ecm Trader review to see if we recommend this broker for trading. Just to clear doubts, this is an ecmtrader.com review.`,
+        heading: 'Ecm Trader Review (ecmtrader.com Scam)',
+        descriptionLvl: {
+            image: ecmtraderPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So Ecm Trader is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.
+                If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`,
+                desc1: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.
+                The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. `
+            },
+            rev4: {
+                heading: 'Make sure you leave reviews about Ecm Trader in other sites',
+                desc: `Another way to hurt them and save other people from falling victims is to leave bad reviews on other sites, and describe shortly what happened. If you fallen victim please leave a review and a comment on this site at the comment section. Also, when these people change their website they tend to call the old clients, so if they call you from a new website please write it down on the comment or let us know it by contacting us. That would be really appreciated by us and families all over world. Also if you get phone calls from other companies please put the name of these companies also in the comment or send it to us. We will expose them too.`,
+            },
+        },
+        image: ecmtrader,
+        path: '/blog/Ecm Trader'
+    },
+    {
+        name: 'DT Securities',
+        shortHeading: 'DT Securities Review (dtsecurities.net Scam)',
+        fullDescription: `Read our DT Securities review to see if we recommend this broker for trading. Just to clear doubts, this is a dtsecurities.net review.`,
+        heading: 'DT Securities Review (dtsecurities.net Scam)',
+        descriptionLvl: {
+            image: dtsecuritiesPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So DT Securities is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.
+                If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymore.`
+            },
+            rev4: {
+                heading: 'How to get your money back?',
+                desc: `If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.
+                The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back.`,
+            },
+        },
+        image: dtsecurities,
+        path: '/blog/DT Securities'
+    },
+    {
+        name: 'Atomic Trade',
+        shortHeading: 'Atomic Trade Review (atomictrade.io Scam)',
+        fullDescription: `Read our Atomic Trade review to see if we recommend this broker for trading. Just to clear doubts, this is an atomictrade.io review.`,
+        heading: 'Atomic Trade Review (atomictrade.io Scam)',
+        descriptionLvl: {
+            image: atomictradePage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.
+                So Atomic Trade is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`,
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Withdrawing funds',
+                desc:`You should submit a withdrawal request ASAP, because your funds are never safe with an unregulated broker. And here is when things get tricky.
+                If you want to withdraw your money and it does not matter if you have profits or not, they will delay the withdrawing process for months. If they delay it for six months, you won’t be able to file a chargeback anymore and your money is gone for good. It does not matter how often you remind them or insist in withdrawing your money, you will NOT get them back. And if you signed the Managed Account Agreement or MAA, which is basically authorizing them to do anything they want on your account, they will lose all your funds so there won’t be anything to request anymor`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: atomictrade,
+        path: '/blog/Atomic Trade'
+    },
+    {
+        name: 'Vonway Forex',
+        shortHeading: 'Vonway Forex Review (vonwayforex.com Scam)',
+        fullDescription: `Read our Vonway Forex review to see if we recommend this broker for trading. Just to clear doubts, this is a vonwayforex.com review.`,
+        heading: 'Vonway Forex Review (vonwayforex.com Scam)',
+        descriptionLvl: {
+            image: vonwayforexPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.
+                So Vonway Forex is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`,
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'Make sure you leave reviews about Vonway Forex in other sites',
+                desc:`Another way to hurt them and save other people from falling victims is to leave bad reviews on other sites, and describe shortly what happened. If you fallen victim please leave a review and a comment on this site at the comment section. Also, when these people change their website they tend to call the old clients, so if they call you from a new website please write it down on the comment or let us know it by contacting us. That would be really appreciated by us and families all over world. Also if you get phone calls from other companies please put the name of these companies also in the comment or send it to us. We will expose them too.`
+            },
+            rev4: {
+                heading: 'Vonway Forex Review Conclusions',
+                desc: `Making the Vonway Forex review is actually a pleasure for us, and we hope to save as many people as possible from losing their hard earned money. A good rule of thumb is to carefully review all the Forex companies and any other company for that matter, before you perform any transaction. We hope that our Vonway Forex review has been helpful to you. `,
+            },
+        },
+        image: vonwayforex,
+        path: '/blog/Vonway Forex'
+    },
+    {
+        name: 'Bittrader',
+        shortHeading: 'Bittrader Review (bit-trader.io Scam)',
+        fullDescription: `Read our Bittrader review carefully to understand why this website is a scam. Just to clear doubts, this is a Bit-trader.io review. But they might have other domains as well, similar to this one so refer to the logo as well to recognize similar domains. Anyway, just by looking at the website you can quickly tell that there is no real company behind it. There is no company listed at the bottom of the site and surely they do not fall under any regulation rules.`,
+        heading: 'Bittrader Review (bit-trader.io Scam)',
+        descriptionLvl: {
+            image: bittradePage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `Nobody can really say who they are and that’s a big problem. If someone has a reputable company, they post everything on their website, including the address and even details of the company’s employees or CEOs. This is evidence that this website is a scam. It is more than obvious to us just looking at these types of websites, that they are pure scam. And we tested them all, signed in to see what was behind the registration page, and even tracked their entire fraud process. We’ll tell you how it works in a moment.`,
+            },
+            rev2: {
+                heading: 'What do they offer?',
+                desc: 'Each of these websites, including Bittrader, offers basically the same thing: How you can make hundreds of thousands, even millions, of dollars with “auto trading software”. Does it sound too good to be true? IT IS!! Please DO NOT fall for such lies and schemes that offer a lot of money without having to do anything.',
+            },
+            rev3: {
+                heading: 'How does the scam work?',
+                desc:`For people who deposited
+                If you’ve already made a deposit through Bittrader, there are a few things you need to understand. The first and most important thing you should understand is that you did not deposit on the Bittrader website, but at the broker behind it. You are now their customer alone and your money is with them, not with the Bittrader. Please check your broker carefully as there is a high probability that it is not regulated. Usually the information is displayed at the end of their website. If the broker is not regulated, you should make a withdrawal request as soon as possible as your money is not safe. Please read the following section to learn how to withdraw your money.`
+            },
+            rev4: {
+                heading: 'How to withdraw your money',
+                desc: `The first thing you need to do is submit a withdrawal request to the broker. There is a high probability that they will try to convince you to do the opposite and continue trading with them. Please make it clear that you want to withdraw. They will delay the withdrawal process as long as possible. If they delay it for six months, you won’t be able to withdraw anymore.
+                So if they delay it for more than a week or two, they clearly don’t want to refund your money. In this case, contact your bank or credit card company to arrange a chargeback. Just call them and explain how you were misled into depositing for an unregulated company and they will guide you through the process.`,
+                desc1: `If your payment method was a wire transfer, there is no way to make a chargeback for a wire transfer. For this step you have to take the fight to another level. Tell them that you will go to the authorities and file a complaint against them. This will make them to rethink the reimbursement option. You can also prepare a letter or email for the regulators. Depending on which country you live in, you can search Google for the regulator for forex brokers in that country. You can then prepare a letter or email describing how you were deceived by them. Make sure you show this letter or email to the broker and let them know that if they don’t refund your money, you will send it to the regulators.`
+            },
+        },
+        image: bittrade,
+        path: '/blog/Bittrader'
+    },
+    {
+        name: 'Bitcoin Treasure',
+        shortHeading: 'Bitcoin Treasure Review (bitcoin-treasure.com SCAM)',
+        fullDescription: `Read our Bitcoin Treasure review carefully to understand why this website is a scam. Just to clear doubts, this is a Bitcoin-Treasure.com review. But they might have other domains as well, similar to this one so refer to the logo as well to recognize similar domains. Anyway, just by looking at the website you can quickly tell that there is no real company behind it. There is no company listed at the bottom of the site and surely they do not fall under any regulation rules.`,
+        heading: 'Bitcoin Treasure Review (bitcoin-treasure.com SCAM)',
+        descriptionLvl: {
+            image: bitcointreasure,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `Nobody can really say who they are and that’s a big problem. If someone has a reputable company, they post everything on their website, including the address and even details of the company’s employees or CEOs. This is evidence that this website is a scam. It is more than obvious to us just looking at these types of websites, that they are pure scam. And we tested them all, signed in to see what was behind the registration page, and even tracked their entire fraud process. We’ll tell you how it works in a moment.`,
+                desc1:`Each of these websites, including Bitcoin Treasure, offers basically the same thing: How you can make hundreds of thousands, even millions, of dollars with “auto trading software”. Does it sound too good to be true? IT IS!! Please DO NOT fall for such lies and schemes that offer a lot of money without having to do anything.`
+            },
+            rev2: {
+                heading: 'How does the scam work?',
+                desc: `For people who deposited
+                If you’ve already made a deposit through Bitcoin Treasure, there are a few things you need to understand. The first and most important thing you should understand is that you did not deposit on the Bitcoin Treasure website, but at the broker behind it. You are now their customer alone and your money is with them, not with the Bitcoin Treasure. Please check your broker carefully as there is a high probability that it is not regulated. Usually the information is displayed at the end of their website. If the broker is not regulated, you should make a withdrawal request as soon as possible as your money is not safe. Please read the following section to learn how to withdraw your money.`,
+            },
+            rev3: {
+                heading: 'How to withdraw your money',
+                desc:`The first thing you need to do is submit a withdrawal request to the broker. There is a high probability that they will try to convince you to do the opposite and continue trading with them. Please make it clear that you want to withdraw. They will delay the withdrawal process as long as possible. If they delay it for six months, you won’t be able to withdraw anymore.
+                So if they delay it for more than a week or two, they clearly don’t want to refund your money. In this case, contact your bank or credit card company to arrange a chargeback. Just call them and explain how you were misled into depositing for an unregulated company and they will guide you through the process.`
+            },
+            rev4: {
+                heading: 'Leave reviews about Bitcoin Treasure in other websites',
+                desc: `Another way to hurt them, by them I mean Bitcoin Treasure and the broker behind it, and to save other people from falling victims, is to leave bad reviews on other websites and briefly describe what happened. If you have become a victim, please leave a review and comment on this page in the comments section.`,
+            },
+        },
+        image: bitcointreasure,
+        path: '/blog/Bitcoin Treasure'
+    },
+    {
+        name: 'Bitcoin Banker',
+        shortHeading: 'Bitcoin Banker Review (bitqt-app.com Scam)',
+        fullDescription: `Read our Bitcoin Banker review carefully to understand why this website is a scam. Just to clear doubts, this is a Bitcoin-Banker.io review. But they might have other domains as well, similar to this one so refer to the logo as well to recognize similar domains. Anyway, just by looking at the website you can quickly tell that there is no real company behind it. There is no company listed at the bottom of the site and surely they do not fall under any regulation rules.`,
+        heading: 'Bitcoin Banker Review (bitqt-app.com Scam)',
+        descriptionLvl: {
+            image: bitcoinbankerPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `Nobody can really say who they are and that’s a big problem. If someone has a reputable company, they post everything on their website, including the address and even details of the company’s employees or CEOs. This is evidence that this website is a scam. It is more than obvious to us just looking at these types of websites, that they are pure scam. And we tested them all, signed in to see what was behind the registration page, and even tracked their entire fraud process. We’ll tell you how it works in a moment.`,
+                desc1:`Each of these websites, including Bitcoin Banker, offers basically the same thing: How you can make hundreds of thousands, even millions, of dollars with “auto trading software”. Does it sound too good to be true? IT IS!! Please DO NOT fall for such lies and schemes that offer a lot of money without having to do anything.`
+            },
+            rev2: {
+                heading: 'How does the scam work?',
+                desc: `For people who deposited
+                If you’ve already made a deposit through Bitcoin Banker, there are a few things you need to understand. The first and most important thing you should understand is that you did not deposit on the Bitcoin Banker website, but at the broker behind it. You are now their customer alone and your money is with them, not with the Bitcoin Banker. Please check your broker carefully as there is a high probability that it is not regulated. Usually the information is displayed at the end of their website. If the broker is not regulated, you should make a withdrawal request as soon as possible as your money is not safe. Please read the following section to learn how to withdraw your money.`,
+            },
+            rev3: {
+                heading: 'How to withdraw your money',
+                desc:`The first thing you need to do is submit a withdrawal request to the broker. There is a high probability that they will try to convince you to do the opposite and continue trading with them. Please make it clear that you want to withdraw. They will delay the withdrawal process as long as possible. If they delay it for six months, you won’t be able to withdraw anymore.
+                So if they delay it for more than a week or two, they clearly don’t want to refund your money. In this case, contact your bank or credit card company to arrange a chargeback. Just call them and explain how you were misled into depositing for an unregulated company and they will guide you through the process.`
+            },
+            rev4: {
+                heading: 'What about wire transfers',
+                desc: `If your payment method was a wire transfer, there is no way to make a chargeback for a wire transfer. For this step you have to take the fight to another level. Tell them that you will go to the authorities and file a complaint against them. This will make them to rethink the reimbursement option. You can also prepare a letter or email for the regulators. Depending on which country you live in, you can search Google for the regulator for forex brokers in that country. You can then prepare a letter or email describing how you were deceived by them. Make sure you show this letter or email to the broker and let them know that if they don’t refund your money, you will send it to the regulators.`,
+            },
+        },
+        image: bitcoinbanker,
+        path: '/blog/Bitcoin Banker'
+    },
+    {
+        name: 'Wixi',
+        shortHeading: 'Wixi Review (wixi.co Scam)',
+        fullDescription: `Read our Wixi review to see if we recommend this broker for trading. Just to clear doubts, this is a wixi.co review.`,
+        heading: 'Wixi Review (wixi.co Scam)',
+        descriptionLvl: {
+            image: wixiPage,
+            rev1: {
+                heading: 'Who are they?',
+                desc: `After taking a look at their website, it shows that they do not fall under any regulating agency. That is a MAJOR RED FLAG!! That should be enough for you NOT to invest with them. And they also work with websites that offer “Automated trading software” which is another red flag, as this kind of websites are notoriously famous for scamming schemes.`,
+                desc1:`So Wixi is just another unregulated forex broker, which means the customers are not protected, and there is highly likely they will get away with your hard earned money and there will be no regulating agency to hold them responsible.`
+            },
+            rev2: {
+                heading: 'How does it work?',
+                desc: 'Usually unregulated forex brokers work in the following way. They will call people to persuade them to make the initial minimum deposit, while trying any conceivable method in order to make that happen. They will offer deals that sound too good to be true, like we will double your initial deposit or you will make $100 per day easily. Please don’t fall for anything they say!!! It is a SCAM! After making the initial deposit, people get transferred to a smarter scammer, called a “retention agent”, who will try to get more money out of you.',
+            },
+            rev3: {
+                heading: 'How to get your money back?',
+                desc:`If you already deposited your money with them and they refuse to give your money back, which is very likely to happen, don’t worry, it might be a way or two to get your money back.
+                First of all you need to keep the emails as a proof that you have been requesting the money back from them but they don’t give it to you, or they delay the process for too long, with the intention of not refunding your money.
+                The first thing you should do is perform a chargeback! And you should do this right away! Contact your bank or credit card provider and explain how you were deceived into depositing for a trading company that is not regulated and they refuse to give your money back. This is the simplest way of getting your money back and is also the way that hurts them the most. Because if there are many chargebacks performed, it will destroy their relation with the payment service providers. `
+            },
+            rev4: {
+                heading: 'Make sure you leave reviews about Wixi in other sites',
+                desc: `Another way to hurt them and save other people from falling victims is to leave bad reviews on other sites, and describe shortly what happened. If you fallen victim please leave a review and a comment on this site at the comment section. Also, when these people change their website they tend to call the old clients, so if they call you from a new website please write it down on the comment or let us know it by contacting us. That would be really appreciated by us and families all over world. Also if you get phone calls from other companies please put the name of these companies also in the comment or send it to us. We will expose them too.`,
+            },
+        },
+        image: wixi,
+        path: '/blog/Wixi'
     },
     // {
     //     name: 'FxRevenues',

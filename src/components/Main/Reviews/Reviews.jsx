@@ -2,10 +2,11 @@ import styles from './style.module.scss';
 import { useState } from 'react'
 import { Rating } from 'react-simple-star-rating';
 import { useDispatch } from 'react-redux';
-import { handleAddNewReview } from '../../../store/reviews/reviewSlice';
-// import axios from 'axios';
-// import { useEffect } from 'react';
+import { addNewComment } from '../../../store/reviews/reviewSlice';
 
+export const getComments = (name,review,rating,pathLocation, date) => new Promise((res) => {
+   res({name,review,rating,pathLocation, date})
+})
 export default function Reviews() {
     const [name, setName] = useState('');
     const [review, setReview] = useState('');
@@ -16,7 +17,7 @@ export default function Reviews() {
     const dispatch = useDispatch()
     
     const addReview = () => {
-        dispatch(handleAddNewReview({name,review,rating,pathLocation, date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
+        dispatch(addNewComment({name,review,rating,pathLocation, date: new Intl.DateTimeFormat('en-Us').format(new Date()),id: name + rating},setName(''),setReview(''),setRating('')))
     }
    
     return (
