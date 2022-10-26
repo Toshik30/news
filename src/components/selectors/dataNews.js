@@ -227,6 +227,96 @@ import bitcoinbanker from '../../images/bitcoinbanker-logo.webp'
 import bitcoinbankerPage from '../../images/bitcoinbankerPage.png'
 import wixi from '../../images/wixi-logo.webp'
 import wixiPage from '../../images/wixiPage.png'
+import rubyfinance from '../../images/rubyfinance-logo.png'
+import rubyfinancePage from '../../images/rubyfinancePage.png'
+import xpoken from '../../images/xpoken-logo.png'
+import xpokenPage from '../../images/xpokenPage.png'
+import trading360 from '../../images/trading360-logo.webp'
+import trading360Page from '../../images/trading360Page.png'
+import zmarket from '../../images/zmarket-logo.png'
+import zmarketPage from '../../images/zmarketPage.png'
+import cryptospotfx from '../../images/cryptospotfx-logo.png'
+import cryptospotfxPage from '../../images/cryptospotfxPage.png'
+import tudofx from '../../images/tudofx-logo.png'
+import tudofxPage from '../../images/tudofxPage.png'
+import ll121coinx from '../../images/ll121coinx-logo.svg'
+import ll121coinxPage from '../../images/ll121coinxPage.png'
+import dcmgroup from '../../images/dcmgroup-logo.png'
+import dcmgroupPage from '../../images/dcmgroupPage.png'
+import gitexcapital from '../../images/gitexcapital-logo.png'
+import gitexcapitalPage from '../../images/gitexcapitalPage.png'
+import valiantmarkets from '../../images/valiantmarkets-logo.png'
+import valiantmarketsPage from '../../images/valiantmarketsPage.png'
+import itraders24 from '../../images/itraders24-logo.png'
+import itraders24Page from '../../images/itraders24Page.png'
+import e24funds from '../../images/e24funds-logo.png'
+import e24fundsPage from '../../images/e24fundsPage.png'
+import safetradez from '../../images/safetradez-logo.png'
+import safetradezPage from '../../images/safetradezPage.png'
+import beneffx from '../../images/beneffx-logo.png'
+import beneffxPage from '../../images/beneffxPage.png'
+import radexmarkets from '../../images/radexmarkets-logo.svg'
+import radexmarketsPage from '../../images/radexmarketsPage.png'
+import magmarkets from '../../images/magmarkets-logo.png'
+import magmarketsPage from '../../images/magmarketsPage.png'
+import tradixa from '../../images/tradixa-logo.svg'
+import tradixaPage from '../../images/tradixaPage.png'
+import tradesmart from '../../images/tradesmart-logo.png'
+import tradesmartPage from '../../images/tradesmartPage.png'
+import safeholdings from '../../images/safeholdings-logo.png'
+import safeholdingsPage from '../../images/safeholdingsPage.png'
+import deltastream from '../../images/deltastream-logo.svg'
+import deltastreamPage from '../../images/deltastreamPage.png'
+import influxfinance from '../../images/influxfinance-logo.png'
+import influxfinancePage from '../../images/influxfinancePage.png'
+import nashmarkets from '../../images/nashmarkets-logo.svg'
+import nashmarketsPage from '../../images/nashmarketsPage.png'
+import onyxprofit from '../../images/onyxprofit-logo.png'
+import onyxprofitPage from '../../images/onyxprofitPage.png'
+import elcomercio24 from '../../images/elcomercio24-logo.png'
+import elcomercio24Page from '../../images/elcomercio24Page.png'
+import absystem from '../../images/absystem-logo.png'
+import absystemPage from '../../images/absystemPage.png'
+import honorfx from '../../images/honorfx-logo.svg'
+import honorfxPage from '../../images/honorfxPage.png'
+import askforbit from '../../images/askforbit-logo.png'
+import askforbitPage from '../../images/askforbitPage.png'
+import tredero from '../../images/tredero-logo.svg'
+import trederoPage from '../../images/trederoPage.png'
+import fxoro from '../../images/fxoro-logo.webp'
+import fxoroPage from '../../images/fxoroPage.png'
+import trampafx from '../../images/trampafx-logo.png'
+import trampafxPage from '../../images/trampafxPage.png'
+import cfreserve from '../../images/cfreserve-logo.png'
+import cfreservePage from '../../images/cfreservePage.png'
+import globalgt from '../../images/globalgt-logo.webp'
+import globalgtPage from '../../images/globalgtPage.png'
+import invests360 from '../../images/invests360-logo.png'
+import invests360Page from '../../images/invests360Page.png'
+import assetdex from '../../images/assetdex-logo.svg'
+import assetdexPage from '../../images/assetdexPage.png'
+import tnfx from '../../images/tnfx-logo.png'
+import tnfxPage from '../../images/tnfxPage.png'
+import tixee from '../../images/tixee-logo.png'
+import tixeePage from '../../images/tixeePage.png'
+import hivemarkets from '../../images/hivemarkets-logo.svg'
+import hivemarketsPage from '../../images/hivemarketsPage.png'
+import dominionmarkets from '../../images/dominionmarkets-logo.png'
+import dominionmarketsPage from '../../images/dominionmarketsPage.png'
+import fxglory from '../../images/fxglory-logo.jpg'
+import fxgloryPage from '../../images/fxgloryPage.png'
+import cashfxgroup from '../../images/cashfxgroup-logo.png'
+import cashfxgroupPage from '../../images/cashfxgroupPage.png'
+import obrinvest from '../../images/obrinvest-logo.png'
+import obrinvestPage from '../../images/obrinvestPage.png'
+import investcore from '../../images/investcore-logo.png'
+import investcorePage from '../../images/investcorePage.png'
+import hextraprimeglobal from '../../images/hextraprimeglobal-logo.webp'
+import hextraprimeglobalPage from '../../images/hextraprimeglobalPage.png'
+import finomarkets from '../../images/finomarkets-logo.png'
+import finomarketsPage from '../../images/finomarketsPage.png'
+import fvptrade from '../../images/fvptrade-logo.svg'
+import fvptradePage from '../../images/fvptradePage.png'
 
 export const DATA_NEWS = [
     {
@@ -3774,6 +3864,1390 @@ export const DETAILED_NEWS = [
         image: wixi,
         path: '/blog/Wixi'
     },
+    {
+        name: 'Ruby Finance',
+        shortHeading: 'Ruby Finance Detailed Review – Trading Strategy or Scam Scheme?',
+        fullDescription: `Ruby Finance broker positions itself as a reliable and secure financial company. They promise to help you with “trading strategy” and “personal trading style.” However, we would like to reveal a few secrets of the broker before you make a final decision on cooperation.`,
+        heading: 'Ruby Finance Detailed Review – Trading Strategy or Scam Scheme?',
+        descriptionLvl: {
+            image: rubyfinancePage,
+            rev1: {
+                heading: 'What About Ruby Finance Regulation?',
+                desc: `Ruby Finance broker claims to be operated by Inure Consulting LTD at 8 Copthall, Roseau Valley, 00152 Commonwealth of Dominica. This allows us to assume that an offshore authority licenses the company. By the way, many scam brokers are registered by offshore-based financial authorities. Although the Commonwealth of Dominica has its own Community Financial Services, this organization is not a regulator but the Federal Credit Union. They don’t register or supervise brokers and private equity firms. This means that the Ruby Finance broker has no “local” regulation. `,
+            },
+            rev2: {
+                heading: 'Ruby Finance Warnings From Financial Regulators',
+                desc: 'To make our Ruby Finance review 100% impartial, we checked the databases of all financial authorities with a high trader trust rating. However, we could not find any signs indicating that the broker has at least a license. Moreover, in the terms and conditions of cooperation, we noticed a mention of the Polish court. Does this mean that the broker is subject to the rules of a reliable European regulator? We checked the official website of The Polish Financial Supervision Authority but found nothing about Ruby Finance or Inure Consulting LTD. ',
+                desc1: `By the way, the broker was recently caught participating in the Google DE advertising campaign launched by Sunny Investments. Fake review website www.sunny-investments.com has unveiled a new advertisement related to cryptocurrencies. After registering for Bitcoin Prime on third-party resources, people interested in a profitable offer are redirected to the payment page of the Ruby Finance website. While authorities in the UK and Ireland have already taken action against unregulated financial advertising like Sunny Investment, Germany’s BaFin is still not taking action. In any case, Ruby Finance significantly damaged its reputation when it participated in a campaign started by the website that didn’t pass KYC verification.`
+            },
+            rev3: {
+                heading: 'Problem With Withdrawing Funds',
+                desc:`Most of the Ruby Finance reviews we found online indicate that traders have serious withdrawal problems. This is not surprising since the broker has no regulation. Obviously, being outside the oversight, the company owners are free to do whatever they want with the money of honest investors. `
+            },
+            rev4: {
+                heading: 'Traders About Ruby Finance Scam',
+                desc: `Most of the reviews of real clients about cooperation with Ruby Finance broker are absolutely negative. Traders share their complaints about the broker that provides fake reasons why clients cannot withdraw money and blackmail them, forcing them to pay commissions and additional fees. `,
+            },
+        },
+        image: rubyfinance,
+        path: '/blog/Ruby Finance'
+    },
+    {
+        name: 'Xpoken',
+        shortHeading: 'Xpoken Detailed Review – All You Need To Know Before Investing With Xpoken Broker',
+        fullDescription: `There’s not a lot to say about Xpoken broker. The company is offshore, unlicensed, and operates without following any regulatory rules. For more information about its business and what to do if you have been scammed, read our Xpoken review.`,
+        heading: 'Xpoken Detailed Review – All You Need To Know Before Investing With Xpoken Broker',
+        descriptionLvl: {
+            image: xpokenPage,
+            rev1: {
+                heading: 'What About Xpoken Regulation?',
+                desc: `According to Terms and Conditions, the company is allegedly owned by Xpoken Ltd from Saint Vincent and the Grenadines. Since this offshore country has an FSA, sort of a financial register, any new company has to sign up with them. Yet, Xpoken Ltd is nowhere to be found. `,
+                desc1:`In addition, the country itself has no regulator but requires companies to apply for licenses in service countries. After checking with the FCA, ASIC, BaFin, and several more Tier1 authority bodies, we’ve determined that Xpoken is not regulated and operates without following any rules.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With Xpoken Broker',
+                desc: 'Of course, offshore investment firms choose far-away headquarters for a good reason. A lack of regulatory supervision and a good distance guarantee successful scams. That’s why Xpoken feels good about extorting money from clients and not paying out any profits.',
+                desc1:`If you decide to submit a withdrawal request, you may find yourself without access to your trading account. The broker tends to freeze accounts and never communicate with the client again.`
+            },
+            rev3: {
+                heading: 'Areas Of Xpoken Trading Scam',
+                desc:`Mainly, Xpoken complaints come from France, Belgium, and Germany. Besides, we’ve seen comments from the UK, Australia and more. Basically, there are just a few restricted areas where the broker is not operating, while everyone else could be approached and defrauded.`
+            },
+            rev4: {
+                heading: 'Traders About Xpoken Scam',
+                desc: `What could you say when involved with a scammer? The company has a terrific score on Trustpilot, 4.5 stars, which is why many investors are falling for the scheme. But if you check carefully, all the latest reviews are from France, a country we have already marked as Xpoken trading scam target. And all of them come from accounts with one review only – marvelous things about Xpoken. Should we believe such? Of course not.
+                Real reviews can be heard when talking to Xpoken customers who have lost their funds and cannot get them back since the company is not regulated.`,
+            },
+        },
+        image: xpoken,
+        path: '/blog/Xpoken'
+    },
+    {
+        name: 'Trading 360',
+        shortHeading: 'Trading 360 Detailed Review – How We Exposed trading-360.com Scheme',
+        fullDescription: `Trading 360 broker could be added to the list of the shadiest, most anonymous scammers we’ve seen. There is no basic information whatsoever, and you don’t even know which trading platform you’ll be given upon signing up. So, read our Trading360 review and find out everything we’ve managed to learn about this illicit firm.`,
+        heading: 'Trading 360 Detailed Review – How We Exposed trading-360.com Scheme',
+        descriptionLvl: {
+            image: trading360Page,
+            rev1: {
+                heading: 'What About Trading 360 Regulation?',
+                desc: `Having regulation is a must for every broker who wants to keep its reputation high. It protects both sides from scams and ensures that you, as a client, will get the money back in case of issues. `,
+                desc1:`However, Trading 360 didn’t bother to disclose any information about the owner, while headquarters are allegedly in the UK. Companies need to have an FCA license to provide financial services from this country. After checking the register, we have determined that Trading 360 is not regulated by the FCA or any other Tier1 regulator, as a matter of fact.`
+            },
+            rev2: {
+                heading: 'Trading 360 Trading Services – Available Assets',
+                desc: 'Why do we say allegedly? Because there’s no Demo account, we don’t even know which platform will be provided once you activate your account. Furthermore, we have no information about the leverage and spread, so be well aware that you’re putting your money with a schemer.',
+            },
+            rev3: {
+                heading: 'Fund Withdrawal Issues With Trading 360 Broker',
+                desc:`Since the broker is unregulated, withdrawal issues are expected. What’s not expected is that none of the clients will be able to get the money back, while no authorities will react since they’re not responsible for Trading360 and its activities. And that’s why, today, we have thousands of defrauded clients.
+                Mainly, they’re complaining about account managers who made all kinds of promises just to get the funds, but once clients were ripped off, the communication was cut.`
+            },
+            rev4: {
+                heading: 'Areas Of Trading360 Scam',
+                desc: `According to reviews, the broker is mainly present in Canada, France, the UK, Poland, and the US. As you can tell, very diversified areas, without any limits. Wherever you are, you need to know that Trading 360 is not a legitimate brokerage, and any money you invest with them is at risk of being stolen.`,
+                desc1:`Online trading scams are a part of the financial market. Unfortunately, many new companies are opening offshore or under the radar, and regulators just cannot track them all down. That’s why it’s super important for you to check whether the broker opted for a license or it’s avoiding regulation obligations.
+                Once you see an ad promising you thousands of dollars overnight, it’s a scam. When you sign up, you may come to a website like the one owned by Trading360 that gives you absolutely no information about the platform, trading terms, governing law, minimum deposit, and more. If you just follow the instructions given by the company’s employees and invest some money, you will be redirected to an account manager who will then extort more. You will hear all kinds of excuses – great trading opportunities, margin level is too low, you may get a percentage for making your investment account savings at the same time, etc.
+                However, you will be declined when you request a payout and you’ll understand that you have been scammed all along.`
+            },
+        },
+        image: trading360,
+        path: '/blog/Trading 360'
+    },
+    {
+        name: 'ZMarket Global',
+        shortHeading: 'ZMarket Global Detailed Review — What Lies Behind Beautiful Promises',
+        fullDescription: `The recipe for an online scam is quite simple: a professional-looking website, “competent” documents, attractive promises, modern trading platforms… But what is this cocktail lacking to form a reliable investment firm? Let’s find out!`,
+        heading: 'ZMarket Global Detailed Review — What Lies Behind Beautiful Promises',
+        descriptionLvl: {
+            image: zmarketPage,
+            rev1: {
+                heading: 'What About ZMarket Global Regulation?',
+                desc: `The broker’s official website doesn’t provide any information about the license or regulation. Moreover, we are not offered any data about the company’s owners or the organization that operates all the processes. All customers are allowed to know that the company’s main office is located in Luxembourg. Well, does this mean that a reliable financial authority regulates the broker? We have done our own investigation but have found no licensing, auditing, or regulatory data of ZMarket Global, which indicates that we are dealing with an illegitimate broker.`,
+            },
+            rev2: {
+                heading: 'ZMarket Global Warnings From Financial Regulators?',
+                desc: 'The first red flag indicating that the broker is an unlicensed anonymous organization is the lack of a company name in Commission de Surveillance du Secteur Financier (CSSF) databases. It is a local institution responsible for the supervision of brokers within Luxembourg. The second important evidence against the broker was that on January 10, 2022, AMF, the reliable French regulator, blacklisted the organization due to the absence of a license.',
+            },
+            rev3: {
+                heading: 'Withdrawing Issues and Bonuses',
+                desc:`Is it possible to withdraw funds from an account opened with a ZMarket broker? According to statistics collected from reviews websites, only 1/5 of customers are satisfied with the company’s services. Is it worth the risk and getting involved in cooperation with an anonymous foreign organization? Absolutely not. In addition, here is another proof of the company’s dishonesty: they offer bonuses and too high leverage. As you know, the laws of the EU prohibit the bonus system in any form, while the maximum allowed leverage is 1:30. ZMarket Global prefers to break laws. You can find promises of bonuses in their terms and conditions, while the levagere goes up to 1:200.`
+            },
+            rev4: {
+                heading: 'Traders About ZMarket Global Scam',
+                desc: `We didn’t find enough feedback from traders about this dubious organization. Neither positive nor negative. However, there are several honest reviews from expert sources who are also convinced that this broker is a scammer. `,
+                desc1:`Knowledge is power. And also a way to avoid scammers. Any fraudulent scheme can be revealed through meticulous research. Check the regulation data, look for feedback from investors, inspect the compliance of the broker’s proposals and laws. No one is immune to scams, so it’s best always to choose brokers with a 5-star rating.
+                Also remember the names of the SeaLTD, MigoTrade and Tetra Invest trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+        },
+        image: zmarket,
+        path: '/blog/ZMarket Global'
+    },
+    {
+        name: 'CryptoSpotFX',
+        shortHeading: 'CryptoSpotFX Detailed Review – Still Active Binary Option Scam',
+        fullDescription: `While we thought that binary options were a matter of the past with the ban from 2018 in the UK and the EU, it turns out we were very wrong. There’s a new platform called CryptoSpotFX, and it seems to operate in all the restricted areas. Let’s dive into our CryptoSpotFX review and uncover what this investment firm is trying to achieve.`,
+        heading: 'CryptoSpotFX Detailed Review – Still Active Binary Option Scam',
+        descriptionLvl: {
+            image: cryptospotfxPage,
+            rev1: {
+                heading: 'What About CryptoSpotFX Regulation?',
+                desc: `CryptoSpotFX is owned by CryptoSpotFX International Ltd, based in Cyprus. However, with the ban we’ve already mentioned, there’s no way that any binary options provider could obtain a license in this country. The CySEC license number 6738/116 doesn’t exist. Furthermore, the brand claims to have AFSL license no. 705678. As we all know, the Australian regulator is ASIC, in charge of securities and online trading, so this license is also fake. `,
+                desc1:`It all implies you should avoid CryptoSpotFX trading scams by all means.`
+            },
+            rev2: {
+                heading: 'CryptoSpotFX Warnings From Financial Regulators',
+                desc: `CryptoSpotFX was warned in the UK due to its illegal activities. Since binary options trading is prohibited in this country, no company can offer these services to UK citizens regardless of the false regulations. And that’s why the UK FCA reacted by issuing a warning against the company.
+                The warning was later republished by the Italian CONSOB. Also by the Portuguese CMVM.`,
+            },
+            rev3: {
+                heading: 'Areas Of CryptoSpotFX Trading Scam',
+                desc:`According to CryptoSpotFX reviews, the broker is mainly present in the US, Australia, and Canada. Yet, regulatory warnings show us that it operates in the UK, Italy, Portugal, and more EU countries. `,
+                desc1:`Note that the binary option is the riskiest trading type, and there’s a good reason for regulators to prohibit it. It’s more gambling than investing, and involving yourself in such a business won’t bring anything good, especially with a shady company.`
+            },
+            rev4: {
+                heading: 'Traders About CryptoSpotFX Scam',
+                desc: `CryptoSpotFX has negative reviews, all stating the same. Investing money with this firm is quite pricey, with the minimum deposit being $1,000. Even if you accept it and make an initial investment, you will soon be prompted to invest more under all kinds of excuses. And in the end, when you want a promised payout, you won’t get anything in return. Just a frozen account and headache.
+                Also remember the names of the RoyalFX24, FxGlory and Arrowteks trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`,
+            },
+        },
+        image: cryptospotfx,
+        path: '/blog/CryptoSpotFX'
+    },
+    {
+        name: 'TudoFX',
+        shortHeading: 'TudoFX Detailed Review',
+        fullDescription: `After long research, we’re still uncertain about many things regarding the TudoFX broker. It’s anonymous and well-hidden, but we did collect some information that will point out all the red flags related to the company. Keep reading our TudoFX review and find it all out.`,
+        heading: 'TudoFX Detailed Review',
+        descriptionLvl: {
+            image: tudofxPage,
+            rev1: {
+                heading: 'What About TudoFX Regulation?',
+                desc: `TudoFX is an anonymous brand with an Australian support phone number. However, the Terms and Conditions vaguely indicate that governing law is the law of Saint Vincent and the Grenadines. Based on this, we can conclude that you’re dealing with yet another shady scheme.`,
+                desc1:`Why do brokers choose SVG? It’s simple. Because this offshore country has no financial regulator, and FSA is not bothering too hard to supervise companies that have been open on its territory. Therefore, scam brokers feel they have found their safe haven, and nobody will interrupt their fraudulent business. `
+            },
+            rev2: {
+                heading: 'TudoFX Web and Mobile Trading',
+                desc: 'While there are no clear indications about the trading platform, we were pointed to think that the broker offers a Web trader. Allegedly, it’s user-friendly, with quick trade execution and numerous charts and indicators. Since there’s no Demo account and we are not willing to risk our money with a scam company, we cannot confirm any of this.',
+                desc1: `Yet, we do know that clients can download a mobile app for Android and iOS that corresponds to a Web trader and provides all the same trading tools.`
+            },
+            rev3: {
+                heading: 'Fund Withdrawal Issues With TudoFX Broker',
+                desc:`So far, you can already tell that investing with TudoFX exposes your funds to risk. The broker is unregulated, we have no idea who’s the owner, and every possible relevant information is hidden. `,
+                desc1:`Therefore, this investment firm feels good about stealing clients’ money and disappearing. According to reviews, withdrawal issues are an everyday problem, and nobody ever gets a penny back. The company is giving numerous excuses, including missing KYC documents, bonus agreements, and more.`
+            },
+            rev4: {
+                heading: 'Areas Of TudoFX Trading Scam',
+                desc: `According to reviews, most victims of TudoFX trading scams live in Canada, the UK, the UAE, and New Zealand. Since the company is offshore and has no regulations, it also has no limits. None of the countries is restricted, so you may expect to be approached wherever you are. Ensure to stay away from this investment firm as it’s clearly a fraud.`,
+                desc1: `As you can already guess, traders have nothing good to say. Once they invest their money, everyone in the company is supportive, account managers pretend to be your best friends, and everything goes smoothly. Yet, you will go through a nightmare and get nothing once you request a payout.
+                Report any suspicious activity on your trading account immediately and ensure to get help for a refund before it’s too late.`
+            },
+        },
+        image: tudofx,
+        path: '/blog/TudoFX'
+    },
+    {
+        name: '121 CoinX',
+        shortHeading: '121 CoinX Detailed Review',
+        fullDescription: `Trading with 121 CoinX broker is a recipe for disaster. There’s no regulator, owner, governing law, or anything that would help you get reimbursed while all deposits are made in crypto. If you already fell for the 121 CoinX scam, read this review until the end and look for solutions.`,
+        heading: '121 CoinX Detailed Review',
+        descriptionLvl: {
+            image: ll121coinxPage,
+            rev1: {
+                heading: 'What About 121 CoinX Regulation?',
+                desc: `As aforementioned, the broker gives us no information about the owner or the regulation. All we can tell is that it’s based in Saint Vincent and the Grenadines, the only country that has no official financial regulator, and companies can easily set up a scheme there. Since the FSA decided to declare itself a financial register and direct brokers to opt for regulation in the country of service, many pretend not to know this and ignore the directions.`,
+                desc1:`For your account, it means that any money you invest is not safe as the broker has no obligations to follow MiFID, ESMA, or any other directive and keep your funds in segregated accounts.`
+            },
+            rev2: {
+                heading: '121 CoinX Web and Mobile Trading',
+                desc: `Knowing offshore brokers, you will probably face a TradingView chart with several indicators pretending to be trading software. The broker offers a proprietary platform that can be used in the form of a Web trader, mobile, and desktop app. It gives real-time prices and immediate order execution, while tools like Take Profit, Stop Loss, and more have never been mentioned.
+                Unless the company can equip you with something reputable such as MT4 or MT5, we advise you to avoid it.`,
+            },
+            rev3: {
+                heading: 'Fund Withdrawal Issues With 121 CoinX Broker',
+                desc:`Once you learn that your broker is unregulated, many things become clear. Many of those, among which 121 CoinX, feel comfortable extorting money and ignore clients knowing that their website will shut down once the complaints go to the roof, and they will quickly switch to the new scam. However, it will never be easy for clients to track down shell companies in offshore countries that were stealing money and transferring it all around.`,
+                desc1: `If you have experienced any kind of issue, such as unprocessed withdrawal requests, blocked or frozen accounts, or anything that may lead to your funds being stolen, let us know.`
+            },
+            rev4: {
+                heading: 'Areas Of 121 CoinX Broker Scam',
+                desc: `According to 121 CoinX complaints, most victims come from Switzerland, Cyprus, Norway, Australia, and Singapore. Yet, some brokers have no limits and no restrictions. Since this particular one is not regulated and operates worldwide illegally, we would advise you to avoid it and not let yourself become a potential 121 CoinX scam victim.`,
+                desc1:`There’s nothing to say about fraudulent schemes that only cause problems. Traders mainly complain about withdrawals and the lousy trading platform, bad account manager, and lack of support. Once you want to invest your money, everyone in the company will be warm and welcoming, but they’ll act as you don’t exist when it comes to payouts. Online trading scams are part of trading with offshore firms. Unfortunately, many of them lack regulatory supervision and feel entitled to do anything just to get the money. Those like 121 CoinX based in SVG, without even the mildest touch of oversight, don’t pay attention to any laws and will go as far as it takes for them to gather funds. Only then will they shut down the website and disappear. Since this particular company takes your money in crypto and it’s an encrypted transaction that’s hard to follow, we advise you to get assistance immediately and deal with the refund.`
+            },
+        },
+        image: ll121coinx,
+        path: '/blog/121 CoinX'
+    },
+    {
+        name: 'DCMGroup',
+        shortHeading: 'DCMGroup Detailed Review',
+        fullDescription: `In the middle of the holiday season, we’ve got several companies that stood out as fraudsters and have been blacklisted around Europe. One of those is DCMGroup, discovered by the Spanish regulatory body. Read our DCMGroup review to find out everything about the brokerage.`,
+        heading: 'DCMGroup Detailed Review',
+        descriptionLvl: {
+            image: dcmgroupPage,
+            rev1: {
+                heading: 'What About DCMGroup Regulation?',
+                desc: `We’re sure you’ve often heard people saying that you shouldn’t invest with unregulated brokers. Unfortunately, this is true because those types of companies have no intention of giving you any money. They’re established with one goal – to take your money and close their operation. One of those is DCMGroup, a brokerage based offshore in the Marshall Islands, owned by Archax Ltd. It is not registered with GLOFSA or any Tier1 regulators, meaning that it operates without a license. In case of issues, you will have no authority to assist you in getting the money back.`,
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With DCMGroup Broker',
+                desc: `DCMGroup presents itself as a crypto wallet that provides trading services with the ability to be used as a savings account and resolve all your financial issues. In theory, it sounds perfect. However, once you learn that the company has no regulations and has scammed many, it’s time to start questioning. According to investors, you will see the wallet and the balance for as long as you’re willing to fund it. Once you ask for payout, even if it’s just 1% of the amount you invested, your access to the money will be suspended, and you will have no contact with the company’s employees.
+                Before investing any money with DCMGroup, think if such a place is good for your funds. If, however, you’re already involved, contact us for assistance.`,
+            },
+            rev3: {
+                heading: 'Areas Of DCMGroup Trading Scam',
+                desc:`Most complaints about DCMGroup come from Spain, Germany, Canada, and Romania. Being added to the blacklist in Norway suggests that the company is active in Scandinavia, too, while we’ve seen comments from Australia, South Africa, and more. Wherever you are, it’s important to distinguish between regulated and unregulated companies and go with legit ones.`,
+                desc1: `There’s nothing good to say about DCMGroup and its operations. The company doesn’t help their clients or assist them in resolving financial issues, as advertised. In fact, anyone involved is now in more significant issues than ever before. Clients are persuaded to invest their life savings with the company just to discover that getting a refund is impossible.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Whether you sign up for an ad or are approached by the company’s employees via social media, you will be promised impossible results. Of course, everyone in the brokerage will try their best to explain how you can make thousands of dollars overnight, but let’s face it, it’s all just a story. At first, you may even make some profit, just for the account manager to gain your trust. Yet, once you ask for that profit, you will be convinced not to withdraw it or will simply be ignored. This is when you will understand that you have been scammed, and getting the money back is more complicated than it seems.`,
+            },
+        },
+        image: dcmgroup,
+        path: '/blog/DCMGroup'
+    },
+    {
+        name: 'Gitex Capital',
+        shortHeading: 'Gitex Capital Detailed Review — Just Another Scammer?',
+        fullDescription: `The main mistake of most deceived traders is their excessive self-confidence and belief in intuitive sensations. However, each investment company requires careful research before choosing its services. In this article, you can find out what aspects you should pay attention to in order to avoid a scam.`,
+        heading: 'Gitex Capital Detailed Review — Just Another Scammer?',
+        descriptionLvl: {
+            image: gitexcapitalPage,
+            rev1: {
+                heading: 'What About Gitex Capital Regulation?',
+                desc: `According to the information mentioned on the broker’s official website, they are regulated by the SVGFSA, a financial services authority based in Kingstown, St. Vincent. However, we wouldn’t rush to premature conclusions about the company’s trustworthiness. You won’t find a list of businesses under the SVGFSA’s control by checking their website.`,
+                desc1:`The FSA creation goals were to manage internal non-banking structures and control the process of international financial services. Nevertheless, calling the FSA a full-fledged regulator is quite difficult since they’ve noted a few times that they don’t issue licenses but only register brokers. Moreover, try to find detailed information, and you’ll be amazed to discover that the jurisdiction of Saint Vincent and the Grenadines allows conducting investment actions without a license.`
+            },
+            rev2: {
+                heading: 'Gitex Capital Warnings From Financial Regulators',
+                desc: 'It’s known that many leading brokers started their journey with the registration of the FSA. Probably, for this reason, defrauded investors fall under the influence of Gitex Capital and find themselves in a web of sophisticated trading scams. However, if you go into the details, every prosperous company registered by SVG later has received reliable regulation such as the Cyprus Securities and Exchange Commission, Financial Conduct Authority, ASIC, etc. We checked the databases of different regulators yet didn’t find any traces of Gitex Capital.',
+            },
+            rev3: {
+                heading: 'Traders About Gitex Capital Scam',
+                desc:`After cooperating with several unsuspecting victims of fraudulent projects, we accomplished research and found similar complaints about the Gitex Capital broker on various trading forums. People involved in fraudulent trading activities were concerned about withdrawal issues and total ignorance of emerging problems. Some even claimed that the company was using fake cell numbers and emails, which is not surprising when dealing with a completely anonymous organization.`
+            },
+            rev4: {
+                heading: 'Why Do People Get Sucked Into An Online Trading Scam? ',
+                desc: `Usually, a shady brokerage is built on the same concept: creating a legitimate-looking website, lying about regulation, hiding management details, and providing terms that are more favorable than competitors are offering. In the case of our “suspect,” all points are embodied in reality flawlessly.`,
+            },
+        },
+        image: gitexcapital,
+        path: '/blog/Gitex Capital'
+    },
+    {
+        name: 'Valiant Markets',
+        shortHeading: 'Valiant Markets Detailed Review',
+        fullDescription: `While the presentation itself may look valiant, the broker itself certainly isn’t. Valiant Markets tried hard to convince its investors they would be depositing the money with Cypriot company, while in fact, it’s offshore and fraudulent. Continue reading our Valiant Markets review for more details.`,
+        heading: 'Valiant Markets Detailed Review',
+        descriptionLvl: {
+            image: valiantmarketsPage,
+            rev1: {
+                heading: 'What About Valiant Markets Regulation?',
+                desc: `Valiant Markets is owned by Global Tech Holdings Ltd, allegedly registered in Cyprus and Saint Vincent and the Grenadines. However, to be a Cypriot-based financial service provider, any company needs to opt for a CySEC license. A thorough examination of this register has shown that Valiant Markets is not registered nor licensed in Cyprus.`,
+                desc1:`We did find a company registered in 2016 with the FSA of SVG; however, this authority body is just a register. To get a license, brokers need to opt for one in the country of service. It means that Valiant Markets is yet another fraudulent offshore scheme you shouldn’t trust.`
+            },
+            rev2: {
+                heading: 'Areas Of Valiant Markets Trading Scam',
+                desc: 'You should know that investing money with Valiant Markets is risky since the company is unregulated, and you have no withdrawal guarantees. According to reviews, the broker is mainly present in Canada, the US, the UK, and India. Furthermore, comments come from the Netherlands, Austria, Germany, etc.',
+            },
+            rev3: {
+                heading: 'Traders About Valiant Markets Scam',
+                desc:`Since we’ve elaborated the subject of this investment firm being an obvious scam, telling you that most comments are negative won’t come as a shocker. In fact, that’s something to expect. After being told that clients cannot get their money back, they only have to seek help through online channels.
+                If you find yourself a victim of the Valiant Markets scam, let us know what happened. We may be able to assist you with the refund.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams usually start with an overpromising ad showing you impossible results. Once you make an initial deposit, an account manager persuades you to invest more with all the different opportunities and proposals. Some scam brokers, including Valiant Markets, love to tell their customers they could use investment accounts as savings and get an interest rate. You should be well aware that such firms are not credible financial institutions, and there’s no interest. At least not for you. Once your money is gone, you can only report what happened.
+                Also remember the names of the Acceptrade, MultiBankFX and Axelery Group trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`,
+            },
+        },
+        image: valiantmarkets,
+        path: '/blog/Valiant Markets'
+    },
+    {
+        name: 'iTraders24',
+        shortHeading: 'iTraders24 Detailed Review',
+        fullDescription: `We can already conclude that this is a fraudulent broker by the name itself. Since there are two legitimate companies – iTrader and 24option, obviously this company played on clients’ inexperience and tried to convince them it’s a part of legal firms. Since it’s not, we’re here to expose the scheme in our iTraders24 review.`,
+        heading: 'iTraders24 Detailed Review',
+        descriptionLvl: {
+            image: itraders24Page,
+            rev1: {
+                heading: 'What About iTraders24 Regulation?',
+                desc: `Speaking of regulation, you should understand why it’s so important. If a broker holds a reputable license, it has to have a compensation fund with the regulator, and the money is to be used to reimburse clients if any issue occurs. Furthermore, being a member of ESMA or MiFID implies that your broker keeps money in segregated bank accounts and doesn’t use it for its everyday expenses.`,
+                desc1:`Now, iTraders24 claims to be a brand of iTraders Ltd from the UK. This means it should have an FCA license. Sadly, that’s not the case. Also, regulators have discovered that the company owner is, in fact, AntariLLA Management Ltd from Seychelles, meaning you’re dealing with yet another offshore scam. From everything being said, it’s clear that you should avoid this investment firm.`
+            },
+            rev2: {
+                heading: 'Areas of iTraders24 Trading Scam',
+                desc: 'Our review shows that the broker is mainly active in Spain, Albania, Italy, Greece, and Germany. As you can tell, all European countries. Besides, complaints come from the UK, Australia, and further, so wherever you are, pay good attention to offers you’re getting from iTraders24.',
+            },
+            rev3: {
+                heading: 'Traders About iTraders24 Scam',
+                desc:`What can one possibly say after being involved in a scam? iTraders24 reviews we’ve seen all point in the same direction – withdrawals are virtually impossible, account managers are extorting money, and the company is not actually British nor regulated. So the overall advice is to stay away from the scam.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `With iTraders24, everything starts with a convincing ad showing results from crypto investing. Apparently, you can earn over $5,000 per day if you obtain the company’s money-making software. They’ll ask you to deposit $250 initially but then tell you it’s not enough and the software can’t safely run with such small money. Anything you add will be for the margin and safety, not to be used on the market. As if.
+                The moment you invest any larger amount, you’ll be blocked and unable to reaccess your account or money. `,
+            },
+        },
+        image: itraders24,
+        path: '/blog/iTraders24'
+    },
+    {
+        name: '24Funds',
+        shortHeading: '24Funds Detailed Review',
+        fullDescription: `While 24Funds may seem like an immense option with a friendly-looking website and solid trading conditions, it cannot be further than the truth. Read our 24Funds review to find out everything about this illicit offshore operation.`,
+        heading: '24Funds Detailed Review',
+        descriptionLvl: {
+            image: e24fundsPage,
+            rev1: {
+                heading: 'What About 24Funds Regulation?',
+                desc: `24Funds is owned by Samiki Partners Ltd, a company registered in the Commonwealth of Dominica. Since this offshore country is not entirely known by firm regulations, we’ve checked whether 24Funds even obtained any license. As you can already guess, the answer is negative. There are no regulations, and any funds you invest with this shady trading firm are at risk.`,
+                desc1:`When trading, ensure to find Tier1 regulated brokers since these companies have compensation funds and keep your money in segregated accounts.`
+            },
+            rev2: {
+                heading: 'Deposit Bonuses As A Scam Tactic',
+                desc: 'As you can see on the broker’s main page, 24Funds immediately gives a deposit bonus of up to 20%. You don’t know that this bonus implies that you cannot withdraw your profit until you reach 25 times the bonus plus the deposit amount. This means it can take months before you’ll be able to get your funds out. Also, the broker claims the right to keep any profits made with so-called non-deposited funds, so your profit may easily never be paid out and with a legitimate reason.',
+            },
+            rev3: {
+                heading: '24Funds Web and Mobile Trading',
+                desc:`The broker provides Web trader and MT5 platforms. Both are available for Android and iOS mobile devices through a dedicated app. However, since you’re looking for higher security, MT5 should always be a preferred option. As an MT4 successor, it has the largest number of trading charts and indicators while including EAs and social trading. With a Web trader, you’re less safe and have fewer options for comfortable investing.
+                Yet, we need to remind you that the broker is illegal, and any money you invest may easily disappear.`
+            },
+            rev4: {
+                heading: 'Traders About 24Funds Scam',
+                desc: `Since the company is causing problems with withdrawals, as you can tell, most reviews are quite negative. Clients are expressing what they’re going through, how their initial deposit or the alleged profit has just disappeared once they have submitted withdrawal requests, and how they don’t have a solution for a problem.
+                If you’re one of the victims of the 24Funds scam, contact us right away.`,
+                desc1: `There are many different online trading scams – by regulated or unregulated brokers, offshore or based in reputable countries. What’s common for all is the fact that they will refuse to approve your withdrawal request once the time comes. You’ll simply be ignored, without a possibility to reach anyone at the company, since they’re not willing to deal with you once they have taken everything.
+                Sadly, this happens on a daily basis and the best thing to do is file a dispute for a chargeback.`
+            },
+        },
+        image: e24funds,
+        path: '/blog/24Funds'
+    },
+    {
+        name: 'SafeTradez',
+        shortHeading: 'SafeTradez Detailed Review',
+        fullDescription: `While reviewing this unlicensed brokerage, we noticed that much information is missing. For example, we have no idea who’s behind this fraudulent operation or under which regulatory jurisdiction it belongs. Let’s see our SafeTradez review and what we were able to find.`,
+        heading: 'SafeTradez Detailed Review',
+        descriptionLvl: {
+            image: safetradezPage,
+            rev1: {
+                heading: 'What About SafeTradez Regulation?',
+                desc: `SafeTradez is an anonymous brand allegedly based in Belgrade, Serbia. Knowing that this country is not famous for firm regulatory supervision, we checked SSC looking for SafeTradez regulation. Of course, we found nothing. Since there’s no owner and no governing law, we cannot determine whether the company is actually in Serbia or any offshore country. All we know is that you will not receive any compensation in case you’re scammed.`,
+                desc1:`In addition to the above, we strongly advise you not to invest in Avalon WM, CTA Capitals and CFBroker fraudulent brokers.`
+            },
+            rev2: {
+                heading: 'Areas Of SafeTradez Scam',
+                desc: `Our review has shown that the broker is mainly present in Canada, Australia, and Ireland. Yet, it has no authorization to provide financial services in any country, so be very careful. There’s no compensation fund that can be used for your reimbursement.
+                Also remember the names of the OMC Markets, FxxTrader and Infinox trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`,
+            },
+            rev3: {
+                heading: 'Traders About SafeTradez Scam',
+                desc:`As you can assume, traders have nothing good to say about SafeTradez. Most of the reviews are directed towards withdrawal issues, but we’ve seen some clients complaining about account managers as well. It seems that these people don’t assist clients in making a profit but instead pressure them to invest more money. If you decline the alleged financial plan, your account will be suspended.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams usually start with an overpromising ad showing the market’s potential and the millions you can make overnight. Even if you’re aware that this is just marketing, brokers such as SafeTradez will tell you how it’s all logical and possible. Once you believe them and go into the process, you will find yourself unable to withdraw your money. And those same employees that were so available and supportive will never answer your calls or emails and will block your access to your trading account.`,
+                desc1: `If you recognize yourself in our story, let us know. We may assist you in getting your money back.`
+            },
+        },
+        image: safetradez,
+        path: '/blog/SafeTradez'
+    },
+    {
+        name: 'BenefFX',
+        shortHeading: 'BenefFX Detailed Review',
+        fullDescription: `If you need another example of shady offshore brokers, here it comes. BenefFX comes from an offshore country without regulatory supervision and represents everything they tell you to stay away from. Read our BenefFX review and find out the details.`,
+        heading: 'BenefFX Detailed Review',
+        descriptionLvl: {
+            image: beneffxPage,
+            rev1: {
+                heading: 'What About BenefFX Regulation?',
+                desc: `BenefFX is a brand of Optium Ltd from the Marshall Islands. The main reason for companies going offshore is to avoid any kind of regulatory supervision since it’s known how loose it is. Furthermore, their payment provider is Key Solutions Ltd from Bulgaria, a so-called Balkans boiler-room, the EU headquarters for all those companies who want to hide in the open. Besides, we’ve met this company already, serving as a payment provider for another scam, Gloffix.`,
+                desc1:`Knowing all this, we can only advise you to stay away and not become the next BenefFX scam victim.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues with BenefFX Broker',
+                desc: 'Since the company has no official regulation and their payment provider is highly suspicious and not trustworthy, there’s a big question of withdrawals. According to numerous clients, the broker avoids approving any requests. Instead, it’s ignoring traders and not responding to their emails or calls. If you’re too persistent, you may discover that your trading account has been blocked and that you can no longer access your money.',
+                desc1: `If you experienced something similar with the BenefFX broker, let us know.`
+            },
+            rev3: {
+                heading: 'Areas Of BenefFX Scam',
+                desc:`Online trading scams are more sophisticated each day, and involving yourself with an unregulated broker can lead to only one outcome – losing your money. According to BenefFX complaints, the broker is mainly present in Turkey, Canada, Switzerland, and Germany. Yet, from what we’ve learned, there are no restricted areas except the USA, so wherever you are, you should be quite careful.`,
+                desc1:`Based on BenefFX complaints, the broker is problematic for withdrawals. But there’s more to add. Since there’s no reputable trading platform such as MT4 or MT5, rather just a Web trader, many clients cannot open/close trades, resulting in losing funds. The company claims it has nothing to do with them and refuses to refund clients for obvious platform problems.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Whether you were ever involved in a trading scam or not, you have seen numerous ads on social media stating how you can easily make thousands of dollars if you just start now. Usually, you will be prompted to invest $250, it’s the most standard amount, and you will be told that this money will generate as much as you aim to make. However, once you let yourself into this rabbit hole, you will understand that you need to invest more to generate a decent profit. If your broker is anything like BenefFX, you will never be able to make withdrawals.`,
+            },
+        },
+        image: beneffx,
+        path: '/blog/BenefFX'
+    },
+    {
+        name: 'Radex Markets',
+        shortHeading: 'Radex Markets Detailed Review',
+        fullDescription: `We were surprised to learn about the Radex Markets broker and its owner. From all we’ve seen, it looks like a legit company gave itself an offshore entity so they could be able to conduct fraud without jeopardizing their leading brand. Here’s everything we found out in our Radex Markets review.`,
+        heading: 'Radex Markets Detailed Review',
+        descriptionLvl: {
+            image: radexmarketsPage,
+            rev1: {
+                heading: 'What About Radex Markets Regulation?',
+                desc: `Radex Markets belongs to Go Markets International Ltd from Seychelles. This company has another brand, Go Markets, registered in Australia and Cyprus. So, we had to ask why open a company offshore and have a brand only with an FSC license?`,
+                desc1:`Usually, when the situation is like this, an offshore entity is used to defraud clients and collect money that has been used to finance a legitimate brand. Since offshore regulators don’t oblige brokers to create a compensation fund, having an FSC license won’t help you much if you cannot withdraw your money in the end.`
+            },
+            rev2: {
+                heading: 'Areas Of Radex Markets Scam',
+                desc: 'According to Radex Markets reviews, the broker is mainly present in the UK, Australia, and China. There’s a full website version in Chinese meant for this specific area. Note that there is no permission to provide financial services in these areas since there is no official regulation from Tier1 license providers.',
+                desc1: `Therefore, involvement with such a company may lead to becoming the next scam victim.`
+            },
+            rev3: {
+                heading: 'Traders About Radex Markets Scam',
+                desc:`Traders are not thrilled to learn that they are dealing with an offshore entity of a legit brokerage. Imagine being an Australian client and knowing that the company is available in your own country. Still, you’ve been assigned to an offshore entity without proper regulatory supervision, exposing your funds to risk.`,
+                desc1: `Never trust offshore entities of any company, no matter how legitimate they look. There’s a reason for establishing an entity away from real regulators.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Most brokers are starting their performance by showing you an ad on social media or any other part of the internet, convincing you they will lead you to success. Pretending to be your best friend, brokers such as Radex Markets are trying to lure you into fraud by promising anything and everything.`,
+                desc1: `Once you involve yourself with such a company that has no obligations to follow ESMA, MiFID, or any other regulatory rules, you’re coming to the point where you realize that the only way to get your money back is to file a dispute yourself.`
+            },
+        },
+        image: radexmarkets,
+        path: '/blog/Radex Markets'
+    },
+    {
+        name: 'Mag Markets',
+        shortHeading: 'Mag Markets Detailed Review',
+        fullDescription: `There are a lot of things to be explained about Mag Markets broker and their business in the EU and other parts of the world. Since the broker is fraudulent, like many others coming from offshore countries, we thought you deserved an explanation about your missing funds. Read our Mag Markets review and find it all out.`,
+        heading: 'Mag Markets Detailed Review',
+        descriptionLvl: {
+            image: magmarketsPage,
+            rev1: {
+                heading: 'What About Mag Markets Regulation?',
+                desc: `Mag Markets is owned by Mag Markets LLC from Saint Vincent and the Grenadines. Since this offshore country has no regulator whatsoever, Mag Markets came up with a solution. They claim to work under Geomatrix Ltd, a business registered in the Cook Islands with an FSC license.
+                First of all, we have no way to confirm this allegation since the only known brand under Geomatrix Ltd is 4XC. Besides, even if it’s true, this company is under a money-changing and remittance business license and is valid only in the Cook Islands.`,
+                desc1:`Also, according to numerous reviews, it’s just a shell company for money laundering since Cook Islands have no strict regulations for MLM schemes.
+                All this implies that you’re dealing with a fraudulent trading firm and your funds are at risk.`
+            },
+            rev2: {
+                heading: 'Areas Of Mag Markets Scam',
+                desc: 'Since the broker allegedly has regulation from the Cook Islands, one of their main targets is Australia, the same zone country. However, if you pay close attention to the website, you’ll notice that support and several other things are German. It tells us that the broker is targeting Germany, Switzerland, Austria.',
+                desc1: `Besides, we’ve found many negative reviews from France, so we know it’s present there as well. Wherever you are, be aware that Mag Markets is a scam and don’t fall for it.`
+            },
+            rev3: {
+                heading: 'Traders About Mag Markets Scam',
+                desc:`None of the investors has nice words for Mag Markets. All they do – list issues in reviews and ask for help. There are problems with withdrawals, account managers, the behavior of the company’s employees after the extra funds are paid, trading software is not a standard MT4, the leverage goes up to 1:400, making clients lose their funds quickly.`,
+                desc1: `All this can be resolved simply by avoiding offshore firms and finding one with a Tier 1 license such as FCA, ASIC, or BaFin.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams start with overpromising ads asking you to give away your personal information. Once you do, you will be spammed with calls, messages, and emails from the broker pushing you to start investing. And you will think you’re with the most wonderful company as they are always there to reply and assist.`,
+                desc1: `Only, this behavior will stop the moment you give your funds away, and you ask for the payout.`
+            },
+        },
+        image: magmarkets,
+        path: '/blog/Mag Markets'
+    },
+    {
+        name: 'Tradixa',
+        shortHeading: 'Tradixa Detailed Review',
+        fullDescription: `If you have any suspicions about the Tradixa broker and their way of handling business, let us tell you that your hunch is correct. Instead of prolonging it any further, read our Tradixa review and find out everything we were able to discover.`,
+        heading: 'Tradixa Detailed Review',
+        descriptionLvl: {
+            image: tradixaPage,
+            rev1: {
+                heading: 'What About Tradixa Regulation?',
+                desc: `Tradixa is practically an anonymous trading brokerage based in Saint Vincent and the Grenadines. The official owner was not disclosed, while regulatory jurisdiction doesn’t exist. As you may know, SVG doesn’t have an official financial regulator, rather just a trading register FSA that directs brokers to opt for the regulation in the country of service. As much as we wanted to believe that Tradixa is not like the rest of offshore scams, it turns out that it is.
+                There are specific indications that this company has been linked to a Bulgarian boiler room called Brokerz and its owner, All Media EOOD.`,
+                desc1:`If you want to start investing, look for brokers with a Tier 1 license since it’s your only guarantee for withdrawals.`
+            },
+            rev2: {
+                heading: 'Areas Of Tradixa Scam',
+                desc: 'According to reviews, the broker mainly operates in Greece, Italy, and Spain. However, based on the FCA warning, we can tell it’s active in the UK as well, along with Australia, Austria, the Netherlands, and many other areas.',
+                desc1: `From all we know, Tradixa has no limits and provides its unauthorized services everywhere. Beware that you may become the next scam victim by accepting their offer.`
+            },
+            rev3: {
+                heading: 'Traders About Tradixa Scam',
+                desc:`The broker has a poor rating on Trustpilot, with a score of 2.1 stars. It seems that the company is extorting funds and not calling clients after. If you try to get in touch, your calls will simply be ignored since account managers decided there’s nothing left to extort. `
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online scams usually start by showing you potential profit or any benefit you may want – a luxury house, easy life, paid tuition for your children, etc. Once they spark your interest, scammers will require you to get all of your personal details, so they can get in touch and “explain more.”`,
+                desc1: `The thing is that instead of an explanation, they will insist on actually getting your money so they can show you all these amazing results. And once you give your money away, you will be drained until the moment you ask for a withdrawal. After that, your account will be suspended, and your money will be gone.`
+            },
+        },
+        image: tradixa,
+        path: '/blog/Tradixa'
+    },
+    {
+        name: 'TradeSmart1',
+        shortHeading: 'TradeSmart1 Detailed Review',
+        fullDescription: `Reviewing the TradeSmart1 broker was definitely not an easy task. With so much opposite information and so many false claims, we needed to determine what to present to you and how to deliver it. Read our final version of the TradeSmart1 review, and you will see for yourself why investing funds with this trading firm is not smart.`,
+        heading: 'TradeSmart1 Detailed Review',
+        descriptionLvl: {
+            image: tradesmartPage,
+            rev1: {
+                heading: 'What About TradeSmart1 Regulation?',
+                desc: `When you visit the broker’s website, the first thing you notice is that it’s located in Cyprus. Therefore, you’re concluding it has to be regulated and legit. Furthermore, the alleged owner is Trade Smart 1, based in London. Here we come to an issue. The company is allegedly regulated by the House of Companies. However, this is just a register of companies based in the UK, not a regulator.`,
+                desc1:`To have a license, the company must contact FCA and obtain one. The final red flag was the statement that governing law is the law of the Commonwealth of Dominica. 
+                Based on everything, we can conclude that the broker is most likely offshore, pretending to be legit and luring the EU clients this way. Beware of the TradeSmart1 trading scam.`
+            },
+            rev2: {
+                heading: 'TradeSmart1 Withdrawal Issues',
+                desc: `Of course, when everything is shady, as’s the case with TradeSmart1, withdrawal problems are not a surprise. The broker is preventing clients from getting their money back in different ways. Some clients reported that they could not log in to their account after asking for a payout.
+                Others, however, were given bonuses at the start of trading without being explained that it would impact withdrawals, and if they wish to get the money back, they will have to reach insane rollovers.`,
+                desc1: `All this means only one- the broker relies on the fact it’s not regulated and avoids paying clients when the time comes.`
+            },
+            rev3: {
+                heading: 'Areas Of TradeSmart1 Scam',
+                desc:`According to TradeSmart1 reviews, the broker is mainly present in Greece, Cyprus, and Albania. This could be a potential reason for the false Cypriot address on their website.
+                However, note that it cannot provide financial services legally in any country, so whenever you’re approached by TradeSmart1 forex brokerage, make sure to decline the offer for your own safety.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Usually, online trading scams are created to target innocent clients who have no experience on the market or know very little about it. You will be told that you can make millions without any effort just by putting your funds with a certain company or a particular trading robot.`,
+                desc1: `However, once you ask for a payout, the company will either stall as much as possible, delay you, or freeze your account. In some cases, they might even disappear without any explanations. Be very careful when choosing your broker and look for those with Tier1 licenses.`
+            },
+        },
+        image: tradesmart,
+        path: '/blog/TradeSmart1'
+    },
+    {
+        name: 'Safe Holdings',
+        shortHeading: 'Safe Holdings Detailed Review',
+        fullDescription: `There’s nothing safe regarding Safe Holdings offshore brokerage. Since we’ve discovered many things of interest to anyone involved, we’ve decided to expose the scheme in our SafeHoldings review and describe who this broker is and how you can possibly get your funds back.`,
+        heading: 'Safe Holdings Detailed Review',
+        descriptionLvl: {
+            image: safeholdingsPage,
+            rev1: {
+                heading: 'What About Safe Holdings Regulation?',
+                desc: `Safe Holdings is owned by 123media Ltd from Saint Vincent and the Grenadines. And while it pretends to exist since 2018, its registration number with the FSA shows that the company was established this year. 
+                However, what bothers us the most is that FSA is just a financial register, while regulation should be sought in the country of service. We’ve checked the FCA, ASIC, BaFin, and more but found no trace of Safe Holdings regulation.`,
+                desc1:`It implies that you’re dealing with an unlicensed offshore fraud, and that’s never good for your funds.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With Safe Holdings Broker',
+                desc: 'Since the company has no license, there’s no supervisor for its activities. This means that there’s no obligation for the broker to let clients withdraw their funds, as there’s no penalizing or any fees.',
+                desc1: `Many brokers think that opening an offshore headquarters and having no proper oversight will save them from lawsuits and being exposed to any sort of punishment. Yet, countries and their regulators have decided to end such fraudulent activities and investigate each and every brokerage.
+                Currently, we are sure that there is someone who noticed Safe Holdings’ activities and is willing to help clients get reimbursed. If you have had any negative experiences, file a complaint and tell us your story. Contribute to denying brokers access to the market, and let’s prevent it from defrauding more clients.`
+            },
+            rev3: {
+                heading: 'Areas Of Safe Holdings Scam',
+                desc:`According to SafeHoldings’ reviews, most clients who filed a complaint came from the UK, Germany, and Canada. Since offshore brokers are well-known for having no boundaries and no restricted areas, beware of the Safe Holdings trading scam wherever you are.
+                Also remember the names of the Razer Markets, Trendex and Evotrade trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+            rev4: {
+                heading: 'Traders About Safe Holdings Scam',
+                desc: `As mentioned, there are many complaints against the Safe Holdings scam. Clients complain about withdrawals, lousy trading platforms with many lags, and severe issues regarding their online safety.`,
+                desc1: `The broker convinces victims to download AnyDesk that allows them access to all the apps, including online banking. Once your account manager gets such access, your funds may disappear from your bank without your authorization.`
+            },
+        },
+        image: safeholdings,
+        path: '/blog/Safe Holdings'
+    },
+    {
+        name: 'DeltaStream',
+        shortHeading: 'DeltaStream Detailed Review',
+        fullDescription: `When it comes to DeltaStream broker, there are many things to stay — starting with the fraudulent owner, suspicious trading conditions, and undisclosed terms. Read our DeltaStream review to find it all out.`,
+        heading: 'DeltaStream Detailed Review',
+        descriptionLvl: {
+            image: deltastreamPage,
+            rev1: {
+                heading: 'What About DeltaStream Regulation?',
+                desc: `DeltaStream is owned by Ineffable Group Ltd from the Commonwealth of Dominica. This fraudulent trading firm has two other unlicensed brands like DeltaStream – Flex Capital and Iconic Capital.
+                If you ever come across any of those, know that you’re dealing with a fraudulent offshore scheme that involves several brands pretending to help you get the money from the previous one that scammed you.`,
+                desc1:`Since the broker has no license with the FSU or Tier1 regulators, you can already understand that your funds are at risk.`
+            },
+            rev2: {
+                heading: 'Areas Of DeltaStream Scam',
+                desc: 'According to complaints, the broker is mainly present in Canada and Germany. However, there are numerous negative reviews from the UK, Australia, Austria, Switzerland, and more.',
+                desc1: `Be aware that DeltaStream forex brokerage has no authorization to provide legal financial services, and putting any money into this brokerage is a risk.`
+            },
+            rev3: {
+                heading: 'Traders About DeltaStream Scam',
+                desc:`As you can already imagine, traders have nothing good to say about DeltaStream. They’re massively complaining about withdrawals, claiming that as much as they try, getting a refund is nearly impossible.`,
+                desc1: `The broker is also asking clients to allow remote access to their computers via AnyDesk or TeamViewer and steal their funds.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `The online trading scam usually starts with an ad showing significant profits and people making millions from investments of $250. Yet, once you sign up and add your details, you will be pressured to invest more and more no matter how you feel about the offer.
+                You might be caught up in the bonus scheme and denied getting a payout until you invest more or reach an impossible rollover. Another possibility is that you will be asked to pay non-existing fees and taxes to release your funds.
+                Don’t fall for such a scam since you never need to pay to get your own money back. Just stay away from scammers such as DeltaStream.`,
+                desc1: `Also remember the names of the LTMTrade, Qicmarket Group and FXORO trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+        },
+        image: deltastream,
+        path: '/blog/DeltaStream'
+    },
+    {
+        name: 'InFlux Finance',
+        shortHeading: 'InFlux Finance Detailed Review',
+        fullDescription: `When speaking of InFluxFinance broker, there’s nothing much to say. Illegal, unlicensed, typical trading scam. Yet, don’t take our word for it; read everything in our InFluxFinance review.`,
+        heading: 'InFlux Finance Detailed Review',
+        descriptionLvl: {
+            image: influxfinancePage,
+            rev1: {
+                heading: 'What About InFlux Finance Regulation?',
+                desc: `InFluxFinance is a brand of Incendiary Group Ltd from the Commonwealth of Dominica. The company shares an address with other notorious scam brands such as InvestBoost, SeaLimited, EuroFX, and more. `,
+                desc1:`The broker operates without any sort of regulation, not from the FSU nor Tier1 regulators such as FCA, ASIC, and BaFin. This means that your funds are at tremendous risk, and you should avoid this illicit CFD and Forex trading provider unless you are willing to lose all you have.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With InFluxFinance Broker',
+                desc: 'Since InFlux Finance is unregulated, clients have no guarantees for their funds. Of course, nobody will prevent you from investing; in fact, you will be encouraged to do so. Your account manager will be your best friend up to the point where you request a withdrawal.',
+                desc1: `This is where everything will change, you will not be able to reach the company anymore, and your account will be frozen under different kinds of excuses. `
+            },
+            rev3: {
+                heading: 'Areas Of InFlux Finance Scam',
+                desc:`According to InFlux Finance reviews, the broker is mainly present in Germany, Serbia, Portugal, and Spain. Besides, we’ve seen complaints from the UK, Scandinavian countries, Australia, South Africa and more.
+                Wherever you are, be aware that InFluxFinance has no authorization to provide financial services, and the outcome will most likely be negative.`,
+                desc1: `Also remember the names of the Investor500, CFreserve and IqToro trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Trading scams are no different than other online scams. The final goal is for the victims to give their funds away. Since investing is a potential opportunity actually to make a solid profit, scammers will use different tools such as fake ads, fake results about gains they’ve allegedly made for other clients, etc.`,
+                desc1: `Once you invest in funds with companies such as InFluxFinance, don’t expect to see a return. These brokers are based offshore for a good reason. To avoid any supervision by the regulators and make sure they won’t be discovered before they shut down the website and start their new scam.`
+            },
+        },
+        image: influxfinance,
+        path: '/blog/InFlux Finance'
+    },
+    {
+        name: 'Nash Markets',
+        shortHeading: 'Nash Markets Detailed Review',
+        fullDescription: `From everything we’ve seen, Nash Markets may go on the list of the most anonymous brokerages out there. It has no information disclosed yet expects clients to hand over the money. Read our Nash Markets review to find out why avoiding this trading firm would be the best.`,
+        heading: 'Nash Markets Detailed Review',
+        descriptionLvl: {
+            image: nashmarketsPage,
+            rev1: {
+                heading: 'What About Nash Markets Regulation?',
+                desc: `Nash Markets haven’t listed the owner or the regulatory jurisdiction. Practically, we can only assume that the company has been based offshore, avoiding being noticed by a firm authority body. However, after reviewing several offshore registers along with some Tier1 such as FCA, ASIC, and BaFin, we found nothing.`,
+                desc1:`This means that your funds are at risk, and you should not give any more money to Nash Markets. In fact, you should look for a way to get it back.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With Nash Markets',
+                desc: `Since the broker has proven its illicit scheme by not disclosing some of the necessary information, we were not surprised to learn that it doesn’t allow withdrawals. If you have no official owner and clients cannot find you, it’s not such a risk refusing to give the money back. Until the moment someone really decides to start searching.
+                However, Nash Markets reviews said that the broker is not processing withdrawal requests, uses bonus scams on its clients to prevent payouts, and in the end, just blocks their accounts if they are too persistent.`,
+            },
+            rev3: {
+                heading: 'Areas Of Nash Markets Scam',
+                desc:`According to everything we’ve read, most defrauded clients are coming from the USA and Canada. These two countries seem to be favorite places, but not the only ones. We’ve seen complaints from countries such as the UK, Australia, Singapore, and South Africa.`,
+                desc1: `Conclusion – wherever you are, don’t accept any offers coming from this illegal operation.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams usually start with an overpromising ad, where clients can see a person making millions within a week. From there, they are being pressured to invest and constantly harassed by millions of phone calls until they agree to give at least an initial deposit. `,
+                desc1:`Once you’re in, going out is impossible since you’re being blackmailed into investing more and not losing everything you’ve invested so far.`
+            },
+        },
+        image: nashmarkets,
+        path: '/blog/Nash Markets'
+    },
+    {
+        name: 'OnyxProfit',
+        shortHeading: 'OnyxProfit Detailed Review',
+        fullDescription: `Once we saw who the OnyxProfit broker belonged to, we already knew what to expect. However, we decided not to judge too soon and did the entire OnyxProfit review with evidence to back up our statements.`,
+        heading: 'OnyxProfit Detailed Review',
+        descriptionLvl: {
+            image: onyxprofitPage,
+            rev1: {
+                heading: 'What About OnyxProfit Regulation?',
+                desc: `OnyxProfit is a brand owned by notorious Donnybrook Consulting Ltd. Since we’ve written about this firm a lot, we will just remind you of some of the scamming brands it’s running, such as OFXB, ABSystem, EuroFX, and more. All of these brands were blacklisted around the globe for fraudulent activities.`,
+                desc1:`Since Donnybrook Consulting Ltd is from the Commonwealth of Dominica and unregulated, no wonder it doesn’t care just to open and close trading websites, luring clients into scams. If you ever come across this name, run from it as far as you can.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With OnyxProfit Broker',
+                desc: 'No wonder clients have reported numerous withdrawal issues. Knowing Donnybrook Consulting Ltd and its brands, OnyxProfit will be yet another scheme that will gather money and disappear. If the firm follows its own pattern, clients who ask for withdrawals will get suspended accounts under many excuses.',
+                desc1: `Starting with the violations of the company’s policy to unpaid bonuses, account managers will give so many different reasons just to cover what’s really happening – your money is gone, and you will have to file a dispute ever to see it again.`
+            },
+            rev3: {
+                heading: 'Areas of OnyxProfit Scam',
+                desc:`Since the broker has very few limits and doesn’t operate only in the USA, North Korea, Iran, and several other countries, everyone else is at risk. OnyxProfit complaints come from the UK, Netherlands, Germany, Australia, Canada, South Africa, and many other parts of the world.`,
+                desc1: `Beware of the OnyxProfit scam wherever you are, and don’t accept offers coming from this fraudulent trading firm.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Different brokers operate differently. However, all of them have in common their wish to extort money and the fact they don’t choose the means to do so. For example, many illicit offshore brokers, such as OnyxProfit, will use false ads that may even include celebrities to present their platform legit.`,
+                desc1: `Yet, once you fall into the trap, you will be constantly asked to invest more without the possibility of withdrawing the funds. `
+            },
+        },
+        image: onyxprofit,
+        path: '/blog/OnyxProfit'
+    },
+    {
+        name: 'Elcomercio24',
+        shortHeading: 'Elcomercio24 Detailed Review',
+        fullDescription: `Elcomercio24 seems to be one of the brokers with the most regulatory warnings against the brand in 2021. Therefore, we’ve decided to warn you about this trading fraud and bring up all the schemes and techniques the brokerage uses to scam its clients. Read our Elcomercio24 review and find it all out.`,
+        heading: 'Elcomercio24 Detailed Review',
+        descriptionLvl: {
+            image: elcomercio24Page,
+            rev1: {
+                heading: 'What About Elcomercio24 Regulation?',
+                desc: `Elcomercio24 is a brand of 8 DOTS LTD from Saint Vincent and the Grenadines. It’s located in the notorious Griffith Corporate Center, along with many other scams such as CCXMarkets, Capital Investment Broker, and more.
+                Since this country has no official regulatory body, instead directs brokers to opt for the regulation in the country of service, we’ve checked Tier1 registers. And instead of the Elcomercio24 regulation, we found many warnings.`,
+                desc1:`It was just the first among many red flags related to this trading scam.`
+            },
+            rev2: {
+                heading: 'Traders About Elcomercio24 Scam',
+                desc: 'After everything being said, traders had a negative impression of the broker. Everyone involved was pressured to download AnyDesk and to make an initial investment using Bitcoin and other cryptocurrencies. The broker claims it’s a wise investment that protects both sides. However, crypto transactions are hard to follow, and chargeback is impossible, so if you are planning to make investments, the safest method would be using your credit card with the possibility to reverse the transaction later.',
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Different brokers have different ways of scamming. When it comes to Elcomercio24, everything starts with an ad about cryptocurrencies showing insane amounts of profit. Of course, clients are pressured to start immediately so they wouldn’t miss some alleged event or the trading opportunity.`,
+                desc1: `Once you get yourself involved, you will be asked for more and more money, while payouts will be nearly impossible to get.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: elcomercio24,
+        path: '/blog/Elcomercio24'
+    },
+    {
+        name: 'ABSystem',
+        shortHeading: 'ABSystem Detailed Review',
+        fullDescription: `Blacklisted in 5 EU countries, ABSystem definitely reserved its place as one of the most notorious online trading brokerages. Once we’ve learned it belongs to the infamous Donnybrook Consulting Ltd, which you may know for different scamming brands such as EnergyMarkets, OptiMarket, and OFXB, we figured out who you are dealing with. Just in case, read our ABSystem review and make sure to stay away from this fraudulent firm.`,
+        heading: 'ABSystem Detailed Review',
+        descriptionLvl: {
+            image: absystemPage,
+            rev1: {
+                heading: 'ABSystem Regulations and Security',
+                desc: `As mentioned, ABSystem is owned by Donnybrook Consulting Ltd and is based in the Commonwealth of Dominica. Of course, with such a notorious owner, there’s no word about regulations or the security of the funds.`,
+                desc1:`Unfortunately, despite severe authority warnings about this particular firm all over Europe, offshore safe haven denies to shut down this illicit operation thanks to their good connections. That’s why many clients ended up victims of the ABSystem scam.
+                Note that you should avoid this and all other Donnybrook Consulting Ltd brands.`
+            },
+            rev2: {
+                heading: 'Traders About ABSystem Scam',
+                desc: 'Besides massive complaints in regards to withdrawals, traders are experiencing issues with the so-called automated trading system. ABSystem advertises automated trading and their innovative technology under the name Arbitrage-Bot. As a result, this robotic system should minimize the risk and increase the success of your trades.',
+                desc1: `However, would you trust something that an unregulated broker tells you after knowing all the facts?`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`As aforementioned, one of the ways to conduct a scam is by advertising robotic systems that you don’t have. You will most likely see an ad showing how this robot works based on tons of stats and algorithms, then start investing for yourself just to discover that the system doesn’t even exist.
+                The company made it all up to sound convenient, but in reality, your account manager will be the one opening and closing those trades. Since they will have access to your funds, you can already see the scam happening.`,
+                desc1: `Because of that, stay away from unregulated companies and alleged robotic systems.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: absystem,
+        path: '/blog/ABSystem'
+    },
+    {
+        name: 'HonorFX',
+        shortHeading: 'HonorFX Detailed Review',
+        fullDescription: `As HonorFX broker recently showed up on the financial scene, we’ve decided to give it a short glance and determine whether it’s worth your money. We’ve found some exciting things, so let’s dive into our HonorFX review and unveil it all.`,
+        heading: 'HonorFX Detailed Review',
+        descriptionLvl: {
+            image: honorfxPage,
+            rev1: {
+                heading: 'HonorFX Regulation and Security',
+                desc: `HonorFX is a relatively new broker, established last year. However, it has already gathered a significant number of investors, all of them questioning the broker’s license. Therefore, we’ve decided to analyze the problem and find out what the issue would be. `,
+                desc1:`The broker is owned by Honor Capital Markets Limited and has been registered in 3 countries – Mauritius, Malaysia, and Saint Vincent and the Grenadines. With two of those being offshore, you would expect the company to have at least one valid license – the Securities Commission of Malaysia. Yet, we were disappointed to learn the company chose Labuan instead, going after the LFSA license. This practically means that none of the authorities are Tier1 regulators, and none of them oblige companies to form a compensation fund.
+                All of the above means your funds are at high risk, and you should think twice before investing with such a firm.`
+            },
+            rev2: {
+                heading: 'Traders About HonorFX Scam',
+                desc: 'We are not the only ones who noticed that something about HonorFX is not as straightforward. Many investors filed official complaints after several suspicious events – some of them were prompted to install AnyDesk or similar software so the account manager could access their online banking.',
+                desc1: `Some noticed trades they had never opened or early closed trades they wanted to keep. And, of course, some cannot access their funds or log in to their trading account.`,
+                desc2: `Whatever issue you have, file a complaint immediately!`
+            },
+            rev3: {
+                heading: 'Deposit Bonuses As A Scam Tactic',
+                desc:`One of the most used scamming techniques to prevent clients from withdrawals is definitely using bonuses. HonorFX offers bonuses of 30%, 100% credit bonus, a $50 bonus on the initial deposit, 50% for IB partnership, and different promotions for bringing friends or family members to the company.`,
+                desc1: `As you can tell, they tried really desperately to sell you one of these programs that implies you won’t be able to withdraw your funds until you reach an impossible rollover within 30 days.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams usually start by seeing a trading ad promising a brighter future if you join the financial market. And it would be true if you haven’t come across fraudulent brokerage without a proper license, such as HonorFX. To avoid such situations, make sure that your broker has a Tier1 regulation and a compensation fund you could be reimbursed from.`,
+            },
+        },
+        image: honorfx,
+        path: '/blog/HonorFX'
+    },
+    {
+        name: 'AskForBit',
+        shortHeading: 'AskForBit Detailed Review',
+        fullDescription: `It seems that AskForBit is yet another scheme trying to use the fact that cryptocurrencies are not an entirely regulated field to defraud clients. The broker offers all of the biggest markets but insists on trading crypto, even accepts crypto to make a deposit.
+        Since cryptocurrency transactions are hard to follow, we recommend that you read our AskForBit review and avoid that kind of investing.`,
+        heading: 'AskForBit Detailed Review',
+        descriptionLvl: {
+            image: askforbitPage,
+            rev1: {
+                heading: 'AskForBit Regulation And Security',
+                desc: `AskForBit is a brand owned by Askforbit Ltd, allegedly based in Australia, operating under ACCE Australia Pty Ltd. They also have another entity in Germany. It would all be tremendous, only if it was true. ACCE Australia Pty Ltd is a legit company operating under the domain accegroup.com.au and has nothing to do with AskForBit brokerage. Also, the entity in Germany hasn’t been found, nor can we locate AskForBit regulation with ASIC or BaFin.`,
+                desc1:`It all indicates you’re dealing with a fraudulent firm that might even be based offshore, adding false information to their website.`
+            },
+            rev2: {
+                heading: 'Traders About AskForBit Scam',
+                desc: 'Once scammed, traders can only write AskForBit reviews and warn those who come after. According to these reviews, there are many complaints regarding withdrawals, but also about broker’s account managers who are giving lousy advice on purpose. Everyone involved claims that they have been making money up until the point they asked for a payout. That’s when the account manager accidentally suggested a bad trade, and all clients’ money was gone.',
+                desc1:`The broker operates mainly in Australia and New Zealand, so pay special attention.`,
+                desc2: `If you experience something similar, report it immediately!`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Online trading scams usually start from an ad showing how trading can be an immense source of income. You see millions made within weeks from the initial deposit of only $250. Some trading software is giving market predictions so accurate that it’s impossible to make mistakes. As AskForBit itself suggests, returns can be up to 92%. `,
+                desc1: `Brokers use different phrases, such as “up to,” “potentially,” and more, to sell you a dream. Once you buy it, you’re let down a black hole, and the only way out is through legal authorities.`
+            },
+            rev4: {
+                heading: 'But What Is A Chargeback?',
+                desc: `This is a way for your bank to reverse the fraudulent transaction up to 540 days after they occur. If you have been a victim of an online trading scam, contact us via online chat. Book your free consultation with a chargeback expert, and let’s get your money back before it’s too late!`,
+            },
+        },
+        image: askforbit,
+        path: '/blog/AskForBit'
+    },
+    {
+        name: 'Tredero',
+        shortHeading: 'Tredero Detailed Review',
+        fullDescription: `Tredero is one of the rare brokers that actually opted for the offshore license. However, it doesn’t make it any more legit as FSC doesn’t oblige companies to form a compensation fund. Instead, they are taking money to register the business and leave it at that. Read our Tredero review for further details about the brokerage.`,
+        heading: 'Tredero Detailed Review',
+        descriptionLvl: {
+            image: trederoPage,
+            rev1: {
+                heading: 'Tredero Regulations and Security',
+                desc: `Tredero is owned by Oneplus Ltd from Mauritius and has the FSC regulation. As mentioned, it doesn’t mean much as this regulatory body cannot help clients get their funds back. Tier1 regulators such as FCA and ASIC have a condition of a compensation fund worth around 730,000 EUR from which clients would be reimbursed in case of scams.`,
+                desc1:`With FSC and similar offshore regulators, it’s not the case, so beware of potential trading scams.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With Tredero',
+                desc: 'Since we’ve already explained the issue of an offshore license, we can say it’s similar to having no regulations. Since there is no compensation fund and offshore regulators are hard to contact, brokers like Tredero feel free to scam clients. One of the ways is not processing withdrawal requests and blocking clients’ access to a trading account. If you cannot access your funds, you will never retrieve them. ',
+                desc1: `If you experience something similar, let us know.`
+            },
+            rev3: {
+                heading: 'Traders About Tredero Scam',
+                desc:`According to Tredero reviews, there’s nothing good about the brokerage. It’s rated as poor on several websites, and clients are massively complaining about withdrawals. There are a few more issues in regards to trading conditions.`,
+                desc1: `So if you try to find out about a minimum deposit, leverage, or spread, you won’t be able to get anything from the website. On the other hand, broker’s employees will evaluate your financial situation and ask for as much as they think you can afford.`,
+                desc2: `Beware of the Tredero trading scam! Also remember the names of the FX Quote 247, ImperialFunding and MyBitChain trading scams and avoid them at all costs! Moreover, always check the background of online trading companies before investing!`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams, especially those run by offshore companies, start with an overpromising ad. You will see magical software with an over 90% success rate, people becoming millionaires overnight. You might even read an article about all the money someone from your country made. Know that all these are fake posts by the broker itself to promote something they cannot deliver.`,
+                desc1: `Once you fall for fraud such as Tredero, you will struggle to see your funds back. Offshore brokers tend to steal as much money as possible and disappear. Watch for anything suspicious about Tredero broker and report irregularities immediately.`
+            },
+        },
+        image: tredero,
+        path: '/blog/Tredero'
+    },
+    {
+        name: 'FXORO',
+        shortHeading: 'FXORO Detailed Review',
+        fullDescription: `As there were many confusions related to the FXORO broker, we decided to investigate why clients are confused and what is happening with the brand. It seems like some of them are registering from the EU but ending up with an offshore entity and unregulated trading conditions. Read our FXORO review and resolve your dilemma in regards to this brand.`,
+        heading: 'FXORO Detailed Review',
+        descriptionLvl: {
+            image: fxoroPage,
+            rev1: {
+                heading: 'What About FXORO Regulation?',
+                desc: `While on one side, FXORO is a genuinely regulated and legit brokerage, there’s one side of this brand that we cannot stand behind – the offshore entity. The brand was established in 2010 by the MCA INTELIFUNDS LTD from Cyprus. However, it looks like this year, the company opened an additional brand in Seychelles but hasn’t reported it to CySEC. Therefore, we have several domains approved by CySEC, such as those for the EU, UK, and UAE, while the offshore one remains under the FSA jurisdiction.`,
+                desc1:`This all wouldn’t be so confusing if EU clients didn’t end with an offshore entity, questioning how it could possibly happen when they applied for a Tier1 regulated brand. `,
+                desc2: `Whenever you notice that a company has 2 entities, beware of potential fraud. As the company has a discretionary right to assign you to any entity, you might end up with an offshore one, given unregulated trading conditions, and without a compensation fund. All those who belong to the CySEC entity are entitled to a compensation fund of 730,000 EUR, while those under the FSA have no guarantees for their funds.`
+            },
+            rev2: {
+                heading: 'Traders About FXORO Scam',
+                desc: 'According to numerous FXORO reviews, the biggest issue is an offshore entity that nobody knows about before signing up. What raised a huge red flag is that the broker operates perfectly legally, asks for documents, and more before depositing with a Cypriot company. At the same time, once you’re assigned offshore, they will go directly after your money without any questions being asked. ',
+                desc1: `Make sure to read the reviews before being involved with such a trading scam.`,
+            },
+            rev3: {
+                heading: 'What Is A Potential Issue With FXORO And Similar Companies?',
+                desc:`Sometimes, legitimate firms have two entities – one under Tier1 regulation and one offshore. As a primary reason, these companies say they’re registering offshore to gain access to worldwide customers and pay lower taxes. However, you should be pretty careful with those. While everything may go well, and you may be assigned to a Cypriot firm, there’s always a possibility of ending up with an offshore one and being subject to almost non-existing trading rules, higher leverage, and more risk.`
+            },
+            rev4: {
+                heading: 'Having problems with FXORO Broker? – Tell Us Your Story',
+                desc: `Let us know if you have experienced any issues dealing with FXORO or a similar brokerage with two entities. Our chargeback specialists will find the best money-back solution that suits you.`,
+            },
+        },
+        image: fxoro,
+        path: '/blog/FXORO'
+    },
+    {
+        name: 'TrampaFX',
+        shortHeading: 'TrampaFX Detailed Review',
+        fullDescription: `As detailed as we wanted to be, there are a lot of unknown things about the TrampaFX broker. However, we did our best to uncover this illicit operation and show you what to do if you have been scammed. Read our TrampaFX review and find it all out.`,
+        heading: 'TrampaFX Detailed Review',
+        descriptionLvl: {
+            image: trampafxPage,
+            rev1: {
+                heading: 'TrampaFX Regulations and Security',
+                desc: `Talking about the regulation of a brokerage is difficult if we cannot determine under which regulatory jurisdiction the broker belongs. Based on the main page ad, we assume it’s a Turkish boiler room standard in this part of Europe. Since we have no official owner, no person in charge, and no headquarters, your funds are not safe, and you have no guarantees you will ever be reimbursed if you were defrauded by the TrampaFX trading scam.`,
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues With TrampaFX',
+                desc: 'As we saw people discussing on several social media sites such as Reddit and Pinterest, everyone has experienced withdrawal issues with TrampaFX. Once clients want to get a payout or submit a withdrawal request, the broker starts ignoring them. An account manager is not answering phones or emails, while the support department simply blocks clients’ numbers. Since it’s unclear how much you should deposit to start with the broker initially, we would advise you to find a Tier1 regulated broker that transparently explains all of the trading conditions. Avoid the TrampaFX scam in any way possible.',
+            },
+            rev3: {
+                heading: 'Traders About TrampaFX Scam',
+                desc:`According to TrampaFX reviews, clients are having a hard time with the broker’s web trader besides withdrawals. It’s a TradingView chart with several indicators and lots of lags. Take profit and stop loss don’t function, meaning if you rely on these options to keep your funds safe or close your position when you reach a certain profit, it won’t happen. You can just lose your money unless you monitor your account constantly.`
+            },
+            rev4: {
+                heading: 'How To Know If You Have Been Scammed Online?',
+                desc: `Besides obvious, such as withdrawal issues, there are other signs of scams as well. If your account manager insists too much on investing more funds without showing you any results or trying to sweep you off your feet by too big a profit in a short period, you should be suspicious. Let’s say you submitted a withdrawal request, and all of a sudden, you cannot log in to your account nor contact anyone from the company.`,
+                desc1: `If you were scammed by TrampaFX, let us know. Our support department will book a free consultation with a chargeback specialist who will find a tailor-made solution for you to get your money back.`
+            },
+        },
+        image: trampafx,
+        path: '/blog/TrampaFX'
+    },
+    {
+        name: 'CFreserve',
+        shortHeading: 'CFreserve Detailed Review',
+        fullDescription: `There have been lots of questions related to CFreserve brokerage. If you wondered whether you should start an account or have already been involved and can’t get your money back, read this CFreserve review. We’ve covered it all.`,
+        heading: 'CFreserve Detailed Review',
+        descriptionLvl: {
+            image: cfreservePage,
+            rev1: {
+                heading: 'CFreserve Regulations and Security',
+                desc: `CFreserve didn’t give us much information related to the company owner or headquarters. All we have is a support number from Ireland indicating this is where the company is based. However, Ireland has a very firm regulatory body, the Central Bank of Ireland, with no records of CFreserve. Therefore, we can conclude that this particular broker is not regulated and most likely not even based there.`,
+                desc1:`According to the FCA warning, the company is associated with a Bulgarian boiler room – Imperial App Limited.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'It’s not new that unregulated fraud brokers don’t allow their clients to take funds back. Since CFreserve is one of those, we’ve received numerous complaints from clients saying that they cannot take their funds from this broker, and after they submit a withdrawal request, their account has been suspended.',
+                desc1: `If you notice that you could not log in to your account for more than a couple of hours and nobody from the company responded to your questions, let us know. It’s a virtually sure sign of fraud and you need to file a dispute for a chargeback immediately.`
+            },
+            rev3: {
+                heading: 'Traders About CFreserve Scam',
+                desc:`After everything being said, there’s not much to add. Traders are highly disappointed by CFreserve, and the only thing they wish is to find a way to get their money back. Besides withdrawals, many complain about the trading platform and the fact that the broker insists on making a deposit via Bitcoin.`
+            },
+            rev4: {
+                heading: 'How To Know If You Have Been Scammed Online?',
+                desc: `As previously mentioned, withdrawal issues and account suspension are almost certain scam signs. Besides, you might notice that your broker is pushing you to invest more money than you can afford, signing you up for suspicious bank loans, accessing your online banking via AnyDesk or a similar app, and more.`,
+                desc1: `All these are signs of fraud since your bank account is private, and you shouldn’t take any kind of loan to invest. The first rule is to invest as much as you can afford and not go above that amount. So, whatever the alleged broker from an unregulated company such as CFreserve tells you, follow your own thoughts.`
+            },
+        },
+        image: cfreserve,
+        path: '/blog/CFreserve'
+    },
+    {
+        name: 'Global GT',
+        shortHeading: 'Global GT Detailed Review',
+        fullDescription: `Since South Africa is not considered quite a Tier1 regulatory zone, we’ve checked whether Global GT broker could be rated as good or not. Thanks to their offshore entity, the company can provide financial services internationally, so that this matter might be of interest to many.`,
+        heading: 'Global GT Detailed Review',
+        descriptionLvl: {
+            image: globalgtPage,
+            rev1: {
+                heading: 'Global GT Regulations and Security Details',
+                desc: `Global GT is owned by GT IO Markets (Pty) Ltd from South Africa. The company holds FSCA regulation number 48896. Besides, the same brokerage also has an entity in Seychelles under the name 360 Degrees Markets Ltd, holding FSA regulation.`,
+                desc1:`However, none of these regulations are reputable, so we searched a bit more to uncover the truth about Global GT broker.`,
+                desc2: `The brokerage itself stated it doesn’t belong under ESMA regulatory jurisdiction, the one that ensures your funds are kept in segregated accounts, so the broker cannot use your money to pay off their own debts. This puts a big question for Global GT operations.`
+            },
+            rev2: {
+                heading: 'Traders About Global GT Broker',
+                desc: 'Despite this broker’s desperate attempt to present itself as a reputable broker and write tons of fake reviews, you can still see some patterns if you really look. According to Trustpilot, all the clients have to say is that their withdrawals are too long or impossible. Then, the broker replies something about the bonus conditions that clients didn’t even know they agreed to once they accepted it.',
+                desc1: `It’s a common scam among illicit brokers – they will offer you a bonus without telling you that it will block your withdrawals for a certain period of time. Then you will be caught up trying to figure out what you need to do to get your money back, the time will pass, and you will just give up. And that’s precisely what Global GT hopes for.`,
+                desc2:`If you experience something similar, contact us immediately.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Depending on the brokerage, a scam might start from a contact via social media, some trading ads showing luxury life, etc. As you saw, many brokers, including Global GT, are using bonuses to lure clients and make sure they will not get a payout for at least a couple of months since the requirements are not reasonable. `,
+                desc1: `Since the broker’s minimum deposit is $10, if you accept a bonus of $100 only, it’ll take you 3-4 months to release your money. Therefore, lots of people just give up. `,
+                desc2: `Also, you may discover that your account is suspended once you are eligible for withdrawal and you can no longer access your funds.`
+            },
+            rev4: {
+                heading: 'Did You Have Any Problems With Global GT?',
+                desc: `If you have had problems with Global GT broker, let us know. Our support department will book a free consultation with chargeback experts to guide you on filing a dispute immediately.`,
+            },
+        },
+        image: globalgt,
+        path: '/blog/Global GT'
+    },
+    {
+        name: 'Invests360',
+        shortHeading: 'Invests360 Detailed Review',
+        fullDescription: `Invests360 is suspected to be a Romanian boiler room without an actual license. Therefore, we did our Invests360 review to show you who this broker is and how to get your money back if you have been scammed.`,
+        heading: 'Invests360 Detailed Review',
+        descriptionLvl: {
+            image: invests360Page,
+            rev1: {
+                heading: 'Invests360 Regulations and Security',
+                desc: `Invests360 is a brand of INV MARKETING TECHNOLOGIES S.R.L. from Bucharest, Romania. The broker is operating illegally, without any sort of financial regulations. Since Romania is a part of the EU, this kind of breach should be taken seriously. The company is not following ESMA or MiFID rules and doesn’t keep the funds in segregated accounts.`,
+                desc1:`If you are hoping to trade with a legit company, know that Invests360 is yet another scam on the market that you should avoid.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Suppose you have been involved with an Invests360 broker and you cannot withdraw your funds. You should know you’re not the only one, and unfortunately, it happens a lot. Since the broker is unregulated, it didn’t disclose basic information, such as a minimum deposit. Therefore, we can only assume that broker’s employees that are in charge of bringing you as a client are evaluating your financial situation and judging how much you can afford to invest. And once you do, you might even make some profit. It’s all a part of a well-designed scheme to make you invest more. Once you see profit, you start trusting your broker and start thinking of investing further.',
+                desc1: `However, based on Invests360 reviews, you will not be able to withdraw those funds since the broker will block your account once you submit a withdrawal request.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`In the past 15 years, we’ve had an expansion of online trading companies. Starting with binary options, through the Forex market, all the way to crypto scam, it all starts the same. You will see some trading ads on social media, TV, and Google. After you sign up, the broker’s employees will begin harassing you, and if they’re any like Invests360, they will not choose a way to make your deposit. Once you do, you will never see a penny back. Beware of the Invests360 scam and always make sure to check the broker you’re planning to be involved with.`
+            },
+            rev4: {
+                heading: 'Scammed by Invests360?',
+                desc: `If you were scammed by Invests360, do not hesitate to report it. Our experts are here to hear you out and find a solution. Most likely, there’s a chance to file a dispute and request a chargeback.`,
+            },
+        },
+        image: invests360,
+        path: '/blog/Invests360'
+    },
+    {
+        name: 'AssetDex',
+        shortHeading: 'AssetDex Detailed Review',
+        fullDescription: `If you are looking for a shady brokerage without details on the owner, regulatory jurisdiction, and more, AssetDex is your pick. The company hasn’t disclosed even the basic conditions, such as a minimum deposit.`,
+        heading: 'AssetDex Detailed Review',
+        descriptionLvl: {
+            image: assetdexPage,
+            rev1: {
+                heading: 'AssetDex Regulations and Security',
+                desc: `While the company is bragging about keeping funds in segregated accounts and being GDPR compliant, we couldn’t help but notice there are no regulations listed. Moreover, there is no headquarters and no governing law. The only info that we have is that the alleged owner is AssetDex Management Ltd. Yet, after searching Tier1 regulators such as FCA and ASIC, we found nothing.`,
+                desc1:`Beware of the AssetDex Management Ltd scam and similar brokers such as Trendex, and Razer Markets.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Since everything else is anonymous, withdrawal methods and conditions are not disclosed as well. AssetDex broker listed a couple of payment method logos on the main page, including Visa and MasterCard, wire transfer, and Bitcoin. Since the broker is forcing cryptocurrencies everywhere we look, we were not surprised to learn it makes clients buy crypto and transfer as a deposit. Of course, this way of money transfer is harder to track, which makes withdrawals harder as well.',
+                desc1: `Since we’re clearly dealing with fraud without a regulator and an owner, you cannot get help even by tracking funds. Beware of the AssetDex scam.`
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc:`Besides withdrawal issues, there’s plenty more to list. According to AssetDex reviews, clients are not satisfied with the broker’s web trader and lack of trading conditions. You cannot find leverage, minimum deposit, or anything else listed. Additionally, investors say that AssetDex uses AnyDesk, a famous tool of scam brokers, to steal money from clients’ bank accounts.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading scams are usually related to offshore brokers and unregulated shady companies such as AssetDex. According to their website, to know the minimum deposit, you need to register and log into your account. Once you provide your email and phone number, the broker’s support will call and spam you endlessly until you eventually agree to invest. And when you do, you will be guided by an account manager who should help you make a profit. Just, nobody will tell you that this account manager works on commission and will do anything to take your money, even steal it via AnyDesk.`,
+                desc1: `If you have had such an experience with fraudulent brokers and your money disappeared, let us know.`
+            },
+        },
+        image: assetdex,
+        path: '/blog/AssetDex'
+    },
+    {
+        name: 'TNFX',
+        shortHeading: 'TNFX Detailed Review',
+        fullDescription: `Presenting itself as the best Middle East brokerage, TNFX dragged our attention. There are a few deceptive claims on the broker’s website we’ve decided to explore. And yes, we had what to see.`,
+        heading: 'TNFX Detailed Review',
+        descriptionLvl: {
+            image: tnfxPage,
+            rev1: {
+                heading: 'TNFX Regulations and Security',
+                desc: `TNFX is an online trading brokerage owned by Tiran Group. Allegedly, this group consists of three different entities – Tiran Forex (SV) Ltd, TNFX Commercial Broker LLC in Dubai, and Tiran Broker in Iraq. However, only the first entity in Saint Vincent and the Grenadines is listed adequately as a trading broker. The entity in Dubai has been signed as a marketing agency, while the entity in Iraq doubtfully exists. The company says it’s regulated by the Ministry of Trade of the Republic of Iraq. However, the official regulator in charge of online trading in Iraq is the Iraqi Securities Commission or ISC.`,
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'After defrauding its clients about all the offices around the Middle East, TNFX broker starts extorting money. And once it’s done, it just blocks clients without ever calling them again or giving them access to their trading account.',
+                desc1: `If you think you will be able to withdraw your funds from the TNFX broker, unfortunately, you won’t. According to several reviews of the brokerage, there are significant issues when a client wants a payout. Since there is no official regulator and nobody is checking this broker’s activities, we are not surprised to hear of many problems.`,
+                desc2: `If you’re opening a trading account, always choose a Tier1 regulated broker from the UK, Australia, or Germany.`
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc: `According to many of the TNFX reviews we’ve read, this company provides terrible trading conditions. First of all, the minimum deposit is too high since the broker asks for $300 for a Standard Account. Besides, there are issues with accessing the platform. And last but not least, there is a vast number of complaints regarding withdrawals. TNFX will definitely not win in the contest of broker’s popularity.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `The online trading scam starts with a trading ad showing some unrealistic profits and trading conditions. If you invest a minimum of $300, it’s unrealistic to expect thousands of profit, which the TNFX broker promises. After the initial deposit, some sort of an account manager will start explaining to you why you need more money and why it’s never enough. What good trading opportunities you’re missing. Only after you invest more and potentially make more will you not be able to withdraw it. Be careful when investing with TNFX brokerage.`,
+                desc1: ` If you have been scammed by TNFX, report it immediately. File a dispute and request a chargeback. Since there is no official regulator, a chargeback is your only solution to get your money back.`
+            },
+        },
+        image: tnfx,
+        path: '/blog/TNFX'
+    },
+    {
+        name: 'Tixee',
+        shortHeading: 'Tixee Detailed Review',
+        fullDescription: `As a newcomer on the financial market, Tixee broker tried to build its reputation by offering a reputable trading software in the form of MT5 and a standard minimum deposit of $250.
+        However, we were determined to find out more before sending you out to invest with this company. Read our Tixee review and get all the information in one place.`,
+        heading: 'Tixee Detailed Review',
+        descriptionLvl: {
+            image: tixeePage,
+            rev1: {
+                heading: 'Tixee Regulations and Security',
+                desc: `Tixee is a brand of fun named Pipbull Ltd from Seychelles. Unlike many scammers, this one is registered with the FSA. However, it still doesn’t mean much since the FSA doesn’t have a compensation fund, meaning that clients cannot be reimbursed directly by the regulator.`,
+                desc1:`Long story short, if Tixee has scammed you, you would need to look for an alternative money-back solution. And this is something we can help you with.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'According to Tixee reviews, this broker itself doesn’t have such a bad reputation. However, one of the pinpointed subjects definitely is withdrawal issues. To withdraw their funds, clients need to submit sufficient documentation. Yet, once you go into this verification process, you will discover that it’s not as easy as it seems. Customer support will constantly have new demands, stating that your photos are not clear enough or similar. All of this is to prevent you from verifying your account and getting your money back.',
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc:`As mentioned, traders made reports about difficulties with funds withdrawals. On the other hand, many of them are complaining about FSA regulation since it just doesn’t give enough trust. Also, there’s a big dissatisfaction among traders because the broker offers a web trader and desktop trading, but not a mobile app for those who would like to check their accounts while at work. This is rather inconvenient.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Online trading became highly popular back in the 2000s with binary options. People saw their opportunity to finally join the financial market without millions in their banks and make profits. However, some scammers saw their opportunity to earn on people’s naivety. If you don’t check your broker closely, you may not know you’re dealing with fraud.`,
+                desc1: `For example, Tixee is the FSA regulated broker. Unless you check the FSA and find out they do not oblige brokers to have a compensation fund, you will never know that a regulator can’t reimburse you.`,
+                desc2: `If you were a victim of the Tixee scam, let us know immediately. Our experts will help you file a dispute and start a chargeback.`
+            },
+        },
+        image: tixee,
+        path: '/blog/Tixee'
+    },
+    {
+        name: 'Hive Markets',
+        shortHeading: 'Hive Markets Detailed Review',
+        fullDescription: `Yes, Hive Markets may look like a good and approachable brokerage with only a $10 minimum deposit. However, do not rush into investing just yet. Read our Hive Markets review, and you will understand why even $10 is too much for this illicit operation.`,
+        heading: 'Hive Markets Detailed Review',
+        descriptionLvl: {
+            image: hivemarketsPage,
+            rev1: {
+                heading: 'Hive Markets Regulations and Security',
+                desc: `Hive Markets intelligently took their name after blockchain technology, convincing inexperienced clients they are a specialized wallet. That is the reason why the only possible deposit method is Bitcoin.`,
+                desc1:`Conveniently, the alleged owner is Hive Technologies LLC, exactly like the company that established this part of crypto mining.`,
+                desc2: `Whatever employees of Hive Markets broker try to convince you, know that you’re dealing with yet another offshore operation from Saint Vincent and the Grenadines without proper regulation. And yes, they might convince you that cryptocurrencies are not a regulated field. However, the forex market is. And this company is classified as a forex brokerage.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'As mentioned, the broker’s only available payment method is Bitcoin. Since it’s known these transactions are hard to follow, the broker is using this fact to scam clients. According to Hive Markets reviews, none of the clients that submitted withdrawal requests were approved.',
+                desc1: `Since we’re speaking about an illegal offshore broker that doesn’t belong under any regulatory jurisdiction, it’s no wonder investors are facing withdrawal issues.`,
+                desc2: `If you find yourself in a position where you cannot withdraw your funds, let us know immediately.`
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc:`First, traders are delighted with Hive Markets’ approach. However, it all changes once they want a payout. The broker offers an MT4 and has such a nice and convincing support team that traders believe they found the perfect place.`,
+                desc1: `Troubles start once they want to get their funds back or refuse to invest more money after just a day or two.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Every online scam starts with an advertisement. Of course, this advertisement is false and shows an impossible outcome – thousands of dollars with a minimum of $10. Once you submit your personal details, the broker’s employees are harassing you until you eventually accept to start an account. Thinking that $10 is something you can afford to lose, you’re going down this rabbit hole.
+                Everything goes downhill once you decline the “amazing trading opportunity” and do not invest further. Or even worse, you do invest further and want your money back.
+                Beware of Hive Markets scam and similar brokers such as Dominion Markets, Finmax, RaxTrade, and Limeberg!`,
+                desc1: `Since Bitcoin is the only available payment method, many victims of Hive Markets scams go desperate when they understand they’ve been scammed. Although, there is no reason for desperation. Our experts have helped many in such situations. Tracking transactions made via crypto is challenging but not impossible.`
+            },
+        },
+        image: hivemarkets,
+        path: '/blog/Hive Markets'
+    },
+    {
+        name: 'Dominion Markets',
+        shortHeading: 'Dominion Markets Detailed Review',
+        fullDescription: `Dominion Markets wants you to believe you’re trading with a safe and reliable broker that holds your funds in segregated accounts. Seeing their website gives you a feeling of utmost safety and privacy. However, not everything is as it seems to be.`,
+        heading: 'Dominion Markets Detailed Review',
+        descriptionLvl: {
+            image: dominionmarketsPage,
+            rev1: {
+                heading: 'Dominion Markets Regulations and Security',
+                desc: `Dominion Markets is an online trading brokerage owned by the same-named company – Dominion Markets LLC from Saint Vincent and the Grenadines. The brand was established in 2020, along with many others. Why? Assumingly, brokers used the fact the world was facing a global pandemic and people were looking for an additional source of income. As SVG doesn’t have an official regulator, rather just an FSA register, so it was fertile to start a fraudulent business.`,
+                desc1: `If you want to start trading, consider Tier1 regulated brokerages in the UK, Australia, and Germany.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Have you ever tried to get money back from someone who clearly just came to scam you? If so, remember how you had to chase him and beg, as if it’s something that doesn’t belong to you.',
+                desc1: `According to Dominion Markets reviews, clients of this brokerage feel the same. As if they are trying to get something that is not theirs. Despite them being the ones who invest and make a profit, getting a payout is nearly impossible. The broker refuses to process withdrawal requests and delays clients until it suspends all of the accounts. Once your account is suspended, you’re losing every track of your funds.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Every online trading scam looks similar. Everything starts from an advertisement about future life and luxury. From there, you’re being persuaded to make an initial deposit. In the case of Dominion Markets, it’s $100, which you think you can afford to lose. However, the broker’s constant pressure to invest more and more until you have nothing left is something you cannot afford. And the goal of offshore scammers is precisely that. To leave you with nothing and disappear.`
+            },
+            rev4: {
+                heading: 'Scammed by Dominion Markets?',
+                desc: `If you were scammed by Dominion Markets or a similar scheme, let us know. We’re dealing with such frauds for years, and there is a legit way to get your money back – a chargeback.`,
+                desc1: `Once you have been scammed, you’re entitled to get your money back. For that, you need to undergo certain procedures and file sufficient evidence. Contact our support team via online chat to tell us your story. Our experts will help you file a dispute and fight for your money!`
+            },
+        },
+        image: dominionmarkets,
+        path: '/blog/Dominion Markets'
+    },
+    {
+        name: 'FxGlory',
+        shortHeading: 'FxGlory Detailed Review',
+        fullDescription: `Since this broker was officially listed in 2018, we wondered how something illegal could survive for so long. Therefore, we’ve decided to go entirely on FxGlory review and find out everything about the brokerage.`,
+        heading: 'FxGlory Detailed Review',
+        descriptionLvl: {
+            image: fxgloryPage,
+            rev1: {
+                heading: 'FxGlory Regulations and Security',
+                desc: `FxGlory is allegedly owned by the same-named company, Fxglory Ltd, from Saint Vincent and the Grenadines. Red flag number one – the address is Griffith Corporate Center, Suite 305. The exact address serves as a home of CCXMarkets, GNT Capital, TradEqual, WSM International, Diamond FX, Western FX, and many more.`,
+                desc1: `Griffith Corporate Centre went so far as to publish an official warning related to misuse of their address.`
+            },
+            rev2: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: 'Depending on the broker’s status – regulated or unregulated, every scam differs a bit. However, one thing is common for all of them, and it’s a trading ad.',
+                desc1: `This ad is fully designed for you to see the potential of life you could have if you only invested some money. In the case of FxGlory brokerage, the minimum deposit is $1. It sounds like the perfect opportunity to explore the market and not risk. Yet, the leverage provided with this account is 1:3000, meaning you can buy assets worth $3,000 with only $1. How long do you think it will take for you to lose that $1? That’s right, a second.`,
+                desc2: `Besides, the broker gives welcome bonuses, another tool for scammers. Once you understand that $1 cannot help on the market, you’ll be prompted to upgrade to the following account type worth $1,000. Since it might be too much for you, the broker will bound you with a bonus agreement. Small letters will say you cannot withdraw your funds until a specific rollover is reached. Think is this what you really want.`
+            },
+            rev3: {
+                heading: 'Scammed by FxGlory?',
+                desc:`If you were scammed by FxGlory or any other illicit brokerage, you should file a complaint immediately. As you saw, there’s no regulatory body. The only way to get your money back is via the chargeback procedure.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: fxglory,
+        path: '/blog/FxGlory'
+    },
+    {
+        name: 'CashFX',
+        shortHeading: 'CashFX Detailed Review',
+        fullDescription: `Is Cash FX a scam? Is it regulated, and where is this broker based? I am sure you have many questions simply because you ended up here and you know what? You’ve come to the right place. If You are willing to hear more about Cash FX then this review is for you.`,
+        heading: 'CashFX Detailed Review',
+        descriptionLvl: {
+            image: cashfxgroupPage,
+            rev1: {
+                heading: 'Cash FX Regulations and Security',
+                desc: `Licenses and regulations are something that every company needs to have, especially an online trading company, all for their business to be legit. Cash FX is not one of them, yet the company claims that it is regulated by many financial institutions. Such as FAC, DFSA, FSCA, and FSA.`,
+                desc1: `The FAC does not even exist, and the others have not issued any license to this broker. Therefore, you should understand not to even try to invest your funds with such a company.`
+            },
+            rev2: {
+                heading: 'Problem with withdrawing funds',
+                desc: 'The only funding method available is via Bitcoin, raising certain flags because a chargeback is impossible when you deposit with a cryptocurrency. Credit/Debit cards, Wire Transfers and Skrill, which are the most common payment systems, are not available for deposits. Also, no minimum withdrawal amount is specified, and each withdrawal contains a fee of 20%. The company claims that the fees are transferred to bonus funds that are available when you take part in their promotional schemes. Regulated brokers don’t take fees when a client decides to withdraw the funds. Enough said.',
+            },
+            rev3: {
+                heading: 'Traders about CashFx',
+                desc:`Overall, the people share good and bad experiences all over the comment section for the Cash FX broker. But clients are usually not satisfied with the withdrawal process and in the trading process in general. Many of them claim that they were scammed and they lost a lot of money, while many claim that they managed to make some.`
+            },
+            rev4: {
+                heading: 'How does an online trading scam work?',
+                desc: `You can choose between three trading packs as a client, and this is where a 30/70 split happens. 30% of what you paid goes to the academy pack. The remaining 70% serves as your investment. Does that sound fair and reasonable? Of course not. It’s because Cash FX doesn’t care what you’re going to learn, they care how much you can afford to lose.`,
+                desc1: `If You were scammed by a Cash FX broker, we could provide help. Unfortunately, these things occur, but they can be taken care of if you appropriately react on time. Let us know and we will manage from there.`,
+                desc2: `Make a free registration with our website, provide us with details of your issue and give us the necessary documentation so that we can do everything in our power to help you restore your funds.`
+            },
+        },
+        image: cashfxgroup,
+        path: '/blog/CashFX'
+    },
+    {
+        name: 'OBRinvest',
+        shortHeading: 'OBRinvest Detailed Review',
+        fullDescription: `If you were thinking of investing your funds with OBRinvest we highly recommend you take a deeper look into the business itself. Not every company that has some kind of regulation is a clean one.  That’s why in this OBRinvest broker review, we will give you more information that will definitely keep you thinking for a while should you invest with this company. `,
+        heading: 'OBRinvest Detailed Review',
+        descriptionLvl: {
+            image: obrinvestPage,
+            rev1: {
+                heading: 'OBRinvest Regulations and Security',
+                desc: `Yes, it’s regulated by CySEC with license number 217/13. Does that necessarily mean that you are safe? Definitely no! Since the broker has a bad reputation among traders and many of them complain about withdrawal issues, CySEC regulation doesn’t mean much. Despite being Tier1 regulator, CySEC is well-known for simply fining brokers that disobey regulatory rules.That’s why you should be safe when considering investing your money here. `,
+            },
+            rev2: {
+                heading: 'Problem with withdrawing funds',
+                desc: `Your banks are not that good option as well to keep your money there, but at least they let you take it out whenever you want. Trading companies, such as OBRinvest, will convince you to put as much as you can, but in the end, trying to withdraw your funds is not going to go that easily. From technical issues to some kind of issues with your bank, all up to the hottest market opportunity of the decade, that are only a tiny part of the things you will hear from your analyst; if you hear from them when you request a withdrawal.`,
+            },
+            rev3: {
+                heading: 'How does an online trading scam work? ',
+                desc:`It’s a straightforward strategy that they are using. They will show you an ad about automated trading software, which comes under various names, that can generate for you crazy amounts of money within the first 24 hours of trading. `,
+                desc1: `Don’t you think they would already be millionaires if they knew that trick? Exactly. They will use it themselves if it is working. Then after you try it out with a small amount of money and you see results, you’ll be persuaded to put in more money to generate more. Which is completely fine if you can withdraw it. But the first time you try to withdraw the funds, your analyst will present you an opportunity that just crossed his desk and it’s going to bring you whatever you dreamed about ( be aware they know what you want in life ). After you fall for that another time and they feel there is no use of you anymore, forget about reaching them out again.`
+            },
+            rev4: {
+                heading: 'Scammed by OBRinvest? ',
+                desc: `If you were a victim of an OBR investment scam, you should reach out to the closest bank franchise and try to get a chargeback. It’s a very frustrating procedure with a lot of paperwork which usually doesn’t pay off unless you file all the documents required, but it’s worth trying. In the end, it’s your money! After that is done, let the people know on social media or some forum about your experience so that other people don’t get scammed by this company.`,
+            },
+        },
+        image: obrinvest,
+        path: '/blog/OBRinvest'
+    },
+    {
+        name: 'InvestCore',
+        shortHeading: 'InvestCore Detailed Review',
+        fullDescription: `Since we already know the owner of this offshore company, we are coming into the InvestCore review prepared. Knowing who’s behind the operation and that the company is not regulated, we can immediately say this review will be filled with warnings and red flags. However, let’s start.`,
+        heading: 'InvestCore Detailed Review',
+        descriptionLvl: {
+            image: investcorePage,
+            rev1: {
+                heading: 'InvestCore Regulations and Security',
+                desc: `InvestCore is a brand owned by notorious Malarkey Consulting Ltd from the Commonwealth of Dominica. This particular company is well-known by other scam brands such as InvestBoost and PrimoTrade. The broker has no regulations, which means it operates illegally.`,
+                desc1:`The first thing we’ll say – beware of the InvestCore scam.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'As we already mentioned, the brand is owned by Malarkey Consulting Ltd. Spanish CNMV has blacklisted this company for fraudulent activities. Once you know who’s behind the scenes, of course, it won’t be hard to understand why there are a lot of withdrawal issues with InvestCore.',
+                desc1: `According to clients, the broker does not allow any kind of withdrawal. Once you make an initial deposit of $250, you’re assigned with a financial adviser that asks for more and more money. Once you have nothing left, your account is being suspended, and withdrawals are impossible.`,
+                desc2: `If something similar happens to you, let us know immediately.`
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc:`As per InvestCore reviews, the broker has a sophisticated way of scam. At first, everything is fantastic. Your financial adviser supports you every step of the way. You might even make some profit. However, once you request a payout, your account will be suspended and your phone number blocked. You cannot reach anyone in the company anymore. Each and every review states that InvestCore is a fraudulent brokerage that you should avoid at all costs.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `Ever since online trading became huge, there have been ads about it. However, offshore scams such as InvestCore are catching clients selling fake ads and fake dreams. In the ad, the trading process looks as easy as putting in $250, and the system does everything for you. However, to get a system, you need a proper brokerage and a proper financial adviser. When dealing with unregulated brokers, you never know who your financial adviser is and if he ever saw finance before`,
+                desc1: `Do not fall for offshore scams and if a problem occurs, report it immediately.`
+            },
+        },
+        image: investcore,
+        path: '/blog/InvestCore'
+    },
+    {
+        name: 'Hextra Prime',
+        shortHeading: 'Hextra Prime Detailed Review',
+        fullDescription: `Looking sweet and easy-going, Hextra Prime broker’s website might look like a place for you. However, the first red flag you may notice is a giant sign of leverage up to 1:5000. It’s about 100 times higher than regulated companies could ever provide, so beware.`,
+        heading: 'Hextra Prime Detailed Review',
+        descriptionLvl: {
+            image: hextraprimeglobalPage,
+            rev1: {
+                heading: 'Hextra Prime Regulations and Security',
+                desc: `Hextra Prime is an online trading brokerage owned by the same-named company from Saint Vincent and the Grenadines. As usual, the problem with brokers from this offshore country is the absence of a real regulatory body. The FSA itself stated they are more like a register of financial companies, while regulations they should seek in the country of service. Once we checked Tier1 regulators such as FCA and ASIC, we found nothing regarding Hextra Prime regulations.`,
+                desc1:`Another red flag for this brokerage.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Being involved with an unregulated offshore broker is a direction for issues. Once you start, of course, you’re expected to make an initial deposit. In the case of Hextra Prime it is $10. Since we all know such a low amount on the too high leverage won’t last even a second on the market, this broker is instantly asking to add more funds for “account safety.” Once you do so, you might even see some profits at the beginning. Yet, withdrawals with offshore brokers are difficult and often impossible.',
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Online trading scams are tools for offshore and unregulated brokers to extort money from as many clients as possible. They do not choose means for conducting such scams. What we’ve noticed so far, all of these scams start with an ad requiring clients to enter personal details to get more information. Afterwards, broker employees are assisting with an initial deposit, usually by taking your credit card details. Once you provide these details, you might find yourself with no money in the bank. Sometimes, the broker will deduct the agreed amount and then ask for more and more but never approve withdrawal requests.`,
+                desc1: `Since there is no regulator above these companies, we are not surprised to see how they behave.`
+            },
+            rev4: {
+                heading: 'Scammed by Hextra Prime?',
+                desc: `If you were scammed by Hextra Prime or any other illicit operation, do not hesitate to report it. The broker will not return your funds willingly, but you can always request a chargeback.`,
+                desc1: `But what is a chargeback?`,
+                desc2: `It’s a way to refund your card in case you were scammed online. Contact our support department immediately via online chat, and let’s get your money back!`
+            },
+        },
+        image: hextraprimeglobal,
+        path: '/blog/Hextra Prime'
+    },
+    {
+        name: 'FinoMarkets',
+        shortHeading: 'FinoMarkets Review',
+        fullDescription: `We looked into FinoMarkets broker to see if they’re legit or not, and it certainly seems like they’re not. The company is an absolute ghost online, with no reliable information about its actual location. They also have all the hallmarks of a scam, high leverage, lots of complaints, and unreliable information on their website.`,
+        heading: 'FinoMarkets Review',
+        descriptionLvl: {
+            image: finomarketsPage,
+            rev1: {
+                heading: 'Regulation and Security',
+                desc: `CFD and forex brokers are regulated by regional organizations that make sure they’re doing things by the book. Despite claiming to be based in England, our FinoMarkets review revealed that they have no registration with the UK’s FCA. In fact, they don’t have any registration with any regulator of any kind.`,
+                desc1:`What this means is that there’s nobody watching their books to make sure they’re actually paying out trader funds. There’s no compensation fund for if they go under, which means they can disappear without a trace and take all your money with them. Trading with an unregulated broker is always a big mistake, and FinoMarkets broker is completely and unambiguously unregulated.`
+            },
+            rev2: {
+                heading: 'Warnings From Financial Regulators',
+                desc: 'From what our FinoMarkets review can gather, the company only began operations in 2021. It takes time for financial regulators to investigate these types of scams, so there aren’t any direct warnings about the broker yet.',
+                desc1: `The FCA routinely warns to avoid unregulated brokers in general and unregulated CFD brokers specifically. We’ll keep an eye out on the scam lists from the FCA, CONSOB, and other regulators that put out regular updates to watch for the inevitable warning about FinoMarkets.`
+            },
+            rev3: {
+                heading: 'FinoMarkets Reviews From Their Former Clients',
+                desc:`FinoMarkets reviews on Trustpilot are currently sitting at 3.7. This sounds bad enough, but it’s only this high because half of the reviews are fake 5-star ratings from the company itself. The remainder are 1-star reviews from their victims. They give the same details each time. They were pressured to invest more and more but got nothing back at all when they tried to cash out.`
+            },
+            rev4: {
+                heading: 'How Do Online Trading Scams Rip People Off?',
+                desc: `FinoMarkets broker and others like it promise huge profits with little effort. They use promises like account bonuses that multiply deposits and dangerously high leverage to make investors think they can get ahead.`,
+                desc1: `These practices are banned by most financial regulators for a reason. Once a tempted victim signs up, their account managers push for more and more deposits. If they ever catch on, the broker cuts contact entirely, keeping all your deposited funds.`
+            },
+        },
+        image: finomarkets,
+        path: '/blog/FinoMarkets'
+    },
+    {
+        name: 'FVP Trade',
+        shortHeading: 'FVP Trade Detailed Review',
+        fullDescription: `Do you know those people who speak a lot and say nothing? FVP Trade is an excellent example of that. The broker shows us an array of awards, regulations, and more, but nothing of that is true. We can only say to try to withdraw the money as fast as possible for those who are trustworthy enough to believe this scam.`,
+        heading: 'FVP Trade Detailed Review',
+        descriptionLvl: {
+            image: fvptradePage,
+            rev1: {
+                heading: 'FVP Trade Regulation and Security',
+                desc: `FVP Trade is a brand of FVP Trade Ltd, allegedly based all around the globe. According to the broker’s website, the company has regulations in BVI, Canada, the US, and Australia. However, no matter which of these registers we checked, we found nothing. FVP Trade Ltd is not even a registered entity, so of course, it’s not a regulated one either. If you’re looking to start trading, find a Tier1 regulated broker, FCA, ASIC, or BaFin. And make sure to check the regulator’s register first.`,
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Suppose you started investing with an FVP Trade broker. First of all, it’s a challenging task since the broker does not disclose a minimum deposit. It means that you will have to wait for a call from employees to evaluate your financial situation. Once you deposit, you will be offered a $100 or $200 bonus. And it sounds terrific, free money, nice starting boost. To withdraw the money after this boost, you need to turn over a minimum 6 lots within 30 days. Just for your understanding, average traders are starting with 0.01 lots since that is a minimum.',
+                desc1: `The broker often gives the bonus without prior asking and trying to convince clients that it’s all a part of their terms and conditions.`,
+                desc2: `The minimum withdrawal amount is $5. However, there are so many fees that if you try to withdraw any smaller amount, you will cover commission and get nothing to your bank.`
+            },
+            rev3: {
+                heading: 'Scammed by FVP Trade?',
+                desc: `If you were scammed by FVP Trade or any other illicit broker, tell us your story. We’ve heard many, and we’ve helped many. Brokers have sophisticated ways of defrauding clients, but there is always a chargeback.`
+            },
+            rev4: {
+                heading: 'But what is a chargeback?',
+                desc: `It’s a way of refunding your card in case you were scammed online. Your bank can take action and retrieve the money if you manage to prove you’re the rightful owner. For such bureaucracy, our team of experts is at your disposal.`,
+                desc1: `Contact us via online chat, tell us your story, and let’s get your money back.`
+            },
+        },
+        image: fvptrade,
+        path: '/blog/FVP Trade'
+    },
     // {
     //     name: 'FxRevenues',
     //     shortHeading: '',
@@ -3809,4 +5283,4 @@ export const getNews = (offset, count) => new Promise((res) => {
         const data = DETAILED_NEWS.slice(offset, count).sort(() => Math.random() - 0.5)
         res({ data, count: DETAILED_NEWS.length })
     }, 300)
-})
+}) 
