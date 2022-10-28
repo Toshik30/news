@@ -317,6 +317,48 @@ import finomarkets from '../../images/finomarkets-logo.png'
 import finomarketsPage from '../../images/finomarketsPage.png'
 import fvptrade from '../../images/fvptrade-logo.svg'
 import fvptradePage from '../../images/fvptradePage.png'
+import cdgglobalfx from '../../images/cdgglobalfx-logo.png'
+import cdgglobalfxPage from '../../images/cdgglobalfxPage.png'
+import forexmart from '../../images/forexmart-logo.svg'
+import forexmartPage from '../../images/forexmartPage.png'
+import zeyfex from '../../images/zeyfex-logo.png'
+import zeyfexPage from '../../images/zeyfexPage.png'
+import apmefx from '../../images/apmefx-logo.svg'
+import apmefxPage from '../../images/apmefxPage.png'
+import eurivex from '../../images/eurivex-logo.svg'
+import eurivexPage from '../../images/eurivexPage.png'
+import terafx from '../../images/terafx-logo.svg'
+import terafxPage from '../../images/terafxPage.png'
+import gkinvest from '../../images/gkinvest-logo.png'
+import gkinvestPage from '../../images/gkinvestPage.png'
+import nordfx from '../../images/nordfx-logo.png'
+import nordfxPage from '../../images/nordfxPage.png'
+import cjcmarketsglobal from '../../images/cjcmarketsglobal-logo.png'
+import cjcmarketsglobalPage from '../../images/cjcmarketsglobalPage.png'
+import quotex from '../../images/quotex-logo.svg'
+import quotexPage from '../../images/quotexPage.png'
+import zenfinex from '../../images/zenfinex-logo.svg'
+import zenfinexPage from '../../images/zenfinexPage.png'
+import whselfinvest from '../../images/whselfinvest-logo.png'
+import whselfinvestPage from '../../images/whselfinvestPage.png'
+import multibankfx from '../../images/multibankfx-logo.svg'
+import multibankfxPage from '../../images/multibankfxPage.png'
+import titanfx from '../../images/titanfx-logo.svg'
+import titanfxPage from '../../images/titanfxPage.png'
+import zesforex from '../../images/zesforex-logo.png'
+import zesforexPage from '../../images/zesforexPage.png'
+import equiti from '../../images/equiti-logo.svg'
+import equitiPage from '../../images/equitiPage.png'
+import arumcapital from '../../images/arumcapital-logo.svg'
+import arumcapitalPage from '../../images/arumcapitalPage.png'
+import opofinance from '../../images/opofinance.png'
+import opofinancePage from '../../images/opofinancePage.png'
+import solidinvest from '../../images/solidinvest-logo.png'
+import solidinvestPage from '../../images/solidinvestPage.png'
+import bidbrokerstocks from '../../images/bid-broker-stocks-logo.svg'
+import bidbrokerstocksPage from '../../images/bid-broker-stocksPage.png'
+import rcb from '../../images/rcb-logo.svg'
+import rcbPage from '../../images/rcbPage.png'
 
 export const DATA_NEWS = [
     {
@@ -5247,6 +5289,682 @@ export const DETAILED_NEWS = [
         },
         image: fvptrade,
         path: '/blog/FVP Trade'
+    },
+    {
+        name: 'CDG Global',
+        shortHeading: 'CDG Global Detailed Review',
+        fullDescription: `Opening the website of CDG Global, we were overwhelmed with the scam feeling. Seeing a broker that so transparently offers clients cashback and bonuses instead of some trading conditions, such as low spread or appropriate leverage, means that they have nothing else to offer.`,
+        heading: 'CDG Global Detailed Review',
+        descriptionLvl: {
+            image: cdgglobalfxPage,
+            rev1: {
+                heading: 'CDG Global Regulation and Security',
+                desc: `Here we come to a hard one. Where is CDG Global regulated, and how? Since the company has 3 different entities, their operation reminds many of ForexMart and other brokers that have regulations and own a scam entity.`,
+                desc1:`CDG Global has its offices in Labuan, Cyprus, and Australia and holds regulations by CySEC and ASIC. However, what happens with the Labuan entity? Who are they regulated by? And what should investors do if they are assigned with this particular one?`,
+                desc2: `Since the broker can assign clients according to his own discretion, you can never be sure under which jurisdiction you belong, and are you dealing with a bogus or legit operation.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Suppose you started trading with CDG Global and invested a minimum of $50. And suppose everything goes tremendous, and you’ve made some profit. How will you withdraw this profit to your bank if you have no idea to which regulatory jurisdiction you belong, if any? How to know which documents to submit and what to do?',
+                desc1: `According to many CDG Global reviews, clients are experiencing severe withdrawal issues. Do not fall for the CDG Global scam also stay away from brokers ApmeFX, Eurivex, TeraFX.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Have you ever had experience with trading, you know that the first step is signing up for an ad about investing. After this step, you are trading, being provided with a platform, such as MT4 or MT5. And once you make a profit, the point is to withdraw it. Some brokers are conducting scams at the very start, taking money from your card or bank account and disappearing.`,
+                desc1: `Others have more sophisticated tools, keeping you in the trading loop for years without withdrawals and any profits.`,
+                desc2: `If you recognize yourself in this story, report it immediately.`
+            },
+            rev4: {
+                heading: 'Scammed by CDG Global?',
+                desc: `If you were scammed by CDG Global or any other unscrupulous brokerage, there’s a way of getting your money back. Do not get desperate, and do not hesitate to start the refund process now. File a dispute and request a chargeback.`,
+                desc1: `But what is a chargeback? A chargeback is a bank process of refunding money from the merchant in case you were scammed online. Our company recently resolved many similar issues, and we would love to hear your story too. You are not alone.`
+            },
+        },
+        image: cdgglobalfx,
+        path: '/blog/CDG Global'
+    },
+    {
+        name: 'ForexMart',
+        shortHeading: 'ForexMart Detailed Review',
+        fullDescription: `Looking at the broker’s website, we saw that it brags a lot about being the best option on the market, offering crypto trading, no deposit fees, etc. Their slogan is “Think big, trade Forex.” However, to think big, you need to know you are in good hands because you can only lose big if not.
+        That was why we uncovered all the facts and trading conditions ForexMart broker is offering and presented them to you. Once we’re done, you can conclude does investing with this company means thinking big or losing big.`,
+        heading: 'ForexMart Detailed Review',
+        descriptionLvl: {
+            image: forexmartPage,
+            rev1: {
+                heading: 'ForexMart Regulation and Security',
+                desc: `ForexMart is a brand name two different companies are using. One of them is Tradomart SV Ltd from Saint Vincent and the Grenadines, while the other is Invest Trading EU Ltd from Cyprus. None of this would be weird if the previous name of Invest Trading was not Tradomart Ltd. This shows us that the broker had regulatory issues and decided to move the company to an offshore entity. Since Saint Vincent and the Grenadines do not even require you to have a regulation, they stated every broker should opt for one in the country where it provides financial services, it’s an ideal place to hide a scam broker. Meanwhile, the CySEC regulated company rebranded itself and established a new brand, InstaForex.`,
+                desc1:`Red alert, scam alert. Call it however you want; ForexMart is everything but not legit.`,
+                desc2: `Think good, would you like to deal with someone who had to run offshore to avoid its obligations?`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Now, when we know who ForexMart actually is and their story, we checked investors’ reviews. According to the majority of those, withdrawing funds from ForexMart brokerage is a nearly impossible task. The broker is making it difficult and using the fact it has two entities to play with clients.',
+                desc1: `Once you start investing, you’re required to start with a minimum of $15. However, since we all know that a low amount won’t make you profitable, you are being asked for more funds. If you are lucky enough to profit with unscrupulous trading managers at ForexMart, you won’t withdraw it for sure. You’ll be sent from one support team to another until your account is suspended and your access to money is blocked.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Have you ever traded with an online broker? You know that everything starts from an overpromising ad. You’re being told you will make thousands if you just start investing. Broker’s employees are helping you start a trading account, and some account managers take over. In the case of ForexMart, a lot depends on the entity you belong to. If you are under CySEC jurisdiction, you have better chances to be reimbursed than if the broker assigns you with an offshore entity. However, nobody will ask you where you’ll be assigned. It’s their discrete decision. What also bothers us is that an offshore entity offers leverage up to 1:500, making trading a hazardous process.`,
+                desc1: `After you’ve invested enormous amounts of money and want withdrawal, it won’t be possible, your account will be suspended, and you will have to fight for the money another way.`
+            },
+            rev4: {
+                heading: 'Scammed by ForexMart?',
+                desc: `If you have been scammed by ForexMart or any other illicit brokerage, you should ask for a chargeback immediately. Do not let any scammer run away with your money. Fight back.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you were scammed online. Our team has years of experience with refund procedures and would be happy to share knowledge with you.`
+            },
+        },
+        image: forexmart,
+        path: '/blog/ForexMart'
+    },
+    {
+        name: 'Zeyfex',
+        shortHeading: 'Zeyfex Detailed Review',
+        fullDescription: `A short glance at the broker’s website told us all we need to know. We are dealing with a hard-core scam. And that’s why we decided to expose everything, so nobody will ever fall for the Zeyfex scam again.`,
+        heading: 'Zeyfex Detailed Review',
+        descriptionLvl: {
+            image: zeyfexPage,
+            rev1: {
+                heading: 'Zeyfex Regulation and Security',
+                desc: `Zeyfex is a brand of Zeyfex Ltd, allegedly based in Seychelles. It was quite a drama for us to resolve where the broker is from. In Terms and Conditions, they stated the company operates under the laws of Seychelles and has another entity in Saint Vincent and the Grenadines.`,
+                desc1:`However, the broker does not have a regulation despite sad attempts to present itself as a CySEC and ASIC regulated brand. In the FAQ section, we found claims the company has regulations and is owned by a financial group from Cyprus. Do not fall for this well-organized scheme.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'As expected, an offshore brokerage without basic information makes clients have severe withdrawal issues. Since Zeyfex minimum deposit is $0, we are not sure how they expect anyone to start with them. According to Zeyfex reviews we found, once a client gets a call from the company’s support, they’re being asked to deposit in accordance with their financial situation. That’s the reason this broker does not list an explicit minimum.',
+                desc1: `Once you make your deposit and want a payout, it’s nearly impossible to get one. Beware of the Zeyfex scam and other brokers such as BSB-GLOBAL, Mondefx and Finetero.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Zeyfex and many other offshore scams are operating the same way. Posting an ad showing you rich life, luxury, cars, travels, etc. Once you submit your application, the company’s employees are calling you for the initial deposit. As explained, Zeyfex initial deposit is not determined, but employees give you an amount after evaluating your financial situation.`,
+                desc1: `If you want a withdrawal, the broker is suspending your account, and your communication will stop.`,
+                desc2: `If you recognize yourself here, get in touch with us immediately.`
+            },
+            rev4: {
+                heading: 'If you recognize yourself here, get in touch with us immediately.',
+                desc: `Suppose you were involved with Zeyfex, a high chance you’ve been scammed by this illicit brokerage. In that case, you need to report it as soon as possible and request a chargeback immediately.`,
+                desc1: `But what is a chargeback? This is a way to refund your card in case you were scammed online. Do not hesitate to contact us via chat and tell us your story. Our company has years of experience dealing with fraud, and we would be glad to assist you.`
+            },
+        },
+        image: zeyfex,
+        path: '/blog/Zeyfex'
+    },
+    {
+        name: 'ApmeFX',
+        shortHeading: 'ApmeFX Detailed Review',
+        fullDescription: `For a regulated broker, we found ApmeFX to be not transparent and not legitimate. Since we tried to get some answers from CySCEC and couldn’t, we decided on our own research. We’ve checked who ApmeFX broker is and what they are hiding from their investors.`,
+        heading: 'ApmeFX Detailed Review',
+        descriptionLvl: {
+            image: apmefxPage,
+            rev1: {
+                heading: 'ApmeFX Regulation and Security',
+                desc: `ApmeFX is among newer brands on the financial market, owned by APME FX Trading Europe Ltd. The company is based in Cyprus and is regulated by CySEC. All the CySEC regulated brokers, as well as FCA and ASIC, for example, need to be transparent. It comes as part of their regulation. You need to have all the information about deposits, withdrawal, and trading conditions. Unfortunately, ApmeFX does not give us any of those.`,
+                desc1:`Based on it, we can conclude that the ApmeFX broker is neither safe nor secure.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'If you have a broker that does not give you basic information such as deposit requirements, payment methods, and trading conditions, how do you expect to make some profit? How do you expect to withdraw this same profit?',
+                desc1: `According to ApmeFX reviews, the broker is not allowing clients to take the money out. Once you deposit, funds will be invested, but if you decide you need them out for any personal reason, there are two outcomes. Either your account will be blocked, or your funds will be lost on the financial market.`,
+                desc2: `Beware of the ApmeFX scam and brokers such as Eurivex, TeraFX, NBH Markets.`
+            },
+            rev3: {
+                heading: 'How does an online trading scam work?',
+                desc:`Most likely, you will see an ad about investing. Nowadays, the most popular are Bitcoin ads promising you up to $15,000 profit from the minimum investment. After you sign up, some of the trades can even be profitable. The company works hard on gaining your trust.`,
+                desc1: `Yet, the issue will arise once you are asked for money. Either you will add more and hope for higher profits or refuse to invest further. Whatever the choice is, your account will be suspended after a while since the broker has no intentions to give you money back.`
+            },
+            rev4: {
+                heading: 'Scammed by ApmeFX?',
+                desc: `If you were scammed by ApmeFX, there is a possibility of getting your money back. Global Fraud Protection recently received a significant amount of complaints about the broker and decided to help clients get a refund.`,
+                desc1: `Let us know about your story on chat. We will book a free consultation and give you all the details you need about the chargeback process. Do not hesitate. Get a refund today!`
+            },
+        },
+        image: apmefx,
+        path: '/blog/ApmeFX'
+    },
+    {
+        name: 'Eurivex',
+        shortHeading: 'Eurivex Detailed Review',
+        fullDescription: `Eurivex is known as an investment brokerage from Cyprus. However, even as an investor, you need to know which terms you are offered and how much you will make in the end. Let’s see what traders say about Eurivex broker and what we found in the Eurivex review.`,
+        heading: 'Eurivex Detailed Review',
+        descriptionLvl: {
+            image: eurivexPage,
+            rev1: {
+                heading: 'Eurivex Regulation and Security',
+                desc: `Eurivex is a brand owned by Eurivex Ltd from Cyprus. The company has had CySEC regulation since 2010. The company is not yet another trading brand. They’re actually giving clients investment opportunities in bonds with an annual return of 1.5-3% based on the risk.`,
+                desc1:`Therefore, we’ll be reviewing a real investment business, and we expect it to keep up to investment standards.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'When you start an investment account, you are expecting to be profitable, right? The main difference between an investment company and an online trading brokerage is that you have virtually guaranteed profit with an investment company. The company is following bonds for years and should be able to give you the best option. Since the profits are significantly smaller, the risk should be as well. But is it always?',
+                desc1: `What happens when your investment company refuses to give you profits? Where to go and what to do?`,
+                desc2: `Eurivex broker is regulated by CySEC, but how can you prove that you were manipulated? How can you actually show that the broker made a bad investment on purpose?`
+            },
+            rev3: {
+                heading: 'How does an online trading scam work?',
+                desc:`Before, it was unusual to make investments with actual brokerage companies via emails and web browsers. You go to a broker’s office and close the deal. With the technology development, investment methods developed, but it led to a higher risk. Anyone can give you a call nowadays and use the name of an investment company. If you recently searched something related, you would be hooked. And after you invest all of your money, like the Eurivex broker case, you will not get it back.`
+            },
+            rev4: {
+                heading: 'Scammed by Eurivex?',
+                desc: `If you invested your funds with Eurivex and suspect any kind of scam, do not hesitate to tell us immediately. If you haven’t seen your returns or do not know how to get your money back, we are there. Global Fraud Protection recently discovered that even investing companies are not as legit. And we would be glad to share our knowledge and our expertise with you.`,
+            },
+        },
+        image: eurivex,
+        path: '/blog/Eurivex'
+    },
+    {
+        name: 'TeraFX',
+        shortHeading: 'TeraFX Detailed Review',
+        fullDescription: `Looking at the TeraFX broker’s website, we were not so amazed. Since most of the tabs and features don’t even work, we started questioning how the platform could function. Since there’s a web trader attached to a website, is it possible that clients cannot withdraw their funds?`,
+        heading: 'TeraFX Detailed Review',
+        descriptionLvl: {
+            image: terafxPage,
+            rev1: {
+                heading: 'TeraFX Regulation and Security',
+                desc: `TeraFX is owned by Tera Europe Limited, based in London, UK. According to FCA, the company has regulation for providing specific financial services. However, FCA itself stated that if you accept any services the company is not authorized to provide, you will not be covered by them. Since we couldn’t find what exactly is allowed for the company, we advise caution.`,
+                desc1:`When it comes to security, every company regulated by the FCA needs to have a minimum capital of over half a million pounds so that they could reimburse clients in case of an issue. Yet, be careful when dealing with TeraFX. Their reviews are not as reputable as the regulation.`
+            },
+            rev2: {
+                heading: 'Traders Opinion',
+                desc: 'From everything we’ve had a chance to see so far, it looks like TeraFX is trying pretty hard to cover traders’ opinions on the company. On reputable websites, such as Trustpilot, we couldn’t find this particular brokerage. And that is rather odd since we found many unregulated scams from different offshore countries. So how come that nobody ever mentioned a regulated entity such as TeraFX.',
+                desc1: `Yet, we found some reviews on Facebook and similar social media telling us that clients have divided opinions on the broker.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`As aforementioned, even regulated brokers can conduct a scam. Yes, you are more protected by dealing with such, but you should be aware. For example, TeraFX offers its clients a web trader, the most unreliable trading platform. Also, the minimum deposit required is $100, and they provide leverage. These two facts combined mean that you can lose your funds easier since you do not have enough capital to enter the trade and make anything more than a couple of dollars. And let us remind you, their trading ad is promising thousands within a week.`
+            },
+            rev4: {
+                heading: 'Scammed by TeraFX?',
+                desc: `If you have been scammed by TeraFX, do not hesitate to report it immediately. We’ve dealt with many cases, and the only solution you have is a chargeback.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card if you have been scammed online. Contact our support via online chat, book your free consultation, and discover all your options to get a refund. Let’s start now!`
+            },
+        },
+        image: terafx,
+        path: '/blog/TeraFX'
+    },
+    {
+        name: 'GK Invest',
+        shortHeading: 'GK Invest Detailed Review',
+        fullDescription: `GK Invest presents itself as an award winner for the best broker of Indonesia. However, what does this mean for the rest of the world? Who can be a company client, and can you complain to the Indonesian regulator if you have been scammed?`,
+        heading: 'GK Invest Detailed Review',
+        descriptionLvl: {
+            image: gkinvestPage,
+            rev1: {
+                heading: 'GK Invest Regulation and Security',
+                desc: `GK Invest is owned by Global Kapital Investama Berjangka, which is where its name came from. The company is based in Jakarta, Indonesia, and has BAPPEBTI regulation. Besides this, it’s a member of the Jakarta Futures Exchange (BBJ) and Indonesian Derivatives Clearing House (ICDX).`,
+                desc1:`What does all this mean for an average trader? It means that if you have any sort of issues with GK Invest, you must file a complaint to BAPPEBTI and wait until the issue is resolved. The regulator set as one of the most significant rules that every trading company needs to keep clients’ funds in segregated accounts. It all sounds nice, but this regulator didn’t make forex brokers form a compensation fund that will be used for reimbursing clients.`,
+                desc2: `That is why we still suggest a tier 1 regulator such as FCA or CySEC, where they require the minimum capital of at least $700,000.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'Speaking of fund withdrawal, we noticed something on the broker’s website. It allows withdrawals only via wire transfer. Usually, brokers insist on returning funds deposited via card to your card since it’s a much faster and less expensive way. The duration of a wire transfer, along with fees and limiting to only one payment method, gave us the feeling this broker is not too keen on returning funds to investors.',
+                desc1: `According to several GK Invest reviews we read, the minimum deposit is $200 and can be made via various payment methods. However, if you would like these funds back, your only option is a wire transfer. The broker is charging you a fee of $10, while your bank is charging you for the international transfer as well. If you are withdrawing smaller amounts of money, these fees can significantly impact your net profit.`,
+                desc2: `Beware of this fact when starting an account with a GK Invest broker. Stay away from brokers such as Finetero, AG Kapital and HQ Trade.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`If you have ever been involved with an illicit brokerage, whether it officially had a regulation or not, you know that everything starts from an advertisement. And in most cases, this advertisement is false, promising tens of thousands of dollars from a minimum deposit.`,
+                desc1: `After you have been dragged into this rabbit hole, exiting is more complicated than it seems. Some brokers are not allowing their clients to withdraw funds at all, while others, such as GK Invest, are making the process too complicated. In the end, clients are giving up themselves due to the inability to wait further or understand requirements.`,
+                desc2: `Beware of online trading scams and always confirm you are in good hands. You can verify the broker’s regulation as well as the opinion of other investors.`
+            },
+            rev4: {
+                heading: 'Scammed by GK Invest broker?',
+                desc: `If you have been scammed by GK Invest, do not get desperate just yet. You can try to consult the Indonesian regulator, and if you get no answer, you can always request a chargeback.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you have been scammed online. We would like to assist you in choosing the right brokerage and getting your funds back from an illicit one. With years of experience, we would like to share our knowledge during a free consultation.`
+            },
+        },
+        image: gkinvest,
+        path: '/blog/GK Invest'
+    },
+    {
+        name: 'NordFX',
+        shortHeading: 'NordFX Detailed Review',
+        fullDescription: `Whenever clients see a broker regulated by CySEC, a tier 1 regulatory body, they believe they are dealing with a legit brokerage. However, don’t rush just yet. Let’s see our NordFX review and see what is happening with this brokerage.`,
+        heading: 'NordFX Detailed Review',
+        descriptionLvl: {
+            image: nordfxPage,
+            rev1: {
+                heading: 'NordFX Regulation and Security',
+                desc: `NordFX is a brand owned by NFX Capital CY Ltd from Cyprus, regulated by CySEC. However, the company has another entity in Vanuatu, NFX Capital VU INC, regulated by VFSC. Having a CySEC brand at your disposal is always good, but what happens if you are assigned to an offshore one? Since both of these entities have the same website, you can never know to which one you belong, and your funds belong.`,
+                desc1:`And if you belong to an offshore entity, you have no compensation fund and no guarantee that you will be reimbursed in case of a scam.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'With several different entities and one regulatory warning, we are not surprised to see that clients are experiencing withdrawal issues with NordFX. According to some NordFX reviews we’ve seen, the broker also has an operation in India, besides Cyprus and Vanuatu. Some of the clients also reported Mauritius as a location they heard from NordFX broker’s employees.',
+                desc1: `Now, when you have too many countries, too many regulatory bodies, and too many support teams, of course, you will have space to play with clients and their funds.`,
+                desc2: `As per NordFX reviews by investors, the broker is processing withdrawal requests extremely slow and requesting clients to submit documents to all the entities, just for them to realize money will never come to their bank.`
+            },
+            rev3: {
+                heading: 'Traders Opinion',
+                desc:`As aforementioned, NordFX has many entities, and clients are highly disappointed by the service they are provided with. On many websites, the total score of the broker is lower than 3/5 simply because clients are unable to withdraw funds, and the support the company is giving is way below standard for a CySEC brokerage.`,
+                desc1: `For sure, you should be aware of this broker’s multiple regulations and understand that you can be assigned to any entity and fall under any regulatory rules. Or better said, no rules.`
+            },
+            rev4: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc: `As’s the case with many brokers, you are seeing some trading ads and signing up. Yes, the broker might seem legit and regulated, like NordFX, but here comes the catch. Not everything that appears amazing is amazing. Once you invest the money (the broker is offering you to start with $10), you are being asked for more on the same day. Simply, from $10, you cannot make a profit. And we will agree. It’s too risky. However, the broker should then set some realistic investment account and not falsely promise to invest with such a little money.`,
+                desc1: `Also, another scam we often see, and we saw with NordFX as well, is a lottery. For lucky customers who reach a certain number of trades, profit, etc., will be provided some special conditions. All this to extort more money. A legit broker does not need such games since his regulation and trustworthiness are behind it.`
+            },
+        },
+        image: nordfx,
+        path: '/blog/NordFX'
+    },
+    {
+        name: 'CJC Markets',
+        shortHeading: 'CJC Markets Detailed Review',
+        fullDescription: `CJC Markets is an Australian-based brand that appears to be legitimate. However, you should know all the facts before you give your money away. Let’s start with the CJC Markets review and see if you should open an account with this brokerage or not.`,
+        heading: 'CJC Markets Detailed Review',
+        descriptionLvl: {
+            image: cjcmarketsglobalPage,
+            rev1: {
+                heading: 'CJC Markets Regulation and Security',
+                desc: `CJC Markets is a brand of Australian regulated company CJC Markets PTY LTD. The company is regulated by ASIC and has another entity in Saint Vincent and the Grenadines. According to the company’s website, they have a derivative license by Canadian FINTRAC. The license belongs to an entity under the name CJC Markets Co., another sub-company of CJC Markets PTY LTD.`,
+                desc1:`However, we still have our suspicious regarding the broker since many of the trading conditions are not disclosed.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'All the clients that would like to start a trading account with CJC Markets need to deposit a minimum of $1,000. Many regulated brokers are allowing you to begin with as low as $100. Since the broker has no Demo account, it’s pretty unfair to expect such a high deposit, especially for beginners.',
+                desc1: `On the other hand, the broker has an offshore entity, which is never good. All the clients outside of Australia are assigned to the company from Saint Vincent and the Grenadines, which is not regulated at all. It means that your funds are at tremendous risk with such a brokerage.`,
+                desc2: `According to CJC Markets reviews by investors, some of them experienced severe withdrawal issues. They were asked to submit many documents, transferred from one support team to another, only to be declined for the money. Why? Because, allegedly, they haven’t provided all they were asked for. If they are too persistent, the company simply blocks their account.`
+            },
+            rev3: {
+                heading: 'How Can You Be Scammed Online?',
+                desc:`If you have experience with CJC markets or any other trading brokerage, you know that everything starts from a trading advertisement. After you submit all of your personal details, the company’s employees give you a call, sort out your documents, and guide you to make an initial deposit. According to reviews, we’ve read, the ad of CJC Markets shows you need a minimum of $250, while their website requires $1,000 for the Standard account. One of the reasons we believe CJC Markets Global is yet another illicit broker.`,
+                desc1: `After you invest your funds, some account manager will pursue you to make further investments to make more profit. And the more you invest, the more you will be asked for. In the case of CJC Markets, you can experience issues with a trading platform, hidden fees and commissions, and withdrawal issues.`,
+                desc2: `Once you submit a complaint, their support will tell you it will be resolved, just to suspend your account and prevent you from accessing your funds. That is, unfortunately, the case with most brokers that have an offshore entity and do not belong to any regulatory supervision.`
+            },
+            rev4: {
+                heading: 'Scammed by CJC Markets?',
+                desc: `If you were scammed by CJC Markets or any other fraudulent brokerage, do not hesitate to report it. You are entitled to file a dispute and request a chargeback.`,
+                desc1: `But what is a chargeback? A chargeback is a way to refund your card in case you were scammed online. It’s a legal process that requires certain expertise.`,
+                desc2: `Contact our support team via chat and book your free consultations. You will get all the information regarding the refund procedure. Let’s get your money back today!`
+            },
+        },
+        image: cjcmarketsglobal,
+        path: '/blog/CJC Markets'
+    },
+    {
+        name: 'Quotex',
+        shortHeading: 'Quotex Detailed Review',
+        fullDescription: `According to Quotex broker, trading with this company gives you an innovative digital trading experience that will bring you money. However, more important is the question if you can withdraw this money. Also, there are a lot of security questions since the broker is not regulated.`,
+        heading: 'Quotex Detailed Review',
+        descriptionLvl: {
+            image: quotexPage,
+            rev1: {
+                heading: 'Quotex Regulation and Security',
+                desc: `Quotex is a binary options brand owned by Awesomo Limited from Seychelles. There is a simple rule – even offshore brokers need to have a regulation for providing financial services. However, after we checked the FSA register, we couldn’t find Quotex anywhere. If you wondered is Quotex regulated, the simple answer is no.`,
+                desc1:`When the company has no regulation, it’s not safe nor secure to trade with such. Avoid this illicit brokerage by all means.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'As we already concluded, Quotex regulation doesn’t exist. Therefore, you can already guess how big issues clients had to withdraw their funds. If there is no regulatory body, there is no compensation fund. Tier one regulators such as the FCA or CySEC demand all the trading companies to form a compensation fund with a value of around $700,000. This fund is used to reimburse clients in case of a scam.',
+                desc1: `With unregulated offshore brokers, such an option doesn’t exist.`,
+                desc2: `If you tried to withdraw your funds from a Quotex web trader, you know how hard it can be. At first, your financial adviser is talking you out of withdrawal, and if that doesn’t work, your account is being suspended.
+                Beware of the Quotex scam and avoid this unregulated brokerage.`
+            },
+            rev3: {
+                heading: 'How Online Scam Works?',
+                desc:`So far, if you have been exposed to a Quotex broker or any other illicit entity from an offshore country, you already know the drill. Some company employees are giving you a call after you sign up for online trading and convincing you that you can make millions. After you make your initial deposit, an account manager (or financial adviser) is trying to access all of your bank accounts under the excuse of “helping you out.” As you probably had a chance to notice, most of these brokers are working by using apps such as AnyDesk to connect to your PC and search it through.`,
+                desc1: `After a couple of successful trades, you are being persuaded to invest more. And after you do, and you want your funds back (it can be in a month or a year), you will be asked not to withdraw now. There’ll always be a new market opportunity waiting for you to double the money. Once you’ve had enough and stay firm that you’d like a payout, your account is being suspended, and you have no access to the alleged brokerage.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: quotex,
+        path: '/blog/Quotex'
+    },
+    {
+        name: 'Zenfinex',
+        shortHeading: 'Zenfinex Detailed Review',
+        fullDescription: `As odd as it may sound, Zenfinex is a regulated and not regulated broker at the same time. This is why we decided to clarify once and for all facts about the company and whether you should start investing with it or not.`,
+        heading: 'Zenfinex Detailed Review',
+        descriptionLvl: {
+            image: zenfinexPage,
+            rev1: {
+                heading: 'Zenfinex Regulation and Security',
+                desc: `Zenfinex is owned by Zenfinex Group with two entities – Zenfinex Limited in the UK and Zenfinex Global LLC in Saint Vincent and the Grenadines. Now, why is the broker regulated and not? In the UK, the company has the FCA regulation. And it’s alright. However, it’s using an offshore entity for all the other countries and has no regulation at all. It means that if you are a UK citizen, you will be registered with a regulated company while everyone else is dealing with an offshore brokerage. And we all know how it ends.`,
+            },
+            rev2: {
+                heading: 'How Does Online Scam Work?',
+                desc: 'If you have dealt with Zenfinex forex broker or any other broker at all, you know how it goes. You are signing up for an ad about online trading, and the broker calls you with further information. Now, after you deposit your money, some sort of an adviser is taking over and telling you how to invest. At first, you are getting terrific tips, all in order to earn your trust. After a while, he will approach you for more money. And more. And after you invested your entire savings, you will expect a withdrawal. Just, this withdrawal is not an option with a scam brokerage.',
+            },
+            rev3: {
+                heading: 'Scammed by Zenfinex?',
+                desc:`If you have been misled or scammed by Zenfinex, do not hesitate to report it. Our support team is at your disposal, and we are ready to help. Why would you let scam brokerage get away with your hard-earned money? File a dispute and request a chargeback.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: zenfinex,
+        path: '/blog/Zenfinex'
+    },
+    {
+        name: 'WH SelfInvest',
+        shortHeading: 'WH SelfInvest Detailed Review',
+        fullDescription: `As one of the oldest forex brokers on the market, WH SelfInvest definitely has many things to review. Letting clients choose between spread-based and commission-based accounts, proprietary trading platform, and other details were discussed in this WH SelfInvest review. So, let’s start.`,
+        heading: 'WH SelfInvest Detailed Review',
+        descriptionLvl: {
+            image: whselfinvestPage,
+            rev1: {
+                heading: 'WH SelfInvest Regulation and Security',
+                desc: `WH SelfInvest is a broker owned by WH SelfInvest S.A. from Luxembourg. The company was established in 1989 and registered with CSSF in 2000. Practically, this is one of the oldest forex brokers on the market. Besides the entity in Luxembourg, the company has offices in France and Germany, regulated by AMF and BaFin. In addition, there are two representative offices in Belgium and Switzerland, regulated by FSMA and FINMA.`,
+                desc1:`Based on this, it sounds like the broker is ideal. But maybe it just sounds.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'We decided to check WH SelfInvest reviews by investors and gather as much information about the broker as possible. For a start, the trading platform WH SelfInvest provides is Nanotrader, a proprietary web-based platform. Anyone who has experience with the financial market knows that using a web trader is not safe and not secure. Especially a proprietary one. The broker designed it, meaning it has the access to all the trades and all the funds. And that’s something you do not want.',
+                desc1: `Another thing we didn’t like about the broker is the minimum deposit requirement. If you want to start trading with WH SelfInvest, you will need to deposit a minimum of 2,500 EUR, which is rather high. Other regulated brokers allow clients to begin with as low as $100. Also, the broker holds an EU passport but offers leverage of 1:50. As per EU regulations, brokers are allowed to offer up to 1:30 for the Forex market. So, why is WH SelfInvest an exception?`,
+                desc2: `And for the end, the broker offers spread-based and commission-based accounts. But in both cases, the client is overpaying. If you decide to go for a spread-based account, the EUR/USD spread starts from 1.7 pips. If, however, you choose a commission-based account, the spread is 1.0 pips, and the commission is 3.5 EUR. Some other regulated brokers are offering spread below 1 pip in cases of commission-based accounts, just for your comparison.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Usually, online trading scams are following the same pattern. The client is signing up for an ad regarding online trading and getting a phone call from the company. After depositing the funds, the so-called financial adviser pressures investors to add more funds under various excuses. Once the client pays all the funds it can possibly afford to pay, the account is suspended, and withdrawals are impossible.`
+            },
+            rev4: {
+                heading: 'Scammed by WH SelfInvest?',
+                desc: `If you were scammed by WH SelfInvest, you should know you are not the only victim. And luckily, there is a possibility of getting your funds back. First, you need to file a dispute and request a chargeback.`,
+            },
+        },
+        image: whselfinvest,
+        path: '/blog/WH SelfInvest'
+    },
+    {
+        name: 'MultiBank FX',
+        shortHeading: 'MultiBank FX Detailed Review',
+        fullDescription: `If you are looking for a regulated online brokerage, yes, MultiBank FX can be considered one. However, do not hold your breath just yet. You need to know many things about the broker before jumping into anything and giving your money away.`,
+        heading: 'MultiBank FX Detailed Review',
+        descriptionLvl: {
+            image: multibankfxPage,
+            rev1: {
+                heading: 'MultiBank FX Regulation and Security',
+                desc: `MultiBank FX was founded as a part of MultiBank FX International Corporation from the British Virgin Islands. The company has a status of a regulated broker since they obtained a license from BVIFSC. First, however, let us present you with some little-known facts about the BVI license. Once you opt for FSC regulation, you need to pay a fee of $1,500 and have the initial capital in the same amount. There is no obligation of any kind to form a compensation fund for reimbursing clients. Now you can understand how not valuable this particular license is.`,
+                desc1:`You are dealing with an offshore broker, and you should be aware of the MultiBank FX scam.`
+            },
+            rev2: {
+                heading: 'Fund Withdrawal Issues',
+                desc: 'If you’ve decided to start a trading account, you must have an ultimate goal – making a profit. Now, besides the broker’s capability to assist you in the process, you need to clarify if there is a chance you can withdraw your funds. Based on several MultiBank FX reviews we’ve come across, the answer is no. Let us show you why.',
+                desc1: `We’ve taken into consideration the MultiBank FX trading platform and have nothing to say. The broker offers MT5 and a web version of MT4. It sounds like it did put some thought into trading platforms after all. However, having a proper platform is not everything. The leverage this broker offers goes up to 1:500, similar to many other illegal offshore brokerages.`,
+                desc2: `The minimum deposit required by MultiBank FX has not been disclosed anywhere. Payment methods are wide-ranged, while we are left unanswered about any fees or commissions. However, if you try to check the withdrawal section, you’ll find nothing. Highly suspicious for allegedly regulated brokerage.`
+            },
+            rev3: {
+                heading: 'How Does Online Trading Scam Work?',
+                desc:`Suppose you’ve submitted your personal details for an ad related to online trading. You’ve received a call, made your deposit, and ended with a personal account manager. If the company is bogus and not trustworthy, such as MultiBank FX, this account manager will have only one idea – to extort more money. And after you’ve given more funds, most likely, your account will be suspended, and your access to capital will be blocked.`
+            },
+            rev4: {
+                heading: 'Scammed by MultiBank FX?',
+                desc: `If you have been involved in a scam with MultiBank FX or any other illicit broker, do not hesitate to inform us about it. You need to file a dispute and request a chargeback.`,
+            },
+        },
+        image: multibankfx,
+        path: '/blog/MultiBank FX'
+    },
+    {
+        name: 'TitanFX',
+        shortHeading: 'TitanFX Review',
+        fullDescription: `When you think of trading, of course, you are looking for a place where you can maximize the profit. You are looking for the best trading terms. But, besides trading terms, you need to find a regulated, legitimate broker. And we can say it upfront, TitanFX is not one of those.`,
+        heading: 'TitanFX Review',
+        descriptionLvl: {
+            image: titanfxPage,
+            rev1: {
+                heading: 'TitanFX Regulation and Security',
+                desc: `TitanFX is a brand of TI Securities Limited. The company is registered in Vanuatu. However, after we’ve checked the VFSC register, we discovered that the brand is not regulated. Meaning it does not have permission to provide any kind of financial services.`,
+                desc1:`The company was based in New Zealand; however, it lost the FMA regulation. Afterward, it moved its headquarters to an offshore country where it doesn’t even have a regulation.`
+            },
+            rev2: {
+                heading: 'Funds Withdrawal Issues',
+                desc: 'As per many TitanFX reviews, clients experienced severe withdrawal issues. Some of them claim that they got their account blocked, the money disappeared or got lost in trades they never opened. After examining the TitanFX trading platform, we saw the broker offers MT4, MT5, and a web trader. If you had a web trader, the broker could easily access your trades and change them.',
+                desc1: `On the other side, the leverage provided by the company goes up to 1:500. Another great way to lose your money simply by opening one risky position. With such high leverage, no wonder it happened.`,
+                desc2: `If you were among those, who experienced withdrawal issues, file a dispute immediately!`
+            },
+            rev3: {
+                heading: 'How does an online trading scam work?',
+                desc:`Getting involved in an online trading scam was never easier. Many brokers out there have no regulation and exist for a short period. In this period, they take all the funds from their clients and disappear. There is a reason why many of them, such as TitanFX, open headquarters in an offshore country.`,
+                desc1: `Make sure to always check the brokerage and never provide your card information over the phone. Especially take care of your CVV number.`
+            },
+            rev4: {
+                heading: 'Scammed by TitanFX?',
+                desc: `If you were scammed by TitanFX, do not get desperate just yet. There is a way to get your funds back. You need to file a dispute and request a chargeback.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you were a victim of an online scam.`
+            },
+        },
+        image: titanfx,
+        path: '/blog/TitanFX'
+    },
+    {
+        name: 'ZES Forex',
+        shortHeading: 'ZES Forex Detailed Review',
+        fullDescription: `Pseudo company regulated by a pseudo authority body. Sounds like a bad start for a ZES Forex broker. However, we did check all the information for you. Read our ZES Forex review and find out everything about the company.`,
+        heading: 'ZES Forex Detailed Review',
+        descriptionLvl: {
+            image: zesforexPage,
+            rev1: {
+                heading: 'ZES Forex Regulation and Security',
+                desc: `The broker is allegedly based in Ukraine. However, to be Ukrainian-based, you need regulation by UCRFIN. The ZES Forex broker is anonymous, does not list the owner, and does not exist in any Ukrainian register. Therefore, we tried to look for regulations and couldn’t find one.`,
+                desc1:`On the broker’s website, it says the company has IFCOMM regulation. Once we checked deeper about IFCOMM, we discovered it’s a fake regulator. IFCOMM stands for International Financial Commission, and Swiss regulator FINMA published an official warning stating that despite being Swiss-based, this organization has no authority to provide regulations to anyone. It’s not even a registered business.`,
+                desc2: `Now you understand how false is ZES Forex as well.`
+            },
+            rev2: {
+                heading: 'Issues With Funds Withdrawals – ZES Forex',
+                desc: `As you can already imagine, there are severe accusations against ZES Forex related to funds withdrawals. As per clients’ reviews, the company will not allow you to withdraw your funds no matter what you try to do.
+                Let’s go step by step and understand who ZES Forex actually is.
+                The broker says it offers web trader and MT4. Also, there should be a Demo account where you can test the platform. Just, the Demo account doesn’t function, neither does the “Discover platform” button, which means that we cannot check the platform and verify how it looks and which features it contains.`,
+                desc1: `On the other hand, the leverage provided by the company goes up to 1:400, which is ten times higher than any regulated EU broker can offer. Meaning that the company has no regulation whatsoever.
+                The minimum deposit seems to be $100, which is not bad. Although, there is no reason to deposit any funds with an anonymous and unregulated broker at all.`,
+                desc2: `Clients can trade with currency pairs, commodities, indices, shares, and cryptocurrencies. As aforementioned, there is no Demo account and no information about the diversity of assets, so here we have nothing to say.
+                After everything, you can understand how not transparent the company is and how not legit the operation is.`
+            },
+            rev3: {
+                heading: 'Scammed by ZES Forex?',
+                desc:`If you were scammed by ZES Forex, do not hesitate to report it. File a dispute and request a chargeback. You worked hard for your funds, and you have every right to get them back. You are not the only victim of the ZES Forex scam!`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you were a victim of an online scam. However, a chargeback is a time-limited process, and you need to act fast.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: zesforex,
+        path: '/blog/ZES Forex'
+    },
+    {
+        name: 'Equiti',
+        shortHeading: 'Equiti Detailed Review',
+        fullDescription: `Equiti is a broker mainly operating in the Middle East. However, they do accept European, African, Asian, and Australian clients as well. Therefore, we’ve decided to do our Equiti review and find out everything about trading terms and conditions with this brokerage.`,
+        heading: 'Equiti Detailed Review',
+        descriptionLvl: {
+            image: equitiPage,
+            rev1: {
+                heading: 'Equiti Regulation and Security',
+                desc: `Equiti is a Jordan-based broker owned by Equiti Group Limited. However, the company has several other entities – Equiti Capital UK Limited in the UK and EGM Futures DMCC in Dubai. The company is regulated by three regulatory bodies, JSC, FCA, and SCA. The broker has many partnerships with other brokerages.`,
+                desc1:`When it comes to security, clients are entitled to request fund insurance in case they have a constant balance of $25,000 and above. In case of a loss, the company says to refund clients up to $1,000,000. However, this does not make much sense. In case you lost money on the market, why would the company refund you? We couldn’t find other conditions the trader needs to fulfill to be entitled to this insurance.`
+            },
+            rev2: {
+                heading: 'Withdrawal Issues with Equiti',
+                desc: `Since we’ve come across several complaints regarding withdrawal issues while researching Equiti reviews, we’ve decided to verify the broker’s offer thoroughly.
+                First of all, clients can choose between MT4 and a web trader. We congratulate the company for selecting an MetaTrader4 platform since it’s considered the safest option. However, a web trader is not so safe and should be avoided.`,
+                desc1: `The minimum deposit is $500, which is a bit too high. If you do not have any trading experience, there is no reason to risk such an amount when you can deposit with other regulated brokers and start your account with as low as $10. Besides the Visa, MasterCard, Neteller, and Skrill logo, we haven’t seen any conditions of depositing and withdrawing funds. Sounds like a red flag.
+                Other than that, the broker provides a leverage of up to 1:500 for the Forex market. Just for you to compare, the CySEC, ASIC, FCA, and other tier-one regulated brokers offer leverage up to 1:50 or 1:100 for the Forex market. Regulators made this decision in order to protect clients from exposing their funds to tremendous risk.`,
+                desc2: `There are only two account types available – Executive and Premiere, requiring you to deposit $500 or $20,000.
+                In this broker’s offer, there are no cryptocurrencies available. Kind of odd if it’s trying to keep up with the trading trends.               
+                Since the broker has several regulations, the regulatory obligation varies based on the entity clients belong to, which means not treating all clients equally.`
+            },
+            rev3: {
+                heading: 'Scammed by Equiti forex?',
+                desc:`If you were scammed by an Equiti forex broker, there is a possibility of getting your money back. You need to file a dispute and request a chargeback.
+                But what is a chargeback? It’s a way of refunding your card in case you were a victim of an online scam.
+                Contact our support now and get all the information for starting the procedure. We are available on chat!`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: equiti,
+        path: '/blog/Equiti'
+    },
+    {
+        name: 'Arum Capital',
+        shortHeading: 'Arum Capital Detailed Review',
+        fullDescription: `There are many CySEC regulated brokers out there. And most of them are following the regulation and trying to obey ESMA and MiFID rules. However, there are many of them being fined and blacklisted by other regulatory bodies due to scam activities.`,
+        heading: 'Arum Capital Detailed Review',
+        descriptionLvl: {
+            image: arumcapitalPage,
+            rev1: {
+                heading: 'Arum Capital Regulation and Security',
+                desc: `Arum Capital is a broker owned by Arumpro Capital Ltd, based in Cyprus. The company was established in 2017 and regulated by CySEC. There is only one legit domain this broker is allowed to use, arumcapital.eu. If you have been redirected to any other website, either it does not belong to Arum Capital, or the broker created a site for conducting frauds. Be aware of this.`,
+                desc1:`When it comes to the security of the funds, since the broker has been CySEC regulated, there is an ICF, Investment Compensation Fund, established for cases of fraud. As per CySEC, every client that has been scammed is entitled to a refund from this fund up to 20,000 EUR. However, what happens if your loss is higher than this?`
+            },
+            rev2: {
+                heading: 'Withdrawal Issues with Arum Capital',
+                desc: `Here, we come to the main question. Can you withdraw your funds from Arum Capital brokerage? Nobody starts trading for no reason. The idea is to make a profit and to withdraw this profit to your bank account. So, let’s go through a couple of trading terms and see how the withdrawal procedure goes.
+                First of all, you need to deposit a minimum of 500 EUR, which is a slightly high requirement even for a regulated brokerage. There are two account types with the broker, and the deposit requirement is the same. The only difference between the accounts is the commission broker is charging. The commission is charged twice when opening and closing the trade, which is also not fair.               
+                The leverage complies with CySEC standard and goes up to 1:30 for the Forex market.`,
+                desc1: `There are 69 currency pairs available, 11 indices, ten commodities, and five cryptocurrencies. However, the broker does not offer share trading, which is a bit odd since shares are the base of the trading market.
+                All the trades are executed on the MT5 trading platform. This is a solid choice. However, there is a reason why 80% of regulated brokers will offer you MT4 instead. It has more features for traders.`,
+                desc2: `Despite the CySEC regulation, the broker does not provide financial services in France and Belgium. We cannot stop thinking about what the reason for such a decision is. The French and Belgium regulators are well-known as strong and protective. Is the broker avoiding penalties? We cannot tell yet in this Arum Capital review.
+                Many clients have reported withdrawal issues with the broker. If you are one of those, make sure to notify the regulator.`
+            },
+            rev3: {
+                heading: 'Scammed by Arum Capital?',
+                desc:`If you were scammed by Aurum Capital or had any kind of issues, you need to file a complaint and request a chargeback. You need to get your hard-earned money back.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you were a victim of online fraud. `
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: arumcapital,
+        path: '/blog/Arum Capital'
+    },
+    {
+        name: 'OpoForex',
+        shortHeading: 'OpoForex Review',
+        fullDescription: `Since there are many brokers out there under the alleged regulation of FSA from Saint Vincent and the Grenadines, we couldn’t help but ask – is this regulation worth anything? Based on our review it looks like this regulation means that the company is opened on the SVG territory, but nothing more. There is no deposit request from the forex broker nor any protection in case of a scam.`,
+        heading: 'OpoForex Review',
+        descriptionLvl: {
+            image: opofinancePage,
+            rev1: {
+                heading: 'OpoForex Regulation and Security',
+                desc: `OpoForex is a brand owned by the same-named company, OPOFOREX. The company has headquarters in Saint Vincent and the Grenadines and an alleged FSA regulation. However, since there is no deposit required from brokerages, the FSA cannot help if you get scammed. There are no safety funds to be used for this purpose. This is why many brokerages are established in SVG, and this is why many of them are fraudsters.`,
+            },
+            rev2: {
+                heading: 'OpoForex Withdrawal Issues',
+                desc: `Since the broker does not have a well-prepared regulatory body behind it, there are many withdrawal issues. Clients cannot get their funds back and have nobody to complain to.
+                The broker is offering only a web trader that makes it easier to conduct a scam. Since the web trader is designed by the broker itself, of course, the company has access to all the funds and all the clients’ trades. Moreover, the leverage this company offers is 1:1000, extremely high and extremely risky.`,
+                desc1: `The minimum deposit with the broker is $100, which is also not the best offer we’ve seen. Regulated brokers are allowing you to start from $10.
+                The deposit can be made using debit/credit cards, wire transfers, cryptocurrencies, or local payment solutions. This is pretty ironic considering the fact you cannot trade cryptos with this broker. It looks like only the company can make money from valuable assets; clients do not have this chance.
+                As per the broker, the only charges for withdrawals are made by exchange for cryptos or by the bank for wire transfer. Yet, withdrawal time is not specified anywhere, meaning you do not know when you should receive the funds and when to complain.`,
+                desc2: `Be aware of these facts when starting an account with an OpoForex.com broker.`
+            },
+            rev3: {
+                heading: 'Scammed by OpoForex?',
+                desc:`If you were scammed by OpoForex, slow down. You are not the only victim of the OpoForex scam. You need to file a dispute and request a chargeback immediately.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: opofinance,
+        path: '/blog/OpoForex'
+    },
+    {
+        name: 'Solid Invest',
+        shortHeading: 'Solid Invest Review',
+        fullDescription: `While reviewing the brokerages for you, we put the main focus on the companies being blacklisted by some regulatory body. These are companies you should always avoid, regardless of how good their offer might sound. Read our Solid Invest review and find out everything about this unregulated company.`,
+        heading: 'Solid Invest Review',
+        descriptionLvl: {
+            image: solidinvestPage,
+            rev1: {
+                heading: 'Solid Invest Regulation and Security',
+                desc: `The brand is owned by Grey Matter Enterprise Ltd based in Saint Vincent and the Grenadines. The broker does not have any regulation whatsoever. Once we checked the company, we found another brand of the same owner, SolidInvest. More details about this broker you can find in our SolidInvest review.`,
+                desc1:`The company is not regulated and saying so, we can say it’s not safe nor secured for clients to invest with such a brokerage.`
+            },
+            rev2: {
+                heading: 'Withdrawal issues with Solid Invest',
+                desc: `As many clients reported, it’s nearly impossible to withdraw the funds from Solid Invest.
+                In terms and conditions, we can see that the minimum deposit is $250, while in the account types we can find the minimum of $3,000. This made us a little bit confused.               
+                However, whatever is the amount you decide to deposit, a low chance that you will get any money back. As per Solid Invest reviews, clients cannot access their accounts after the withdrawal request has been submitted. Also, the so-called account manager does not answer phone calls nor emails anymore.`,
+                desc1: `The company states that withdrawal can be made to the same account or card used to make a deposit. However, it’s done proportionally to deposit made using this particular method. Meaning that if your withdrawal amount exceeds your deposit amount, there is no option to get the fund difference until making the next deposit.`,
+                desc2: `Also, what we found strange is that the company says fees might apply, but we couldn’t find the list of fees anywhere.
+                It takes 3-5 business days to process the withdrawal request for bank transfer and 1-2 days for card withdrawals. In addition, it takes up to 6 business days for the funds to be transferred to your account.
+                However, since there is clearly a withdrawal issue, be aware of it.`
+            },
+            rev3: {
+                heading: 'Scammed by Solid Invest?',
+                desc:`If you were in any way misled or scammed by Solid Invest, we advise you to report it immediately. You are not the only victim of the Solid Invest scam and there is a way to get your funds back. You need to file a dispute and request a chargeback.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: solidinvest,
+        path: '/blog/Solid Invest'
+    },
+    {
+        name: 'Bit Broker Stocks',
+        shortHeading: 'Bit Broker Stocks Review',
+        fullDescription: `There are many offshore brokers currently on the financial market. We have to make it clear, some of them are regulated, some are not. When it comes to Bit Broker Stocks broker, there are many things to say. And none of these things is good. Read our Bit Broker Stocks review and find out what to do if you got scammed by this offshore brokerage.`,
+        heading: 'Bit Broker Stocks Review',
+        descriptionLvl: {
+            image: bidbrokerstocksPage,
+            rev1: {
+                heading: 'Bit Broker Stocks Regulation and Security',
+                desc: `Bit Broker Stocks is a brand owned by Donnybrook Consulting Ltd. The company is based in the Commonwealth of Dominica and has no regulation for its operations. This means that the company operates illegally, and there is no regulatory body you can complain to get your funds back.`,
+                desc1:``
+            },
+            rev2: {
+                heading: 'Warnings From Financial Regulators',
+                desc: 'This is a subject we could discuss till the end of this article. Bit Broker Stocks broker and the company owner are reported and blacklisted so many times it’s even hard to count. But let’s try.',
+            },
+            rev3: {
+                heading: 'Can you make money with Bit Broker Stocks?',
+                desc:`Since you’ve had a chance to see all the security warnings issued against this broker, the answer is no. However, we would like to discuss a couple of things. The broker is using the MT4 trading platform, which is probably the only positive thing to say in this entire review. The minimum deposit with Bit Broker Stocks is $500, which is double than any regulated brokerage. And the leverage is 1:200, again higher than any regulated brokerage can offer. There is a reason for brokerages to limit the leverage – it’s putting your funds at too high risk.`,
+                desc1: `So no, you cannot make money with an offshore unregulated scam company.`
+            },
+            rev4: {
+                heading: 'Scammed by Bit Broker Stocks?',
+                desc: `If you were scammed by Bit Broker Stocks, there is a solution. You can file a dispute and request a chargeback.
+                But what is a chargeback? It’s a way of refunding your card in case you were a victim of an online scam. Contact our support via chat immediately, book your free consultations, and you will know the first step you need to make in order to get your money back!`,
+            },
+        },
+        image: bidbrokerstocks,
+        path: '/blog/Bit Broker Stocks'
+    },
+    {
+        name: 'CentroBanc',
+        shortHeading: 'CentroBanc Review – Stay Away From Rcb.at, It’s a Fraudulent Website',
+        fullDescription: `CentroBanc presents itself as a bank service provider, a part of the most famous Austrian bank, Raiffeisen. Further, they claim to offer trading services, as the bank does.
+        Read our detailed CentroBanc review and you’ll see that not everything is as it seems. Warning, we’re about to expose an offshore scammer.`,
+        heading: 'CentroBanc Review – Stay Away From Rcb.at, It’s a Fraudulent Website',
+        descriptionLvl: {
+            image: rcbPage,
+            rev1: {
+                heading: 'Details About CentroBanc Regulation',
+                desc: `CentroBanc claims to be owned by Raiffeisen Centrobank AG. Allegedly, it’s a part of the Austrian Raiffeisen bank, offering both banking and trading services.`,
+                desc1:`However, upon checking the register of the Financial Markets Authority of Austria, we discovered that this particular website had been known in trading circles since 2018. According to FMA, it’s an unlicensed trading firm owned by Sucaba Enterprise Ltd, registered in the Marshall Islands. The same company owns another scam brand, SkyCapital, which is banned in Italy and Norway.`,
+                desc2: `In 2022, CentroBanc rebranded and added the Raiffeisen logo, but even that didn’t contribute to its legitimacy.`
+            },
+            rev2: {
+                heading: 'How Reliable Is CentroBanc?',
+                desc: 'CentroBanc uses the name of one of the most popular Austrian banks, Raiffeisen, to conduct its business. The website has been banned by the Austrian regulator FMA and marked an offshore fraud.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of CentroBanc?',
+                desc:`CentroBanc promotes its services as part of a legitimate bank. Even their website is entirely branded with the Raiffeisen logo. However, once customers were lured into depositing, they could not withdraw any money.`,
+                desc1: `CentroBanc says it offers banking services as well, prompting clients to deposit to their checking accounts. Once the funds are transferred, you’ll never hear from this financial swindler again.`
+            },
+            rev4: {
+                heading: 'What Is Known About CentroBanc’s Trading Conditions?',
+                desc: `The company advertises leveraged trading but with no specified terms. Further, the spread was not disclosed, making the trading process difficult. You should stay away if you don’t know the basic costs and risks.
+                Account managers may try to convince you that CentroBanc has the best and most favorable trading terms when you set up an account. They’ll sell you anything you want to hear. Once you give away the money, they’ll stop responding and, most likely, block your access to the account.`,
+            },
+        },
+        image: rcb,
+        path: '/blog/CentroBanc'
     },
     // {
     //     name: 'FxRevenues',

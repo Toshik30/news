@@ -4,8 +4,8 @@ import { Rating } from 'react-simple-star-rating';
 import { useDispatch } from 'react-redux';
 import { addNewComment } from '../../../store/reviews/reviewSlice';
 
-export const getComments = (name,review,rating,pathLocation, date) => new Promise((res) => {
-   res({name,review,rating,pathLocation, date})
+export const getComments = (name,review,rating,pathLocation, date, idUser) => new Promise((res) => {
+   res({name,review,rating,pathLocation, date, idUser})
 })
 export default function Reviews() {
     const [name, setName] = useState('');
@@ -17,7 +17,7 @@ export default function Reviews() {
     const dispatch = useDispatch()
     
     const addReview = () => {
-        dispatch(addNewComment({name,review,rating,pathLocation, date: new Intl.DateTimeFormat('en-Us').format(new Date()),id: name + rating},setName(''),setReview(''),setRating('')))
+        dispatch(addNewComment({name,review,rating,pathLocation,idUser: '1321321321321', date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
     }
    
     return (

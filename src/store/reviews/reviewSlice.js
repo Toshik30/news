@@ -9,7 +9,7 @@ export const addNewReviews = createAsyncThunk(
 )
 export const addNewComment = createAsyncThunk(
     'Comments/addNewComment',
-    async ({name,review,rating,pathLocation, date, id}) => getComments(name,review,rating,pathLocation, date, id),
+    async ({name,review,rating,pathLocation, date, idUser}) => getComments(name,review,rating,pathLocation, date, idUser),
 )
 
 const reviewsSlice = createSlice({
