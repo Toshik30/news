@@ -1,23 +1,23 @@
 import styles from './style.module.scss'
-import { authefication } from '../../store/auth/authSlice';
-import { useDispatch, useSelector } from 'react-redux';
-import { dbb } from '../selectors/db';
-import { useLiveQuery } from 'dexie-react-hooks';
+// import { authefication } from '../../store/auth/authSlice';
+// import { useDispatch } from 'react-redux';
+// import { dbb } from '../selectors/db';
+// import { useLiveQuery } from 'dexie-react-hooks';
 
 export default function Contacts() {
-    const dispatch = useDispatch()
-    const handleChange = ({target: {name, value}}) => dispatch(authefication({value, name}))
-    const arrAuth = useSelector(state => state.auth)
-    const users = useLiveQuery(() => dbb.isAuth.toArray())
-    async function handleAuth() {
-        try {
-            if(arrAuth.name.length !== 0) {
-                await dbb.isAuth.put(arrAuth)
-            } 
-            } catch(error) {
-                console.error('error :' + error)  
-        }
-    }
+    // const dispatch = useDispatch()
+    // const handleChange = ({target: {name, value}}) => dispatch(authefication({value, name}))
+    // const arrAuth = useSelector(state => state.auth)
+    // const users = useLiveQuery(() => dbb.isAuth.toArray())
+    // async function handleAuth() {
+    //     try {
+    //         if(arrAuth.name.length !== 0) {
+    //             await dbb.isAuth.put(arrAuth)
+    //         } 
+    //         } catch(error) {
+    //             console.error('error :' + error)  
+    //     }
+    // }
     
     return (
         <section className={styles.contacts}>
@@ -30,9 +30,9 @@ export default function Contacts() {
                     <div className={styles.contacts__registration__address}>
                         <h2>Our information</h2>
                         <div className={styles.contacts__registration__address__element}>
-                            <h3>UK</h3>
-                            <p>Angel Square, Manchester M60 0AG, United Kingdom</p>
-                            <p>+55767 695064645</p>
+                            <h3>CANADA</h3>
+                            <p>66 Wellington St W, Toronto, ON M5K 1A1, Canada</p>
+                            <p>+14168393174</p>
                             <p>support@trustbreaking.com</p>
                         </div>
                         {/* <div className={styles.contacts__registration__address__element}>
@@ -42,7 +42,7 @@ export default function Contacts() {
                             <p>apac@sitejabber.com</p>
                         </div> */}
                     </div>
-                    <div className={styles.contacts__registration__form}>
+                    {/* <div className={styles.contacts__registration__form}>
                         <h2>The best way to reach our support staff is to fill out the form below with as much detail as possible.</h2>
                         <form>
                             <input onChange={handleChange} 
@@ -71,7 +71,7 @@ export default function Contacts() {
                                 className={styles.button_primary__blue} 
                             >Registration</button>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             

@@ -17,7 +17,7 @@ export default function Reviews() {
     const dispatch = useDispatch()
     
     const addReview = () => {
-        dispatch(addNewComment({name,review,rating,pathLocation,idUser: '1321321321321', date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
+        dispatch(addNewComment({name,review,rating,pathLocation,idUser: 'id' + (new Date()).getTime(), date: new Intl.DateTimeFormat('en-Us').format(new Date())},setName(''),setReview(''),setRating('')))
     }
    
     return (

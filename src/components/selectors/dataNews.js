@@ -359,6 +359,78 @@ import bidbrokerstocks from '../../images/bid-broker-stocks-logo.svg'
 import bidbrokerstocksPage from '../../images/bid-broker-stocksPage.png'
 import rcb from '../../images/rcb-logo.svg'
 import rcbPage from '../../images/rcbPage.png'
+import meteortrade from '../../images/meteortrade-logo.png'
+import meteortradePage from '../../images/meteortradePage.png'
+import novelis from '../../images/novelis-logo.svg'
+import novelisPage from '../../images/novelisPage.png'
+import futureprofit from '../../images/futureprofit-logo.png'
+import futureprofitPage from '../../images/futureprofitPage.png'
+import progresivetrade from '../../images/progresivetrade-logo.png'
+import progresivetradePage from '../../images/progresivetradePage.png'
+import xtbglobal from '../../images/xtbglobal-logo.png'
+import xtbglobalPage from '../../images/xtbglobalPage.png'
+import investkingdom from '../../images/investkingdom-logo.png'
+import investkingdomPage from '../../images/investkingdomPage.png'
+import bullden from '../../images/bullden-logo.png'
+import bulldenPage from '../../images/bulldenPage.png'
+import capitality from '../../images/capitality-logo.svg'
+import capitalityPage from '../../images/capitalityPage.png'
+import optiumgroup from '../../images/optiumgroup-logo.png'
+import optiumgroupPage from '../../images/optiumgroupPage.png'
+import theexchangebank from '../../images/theexchangebank-logo.png'
+import theexchangebankPage from '../../images/theexchangebankPage.png'
+import exotradecapital from '../../images/exotradecapital-logo.png'
+import exotradecapitalPage from '../../images/exotradecapitalPage.png'
+import investeriagroup from '../../images/investeriagroup-logo.svg'
+import investeriagroupPage from '../../images/investeriagroupPage.png'
+import ikici from '../../images/ikici-logo.svg'
+import ikiciPage from '../../images/ikiciPage.png'
+import giscapital from '../../images/giscapital-logo.svg'
+import giscapitalPage from '../../images/giscapitalPage.png'
+import solanamarkets from '../../images/solanamarkets-logo.svg'
+import solanamarketsPage from '../../images/solanamarketsPage.png'
+import investirex from '../../images/investirex-logo.svg'
+import investirexPage from '../../images/investirexPage.png'
+import coinmasfx from '../../images/coinmasfx-logo.png'
+import coinmasfxPage from '../../images/coinmasfxPage.png'
+import axiance from '../../images/axiance-logo.svg'
+import axiancePage from '../../images/axiancePage.png'
+import gammacapitals from '../../images/gammacapitals-logo.png'
+import gammacapitalsPage from '../../images/gammacapitalsPage.png'
+import martynservice from '../../images/martynservice-logo.png'
+import martynservicePage from '../../images/martynservicePage.png'
+import brokercapitals from '../../images/brokercapitals-logo.svg'
+import brokercapitalsPage from '../../images/brokercapitalsPage.png'
+import tradeunity from '../../images/tradeunity-logo.png'
+import tradeunityPage from '../../images/tradeunityPage.png'
+import ftmtrade from '../../images/ftmtrade-logo.svg'
+import ftmtradePage from '../../images/ftmtradePage.png'
+import onotextrade from '../../images/onotextrade-logo.png'
+import onotextradePage from '../../images/onotextradePage.png'
+import kapitalconsult from '../../images/kapitalconsult-logo.png'
+import kapitalconsultPage from '../../images/kapitalconsultPage.png'
+import eurotrcap from '../../images/eurotrcap-logo.svg'
+import eurotrcapPage from '../../images/eurotrcapPage.png'
+import garantiofinance from '../../images/garantiofinance-logo.svg'
+import garantiofinancePage from '../../images/garantiofinancePage.png'
+import gomarkets from '../../images/gomarkets-logo.png'
+import gomarketsPage from '../../images/gomarketsPage.png'
+import bontobel from '../../images/bontobel-logo.png'
+import bontobelPage from '../../images/bontobelPage.png'
+import tradebaionics from '../../images/tradebaionics-logo.svg'
+import tradebaionicsPage from '../../images/tradebaionicsPage.png'
+import tedex from '../../images/tedex-logo.png'
+import tedexPage from '../../images/tedexPage.png'
+import smarttradecfd from '../../images/smarttradecfd-logo.svg'
+import smarttradecfdPage from '../../images/smarttradecfdPage.png'
+import primedeltas from '../../images/primedeltas-logo.png'
+import primedeltasPage from '../../images/primedeltasPage.png'
+import dgtltrade from '../../images/dgtltrade-logo.png'
+import dgtltradePage from '../../images/dgtltradePage.png'
+import markets5 from '../../images/markets5-logo.png'
+import markets5Page from '../../images/markets5Page.png'
+import gfmarketsllc from '../../images/gfmarketsllc-logo.png'
+import gfmarketsllcPage from '../../images/gfmarketsllcPage.png'
 
 export const DATA_NEWS = [
     {
@@ -5965,6 +6037,1102 @@ export const DETAILED_NEWS = [
         },
         image: rcb,
         path: '/blog/CentroBanc'
+    },
+    {
+        name: 'Meteor Trade',
+        shortHeading: 'Meteor Trade Review – Watch Out, Meteortrade.co Is A Trading Fraud',
+        fullDescription: `Investing online has been quite attractive for the last ten years. This type of trading can yield large profits and provide investors with the desired financial stability. However, investors risk losing their entire capital when dragged into a scheme.`,
+        heading: 'Meteor Trade Review – Watch Out, Meteortrade.co Is A Trading Fraud',
+        descriptionLvl: {
+            image: meteortradePage,
+            rev1: {
+                heading: 'Does Meteor Trade Have a Forex License?',
+                desc: `Meteor Trade broker operates under two domains, meteortrade.co and meteortrade.pro. It seems the company falsely presented itself as a part of the FCA-licensed company, Meteor Investment Management Ltd.`,
+                desc1:`The truth is that Meteor Trade is an offshore trading brokerage owned by the already infamous Incendiary Group Ltd from the Commonwealth of Dominica. This firm owns two other scam brands, Trade Union and InFlux Finance, both unregulated.`,
+                desc2: `Of course, Meteor Trade is no different and practices Forex trading without a valid license.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Licensed brokers need to follow strict rules and impose lots of security measures. For instance, in the US, brokers need to maintain a minimal operational capital of $20 million, while in Australia the minimum is 1 million AUD.',
+                desc1: `Unregulated offshore scammers don’t have minimal capital or negative balance protection, nor do they follow ESMA-imposed leverage limits. They can simply vanish with your funds.`
+            },
+            rev3: {
+                heading: 'So Is Meteor Trade a Scam?',
+                desc:`Meteor Trade is not a regulated trading firm. The brokerage is based in the Commonwealth of Dominica but has not entered the FSU register. The company has been banned by the UK FCA.`
+            },
+            rev4: {
+                heading: 'What Platform Does Meteor Trade Provide?',
+                desc: `Meteor Trade supports lackluster WebTrader we’ve seen numerous times before. It may be suitable for trading beginners, but even they would soon see the lack of features. The platform has basic tools, not support social trading or EAs.`,
+                desc1: `By all means, MetaTrader is more reliable than any web-based trading platform. Thus, we recommend you find a legitimate firm offering MT4 or MT5. These two have been industry standards for over ten years and offer the broadest range of features.`
+            },
+        },
+        image: meteortrade,
+        path: '/blog/Meteor Trade'
+    },
+    {
+        name: 'Novelis Capital',
+        shortHeading: 'Novelis Capital Review – Should You Be Worried If You Invest With Novelis.Capital?',
+        fullDescription: `Upon receiving numerous complaints about Novelis Capital broker, we decided to overview their business. Who’s behind the scenes, and are your funds safe? Can you file a complaint with any regulator?`,
+        heading: 'Novelis Capital Review – Should You Be Worried If You Invest With Novelis.Capital?',
+        descriptionLvl: {
+            image: novelisPage,
+            rev1: {
+                heading: 'Is It Possible to Make Money On The Novelis Capital Platform?',
+                desc: `Making money is possible on virtually any platform. As long as the trading software functions, you can make a profit. The real question is if you can withdraw it. And that’s something we believe is the main problem with the Novelis Capital scheme.`,
+                desc1:`The brand is owned by Gnarly Solutions Ltd, registered in Saint Vincent and the Grenadines. This offshore island has a financial register but not a regulator. Instead, companies are directed to obtain a license in the country of service.`,
+                desc2: `Upon checking Tier1 registers, including major ones such as ASIC, FCA, BaFin, and CONSOB, we found nothing about Novelis Capital. Simply put, the firm operates unregulated and imposes a risk on your funds.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'There are a plethora of reasons not to trust unlicensed brokers. First, these companies don’t keep your funds in segregated accounts, despite their promises. Additionally, they don’t comply with regulatory rules about leverage limits, risk management, etc.',
+                desc1: `You will never be sure if your funds are withdrawable if you deposit with an unregulated offshore broker like Novelis Capital.`
+            },
+            rev3: {
+                heading: 'So, is Novelis Capital a Good Broker or a Scam?',
+                desc:`Novelis Capital is an offshore trading website, registered in Saint Vincent and the Grenadines. Due to its fraudulent nature, the broker has been blacklisted in several countries, including Spain, Italy, Belgium, and Norway.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of Novelis Capital?',
+                desc: `Traders complain about the broker’s fraudulent activities. Instead of allowing payouts, the firm cuts contact with anyone who submits a withdrawal request.
+                According to victims, everything will be fine if you’re willing to invest. The moment you decide that you want your profit back, you’ll see it vanishing due to incompetent advice by an account manager.`,
+            },
+        },
+        image: novelis,
+        path: '/blog/Novelis Capital'
+    },
+    {
+        name: 'FutureProfit',
+        shortHeading: 'FutureProfit Review – Disturbing Facts About Futureprofit.net Broker',
+        fullDescription: `FutureProfit’s website gives vague statements and incorrect information. Therefore, we decided to check and discover the truth. 
+        Before depositing your hard-earned money with this platform, ensure to read our detailed FutureProfit review. It’ll help you make the big decision.`,
+        heading: 'FutureProfit Review – Disturbing Facts About Futureprofit.net Broker',
+        descriptionLvl: {
+            image: futureprofitPage,
+            rev1: {
+                heading: 'How Safe Is It to Start Investing and Trading with FutureProfit?',
+                desc: `FutureProfit is allegedly based in London, UK, according to its home page. Yet, the Terms and Conditions indicate that the owner is FutureProfit EU Limited, with headquarters in Ireland. This scheme firm went one step further, claiming to be licensed by the Irish Central Bank. They claim to fall under the Irish Compensation Scheme and that clients are fully protected. `,
+                desc1:`Since this type of information is easy to verify, we searched through the Central Bank of Ireland register. As expected, FutureProfit EU Limited is nowhere to be found. Just in case, we searched the FCA databases as well. The outcome was the same.`
+            },
+            rev2: {
+                heading: '​​Is FutureProfit a Legit Broker or a Scam?',
+                desc: 'FutureProfit trading platform falsely claims to be based in Ireland and regulated by the Irish Central Bank. Negative reviews and low customer index indicate that you should stay away from this fraudster.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of FutureProfit?',
+                desc:`FutureProfit falsely presents itself as an Irish-based firm under CBI regulation. Therefore, they hooked on numerous victims eager to invest in the Forex and CFD markets. `,
+                desc1: `Once customers paid the initial deposit, this phony broker ensured to manipulate market prices and show them constant profit. Yet, when they submitted withdrawal requests, their trading accounts were frozen.`,
+                desc2: `If you recognize yourself in this story, it’s important to file a complaint immediately.`
+            },
+            rev4: {
+                heading: 'FutureProfit Minimum Deposit and Unfavorable Withdrawal Terms',
+                desc: `FutureProfit requires a minimum deposit of $250. It’s higher than most licensed brokers demand, with the average being $100.
+                As per withdrawals, this broker says that the balance on the clients’ accounts is a gross amount, and the firm will deduct taxes from it. Tax authorities are charging taxes independently, and the brokerage can’t pay them for you. So, the red flag again.               
+                Additionally, a clause states that if you use any payment method other than credit cards and bank transfers, you’re bound by rules of service “including, but not limited to fees and other restrictions.”`,
+            },
+        },
+        image: futureprofit,
+        path: '/blog/FutureProfit'
+    },
+    {
+        name: 'ProgresiveTrade',
+        shortHeading: 'ProgresiveTrade Review – Should You Trust Progresivetrade.com Broker?',
+        fullDescription: `ProgresiveTrade is a newly established trading firm, operational since May 2022. The brokerage has already earned negative reviews and complaints in such a short period. These were our cues to overview the business and provide you with the facts.`,
+        heading: 'ProgresiveTrade Review – Should You Trust Progresivetrade.com Broker?',
+        descriptionLvl: {
+            image: progresivetradePage,
+            rev1: {
+                heading: 'ProgresiveTrade Has a Good Reputation in the Market?',
+                desc: `ProgresiveTrade is a brand of Ailurophile Group LLC, registered in Saint Vincent and the Grenadines. Knowing that this offshore island is a popular hub for financial swindlers, we weren’t astonished to see it. `,
+                desc1:`SVG has no regulators overseeing Forex or CFD brokers. Instead, those are directed to opt for a license in the service country. ProgresiveTrade should be regulated by Tier1 authorities such as FCA, ASIC, or BaFin. The keyword here is “should be.” After reviewing these databases, we concluded that ProgresiveTrade is nothing but a progressive scammer.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'The reason is simple if you were wondering why there are so many reviews about financial scams. These firms don’t allow any withdrawals and tend to disappear after stealing clients’ funds.',
+                desc1: `Since they don’t belong under any regulatory supervision and are often registered through third-party agencies, finding real perpetrators is a challenging task. Hiding behind anonymity, these brokers have no problem taking someone’s life savings and vanishing.`
+            },
+            rev3: {
+                heading: 'So Is ProgresiveTrade a Decent Broker or a Scam?',
+                desc:`ProgresiveTrade is an unlicensed offshore Forex and CFD trading provider. The reviews show negative experiences. A low trust score indicates withdrawal issues, meaning you should avoid the firm.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of ProgresiveTrade?',
+                desc: `The main issue and the primary topic of all ProgresiveTrade reviews are withdrawals. According to those, customers who have invested money and made alleged profits cannot withdraw a penny back, as this firm doesn’t allow it.
+                Clients see their funds grow and everything is smooth while they are willing to invest more. Yet, once they request a payout, the broker’s attitude completely changes. Most victims are no longer able to access trading accounts or funds.`,
+            },
+        },
+        image: progresivetrade,
+        path: '/blog/ProgresiveTrade'
+    },
+    {
+        name: 'XTB Global',
+        shortHeading: 'XTB Global Review – Is Xtb-global.com Broker Worth Your Money?',
+        fullDescription: `XTB Global is a fraudulent broker, falsely presenting itself as an ASIC-regulated trading firm. Moreover, it provided us with 3 different addresses, all fake.`,
+        heading: 'XTB Global Review – Is Xtb-global.com Broker Worth Your Money?',
+        descriptionLvl: {
+            image: xtbglobalPage,
+            rev1: {
+                heading: 'How Safe Is It to Start Investing and Trading with XTB Global?',
+                desc: `The short answer would be – not safe at all. The firm claims to be owned by XTB Global Limited, with headquarters in Australia and ASIC licenses. Furthermore, we have addresses in the UK and Germany.`,
+                desc1:`If these were true, it would be fantastic. But as usually happens with scammers, all 3 addresses and ASIC licenses are false. Upon checking databases of ASIC, FCA, and BaFin, we found nothing about XTB Global. In fact, we found a warning that this is a clone firm.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Sometimes, unlicensed brokers pretend to be licensed, choosing names similar to legitimate companies and defrauding customers to be a brand of the legit parent firm. However, the truth is these firms remain unregulated, don’t follow any rules, and provide unregulated trading conditions.',
+                desc1: `Ultimately, they can vanish with your funds, and you will have nowhere to file a complaint. Getting your money back from an anonymous financial swindler can be challenging.`
+            },
+            rev3: {
+                heading: 'So Is XTB Global a Decent Broker or a Scam?',
+                desc:`While pretending to be an ASIC-regulated brokerage, XTB Global operates under the laws of the Marshall Islands. The UK regulator, FCA, issued an official warning against this fraudulent firm.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of XTB Global?',
+                desc: `XTB Global has defrauded many by pretending to be legitimate. Customers were misled to believe that they were dealing with a regulated broker and that the compensation scheme protected them. `,
+                desc1: `Once they discovered the truth and XTB Global refused to process payout requests, customers reached out to regulators. Yet, this cannot help as XTB Global is a fraudulent firm not authorized to provide any services.`
+            },
+        },
+        image: xtbglobal,
+        path: '/blog/XTB Global'
+    },
+    {
+        name: 'Invest Kingdom',
+        shortHeading: 'Invest Kingdom Review – What Do We Know About Investkingdom.net Broker?',
+        fullDescription: `At first glance, we weren’t astonished by the Invest Kingdom. The website seems shallow with crucial information, and that’s usually the first red flag. Additionally, there are no Terms and Conditions, implying that the company doesn’t follow any guidelines. Instead, they can do whatever they please.`,
+        heading: 'Invest Kingdom Review – What Do We Know About Investkingdom.net Broker?',
+        descriptionLvl: {
+            image: investkingdomPage,
+            rev1: {
+                heading: 'Is It Possible to Make Money On The Invest Kingdom Platform?',
+                desc: `Virtually, it’s possible. However, the issue will arise when an unsuspecting victim tries to withdraw this same profit.`,
+                desc1:`Invest Kingdom is an anonymous trading firm. There’s no official owner or legal jurisdiction, making legal action nearly impossible. `,
+                desc2:`If you invest your hard-earned money with this bogus website, you have no guarantees that it’ll be returned. Upon checking major Tier1 databases by the UK FCA, Australian ASIC, German BaFin, and more, we haven’t found any traces of Invest Kingdom’s license. Therefore, no regulator will take responsibility for reimbursing victims.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed brokers don’t follow any legal prerogatives. In fact, they don’t even need T&C or other legal documents. They can do whatever they like with clients’ funds, including vanishing, and nobody can stop them.',
+                desc1: `Legitimate firms have various mechanisms ensuring legal business and fund protection. That’s why when choosing a firm, finding one licensed by Tier1 authorities is a must.`
+            },
+            rev3: {
+                heading: '​​Is Fx24trade a Legit Broker or a Scam?',
+                desc:`Invest Kingdom is an anonymous online trading brokerage. The firm is not licensed and operates unauthorizedly. The German regulator issued an official warning against the scam.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of Invest Kingdom?',
+                desc: `Numerous victims have filed complaints against Bitcode Prime and Invest Kingdom. Apparently, the ad was promising large profits from investing, a typical get-rich-quick scheme. Once naïve investors signed up, they were pressured to deposit more and more. `,
+                desc1: `Of course, when they requested a payout, the fraudulent broker simply froze their investment accounts and stopped taking their calls. `
+            },
+        },
+        image: investkingdom,
+        path: '/blog/Invest Kingdom'
+    },
+    {
+        name: 'Bullden',
+        shortHeading: 'Bullden Review – Why You Should Avoid Bullden.io Broker?',
+        fullDescription: `A brief overview of Bullden broker’s website showed what we already suspected. We know nothing about the owner or legal jurisdiction, not to mention the trading license. Simply put, this particular brokerage is another anonymous financial swindler with the utmost goal of stealing clients’ funds.`,
+        heading: 'Bullden Review – Why You Should Avoid Bullden.io Broker?',
+        descriptionLvl: {
+            image: bulldenPage,
+            rev1: {
+                heading: 'Is Bullden a Trustworthy And Licensed Broker?',
+                desc: `As aforementioned, Bullden is an entirely anonymous website. The company provides Forex and CFD trading, but that’s all we know. No official owner would take responsibility for the broker’s activities, and there’s no mention of legal jurisdiction.`,
+                desc1:`Upon checking registers of Tier1 license providers, such as FCA, ASIC, BaFin, and CONSOB, we found nothing. All this is a clear indicator that Bullden cannot be trusted due to a lack of license.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed brokers can vanish whenever they like. If you try to file a complaint, no regulator will take responsibility. Since we don’t know where the official headquarters are, legal actions are hard to take.',
+                desc1: `Legitimate brokers require Forex providers to form significant compensation funds and secure clients’ money by keeping it in segregated accounts. That’s something you won’t find with scheme firms like Bullden here.`
+            },
+            rev3: {
+                heading: 'So Is Bullden a Decent Broker or a Scam?',
+                desc:`Bullden is an anonymous, unregulated trading firm. The company has been blacklisted by the Belgian regulator FSMA and the Canadian AMF of Quebec.`
+            },
+            rev4: {
+                heading: 'Trading Bonuses Fraud',
+                desc: `According to the Terms and Conditions, the company offers bonuses that become a part of the deposit, securing the trading result. However, they are not available for withdrawal, nor is the profit, before reaching a required trading volume. This volume equals the bonus amount divided by 4 in lots. `,
+                desc1: `If a client submits a withdrawal request before meeting the required volume, any profits made from bonuses will be removed, and the client can withdraw only the initial deposit. `,
+                desc2: `If it sounds unfair, it’s because it is. It’s all part of Bullden’s trading scam.`
+            },
+        },
+        image: bullden,
+        path: '/blog/Bullden'
+    },
+    {
+        name: 'Capitality',
+        shortHeading: 'Capitality Review – Is Capitality.ch A Genuine Brokerage?',
+        fullDescription: `Capitality broker claims to be based in Switzerland but fails to provide us with the FINMA license number. And this is just the first of many red flags. Since we received numerous complaints, we decided to check the business and confirm if your funds are safe.`,
+        heading: 'Capitality Review – Is Capitality.ch A Genuine Brokerage?',
+        descriptionLvl: {
+            image: capitalityPage,
+            rev1: {
+                heading: 'Is Capitality a Trustworthy And Licensed Broker?',
+                desc: `Capitality is a brand of Capitality FS International LLC. The company was stated to be a “Swiss financial institution registered with the Financial Services Authority of Saint Vincent and the Grenadines.”`,
+                desc1:`This per se is enough for us to suspect the brokerage. First, Switzerland has quite a firm regulatory body, FINMA. It ensures that firms follow strict rules, limit their leverage, provide negative balance protection, and keep clients’ funds in segregated accounts.`,
+                desc2: `On the other hand, we have FSA from SVG, the register of Forex firms, but not a regulator. Thus, even if Capitality has entered FSA commercial register, it would mean nothing in terms of license and business regulations. `
+            },
+            rev2: {
+                heading: 'What Is Known About Capitality’s Trading Conditions?',
+                desc: 'Since we already elaborated on the broker’s regulation, it’s easy to understand why provided trading conditions are unregulated. For instance, the leverage exceeds the regulatory limit, swaps are relatively high, starting at $3. The spread is above the industry average as well. All in all, trading with Capitality won’t be cheap or favorable.',
+            },
+            rev3: {
+                heading: 'Capitality Minimum Deposit and Unfavorable Withdrawal Terms',
+                desc:`Only in the FAQ can we find information about the minimum deposit and withdrawals. The company requires investors to start with at least 500 EUR, double the standard. `,
+                desc1: `As per withdrawal, the company insists clients provide Withdrawal Authorization Code from the partner card. It can easily mean that you need to give them your CVV code so that they can swipe your card and take more funds.`
+            },
+            rev4: {
+                heading: 'Scammed by Capitality Broker? – Let Us Hear Your Story',
+                desc: `If you were scammed by Capitality or a similar bogus broker, let us know. Our chargeback experts may be able to assist you with the refund. Don’t let scammers keep your hard-earned money. Book a free consultation, and let’s put an end to it.`,
+            },
+        },
+        image: capitality,
+        path: '/blog/Capitality'
+    },
+    {
+        name: 'OptiumGroup',
+        shortHeading: 'OptiumGroup Review – Warning, Optiumgroup.com Cannot Be Trusted',
+        fullDescription: `OptiumGroup is an online trading platform claiming to be based in the U.K. and regulated in the U.S. This discrepancy made us suspicious and invoked detailed research. Our findings will convince you to stay away from this bogus website.`,
+        heading: 'OptiumGroup Review – Warning, Optiumgroup.com Cannot Be Trusted',
+        descriptionLvl: {
+            image: optiumgroupPage,
+            rev1: {
+                heading: 'Is OptiumGroup a Trustworthy And Licensed Broker?',
+                desc: `The first thing that bothered us was a lack of basic information. The firm is said to be based in the U.K. and has presented us with fake NFA regulations, but the owner’s name is nowhere displayed.`,
+                desc1:`Furthermore, the NFA and FCA databases inspection showed that OptiumGroup broker was never registered with any. In addition, the Terms and Conditions show that the firm operates under Estonian law.`,
+                desc2: `All in all, OptiumGroup seems to be offshore fraudsters trying to convince traders otherwise.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Legit firms have compensation funds and an obligation to keep clients’ money segregated from the company’s. This ensures that the broker won’t reinvest your funds or harm your budget in any way.',
+                desc1: `With phony firms such as OptiumGroup, you have only fake promises. In reality, the brokerage can vanish anytime, and your money can be gone for good.`
+            },
+            rev3: {
+                heading: 'So, is OptiumGroup a Good Broker or a Scam?',
+                desc:`OptiumGroup is not a legit brokerage. The firm is said to be based in the UK and regulated by the US authority body, NFA. According to FCA and NFA registers, none of these allegations are true.`
+            },
+            rev4: {
+                heading: 'Trading Bonuses Fraud',
+                desc: `While bonuses are advertised as a helping tool to reach your financial goals earlier, it’s just a trap. Once you accept any incentives, the company won’t allow withdrawals before you reach a rollover of 30 times the deposit plus the bonus amount.`,
+                desc1: `This was a reason for regulators to ban bonuses and for scheme firms to still offer them. You’ll be dissuaded from getting your funds back.`
+            },
+        },
+        image: optiumgroup,
+        path: '/blog/OptiumGroup'
+    },
+    {
+        name: 'TheExchangeBank',
+        shortHeading: 'TheExchangeBank Review – Should You Trust TheExchangeBank.com Brokerage?',
+        fullDescription: `TheExchangeBank invites its customers to “fulfill their potential and own the future they deserve.” It’s a nice story and would be possible if the brokerage was legit.
+        Since TheExchangeBank is not regulated, customers have no guarantees that their profit will be paid out nor that they will get the return of their initial deposit in case of any violations by the firm.`,
+        heading: 'TheExchangeBank Review – Should You Trust TheExchangeBank.com Brokerage?',
+        descriptionLvl: {
+            image: theexchangebankPage,
+            rev1: {
+                heading: 'Is TheExchangeBank a Trustworthy And Licensed Broker?',
+                desc: `TheExchangeBank is an anonymous crypto trading provider allegedly based in the UK. A company needs to obtain an FCA license if it wants to offer Forex and CFD trading from this country. Upon checking the databases, we haven’t found anything about the broker TheExchangeBank.`,
+                desc1:`Simply speaking, we’re facing another fraudster claiming to be in the business since 2009. This, of course, is a lie intended to ensure the trust of inexperienced investors.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'If you want to start trading and maximize your fund security, you should search for brokers with a Tier1 license from the FCA, ASIC, BaFin, CONSOB, etc. Only then will you be sure you can get reimbursed if any issue arises.',
+                desc1: `With scheme firms, such as TheExchangeBank, you have no such guarantees. If the firm vanishes with your funds, you need to seek an alternative money-back solution.`
+            },
+            rev3: {
+                heading: '​​Is TheExchangeBank a Legit Broker or a Scam?',
+                desc:`TheExchangeBank is not a legit financial services provider. The company claims to provide crypto trading services from the UK but has no valid FCA license. Negative reviews about withdrawals indicate that you shouldn’t trust the brokerage.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of TheExchangeBank?',
+                desc: `Since the company is not legitimate, there are numerous withdrawal issues. And customers are reporting those in TheExchangeBank reviews.`,
+                desc1: `Before investing, we advise you to do due diligence and check the firm’s comments. Then, you’ll have a clear picture of what you can expect when dealing with the brokerage. `,
+                desc2: `In the case of this particular broker, reviews show what we already knew – the company is stealing clients’ funds and blocking their access to the trading account.`
+            },
+        },
+        image: theexchangebank,
+        path: '/blog/TheExchangeBank'
+    },
+    {
+        name: 'Exo Trade Capital',
+        shortHeading: 'Exo Trade Capital Review – Why Not To Trust Exotrade-capital.com Broker',
+        fullDescription: `If you were considering investing with Exo Trade Capital, we’d immediately tell you to give up. If, on the other hand, you’ve already been involved, there’s a good chance you’re experiencing withdrawal issues. This Exo Trade Capital review will show you everything you need to know about the firm, including details about its operations. Read carefully.`,
+        heading: 'Exo Trade Capital Review – Why Not To Trust Exotrade-capital.com Broker',
+        descriptionLvl: {
+            image: exotradecapitalPage,
+            rev1: {
+                heading: 'Can I Trade Safely On The Exo Trade Capital Platform?',
+                desc: `Exo Trade Capital is said to be a brand of Exo Trade Capital A/S, operating under Danish law. For any firm to establish its Forex and CFD office in Denmark, it ought to have a DFSA license. In addition, the company claims to have been regulated by the UK FCA since 2016 and the US SEC since 2010. `,
+                desc1:`We found nothing about Exo Trade Capital after checking all the aforementioned registers and more, including CONSOB, CySEC, ASIC, and BaFin. Just for referral, if any firm wants to operate from the US, they should have an NFA or CFTC license, so it’s clear we’re talking about a bogus brokerage that hasn’t done the basic research.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed brokers don’t have to keep your funds in segregated accounts, provide negative balance protection, or limit their leverage. Your funds are not safe as you risk losing them quickly, or the brokerage can vanish with them. Unlike licensed firms, these companies have 0 obligations towards you, and you have no right to be compensated by any authorities.',
+            },
+            rev3: {
+                heading: 'So Is Exo Trade Capital a Decent Broker or a Scam?',
+                desc:`Exo Trade Capital is not a legitimate Forex and CFD brokerage. The company is not licensed in any jurisdiction and operates illegally. Negative reviews indicate that the website cannot be trusted.`
+            },
+            rev4: {
+                heading: 'What Trading Terms Does Exo Trade Capital Offer?',
+                desc: `Exo Trade Capital didn’t bother providing too many details about trading conditions. Customers don’t have any information about the leverage, spread, or other potential commissions. Thus, the only way for you to find out risks and costs is by investing an initial deposit and enrolling in the trading process. Since we’re talking about unregulated online trading fraud, we advise you to stay away.`,
+            },
+        },
+        image: exotradecapital,
+        path: '/blog/Exo Trade Capital'
+    },
+    {
+        name: 'Investery Group',
+        shortHeading: 'Investery Group Review – Top Reasons To Avoid This Broker',
+        fullDescription: `The financial market is an excellent place to make some extra money, but you must carefully choose your broker and always do your research before investing. 
+        In this Investery Group review, we are exposing a scam. Please make sure to read all of it.
+        Investery Group broker claims to be based in Switzerland. They are also allegedly licensed by many authorities worldwide, but is this true? The company is very secretive about its corporate background details; there is no owner’s name, and we can not be sure they are also telling the truth about their origin.`,
+        heading: 'Investery Group Review – Top Reasons To Avoid This Broker',
+        descriptionLvl: {
+            image: investeriagroupPage,
+            rev1: {
+                heading: 'Is Investery Group a Licensed Broker? ',
+                desc: `On investriagroup.com, you will find the claim that the company is licensed by the Cyprus Securities and Exchange Commission, the IFSC of Belize, and the FSC of Mauritius. CySEC is among the world’s most respected bodies of financial regulators, so would it be dealing with this fraud?. `,
+                desc1:`Still, when we checked the license number of Investery Group broker, we’ve found no trace of them. This is shady enough. Why would a company lie about its legal regulations if they have nothing to hide? Because they do.`,
+                desc2: `Investery Group is an unlicensed broker that claims to be based in Switzerland. The company was exposed as a scam by BaFin.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Licensed brokers must do everything according to strict rules, the privilege you won’t have with unlicensed brokers. If things go wrong, these rules are there to save the client’s funds, yet scammers never care for that. They are only in the ‘game’ because they want to steal your money!',
+                desc1: `Licensed brokers keep their funds segregated from the client’s funds. This ensures that the company must use their budget for their investments, unlike scamming firms, which will use their client’s money. Every regulated broker must have negative balance protection, certain compensating funds, leverage control, and more.`
+            },
+            rev3: {
+                heading: 'Traders’ Experiences With Investery Group',
+                desc: `The comment section on this broker doesn’t look so good. If you search for Investery Group reviews, you will find a number of customers who have lost their life savings. Every time, the story is the same. The broker is pleasant while extoring the money, then simply disappears.`
+            },
+            rev4: {
+                heading: 'Bonus Program – A Fraudulent Methods',
+                desc: `The company is offering bonuses that you cannot withdraw before you hit a certain turnover, and that number is impossible to reach. Meaning that you can never withdraw, so be extremely careful about this as well!`,
+                desc1: `Bonuses are not going to your favor, despite what the broker may tell you. Be cautious and avoid any incentives that may limit your withdrawal options.`
+            },
+        },
+        image: investeriagroup,
+        path: '/blog/Investery Group'
+    },
+    {
+        name: 'IKICI',
+        shortHeading: 'IKICI Review – Why To Avoid IKICI.com Brokerage',
+        fullDescription: `If you’re about to start trading, you must find the right brokerage. Choosing an investment firm is vital since they keep and manage your funds. If you fall into the hands of scammers, you risk losing your entire life savings.`,
+        heading: 'IKICI Review – Why To Avoid IKICI.com Brokerage',
+        descriptionLvl: {
+            image: ikiciPage,
+            rev1: {
+                heading: 'The Truth About IKICI Regulation',
+                desc: `Checking out the regulation section, one may think that IKICI is the best broker. According to the website, the company holds several licenses, including ASIC, FCA, CySEC, DFSA, FSCA, and IFSC. Furthermore, they’re allegedly affiliated with BlackRock Inc. and Ameriprise Financial Inc.`,
+                desc1:`Knowing that Tier1 regulators have strict demands, requiring brokers to have millions in capital to ensure they don’t go bankrupt, we have to suspect everything said above. Additionally, IKICI leverage and other trading conditions don’t comply with regulatory regimes, being another red flag.`,
+                desc2: `After checking the databases of the aforementioned authorities, we discovered that everything IKICI said was a blatant lie. We’re dealing with another bogus scammer, most likely based offshore.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'If IKICI were a licensed firm, they’d have to comply with regulatory rules. For instance, ASIC requires brokers to have minimal operational capital of 1 million AUD, while both FCA and CySEC limit leverage to 1:30.',
+                desc1: `Since all the regulations are false, IKICI can run its business from an offshore country. Thus, if an issue arises, taking legal action is nearly impossible.`
+            },
+            rev3: {
+                heading: '​​Is IKICI a Legit Broker or a Scam?',
+                desc:`IKICI is not a licensed Forex and CFD trading provider. Since providing investors with false regulations, this trading brokerage has been banned by the UK authority body, FCA.`
+            },
+            rev4: {
+                heading: 'Opening a Personal PAMM Account',
+                desc: `PAMM or Percentage Allocation Management Module implies one large account where multiple investors add their funds. Then, the pool is managed by the designated broker from the company, and they receive a percentage for their work. The profit is also split as a percentage based on initial participation in the pool.`,
+                desc1: `This type of trading can be suitable when a broker is regulated and trustworthy. Offshore scams don’t have licensed account managers and cannot provide quality service.`
+            },
+        },
+        image: ikici,
+        path: '/blog/IKICI'
+    },
+    {
+        name: 'Gis Capital',
+        shortHeading: 'Gis Capital Review – Warning, Giscapital.world Is a Scam Brokerage',
+        fullDescription: `Gis Capital promotes its services through a fraudulent crypto campaign called Bitcoin Fast Profit. This ad shows clients how they can allegedly earn thousands of dollars overnight, from as little as $250. Of course, it’s untrue and it’s just a lure.`,
+        heading: 'Gis Capital Review – Warning, Giscapital.world Is a Scam Brokerage',
+        descriptionLvl: {
+            image: giscapitalPage,
+            rev1: {
+                heading: 'How Risky Is It to Trade With Gis Capital?',
+                desc: `Trading with Gis Capital is quite a risky thing. The firm is owned by the already infamous Raconteur Consulting LLC, registered offshore. Since the main company is in Saint Vincent and the Grenadines, the only country with no financial supervision for Forex brokers, it can have as many unregulated brands as it wants.`,
+                desc1:`According to the FSA instructions, all brokers should obtain local authorities’ licenses. We found nothing after checking FCA, ASIC, BaFin, CONSOB, and other regulatory databases.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Licensed brokers are obligated to follow strict rules imposed by regulators. Depending on the jurisdiction, they must keep operational capital varying from a couple of thousands to millions of dollars. Further, they must keep clients’ funds in segregated accounts and not reinvest them.',
+                desc1: `Unregulated scammers like Gis Capital don’t have any obligations and are free to do as they please.`
+            },
+            rev3: {
+                heading: 'Is Gis Capital a Legitimate Broker Or A Fraud?',
+                desc:`Gis Capital is an offshore brokerage based in Saint Vincent and the Grenadines. The owner has another fraudulent brand, AxisCapital, both operating unlicensed. Unfavorable reviews show problems with withdrawals.`
+            },
+            rev4: {
+                heading: 'Warnings From Financial Regulators',
+                desc: `The Gis Capital scam was exposed by the Canadian regional regulator of Quebec, AMF. According to this warning, giscapital.world is a high-risk Forex trading platform that should be avoided. The brokerage is not registered with the AMF and is not authorized to solicit investors in Quebec.
+                If you find yourself scammed, it’s important to report it to your local authorities, so there will be more warnings.`,
+            },
+        },
+        image: giscapital,
+        path: '/blog/Gis Capital'
+    },
+    {
+        name: 'Solana Markets',
+        shortHeading: 'Solana Markets Review – A Story About Solana-markets.com Scam',
+        fullDescription: `Solana Markets is an unregulated broker allegedly based in Australia. The company provided us with the address in Sydney and the alleged Australian phone number. 
+        Since we have all the proof that this bogus company is nothing but a cyber-fraud, we advise you to withhold from investing. Ensure you read this in-depth Solana Markets review first.`,
+        heading: 'Solana Markets Review – A Story About Solana-markets.com Scam',
+        descriptionLvl: {
+            image: solanamarketsPage,
+            rev1: {
+                heading: 'Details About Solana Markets Regulation',
+                desc: `If you check ASIC’s register searching for Solana Markets, of course, you won’t find anything. To get an Australian trading license, brokers must fulfill strict demands, such as having minimal operational capital of 1 million AUD and limiting leverage to 1:30.`,
+                desc1:`Most fraudulent trading firms cannot fulfill these demands and are not interested in doing so. It’s easier to run the operations unlicensed and simply vanish when noticed by any authority body.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'On the other hand, licensed brokers have completed all the conditions and obtained a license to run a legitimate business. Their activities are monitored by regulators, and they can be penalized for every wrong move.',
+                desc1: `Investing your hard-earned money with a licensed broker ensures fund safety. If you want to secure assistance from authorities and the ability to get reimbursed from a compensation fund, you must avoid fraudsters like Solana Markets.`
+            },
+            rev3: {
+                heading: 'Is Solana Markets a Legitimate Broker Or A Fraud?',
+                desc:`Solana Markets is not a legitimate trading brokerage. The company claims to be based in Australia but has no ASIC license. It has been banned in the UK due to numerous complaints from its victims.`
+            },
+            rev4: {
+                heading: 'Solana Markets Reputation On The Trading Market – Opinion of Traders About the Broker',
+                desc: `If you check Trustpilot and similar websites, you will find that Solana Markets has no negative reviews. Knowing that even top-tier licensed brokers have unsatisfied customers, and it’s quite normal, we must suspect this situation.`,
+                desc1: `In most cases, scammers write their own reviews to attract potential investors. Yet, it cannot last for long. Sooner or later, the truth comes out.`
+            },
+        },
+        image: solanamarkets,
+        path: '/blog/Solana Markets'
+    },
+    {
+        name: 'Investirex',
+        shortHeading: 'Investirex Review – Do Not Trade With Investirex.com Broker',
+        fullDescription: `If you’re considering investing with an Investirex broker, think twice! The financial market is full of shady brokers whose only goal is to take your money. When starting online trading, you want a legal, regulated company, a company that will put your needs first. Also, bear in mind that the market is very competitive, but there is a particular line that shouldn’t be crossed, and that is fraud. 
+        In this detailed Investirex review, we are exposing a scammer, and if you’ve already come across this broker, keep reading. 
+        Their website lacks with background information. The only details you can see are a UK phone number and an email address.`,
+        heading: 'Investirex Review – Do Not Trade With Investirex.com Broker',
+        descriptionLvl: {
+            image: investirexPage,
+            rev1: {
+                heading: 'Is Investirex a Licensed Broker?',
+                desc: `The broker is owned by Castan Holdings Ltd, a company registered in 2020 in Saint Vincent and the Grenadines. Since it’s a well-known fact that SVG has no financial regulator, and brokers should opt for a license in the country of service, we’ve checked Tier1 authorities.`,
+                desc1:`The brokerage is not regulated by FCA, ASIC, BaFin, CONSOB, or any other major regulation provider.`
+            },
+            rev2: {
+                heading: 'How Safe Is An Unlicensed Broker?',
+                desc: 'The measures that licensed brokers are obligated to take are enormous, unlike non-legit companies. For example, all licensed brokers have to prove that they are financially stable, and that is possible by maintaining a minimum operational capital. For the FCA-regulated brokers, that amount is €730 000, and $1 million AUD for ASIC-regulated firms. ',
+                desc1: `ompanies are also obligated to participate in the compensation schemes, meaning that if the company goes bankrupt, each of their clients would be entitled to a specific compensation amount. You will never get this option with Investirex.`
+            },
+            rev3: {
+                heading: 'How Reliable Is Investirex Broker?',
+                desc:`Investirex is an offshore broker based in Saint Vincent and the Grenadines. The firm is not licensed and not supervised, meaning that your funds are at risk.`
+            },
+            rev4: {
+                heading: 'Investirex Deposit, Withdrawal Methods, And High Fees',
+                desc: `Investirex failed to mention anything about deposit methods. The only information we got when we tried to make the payment was that we should contact the account manager via mail or phone. `,
+                desc1: `The broker imposes a few fees. For example, if you want to withdraw the money and you have not traded since the last deposit, you will be charged a fee of 3% of the total withdrawal amount. There is also a hefty dormant account fee, which means that after six months of no trading activity, the client will be charged a $40 activity fee and an additional $20 maintenance fee.`
+            },
+        },
+        image: investirex,
+        path: '/blog/Investirex'
+    },
+    {
+        name: 'CoinmasFX',
+        shortHeading: 'CoinmasFX Review – Avoid Coinmasfx.com By All Means',
+        fullDescription: `We’ve researched CoinmasFX, and things don’t look good for this shady broker. In this detailed CoinmasFX review, we are pointing out some major red flags that you should be aware of if you consider starting trading with the firm. The company lacks corporate information, the website is poor with background details, and it often crashes. 
+        Even if the company claims to be a regulated firm, keep in mind that that is not true because it’s illegal and unregulated! They even promise guaranteed profits to their clients, profits that go up to 30% per day, and this is something that no one can deliver – this broker has scam written all over!`,
+        heading: 'CoinmasFX Review – Avoid Coinmasfx.com By All Means',
+        descriptionLvl: {
+            image: coinmasfxPage,
+            rev1: {
+                heading: 'Is CoinmasFX a Licensed Broker?',
+                desc: `The company claims to be based in San Francisco, USA, which is impossible as the firm is not licensed. There is no record of CoinmasFX in the NFA and CFTC records. Above all, the company claims that they are regulated, yet if you look at how they run their business, you will see that that is an absurd lie. `,
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Licensed brokers have many strict rules that they must follow, and everything has to be done by the book. These measures are for a client’s safety, something you will never get with an unlicensed broker. ',
+                desc1: `Because scam companies have only one goal, which is stealing the money, they are not under anyone’s watch and can misuse their client’s funds however they like. `
+            },
+            rev3: {
+                heading: 'Is CoinmasFX a Decent Broker or a Scam?',
+                desc:`CoinmasFX is an unregulated broker that claims to be based in the US. The company is not licensed by any financial body of authority.`
+            },
+            rev4: {
+                heading: 'Traders’ Experiences With CoinmasFX',
+                desc: `f you look at comments online, you will find bad reviews. Likewise, that only means one – stay away from this shady broker. According to reviews, broker employees will be quite pleasant while you’re investing your funds. Yet, once you submit a withdrawal request, they will stop responding and ensure to block your access to funds.`,
+            },
+        },
+        image: coinmasfx,
+        path: '/blog/CoinmasFX'
+    },
+    {
+        name: 'Axiance',
+        shortHeading: 'Axiance Review – What Do We Know About Axiance.com Broker?',
+        fullDescription: `Axiance Review
+        Axiance Review – What Do We Know About Axiance.com Broker?
+        BYMOLLYMEDIAINBROKERS REVIEWS, FOREX SCAMSTAG:FOREX SCAM, SCAM REVIEW0
+        Axiance is an online trading brokerage owned by ICC Intercertus Capital Ltd, based in Cyprus, holding a CySEC license. This, per se, gives traders some sort of security for their funds. 
+        However, the firm has recently established two offshore entities in Seychelles and Mauritius. This is a bit concerning, knowing that offshore jurisdiction has loose regulators belonging to the Tier3 zone. Therefore, we have done a detailed Axiance review to inform you what you can expect.`,
+        heading: 'Axiance Review – What Do We Know About Axiance.com Broker?',
+        descriptionLvl: {
+            image: axiancePage,
+            rev1: {
+                heading: 'Is Axiance a Regulated Broker or Offshore?',
+                desc: `Long story short, Axiance is both a regulated and an offshore broker. The main company was registered in Cyprus in 2016 and holds a CySEC license. It means that EU clients are entitled to ICF – compensation fund covering up to 20,000 EUR if a company goes bankrupt or any other issue arises. In addition, there’s negative balance protection; the company keeps customers’ funds in segregated accounts, etc. `,
+                desc1:`However, the brokerage has two offshore entities under Aerarium Limited, registered in Seychelles and Mauritius. While these islands have regulators, FSA and FSC provide loose protection. There are no compensation funds, negative balance protection is not guaranteed, and other risk management tools, such as leverage limits, do not apply. `,
+                desc2: `On top, the UK FCA ordered EverFX (the previous name of Axiance broker) to stop offering services to UK residents. Maybe this was the reason for rebranding and name change?
+                Since the company has a discretionary right to assign customers to any entity, we consider opening an account with Axiance a risk. `
+            },
+            rev2: {
+                heading: 'What Do Traders Think Of Axiance?',
+                desc: 'The majority of Axiance reviews show positive experiences with this trading firm. However, the negative reviews refer to offshore entities and the issues clients have faced with them. Since there’s no way for them to seek assistance from the FSA or FSC, these customers have nothing left but to try to get their funds back by dragging attention by writing reviews.',
+                desc1: `If you experience any issues with the firm, ensure to report them immediately.`
+            },
+            rev3: {
+                heading: 'Is Axiance a Trustable Broker?',
+                desc:`Axiance is a Forex and CFD trading provider registered in Cyprus and licensed by CySEC. In addition, the firm has two offshore entities, regulated and registered in Seychelles and Mauritius.`
+            },
+            rev4: {
+                heading: 'What Trading Terms Does Axiance Offer?',
+                desc: `Here we come to the main issue in regards to entities. Trading terms differ based on the fact whether you’re registered with a CySEC-regulated part of the company or an offshore one. The leverage is significantly higher with the offshore entity, making your trading risky. Here’s what you can get.`,
+            },
+        },
+        image: axiance,
+        path: '/blog/Axiance'
+    },
+    {
+        name: 'Gamma Capitals',
+        shortHeading: 'Gamma Capitals Review – Who’s Behind Gammacapitals.com Website?',
+        fullDescription: `Gamma Capitals is a bogus broker with numerous issues. Just to name a few, it’s impossible to register an account, there’s no trading asset overview, and we’re unsure if you can access their platform. All in all, you have good reasons to avoid the firm.
+        Read our Gamma Capitals review and learn all the facts.`,
+        heading: 'Gamma Capitals Review – Who’s Behind Gammacapitals.com Website?',
+        descriptionLvl: {
+            image: gammacapitalsPage,
+            rev1: {
+                heading: 'Is Gamma Capitals Trade a Safe Broker or a Scam?',
+                desc: `Gamma Capitals has a plethora of false information on its website. For instance, the firm claims to exist for the last 8 years, yet it was established in 2019 but got an international award in 2011. You can already see why we don’t trust them.`,
+                desc1:`In addition, the company states, “we are a regulated broker with a license.” Upon research, we’ve discovered that the owner behind the website is Tanquam Limited, established in April 2022 in Saint Vincent and the Grenadines. Since this offshore country has no FX and CFD financial regulator, we’ve checked other registers, including FCA, ASIC, BaFin, and more. Of course, no Gamma Capitals regulation.`,
+                desc2: `Gamma Capitals is not a legit financial services provider. The company was established in Saint Vincent and the Grenadines, operating without a valid license. In addition, there are numerous worrisome reviews.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Offshore and unlicensed brokers tend to be deceptive. They will try and sell you stories about regulations, legitimacy, superior trading technologies, and more. In reality, you will be defrauded, and they’ll vanish. Without a license, you have nowhere to file a complaint and no money-back guarantee.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Gamma Capitals?',
+                desc:`When dealing with a shady offshore firm, it’s impossible to have good results. Gamma Capitals reviews are proof of that. Customers complained that their access to the platform and money was banned right after they submitted withdrawal requests. It’s nothing new and happens all the time with scheme brokers. That’s why it’s essential to do due diligence and research the firm before investing a penny.`
+            },
+            rev4: {
+                heading: 'Gamma Capitals Offers WebTrader Platform For Trading ',
+                desc: `The only platform Gamma Capitals offers is proprietary WebTrader. According to their website, it’s a pure technological achievement with many trading tools, charts, and indicators. You will see an entire page listing why this WebTrader is better than any other software on the market. Besides the fact that 80% of retail traders prefer MetaTrader, here’s another issue with the Gamma Capitals platform.`,
+            },
+        },
+        image: gammacapitals,
+        path: '/blog/Gamma Capitals'
+    },
+    {
+        name: 'Martyn Services',
+        shortHeading: 'Martyn Services Review – Disturbing Facts About Martynservice.com Broker',
+        fullDescription: `Online trading is fertile ground for numerous financial frauds. While some scheme firms are typical bogus websites with a shady background, some are presenting to be a part of legitimate financial firms hoping to lure more customers into their scams. One such company is Martyn Services, which will be the subject of our review. Keep reading and don’t miss any details.`,
+        heading: 'Martyn Services Review – Disturbing Facts About Martynservice.com Broker',
+        descriptionLvl: {
+            image: martynservicePage,
+            rev1: {
+                heading: 'Is Martyn Services Trade a Safe Broker or a Scam?',
+                desc: `Martyn Services broker is an example of a clone firm. As you may see from their well-designed website, the company claims to be a part of Martyn Services Limited, a UK-registered company. This, however, is not true. Upon research, we found that Martyn Services Limited does exist at the address provided on the website, but it’s a firm providing financial intermediation not elsewhere classified. In addition, it’s not subject to FCA regulations.`,
+                desc1:`All this indicates that Martyn Services is an anonymous phony website, and if an issue arises, you have nowhere to file a complaint. `
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'There are plenty of reasons to avoid unlicensed firms, especially those pretending to be legitimate. While customers believe they are under FCA protection and entitled to the FCSC compensation fund, it’s actually the opposite. No regulator will reimburse you if you have been dealing with Martyn Services or a similar clone company.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Martyn Services?',
+                desc:`As expected, traders’ reviews are mainly negative. And they’re mainly referring to the fact that this firm is not actually registered in the UK nor licensed by the FCA. According to customers, everything will be fine if you’re willing to top up your account and deposit more funds. If you decide that you want to withdraw the funds, that’s not going to happen. Broker employees will give you numerous excuses before blocking access to your trading account.`
+            },
+            rev4: {
+                heading: 'What Trading Terms Does Martyn Services Offer?',
+                desc: `Regarding trading terms, Martyn Services cannot be compared to legitimate brokers. Thus, this firm offers unregulated trading conditions and doesn’t specify trading costs. All in all, there’s no reason to trust them. Let’s see what you can expect.`,
+            },
+        },
+        image: martynservice,
+        path: '/blog/Martyn Services'
+    },
+    {
+        name: 'Broker Capitals',
+        shortHeading: 'Broker Capitals Review – Disturbing Facts About Brokercapitals.com Trading Website',
+        fullDescription: `Upon receiving several complaints about Broker Capitals broker, we’ve decided to dig deeper and see who’s behind this business. While the website claims that the company has been active for the last 20 years, 15 of which are under the FCA umbrella, the reality is a bit different. Our honest Broker Capitals review will provide you with all the necessary information about the brokerage.`,
+        heading: 'Broker Capitals Review – Disturbing Facts About Brokercapitals.com Trading Website',
+        descriptionLvl: {
+            image: brokercapitalsPage,
+            rev1: {
+                heading: 'Is Broker Capitals a Scam?',
+                desc: `Broker Capitals claims to be a brand of Broker Capitals Inc., established 20 years ago in the UK. Furthermore, the company allegedly has had an FCA license for the last 15 years. Since we were quite suspicious about this fact and were not provided with the license number, we searched the FCA register. As suspected, there’s no Broker Capitals Inc. or Broker Capitals trading firm. `,
+                desc1:`Additionally, the Client Agreement indicates that the actual owner of this charade is Broker Capitals Limited, incorporated in Saint Vincent and the Grenadines, the only place without a financial regulator.`,
+                desc2: `Broker Capitals is not a legitimate trading company. The website was registered in December 2021, and the firm has already been blacklisted by the Italian regulator CONSOB. The trust index for this particular website is low.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'Unlicensed trading firms don’t follow any legal prerogatives. In fact, they’re free to do whatever they like, including vanishing with clients’ funds. Once it happens, tracing your money is hard, and recovering it is even more complicated. That’s the main reason to avoid unregulated offshore fraud and deal with legitimate firms under ASIC, FCA, BaFin, or any other Tier1 license.',
+            },
+            rev3: {
+                heading: 'What Do Traders Think Of Broker Capitals?',
+                desc:`In addition to regulatory opinion, we have checked traders’ reviews. As expected, very few of them are positive. Mainly, customers are complaining about withdrawals. Once they submit a withdrawal request, it seems this broker stops responding and blocks customers’ access to the trading account and platform.`
+            },
+            rev4: {
+                heading: 'Broker Capitals Available Online Trading Platform & Tools',
+                desc: `If you were hoping for something positive in this review, it’s not the trading platform. Broker Capitals offers a rudimentary WebTrader without any special tools. You will not have access to EAs, social trading, or any other advanced features. Instead, there is a dashboard showing currently open trades, a trade column enabling you to open a position, and a market watch giving you brief news. You can see your trading history in the orders section, and check accounts tab showing the remaining funds and margin level.`,
+            },
+        },
+        image: brokercapitals,
+        path: '/blog/Broker Capitals'
+    },
+    {
+        name: 'Trade Unity',
+        shortHeading: 'Trade Unity Review – Main Reasons To Avoid Tradeunity.co Brokerage',
+        fullDescription: `While online trading can be pretty profitable, investors should be on constant watch for fraudulent firms. Since there’s a lot of money, there are a lot of scammers too. Before investing a penny, ensure to check your brokerage, confirm that it has all the necessary regulations, and only then let yourself be involved. `,
+        heading: 'Trade Unity Review – Main Reasons To Avoid Tradeunity.co Brokerage',
+        descriptionLvl: {
+            image: tradeunityPage,
+            rev1: {
+                heading: 'How Safe Is the Trade Unity Platform?',
+                desc: `The broker is an anonymous financial services provider. We have no information about the company owner, the legal jurisdiction, and the basic legal documents are inaccessible. Simply said, it’s not safe. `,
+                desc1:`From the FCA warning we found, it seems that Trade Unity pretends to be a brand of Trade Unity Capital, a part of UK-regulated Unity Trade Capital Ltd. However, this is false information. If the broker tries to convince you about legitimacy, don’t buy it; you’re exposing your funds to risk.`,
+                desc2: `With everything being said, it’s clear that Trade Unity is an unregulated attempt of a trading website.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'There are plenty of reasons to avoid unlicensed trading firms. These companies do not follow any rules, can provide risky trading conditions, and disappear with your funds. Without an authority body and a compensation fund, you have low chances of recovering your hard-earned money if something goes wrong.',
+            },
+            rev3: {
+                heading: 'So Is Trade Unity a Decent Broker or a Scam?',
+                desc:`Trade Unity is not a legitimate investment service provider. The company is entirely anonymous, while the UK FCA has issued an official warning since it appears to be a clone firm of a UK-regulated brokerage.`
+            },
+            rev4: {
+                heading: 'What Do Traders Think Of Trade Unity?',
+                desc: `One may think that the trading company is a good brokerage based on its reviews on Trustpilot, Facebook, and other social media. However, take a look at the company’s profile. It’s not verified, and the broker is not replying to bad reviews. Therefore, they’re trying to collect as many good ones as possible, written by their employees, while they don’t bother to answer those who are really defrauded.`,
+                desc1: `Most negative reviews refer to clients’ inability to get their money back after being dragged into the scheme.`
+            },
+        },
+        image: tradeunity,
+        path: '/blog/Trade Unity'
+    },
+    {
+        name: 'FTM Trade',
+        shortHeading: 'FTM Trade Review FTM Trade Review – Who Is Ftmtrade.com Forex Broker?',
+        fullDescription: `There are many things we could say about FTM Trade broker, none of which are good. For instance, the broker never listed the owner, legal framework, or license number. All this indicates that the firm is running an unsolicited business you should avoid. Read our honest FTM Trade review and gather all the facts.`,
+        heading: 'FTM Trade Review FTM Trade Review – Who Is Ftmtrade.com Forex Broker?',
+        descriptionLvl: {
+            image: ftmtradePage,
+            rev1: {
+                heading: 'How Safe Is the FTM Trade Platform?',
+                desc: `FTM Trade is an anonymous trading brokerage allegedly based in the UK. The firm has no financial license and failed to provide any relevant information. We don’t know who’s behind the entire charade or who’s responsible if something goes wrong. Companies operating from the UK ought to have an FCA license. The Financial Conduct Authority supervises activities and ensures that Forex and CFD firms have appropriate compensation funds to reimburse potential victims. `,
+                desc1:`Upon checking registers of FCA, ASIC, BaFin, CONSOB, and other Tier1 regulatory bodies, we can confirm that FTM Trade is an unregulated scheme.`
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker',
+                desc: 'If you’re wondering why unlicensed brokers are unsafe, we will explain. These firms don’t follow the rules, decide on their own trading conditions, and can vanish anytime. Once it happens, you have no relevant authority to file a complaint, meaning that you will have to find alternative ways to try and recover your money.',
+            },
+            rev3: {
+                heading: 'Is FTM Trade a Trustable Broker?',
+                desc:`FTM Trade is not a legitimate financial service provider. The broker claims to be based in the UK, yet fails to provide FCA license. The consumer index is low, indicating that you should not trust the firm.`,
+                desc1: `FTM Trade is a relatively new investment firm. The broker has been active since this year but already has many negative reviews. Upon checking traders’ opinions, we acknowledged that the biggest issue with the broker is withdrawals. Broker is luring customers into investing using various promotions, trading plans, etc. However, once clients submit a withdrawal request, their access to the trading account is banned.`
+            },
+            rev4: {
+                heading: 'Does FTM Trade Use SSL? – Security Socket Layer',
+                desc: `FTM Trade uses SSL or Security Socket Layer. It indicates that your data, including credit card numbers and passwords, is safe. However, it’s not an indication of a legitimate firm. SSL can be purchased for a few hundred dollars and added to any website. `,
+                desc1: `Since the trading company uses proprietary WebTrader, it has access to your trades and funds from there. They simply don’t need to abuse your password; they can change market prices and make you win or lose according to their needs.`
+            },
+        },
+        image: ftmtrade,
+        path: '/blog/FTM Trade'
+    },
+    {
+        name: 'Onotex',
+        shortHeading: 'Onotex Review – Why You Should Avoid Onotextrade.com Broker?',
+        fullDescription: `Onotex is an online trading brokerage based offshore. This information should raise a red flag since offshore countries are known for loose regulatory rules and close to non-existent Forex and CFD service providers’ supervision. In this detailed review, we’ve elaborated on all the dangers of trading with Onotex and similar firms. Make sure you read until the very end.`,
+        heading: 'Onotex Review – Why You Should Avoid Onotextrade.com Broker?',
+        descriptionLvl: {
+            image: onotextradePage,
+            rev1: {
+                heading: 'How Safe Is the Onotex Platform?',
+                desc: `Onotex broker is a brand owned by Abax Inc., based in Saint Vincent and the Grenadines. Most offshore countries have lousy regulatory supervision, but SVG has none. The FSA declared itself unauthorized for Forex, CFD, and binary options trading firms, directing them to opt for a license in the country of service. In addition, the broker is registered at a PO Box and doesn’t even have an actual office address.`,
+            },
+            rev2: {
+                heading: 'Reasons Not to Trust an Unlicensed Broker?',
+                desc: 'Upon checking major Tier1 registers, such as FCA, ASIC, BaFin, CONSOB, and more, we confirmed that Onotex is an unregulated scheme. As such, the firm is not bound by any regulatory rules, including the obligation to offer negative balance protection and to keep clients’ funds in segregated accounts. These are all good reasons not to trust unlicensed brokers, among which Onotex.',
+            },
+            rev3: {
+                heading: 'In That Case, Is Onotex a Legitimate Broker Or A Scam?',
+                desc:`Onotex is not a regulated brokerage. The firm is based in Saint Vincent and the Grenadines and has no valid license. There are numerous complaints against the firm, indicating that your funds are not safe.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Onotex',
+                desc: `Since we have already pointed out reasons to stay away from unregulated schemes, you can already guess what Onotex reviews look like. The majority of them are focused on withdrawal issues and the fact that customers cannot get their money back. Once they submit a withdrawal request, broker employees will try to dissuade them and even block their trading accounts and access to funds. `,
+            },
+        },
+        image: onotextrade,
+        path: '/blog/Onotex'
+    },
+    {
+        name: 'TradeBaionics',
+        shortHeading: 'TradeBaionics Review – Don’t Fall For Tradebaionics.net Trading Fraud',
+        fullDescription: `TradeBaionics is an unregulated brokerage. The firm has changed several domains so far after being blacklisted in Italy. From where we stand, it’s pretty evident that the trading firm is fraudulent.`,
+        heading: 'TradeBaionics Review – Don’t Fall For Tradebaionics.net Trading Fraud',
+        descriptionLvl: {
+            image: tradebaionicsPage,
+            rev1: {
+                heading: 'Is TradeBaionics a Licensed Broker?',
+                desc: `TradeBaionics is an anonymous trading firm. The Terms and Conditions don’t reveal any details about the company owner, headquarters, or similar. Since this is the case, we’re unsure under which regulatory jurisdiction the firm should belong. `,
+                desc1:`Upon checking with the FCA, ASIC, BaFin, and other Tier1 regulators, we’ve determined that the firm is unlicensed. `
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers are not safe. You have no money-back guarantee, and the broker can vanish anytime. You have nothing to do if it happens, like with TradeBaionics’ old domains. No regulator will help you get your money back, and you have nowhere to file a complaint.',
+            },
+            rev3: {
+                heading: 'Well Is TradeBaionics a Reliable Broker?',
+                desc:`TradeBaionics is a fraudulent broker that frequently changes domains. The firm is unregulated and doesn’t provide information regarding headquarters. It’s on Italian trading blacklist.`
+            },
+            rev4: {
+                heading: 'TradeBaionics Warning From the Italian Regulator CONSOB',
+                desc: `TradeBaionics was exposed as a trading scam by the Italian regulator, CONSOB. This authority body added tradebaionics.io to the list of fraudulent domains. Once it happened, the broker simply opened a new domain and started claiming the banned one was by the competition.`,
+                desc1: `Don’t trust anything you hear from the TradeBaionics broker. Yes, it’s a scam, and CONSOB proved it.`,
+                desc2: `Traders are not entirely happy with their experience. As you can imagine, numerous negative reviews exist, especially from those who had an account blocked once the broker changed the domain.
+                Basically, these people are no longer able to access their funds. If you’re one of them, get recovery help right away.`
+            },
+        },
+        image: tradebaionics,
+        path: '/blog/TradeBaionics'
+    },
+    {
+        name: 'Bontobel',
+        shortHeading: 'Bontobel Review – Reasons To Stay Away From Bontobel.com Broker',
+        fullDescription: `Bontobel is a shady trading firm that doesn’t provide even basic information. Whenever you come across a trading firm whose website is not complete with details about the owner, headquarters, and license, you should run as far as you can. This detailed Bontobel review will give you everything the broker missed to say or tried to hide.`,
+        heading: 'Bontobel Review – Reasons To Stay Away From Bontobel.com Broker',
+        descriptionLvl: {
+            image: bontobelPage,
+            rev1: {
+                heading: 'Is Bontobel a Licensed Broker?',
+                desc: `Bontobel claims to be a UK-based trading firm yet fails to provide a license. Any company that wants to operate in this country needs to be licensed and supervised by the Financial Conduct Authority. According to the Deposits and Withdrawal section, the broker claims to have FCA, CySEC, and CIMA regulations. Furthermore, it states that the FSCS and ICF compensation funds protect customers. `,
+                desc1:`Bontobel broker has never entered any commercial register, and the firm is not licensed by any major regulator, including ASIC, BaFin, CONSOB, CySEC, and more. Thus, it’s clear that the firm is only allegedly in the UK, while the actual operation can be anywhere.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers don’t provide any guarantees. Unlike licensed trading firms that have to follow strict rules and usually offer negative balance protection and a Demo account, unregulated brokers have no obligations. They can do whatever they want, even shut down the domain and vanish.',
+            },
+            rev3: {
+                heading: 'How Reliable Is Bontobel Broker?',
+                desc:`Bontobel is not a legitimate investment brokerage. The firm claims to be based in the UK, yet it’s not registered as a business, nor does it have an FCA license.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Bontobel',
+                desc: `Traders’ experience with Bontobel is not quite positive. Customers mainly complain that they have been scammed and the broker didn’t approve their withdrawals. While you’re investing, everything seems to go great. However, once you decide to submit a withdrawal request, you will be denied, and the broker will vanish with your money.`,
+                desc1: `Bontobel offers only one trading platform – a proprietary trading solution. It’s a platform uniquely designed by the broker, not related to any software we know, such as MT4 and MT5. When it comes to the platform’s interface, it’s closer to a WebTrader than MetaTrader. The same stands for software features. There are EAs and some advanced functions, but the number of tools is lower than with MetaTrader.`
+            },
+        },
+        image: bontobel,
+        path: '/blog/Bontobel'
+    },
+    {
+        name: 'Go Markets',
+        shortHeading: 'Go Markets Review – Should You Trade With Gomarkets.com Broker?',
+        fullDescription: `The Go Markets broker was founded in 2006 in Australia and currently has offshore offices in Mauritius and Saint Vincent. With Go Markets clients have the opportunity to trade with more than 50 currency pairs as well as with stocks, commodities, and index CFDs.
+        Go Markets gives clients potential maximum leverage of 500:1. However, it should be noted that clients based in the UK and Europe are limited to a leverage of 30:1. Trading is done with the MetaTrader 4 and 5 web platforms. Potential clients of Go Markets should be aware that the broker is licensed by the FSC and regulated by ASIC and CySec. All in all the Go Markets broker is regulated and licensed, clients have on offer two account types titled as Go Plus+ and Standard Account.`,
+        heading: 'Go Markets Review – Should You Trade With Gomarkets.com Broker?',
+        descriptionLvl: {
+            image: gomarketsPage,
+            rev1: {
+                heading: 'Is Go Markets a Licensed Broker?',
+                desc: `As a broker, Go Markets is licensed by the ASIC and CySec. This is an indication that it is safe to invest with this broker. However, an offshore entity made us a bit suspicious. If a company already has a great reputation and legitimate headquarters, why would they need offices in Mauritius and a Tier3 license?`,
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Investing with unlicensed brokers comes with an inherent danger because there is no agency with the traders best interest in mind looking over the broker’s shoulder ensuring that best practices are being followed. In a vast amount of cases investors are at high risk of losing their money/investments if they trade with an unlicensed or unregulated broker. ',
+            },
+            rev3: {
+                heading: 'Traders’ Experiences With Go Markets',
+                desc:`According to Go Markets reviews page on Google they have a 4.5 star rating with 40 reviews with the primary positive listed by the users being the customer support that their clients have received. This tracks well with the fact that both of the account types offered by the broker come with 24/5 customer support. `,
+                desc1: `The trading company supports both MetaTrader 4 and MetaTrader 5, this allows clients to trade over 600 assets as well as over 50 currency pairs. Clients are able to use the web-based trading platform and the Android/IOS platforms to complete their trades.`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: gomarkets,
+        path: '/blog/Go Markets'
+    },
+    {
+        name: 'Garantio Finance',
+        shortHeading: 'Garantio Finance Review – Who Is Garantio.Finance Broker?',
+        fullDescription: `Garantio Finance is a relatively new crypto broker on the market. The company claims to offer the ultimate crypto bot, ensuring you will profit from the digital currency market. However, even crypto trading firms have to be regulated. There’s a mismatch in the information regarding Garantio Finance’s regulatory status, which we will present in this review.`,
+        heading: 'Garantio Finance Review – Who Is Garantio.Finance Broker?',
+        descriptionLvl: {
+            image: garantiofinancePage,
+            rev1: {
+                heading: 'Is Garantio Finance a Licensed Broker?',
+                desc: `Under the Terms and Conditions, Garantio Finance claims to be a brand of Invest PTY LTD, a brokerage registered and regulated in Australia. However, our research didn’t find any connections between legitimate brokerage and garantio.finance. `,
+                desc1:`Furthermore, none of the praise reviews mentions Garantio Finance’s regulation. It’s pretty suspicious since every legitimate firm points it out as the first benefit of trading with them.`,
+                desc2: `In the end, we searched through the ASIC register and didn’t find any mention of the Garantio Finance broker.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers provide no money-back guarantee, no negative balance protection, and are not transparent when it comes to trading conditions. Garantio Finance claims to be Australian-based, but the only way to contact the firm is by using a phone number with the country code of Bermuda. Our best guess is that the trading company is another offshore crypto cyber-fraud you want to avoid.',
+            },
+            rev3: {
+                heading: 'So Is Garantio Finance a Decent Broker or a Scam?',
+                desc:`Garantio Finance claims to be regulated by the Australian regulator ASIC. However, our investigation showed differently. Garantio Finance broker cannot be trusted.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Garantio Finance',
+                desc: `You will find a lot of praise if you check Garantio Finance reviews in Trustpilot and similar websites. Note that illicit brokers usually write their own reviews at the beginning to attract more customers. `,
+                desc1: `Since the firm doesn’t have a single bad review, it clearly indicates that these reviews are dishonest. Even the most regulated brokers have unsatisfied customers. It comes with the business.`
+            },
+        },
+        image: garantiofinance,
+        path: '/blog/Garantio Finance'
+    },
+    {
+        name: 'Europa Trade',
+        shortHeading: 'Europa Trade Capital Review- Is It Safe To Invest With Eurotrcap.com?',
+        fullDescription: `At first glance at the website of the Europa Trade Capital broker (eurotrcap.com), potential clients might think that the broker is at least seemingly legitimate. A slightly closer inspection of the website alone is enough to make the first impression sour. Whilst the broker’s website may look well designed and clean, good web design cannot hide the plethora of issues that potential clients are greeted with.
+        From spelling and grammar mistakes to self-admitted unregulated status, Europa Trade Capital is clearly a scam set up offshore to make off with your investment money. Europa Trade Capital is set up comfortably in St. Vincent and the Grenadines, far away from the watchful eyes of tier one regulatory commissions. This is made worse by recurring statements of the SVG financial authority that it does not regulate Forex brokers.
+        A potential investor’s biggest issue would be the intentionally convoluted deposit methods that try to skirt around possible chargebacks. `,
+        heading: 'Europa Trade Capital Review- Is It Safe To Invest With Eurotrcap.com?',
+        descriptionLvl: {
+            image: eurotrcapPage,
+            rev1: {
+                heading: 'Is Europa Trade Capital a Licensed Broker?',
+                desc: `The Europa Trade Capital broker is self-admittedly not licensed, as seen on their website under the “regulation” tab. This makes sense as the broker is based in SVG, far from any watchful tier one regulatory commission. The firm is likely a scam and not a safe place for your investments. We have checked the Tier one regulatory database and have not found a Europa Trade Capital broker on any of their approved lists. This, paired with their offshore SVG location, strongly indicates that investments made with the broker are unsafe. Additionally, Europa Trade Capital is blacklisted by the UK Financial Conduct Authority, the FCA. `,
+                desc1:`Also, we recommend you not to invest in the fraudulent brokers Focus Markets, Garantio Finance and Green Capitalz.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'An unregulated broker is extremely dangerous because unregulated brokers do not follow the rules that apply to regulated brokers. These rules and regulations are put in place in order to protect investors and their investments as well as a means of preventing money laundering. Often, illegitimate brokers like Europa Trade Capital, will make depositing money more complicated than necessary in order to attempt to avoid anticipated chargebacks. Generally, investors should check that the broker they use is approved by FCA, ASIC, or BaFin. ',
+            },
+            rev3: {
+                heading: 'So Is Europa Trade Capital a Decent Broker or a Scam?',
+                desc:`This article will walk you through a comprehensive Europa Trade Capital review and all the red flags raised by this broker.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Europa Trade Capital ',
+                desc: `Simply put, reviews of the broker are dismal. The general takeaway is that past clients cannot withdraw money from their accounts for various reasons. This hardly inspires confidence in future potential clients as this is a primary concern for investors when selecting a broker. `,
+            },
+        },
+        image: eurotrcap,
+        path: '/blog/Europa Trade'
+    },
+    {
+        name: 'Kapital Consult',
+        shortHeading: 'Kapital Consult Review – Should You Trust Kapitalconsult.com Broker?',
+        fullDescription: `Kapital Consult is a shady website. You won’t find any Terms and Conditions, regulations, or information about the owner. So it’s pretty clear that this review won’t praise the scheme. Let’s start and check every part of the broker’s fraudulent story.`,
+        heading: 'Kapital Consult Review – Should You Trust Kapitalconsult.com Broker?',
+        descriptionLvl: {
+            image: kapitalconsultPage,
+            rev1: {
+                heading: 'Is Kapital Consult a Licensed Broker?',
+                desc: `As aforementioned, we know nothing about Kapital Consult. There is no T&C, the owner is not mentioned anywhere, and there is no official headquarters. We discovered that the broker is unregulated when checking all the major regulatory registers, including here FCA, ASIC, BaFin, CONSOB, FINMA, and more. `,
+                desc1:`Furthermore, trading conditions are unregulated. So you have no reason to invest a penny with the firm, regardless of how good of a story they may serve you.`,
+                desc2: `Also, we want to invite you to read our recently updated reviews of fraudulent brokers Traders Powers, Europa Trade Capital,  and Focus Markets. Be careful with these brokers.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers are unsafe since there’s no compensation fund, no money-back guarantee, and you have nowhere to file a complaint. In addition, most unregulated firms don’t provide negative balance protection, meaning you can end up in debt towards the firm. ',
+                desc1: `Our best advice is to look for a transparent, legitimate broker.`
+            },
+            rev3: {
+                heading: 'So, is Kapital Consult a Good Broker or a Scam?',
+                desc:`Kapital Consult is a shady anonymous trading website. There are no Terms and Conditions, owner, or regulation number. The consumer index is low, indicating you should not trust the firm with your money.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Kapital Consult',
+                desc: `The best way to describe Kapital Consult reviews is as worrisome. The majority of comments refer to withdrawal issues. According to everything we read, this trading firm doesn’t allow customers to withdraw their funds. Instead, they are asked to pay additional fees and taxes, and then their trading account is blocked.`,
+            },
+        },
+        image: kapitalconsult,
+        path: '/blog/Kapital Consult'
+    },
+    {
+        name: 'GF Markets',
+        shortHeading: 'GF Markets Review – Who Is Gfmarketsllc.com And Why To Avoid It?',
+        fullDescription: `GF Markets is a typical offshore scam based in Saint Vincent and the Grenadines. We’ve had a chance to review numerous brokers from this country, and most of the time, they were fraudulent. Whether or not GF Markets is the same? Find out in this review.`,
+        heading: 'GF Markets Review – Who Is Gfmarketsllc.com And Why To Avoid It?',
+        descriptionLvl: {
+            image: gfmarketsllcPage,
+            rev1: {
+                heading: 'Is GF Markets a Secure And Regulated Platform?',
+                desc: `GF Markets belongs to GF Markets LLC, registered in Saint Vincent and the Grenadines. This offshore island has no financial regulator, which is why it has become a hub for illicit investment firms. The Financial Services Authority has indicated that all brokers should opt for a license in the country of service. Therefore, GF Markets should be regulated by the FCA, ASIC, BaFin, or any other Tier1 regulator. Of course, the firm hasn’t followed the indication and has never opted for a license.`,
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers are not safe. You have no money-back guarantee without a valid regulation, and a compensation fund ensured with Tier1 regulated firms. All you can do is wait for the broker to return your funds voluntarily, which has never happened. Therefore, you have all the reasons to avoid the broker and similar bogus firms.',
+                desc1: `Furthermore, we strongly urge you to stay away from 4xhub, Global Profit, and XE Prime fake brokers.`
+            },
+            rev3: {
+                heading: 'Traders’ Experiences With GF Markets',
+                desc:`GF Markets is not a legal broker, as reviews point out. The majority of investors have had issues with withdrawals and are seeking a way to get their money back. In fact, this firm’s employees went so far as to steal clients’ money directly from their bank using AnyDesk and TeamViewer.`,
+                desc1: `If you have been scammed by GF Markets, report it right away.`
+            },
+            rev4: {
+                heading: 'Is GF Markets a Legitimate Broker Or A Fraud?',
+                desc: `GF Markets is a scam broker. The company is registered in Saint Vincent and the Grenadines and has no license. The consumer index is 1, indicating that this Forex and CFD trading provider cannot be trusted.`,
+            },
+        },
+        image: gfmarketsllc,
+        path: '/blog/GF Markets'
+    },
+    {
+        name: '5Markets',
+        shortHeading: '5Markets Review – Why You Need To Avoid 5markets.io Broker?',
+        fullDescription: `5Markets is another offshore broker without proper regulation. The company is registered with the FSA in Saint Vincent and the Grenadines through an external brokerage. It means it’s just a shell firm covering for an illicit business. Read our 5Markets review and find out all the reasons not to trust this brokerage.`,
+        heading: '5Markets Review – Why You Need To Avoid 5markets.io Broker?',
+        descriptionLvl: {
+            image: markets5Page,
+            rev1: {
+                heading: '5Markets a Secure And Regulated Platform?',
+                desc: `5Markets is owned by Uncanny Services LLC, registered in Saint Vincent and the Grenadines. After we had reviewed numerous brokers from this country, we concluded one thing. A third party establishes all these firms, and the owners probably never set foot on the island. Thus, the registration is shady, and so are the companies. If something happens, you won’t be able to get your funds back from an alleged investment company with an alleged headquarters.`,
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Upon reviewing CONSOB, FSMA, FCA, ASIC, and other Tier1 registers, we concluded that 5Markets is not regulated. This means that you have nowhere to file a complaint and there’s no compensation fund. For instance, Tier1 regulated firms must have over 700,000 EUR at any time to reimburse potential victims. With 5Markets and similar bogus firms, you have no guarantees.',
+                desc1: `Also, we want to invite you to read our recently updated reviews of fraudulent brokers CryptoGo365, GF Markets and 4xhub. Be careful with these brokers.`
+            },
+            rev3: {
+                heading: '5Markets Warnings From Financial Regulators',
+                desc:`5Markets and its owner, Uncanny Services LLC, were blacklisted by the Spanish CNMV. This authority body stated that 5Markets provides unregulated services, including Forex trading and financial advising.`,
+                desc1: `The same warning was later republished by the Belgian FSMA.`
+            },
+            rev4: {
+                heading: 'Though, Is 5Markets a Legit Broker or a Scam?',
+                desc: `5Markets is a fraudulent online trading brokerage. The firm is registered in Saint Vincent and the Grenadines and has no regulation. The broker was blacklisted in Spain.`,
+                desc1: `Traders are not entirely happy with their 5Markets experience. Thus, it resulted in many complaints and regulatory warnings. According to reviews, 5Markets doesn’t let customers withdraw their funds. Instead, the firm is simply blocking customers’ accounts and stopping responding. `,
+                desc2: `If you notice that you cannot withdraw your funds for over 3 business days and cannot log in to your account for more than a few hours, it’s time to get help.`
+            },
+        },
+        image: markets5,
+        path: '/blog/5Markets'
+    },
+    {
+        name: 'DGTL Trade',
+        shortHeading: 'DGTL Trade Review – Shady Broker Shady Actions',
+        fullDescription: `You’ve decided to start trading; good for you! However, you must be very careful when choosing a broker. These people will handle your hard-earned money, and you must take extra caution. If you are looking for information on this broker, this detailed DGTL Trade review is perfect for you.
+        After doing some research, things aren’t looking very promising, and we highly advise you to read the full article before taking action.`,
+        heading: 'DGTL Trade Review – Shady Broker Shady Actions',
+        descriptionLvl: {
+            image: dgtltradePage,
+            rev1: {
+                heading: 'Is DGTL Trade a Secure And Regulated Platform? ',
+                desc: `We didn’t find much information on DGTL Trade corporate information. Many details are not disclosed, such as owner, headquarters, registration numbers of the company, etc. Missing data does not sound very trustworthy, yet the company claims they are very transparent.`,
+                desc1:`DGTL Trade broker is not regulated by any reliable regulatory body. That alone is suspicious enough alongside other warning signs. We looked through ASIC, FCA, and BaFin licenses, and there is no trace of this so-called brokerage. They don’t have Tier1 regulation whatsoever. `,
+                desc2: `In top of that, we seriously recommend you not to invest in the fake brokers BullCFDs, Amplixx, and 5Markets. Do not trade with these unlicensed brokers if you want to save your money!`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'We will give you a few insights on safety when working with unlicensed companies. For example, if the FCA licenses a company, your funds will be safe because the authorities force strict regulations.',
+                desc1: `Rules are being followed, as well as risk-reducing measures, such as negative balance protection and leverage restrictions. Yet if you are trading with unregulated brokers, your funds are exposed to fraud risks.`
+            },
+            rev3: {
+                heading: 'Is DGTL Trade a Legit Broker or a Scam?',
+                desc:`DGTL Trade is an unlicensed company that is very shady on background information. Blacklisted as a scam by BCSC this company is not reliable, there are just too many red flags.`
+            },
+            rev4: {
+                heading: 'DGTL Trade Bonuses – As A Method Of Fraud',
+                desc: `Whenever a client makes their first deposit, a bonus is added. The bonus usually means something good, but it will not come in handy in this case. Things get tricky when a client wishes to withdraw money.`,
+                desc1: `They must trade a minimum trading volume of the bonus amount divided by four in lots to withdraw bonus funds.`,
+                desc2: `So, for example, for 200 EUR, a client would need to trade 50 lots or 5 million euros, which is insane. Beware!`
+            },
+        },
+        image: dgtltrade,
+        path: '/blog/DGTL Trade'
+    },
+    {
+        name: 'PrimeDeltas',
+        shortHeading: 'PrimeDeltas Review – A Broker You Can’t Trust',
+        fullDescription: `Exposing scammers is not easy. Many people fall into their traps daily, and it’s understandable why. You don’t have experience, and the agents are using a lot of patience and tricks to get you into opening an account with their company.
+        In this detailed PrimeDeltas review, we will point out some red flags, and if you want to keep your money safe, read carefully.`,
+        heading: 'PrimeDeltas Review – A Broker You Can’t Trust',
+        descriptionLvl: {
+            image: primedeltasPage,
+            rev1: {
+                heading: 'Is PrimeDeltas a Secure And Regulated Platform?',
+                desc: `PrimeDeltas is an offshore broker owned and operated by Delta Nomines Ltd. The onlyinformation is that the firm is registered in Belize. But is it? Let’s check PrimeDeltas regulations. The company is allegedly regulated by the IFSC. Upon reviewing this information, we have confirmed that the broker is not in their register. `,
+                desc1:`If you check the Terms and Conditions, you will see that the agreement with the client is “subject to the laws of Estonia and St. Vincent and the Grenadines (SVG).” This is a high alert per se, indicating that PrimeDeltas is just another unlicensed scheme. `,
+                desc2: `PrimeDeltas is an offshore, unregulated trading firm. The corporation is exposed as a scam by the Spanish regulatory body, CNMV.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'We’ve stated that regulation is crucial. For example, the client’s account is always segregated from the company’s account. Scam companies will just take the money, and you will never hear from them again.',
+            },
+            rev3: {
+                heading: 'PrimeDeltas Warnings From Financial Regulators',
+                desc:`The Spanish National Securities Market Commission exposed the company as a scam. This same warning was later republished in Belgium and Norway. This is a major red flag. Beware! It is not safe to invest with PrimeDeltas.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With PrimeDeltas',
+                desc: `PrimeDeltas is a fraudulent broker, as we have already proved. So, unsurprisingly, the reviews are entirely negative. Many clients involved with this scheme firm cannot get a payout now. If you’re one of them, it’s important for you to act quickly and request a chargeback.`,
+                desc1: `When it comes to the trading platform, the website claims the company is using cutting-edge technology. All that is only to find out that PrimeDelta is using a web-based trading solution. This is not even close to the industry standards like MT4 and MT5. `
+            },
+        },
+        image: primedeltas,
+        path: '/blog/PrimeDeltas'
+    },
+    {
+        name: 'Smart Trade CFD',
+        shortHeading: 'Smart Trade CFD Review – All The Reasons To Avoid Smarttradecfd.com Broker',
+        fullDescription: `Smart Trade CFD is one of those brokers who pretend to be legitimate but, in reality, are not. If you want to start trading, finding a regulated brand is of utmost importance. Sometimes, illegal firms can post legal owners and pretend to be a part of a regulated business. That’s why it’s essential to know better than to trust what’s written on the website. This Smart Trade CFD review will expose the scheme.`,
+        heading: 'Smart Trade CFD Review – All The Reasons To Avoid Smarttradecfd.com Broker',
+        descriptionLvl: {
+            image: smarttradecfdPage,
+            rev1: {
+                heading: 'Is Smart Trade CFD a Broker With a Good Reputation?',
+                desc: `Smart Trade CFD is allegedly a Vie Finance brand registered in Estonia and fully regulated. Let’s first break this information. Vie Finance is not an Estonian company. It’s a Greek-based investment firm operating as Fortissio (fortissio.com) and TaoTrade (taotrade.com). The brokerage has HCMC regulation and operates in Estonia and other countries under an EU passport. Thus, Smart Trade CFD is not related to this firm and, most likely, not even based in Estonia.`,
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers have no money-back guarantee. Imagine investing your funds with a bank that has no supervision from the Central Bank and determines its own interest rates. You would not do it, right? That’s exactly why you shouldn’t invest your funds in Smart Trade CFD or similar bogus brokers.',
+                desc1: `In addition, we strongly advise you not to invest in ZeraTrade, CXChainxbt and Brokeragea fraudulent brokers. So don’t fall for these dishonest scam brokers!`
+            },
+            rev3: {
+                heading: 'Smart Trade CFD Warnings From Financial Regulators',
+                desc:`Upon receiving numerous complaints, the Italian regulator issued an official warning against the Smart Trade CFD trading scam. According to the report, the broker operates illegally and targets Italian citizens. This warning was published on the 18th of July, so the fraud is still hot. Stay away, and don’t risk being defrauded.`
+            },
+            rev4: {
+                heading: 'Traders’ Experience With Smart Trade CFD',
+                desc: `The firm doesn’t give quite a good experience. Investors pay their money expecting to profit from the financial market. In reality, this broker ensures to take as much as possible and block trading accounts. According to reviews, customers who submit withdrawal requests can no longer access their account with the broker.`,
+                desc1: `The broker offers a basic WebTrader. While the firm announces “one of the premier trading platforms,” all you get is web-based software without advanced functionalities. You can see the complete list of trading assets, margin level, open or close a trade, and that’s about it. If you want to trade and earn anything, better find a legitimate investment firm offering reputable software such as MT4 or MT5.`
+            },
+        },
+        image: smarttradecfd,
+        path: '/blog/Smart Trade CFD'
+    },
+    {
+        name: 'Tedex',
+        shortHeading: 'Tedex Review – Five Reasons Why You Should Avoid This Broker',
+        fullDescription: `Tedex is just another scam broker. According to the website, this firm is owned and operated by Vermillion Consulting LLC. The company registration number is displayed and the address is registered in St. Vincent and the Grenadines. So far things look transparent, but let’s look into Tedex review a bit deeper.`,
+        heading: 'Tedex Review – Five Reasons Why You Should Avoid This Broker',
+        descriptionLvl: {
+            image: tedexPage,
+            rev1: {
+                heading: 'Is Tedex a Broker With a Good Reputation?',
+                desc: `Tedex is an offshore-based trading firm. The fact its headquarters are in Saint Vincent and the Grenadines puts the regulation in question. SVG is the only country without Forex and CFD regulator. Instead, brokers are directed to obtain a license in the country where they provide services.`,
+                desc1:`After we’ve checked several Tier1 authorities, including FCA, ASIC, BaFin, CONSOB, and more, we found nothing.`
+            },
+            rev2: {
+                heading: 'How Unsafe Is An Unlicensed Broker?',
+                desc: 'Unlicensed brokers can never provide fund safety. These brokerages have no compensation funds, negative balance protection, and don’t keep your money in reputable banks. In fact, they can disappear with the cash at any time, and you will have nowhere to file a complaints. Beware.',
+            },
+            rev3: {
+                heading: 'Is Tedex a Decent Broker or a Scam?',
+                desc:`Tedex is an unlicensed, offshore broker that claims to be based in St. Vincent and the Grenadines. The broker was publicly exposed by the Spanish CNMV and Belgian FSMA.`
+            },
+            rev4: {
+                heading: 'Is Tedex.co a Regulated Company?',
+                desc: `The company is not regulated and there is no one who can overlook their activities. This broker is not listed under any financial body of authority such as FCA, ASIC, BaFin, or any other. This is a very bad situation for the client but it makes a perfect opportunity for the scam broker to take your money and disappear.`,
+                desc1: `In the financial market regulation of the company is a safety shield. Meaning that regulations provide a number of measures that are very protective of the client’s funds. Every company that is licensed must keep their funds segregated from clients’ funds, they must have negative balance protection and compensational funds, etc. That is why you shouldn’t overlook this information and before you start trading always do the research!`,
+                desc2: `Tedex is an unlicensed, offshore broker that claims to be based in St. Vincent and the Grenadines. The broker was publicly exposed by the CNMV. The minimum amount for a deposit is $250 and the minimum leverage is 1:200. The company has a web based trading platform.`
+
+            },
+        },
+        image: tedex,
+        path: '/blog/Tedex'
     },
     // {
     //     name: 'FxRevenues',
