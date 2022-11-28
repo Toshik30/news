@@ -431,6 +431,32 @@ import markets5 from '../../images/markets5-logo.png'
 import markets5Page from '../../images/markets5Page.png'
 import gfmarketsllc from '../../images/gfmarketsllc-logo.png'
 import gfmarketsllcPage from '../../images/gfmarketsllcPage.png'
+import dashstamp from '../../images/dashstamp-logo.png'
+import dashstampPage from '../../images/dashstampPage.png'
+import limitmarkets from '../../images/limitmarkets-logo.png'
+import limitmarketsPage from '../../images/limitmarketsPage.png'
+import winnexconsulting from '../../images/winnexconsulting-logo.svg'
+import winnexconsultingPage from '../../images/winnexconsultingPage.png'
+import virtuscapital from '../../images/virtuscapital-logo.svg'
+import virtuscapitalPage from '../../images/virtuscapitalPage.png'
+import allinvestfx from '../../images/allinvestfx-logo.png'
+import allinvestfxPage from '../../images/allinvestfxPage.png'
+import maxproinvestment from '../../images/maxproinvestment-logo.png'
+import maxproinvestmentPage from '../../images/maxproinvestmentPage.png'
+import axcapital from '../../images/axcapital-logo.png'
+import axcapitalPage from '../../images/axcapitalPage.png'
+import fxgrow from '../../images/fxgrow-logo.webp'
+import fxgrowPage from '../../images/fxgrowPage.png'
+import fxgiants from '../../images/fxgiants-logo.svg'
+import fxgiantsPage from '../../images/fxgiantsPage.png'
+import profitlevel from '../../images/profitlevel-logo.jpg'
+import profitlevelPage from '../../images/profitlevelPage.png'
+import axiomlaw from '../../images/axiomlaw-logo.svg'
+import axiomlawPage from '../../images/axiomlawPage.png'
+import trustpac from '../../images/trustpac-logo.png'
+import trustpacPage from '../../images/trustpacPage.png'
+import shackecoins from '../../images/shackecoins-logo.svg'
+import shackecoinsPage from '../../images/shackecoinsPage.png'
 
 export const DATA_NEWS = [
     {
@@ -677,6 +703,53 @@ export const DETAILED_NEWS = [
         },
         image: finex,
         path: '/blog/Finex Stock'
+    },
+    {
+        name: 'Shakecoins',
+        shortHeading: 'Shakecoins Review (shackecoins.com)',
+        fullDescription: `You may create a Shackecoins account from the comfort of your own home, office, or mobile device. To begin using this online brokerage platform, a "Real Account" must be crated at the website`,
+        heading: 'Shackecoins Review (shackecoins.com)',
+        descriptionLvl: {
+            image: shackecoinsPage,
+            rev1: {
+                heading: 'Shakecoins Review: The Best Way to Start Trading',
+                desc: `You may create a Shackecoins account from the comfort of your own home, office, or mobile device. To begin using this online brokerage platform, a "Real Account" must be crated at the website. To establish a trading account, just follow the instructions provided there.However, you'll need to provide the proper paperwork, which includes a valid picture ID and evidence of residence.`,
+                desc1:`The first step in trading is making a deposit into your account after joining up. This organisation has a highly effective management staff, and after your identity has been confirmed, your account authorise quickly. The website shackecoins.com is a greate resource for learning more about them.`
+            },
+            rev2: {
+                heading: 'Just why is it a good idea to create a Shackecoins trading account? ',
+                desc: `In addition to providing a means and interface for online trading,
+                this financial institution ensures that your transactions go
+                smoothly and profitably. Joining this brokerage site has several
+                benefits. The following are some of the main benefits:`,
+                ul: {
+                    line1: `You'll have access to a wealth of resources for assessing market conditions, tracking price fluctuations, and managing your trading positions.`,
+                    line2: `The highest-yielding investments may be identified with the use of professional advice.`,
+                    line3: `With this lightning-fast trading tool, you may make trades in real-time and not miss out on any potential gains.`,
+                    line4: `You may sign up for free news alerts and frequent market updates after creating your trading account.`,
+                    line5: `Expert market research by a team of seasoned researchers.`,
+                    line6: `Your trading account is available 24/7, regardless of where you are.`,
+                    line7: `You'll need to decide what kind of account you want throughout the signup process. You may choose the best account type for your needs, tastes, and level of expertise from among the available possibilities.`,
+                    line8: `This broker’s support services are what really set them apart from the competition. A 24/7 customer care hotline puts you in touch with helpful staff at this banking institution. Everyone on our staff is dedicated to providing you with helpful, first-rate assistance.`,
+                }
+            },
+            rev3: {
+                heading: 'Shakecoins Review: The Best Way to Start Trading',
+                desc:`You may create a Shackecoins account from the comfort of your own home, office, or mobile device. To begin using this online brokerage platform, a “Real Account” must be created at the website. To establish a trading account, just follow the instructions provided there. However, you'll need to provide the proper paperwork, which includes a valid picture ID and evidence of residence. The first step in trading is making a deposit into your account after joining up. This organisation has a highly effective management staff, and after your identity has been confirmed, your account authorise quickly. The website shackecoins.com is a great resource for learning more about them.`
+            },
+            rev4: {
+                heading: 'The First Phase: The Overly Enthusiastic Beginner',
+                desc: `Having just begun your trading profession with shakecoins, you are excited about what the
+                future may hold. You could be asking how long it takes to become a successful trader or how
+                long it takes to become lucrative in forex, both of which are reasonable inquiries.`,
+                desc1: `You feel completely unstoppable right now, and your confidence reflects that. You make a few
+                transactions and hit a streak of success. Then you learned about this thing called risk
+                management and understood trading is about more than just trading methods, indicators,
+                patterns, etc.`
+            },
+        },
+        image: shackecoins,
+        path: '/blog/Shakecoins'
     },
     {
         name: 'Fibo Traders',
@@ -7133,6 +7206,395 @@ export const DETAILED_NEWS = [
         },
         image: tedex,
         path: '/blog/Tedex'
+    },
+    {
+        name: 'AllinvestFX ',
+        shortHeading: 'AllinvestFX Review – Disturbing Information About AllinvestFx.com',
+        fullDescription: `In our intention to bring to light scamming traders from – Italy and Germany, we have assessed many companies so far, enabling you to recognize and avoid being defrauded. For that very reason, in this article, we analyzed the following shady brokerage firm – the AllinvestFX broker.
+        Let’s have a quick overview of this phony business. AllinvestFX is a type of crypto broker allegedly based in Bulgaria, but it doesn’t comply with the EU legislation on online financial trading – meaning that it is unlicensed and offers services that go against regulations. So please read our AllinvestFX review to stay informed about this potential investment scam.`,
+        heading: 'AllinvestFX Review – Disturbing Information About AllinvestFx.com',
+        descriptionLvl: {
+            image: allinvestfxPage,
+            rev1: {
+                heading: 'AllinvestFX Is a Safe Crypto-Broker?',
+                desc: `When it comes to the safety of your funds while investing with AllinvestFX, we must say that they are at elevated risk. It is simply because this bogus broker is not authorized to provide online financial trading services in any jurisdiction.`,
+                desc1:`Not only that this Bulgarian-based broker doesn’t hold the required FSC trading credential (Bulgarian Financial Trading Commission) but it is not licensed under any other financial market regulator. After checking the registers of top-level supervisory agencies – including FCA (UK Financial Conduct Authority), BaFin (German Federal Financial Supervisory Authority), and ASIC (Australian Securities and Investment Commission) – we couldn’t find anything about AllinvestFX’s license.`,
+                desc2: `Moreover, in the Bulgarian Commercial Register, there are no details on AllinvestFX, raising a red flag and indicating that it is an anonymous broker probably running scamming schemes from an offshore safe haven. `
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: `Instead of hingeing on the irresponsible and fraudulent nature of unlicensed companies, you better stick with their antipodes. However, bear in mind that not all broker’s licenses carry the same weight.
+                For example, leading brokerage firms are regulated by tier-one institutions (as already been mentioned, FCA, BaFin, and ASIC) that offer a great deal of safety due to having stringent measures and compensation programs that cover traders in the case of negative events. It would mean that if let’s say, an FCA-certified company went bust, you would be indemnified up to £85,000.`,
+                desc1: `However, it is less likely to occur since licensing requirements of premium organizations are challenging to ensure a brokerage firm is sustainable. For instance, FCA demands maintaining a minimum £1M business capital. `,
+                desc2: `Not only that, approved brokerage companies implement a range of risk management tools to mitigate the risk inherent in trading. For example, negative balance protection ensures that you can’t lose more money than invested, and segregation of funds means that traders’ and brokers’ capital are kept separated from each other.`
+            },
+            rev3: {
+                heading: 'So Is AllinvestFX a Decent Broker or a Scam?',
+                desc:`AllinvestFX is a crypto asset broker operating from Bulgaria, having no license and regulations, and offering poor services, adverse conditions, and trading platforms – hence, avoid it at all costs.`
+            },
+            rev4: {
+                heading: 'What Trading Software Does the AllinvestFX Broker Offer?',
+                desc: `Regarding AllinvestFX trading software, it is as safe as this fraudulent broker. Despite promises that its web trader has innovative tools, it is easily refuted when you start trading. It consists of basic functions like charts, several timeframes, pending orders, news, alerts, and past activities. `,
+                desc1: `But in no way it can be compared to advanced programs provided by credible FX brokers, such as MetaTrader 4, MetaTrader 5, Sirix, and cTrader. These award-winning platforms enable successful trading thanks to their valuable features, e.g., stop loss, automated trading, and copy trading. Have in mind that you might come across a dishonest broker with an effective trading program; still, it doesn’t change the fact that it is a scam.`
+            },
+        },
+        image: allinvestfx,
+        path: '/blog/AllinvestFX'
+    },
+    {
+        name: 'VirtusCapital',
+        shortHeading: 'VirtusCapital Review – Another Fraud With No Regulation',
+        fullDescription: `VirtusCapital seems to have a decent website, attractive to the eye. The legal documents provide no sign of regulation or license, which holds the primal importance. There is no info on the owning company either. 
+        Despite being deceptively convincing at first glance, the broker is actually another unlicensed fraud. This VirtusCapital review closely examines the particularities of their unscrupulous scheme. `,
+        heading: 'VirtusCapital Review – Another Fraud With No Regulation',
+        descriptionLvl: {
+            image: virtuscapitalPage,
+            rev1: {
+                heading: 'Is it Safe to Trade With VirtusCapital Broker?',
+                desc: `Since we could not find any proof of regulations, we strongly advise you not to invest with VirtusCapital. Terms and Conditions only mention the jurisdiction of the Polish court. If the broker was situated and regulated there, they’d appear in the KNF register. However, they do not. `,
+                desc1:`We have checked the databases of other leading regulators like FCA, CySEC, BaFin, ASIC, IIROC, AMF. VirtusCapital shows up in none, except in the form of a scammer warning by AMF. `,
+                desc2: `Conclusion is that VirtusCapital does not comply with regulatory standards and MiFID rules. The broker cannot guarantee safety of funds, AML measures, enhanced privacy protection and transparency. `
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Most regulated brokers offer far better trading conditions and realistic chances of profit. Investing with a fraudulent broker only puts your funds and privacy at risk. ',
+                desc1: `Licensed brokerage companies are fully transparent, unlike the shady, anonymous scammers. Trading on a licensed broker’s platform is safe and user friendly to every pro trader or beginners. `
+            },
+            rev3: {
+                heading: 'Is VirtusCapital a Licensed Broker Or A Fraud?',
+                desc:`VirtusCapital is a completely unlicensed broker. Without any proof of being regulated, along with the warning issued by the French regulator – AMF, this company is another phony broker with no license.`,
+                desc1: `One of the leading EU regulators, the French financial authority AMF has blacklisted VirtusCapital as a scammer.
+                Apparently the broker is not authorized for offering financial services as well as transactions. When a regulatory body blacklists a site, it’s a red flag to avoid them.`
+            },
+            rev4: {
+                heading: 'What Trading Software Does the VirtusCapital Broker Offer? ',
+                desc: `It was quite a surprise to see VirtusCapital actually offering a functional MT5. However, upon downloading, you quickly realize all you have is a demo version linked from the MetaQuotes site. 
+                VirtusCapital does not have a dedicated MT5 server. Just offering this demo version does not make VirtusCapital nearly legit.`,
+            },
+        },
+        image: virtuscapital,
+        path: '/blog/VirtusCapital'
+    },
+    {
+        name: 'Winnex Consulting',
+        shortHeading: 'Winnex Consulting Review – Blacklisted Fraud Lies About License',
+        fullDescription: `Winnex Consulting website is owned and operated by Wealth Fund Services Ltd, a Cyprus-based investment company. Broker offers online financial services and claims to have been licensed by CySEC. 
+        However, this is not the factual state and this site is not to be trusted. Winnex is actually an ongoing scam scheme and has not been regulated. Read our Winnex Consulting review to see why it is so.`,
+        heading: 'Winnex Consulting Review – Blacklisted Fraud Lies About License',
+        descriptionLvl: {
+            image: winnexconsultingPage,
+            rev1: {
+                heading: 'Is It Safe To Trade With Winnex Consulting Broker?',
+                desc: `We can say it right off the bat: Winnex Consulting is not a safe broker to rely on! Simple check of the CySEC register and not finding Winnex there is a confirmation that Winnex is faking a license. `,
+                desc1:`To be sure, we have also checked several more registers: FCA, BaFin, AMF, CNMV, ASIC, CFTC. Winnex Consulting is not in any database of the regulated brokers. `,
+                desc2: `Without being regulated, Winnex Consulting cannot guarantee safety of funds, security protocols, segregated accounts and more. Trading environment provided cannot be deemed safe due to the broker operating without authorization.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Regulated brokers have no need to lie about being licensed. As a matter of fact, due to the transparency obligations, they will have to provide proof of being regulated. That is why you can find legal documentation on their site and check the company background info in detail.',
+                desc1: `Furthermore, safety of funds is guaranteed, including enhanced customer protection. Risk-reducing measures are also taken to prevent unwanted losses. `
+            },
+            rev3: {
+                heading: 'So Is Winnex Consulting a Scam?',
+                desc:`Winnex Consulting is a fraud claiming to be licensed by CySEC. In reality, CySEC has never authorized Winnex Consulting to offer online financial services. A warning issued by CONSOB confirms that this broker operates illegally. Stay away!`
+            },
+            rev4: {
+                heading: 'Negative Equity Protection',
+                desc: `Winnex Consulting is an unlicensed broker. In comparison to regulated brokers, this broker cannot guarantee certain funds protection and consumer safety measures. One of them is negative balance protection. `,
+                desc1: `This refers to protecting the client from losing more than they’ve invested. Thanks to this measure, if a client deposits $1000 for example, they can never lose more than what they’ve deposited, in this case $1000.`
+            },
+        },
+        image: winnexconsulting,
+        path: '/blog/Winnex Consulting'
+    },
+    {
+        name: 'Limit Markets',
+        shortHeading: 'Limit Markets Review – Suspicious Broker With Offshore License',
+        fullDescription: `Our Limit Markets review goes into detail about what trading conditions this broker offers and at what price. 
+        The broker is located in Mauritius and holds a license issued by FSC. Since this is an offshore regulator, the regulatory standards are loose. 
+        On top of that, there’s a warning issued against them. For that reason, be advised if you plan to deal with this broker.`,
+        heading: 'Limit Markets Review – Suspicious Broker With Offshore License',
+        descriptionLvl: {
+            image: limitmarketsPage,
+            rev1: {
+                heading: 'Is Limit Markets Licensed Broker?',
+                desc: `Since Limit Markets claims to have HQ located in Mauritius and a license issued by FSC, we had to inspect this. `,
+                desc1:`It appears that Limit Markets does hold a license issued by FSC. The broker is listed in their register of regulated firms. However, the regulatory rules of the offshore brokers differ from those that regulated brokers impose. `,
+                desc2: `Limit Markets is not regulated by a top tier broker like FCA, CySEC, ASIC, IIROC. Otherwise, they wouldn’t be able to offer the 1:200 leverage. Regulated brokers are forbidden from allowing leverage over 1:30 or 1:50 and the bonuses in UK, EU and AU are banned. Segregated bank accounts, compensation schemes and negative balance protection are also obligatory. 
+                If still in doubt, better to choose a broker regulated by a leading financial authority over an offshore broker.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Licensed brokers offer reliable trading platforms with good trading conditions and clear deposit/withdrawal policies. You will always be provided with all the relevant information you seek. ',
+                desc1: `Furthermore, traders investing with authorized brokers can be guaranteed top privacy and safety conditions. Protection of funds is guaranteed and investments are protected from being misused.`
+            },
+            rev3: {
+                heading: 'So Is Limit Markets a Decent Broker or a Scam?',
+                desc:`Limit Markets is an offshore broker regulated by FSC. Countries of service are limited and offshore regulations are loose compared to top tier regulatory standards. Being blacklisted by SCA, this broker should not be easily trusted.`
+            },
+            rev4: {
+                heading: 'Scammed by Limit Markets Broker? – Let Us Hear Your Story',
+                desc: `In case you have fallen victim to Limit Markets, please share your experience with us. It can help warn and protect their next potential victim. `,
+                desc1: `We can assist you by reporting your scammer and providing you additional chargeback assistance. Do not feel ashamed of letting others know what experience you’ve had with this broker.`
+            },
+        },
+        image: limitmarkets,
+        path: '/blog/Limit Markets'
+    },
+    {
+        name: 'DashStamp',
+        shortHeading: 'DashStamp Review – Don’t Trust Dashstamp.pro Broker',
+        fullDescription: `DashStamp is an alleged UK-based brokerage with an entire website in German. Since we’d expected to see an English version, we were alerted from the very start.
+        Furthermore, the brokerage has no legal documents, and its obscure website information left us unimpressed. Read this detailed DashStamp review for more.`,
+        heading: 'DashStamp Review – Don’t Trust Dashstamp.pro Broker',
+        descriptionLvl: {
+            image: dashstampPage,
+            rev1: {
+                heading: 'Is it Safe to Trade With DashStamp Broker?',
+                desc: `Simply put, it’s not safe to trade with a DashStamp broker. We’ve checked its entire web page and found nothing about the regulation or the legal jurisdiction. Their alleged address in London implies that the FCA should license the brokerage. Additionally, some of the website sections suggest the license.`,
+                desc1:`Upon checking the databases of the FCA, but also other Tier1 license providers, such as BaFin and CONSOB, we found a warning about fraud.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Licensed brokers provide financial security. They follow strict rules imposed by the regulators and cannot easily bankrupt or vanish with your funds. ',
+                desc1: `On the other hand, scammers don’t comply with any license regimes. They can shut down the website and disappear, making it hard for you to retrieve the money.`
+            },
+            rev3: {
+                heading: 'So Is DashStamp a Decent Broker or a Scam?',
+                desc:`DashStamp is an online scam brokerage. It’s currently under investigation by the German regulator, BaFin, and Federal Criminal Police.`,
+                desc1: `DashStamp has been blacklisted by the German financial authority body, BaFin. According to the warning, the Federal Criminal Police has started investigating the brand and its alleged owner, DashStamp Ltd.
+                Clients are advised to avoid this scam brokerage. Further, they have been informed that they cannot get reimbursed by the regulator or get help from the financial authorities.`
+            },
+            rev4: {
+                heading: 'Scammed by DashStamp Broker? – Let Us Hear Your Story',
+                desc: `Suppose you’ve been involved with a DashStamp broker. Most likely, the situation doesn’t look good. If you have any withdrawals issued, contact our chargeback specialists. They might be able to assist with the recovery process.`,
+                desc1: `Unsurprisingly, the website lacks information about withdrawal methods and fees. Additionally, the minimum deposit and payment options are not specified either.
+                According to DashStamp reviews, withdrawing your funds from this bogus brokerage is impossible. Once you submit a request, the broker employees will try to dissuade you. If their nice talk doesn’t work, they’ll block your access to the trading account.          
+                This is a typical method of operation for offshore scammers. Don’t fall for it.`
+            },
+        },
+        image: dashstamp,
+        path: '/blog/DashStamp'
+    },
+    {
+        name: 'MaxProInvest',
+        shortHeading: 'MaxProInvest Detailed Review',
+        fullDescription: `Many claims on the MaxProInvest website. Globally licensed and regulated, offering the best trading conditions, a leader in the crypto trading industry, paying dividends in cash? We have to put a question mark since we don’t really know where all these statements came from. Stick with our MaxProInvest review, and you will see an entirely different picture.`,
+        heading: 'MaxProInvest Detailed Review',
+        descriptionLvl: {
+            image: maxproinvestmentPage,
+            rev1: {
+                heading: 'MaxProInvest Regulation and Security',
+                desc: `The broker is owned by FX Solutions Ltd, allegedly based in Chile. The company was nowhere to be found in any register, making us doubt it actually exists. Besides this, the broker claims to be globally regulated but has no regulation at all. It sounds like someone is trying too hard to convince its clients when it actually has nothing to offer.`,
+                desc1:`When there is no regulation, there is no security. Many negative MaxProInvest reviews by users themselves state that withdrawing your money from this broker is a mission impossible.`,
+                desc2: `Be aware of the MaxProInvest scam.`
+            },
+            rev2: {
+                heading: 'Can I make money with MaxProInvest?',
+                desc: 'When trading with an unregulated broker, making money is always doubtful. Since there is no regulatory body to control the broker, it can do anything. Another problem is that the broker offers only web trader, which is risky since it can access all of your trades and change them. Also, the broker is offering a managed account, meaning that you are giving someone direct access to all of your funds.',
+                desc1: `Besides this, there are several other red flags. The leverage this broker provides is 1:500, which is too high. It’s putting your funds at tremendous risk. 
+                The deposit can be made only via cryptocurrency, and there are three crypto exchanges listed on the broker’s website. All the regulated companies must offer several legit payment solutions such as credit card, bank transfer, or any E-wallet.`,
+                desc2: `And last but not the least red flag, the broker claims it’s making dividend payouts in cash, and you do not have to pay taxes in the UK. How is this possible, when according to UK law, any profit coming from investing falls under tax regulations? Who is an unregulated broker to claim such a thing?`
+            },
+            rev3: {
+                heading: 'Scammed by MaxProInvest?',
+                desc:`If you were scammed by MaxProInvest, do not panic. Unfortunately, you are not the only victim of this broker’s scam. The company is running a cyber fraud, and many people fell for it. If you have any complaints about MaxProInvest or any other broker, we would like to help you request a chargeback.`,
+                desc1: `But what is a chargeback? It’s a way to refund your credit card in case you were scammed online. `,
+                desc2: `Get in touch with us via chat immediately, and let’s start the procedure!`
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: maxproinvestment,
+        path: '/blog/MaxProInvest'
+    },
+    {
+        name: 'AXCapital',
+        shortHeading: 'AXCapital Review Broker Scams – How To Avoid Getting Ripped Off',
+        fullDescription: `Dealing with scamming traders from – no information about countries is a real headache costing you time and money. With the right information, you can avoid these issues. That is why we have written this AXCapital review to help you understand this cyber fraud and keep your funds out of harm’s way.
+        In brief, AXCapital is just one of many shady brokerage firms saturating today’s markets and operating unlicensed, unregulated, and anonymously. Its poor service, adverse conditions, subpar platform, and fraudulent characteristics can’t be of any use to you since you will end up swindled.`,
+        heading: 'AXCapital Review Broker Scams – How To Avoid Getting Ripped Off',
+        descriptionLvl: {
+            image: axcapitalPage,
+            rev1: {
+                heading: 'AXCapital Is a Reliable Broker With a License?',
+                desc: `AXCapital is a long way from being a trustworthy and licensed broker. It is unknown where it is based (despite the unproven statement that its HQ is in Michigan, USA) and who owns it. We are not even sure if it is a registered entity at all. All of these stink to high heaven.`,
+                desc1:`But suppose this firm is registered in the US, which is one of the most stringent jurisdictions. In that case, AXCapital must be approved by one of the US financial market regulatory agencies (e.g., NFA, CFTC), which it is not.`
+            },
+            rev2: {
+                heading: 'Why Is Trading On a Licensed Broker’s Platform Preferable?',
+                desc: 'Speaking of the importance of trading with regulated brokers brings us to the safety of your funds, which is, of course, most vital for you. Risk management tools and regulations ensure it. The first refers to negative balance protection and segregated accounts, while the latter relates to stringent measures enforced by financial market supervisory agencies to stave off trading scams.',
+                desc1: `The most sought-after brokerage firms are those based in the UK, EU, Australia, and the USA because of the credibility of financial bodies in those jurisdictions. AXCapital is not nearly enough to be authorized by top-notch financial regulators such as the British FCA, Australian ASIC, and German BaFin.`,
+                desc2: `It comes with no surprise since these premium institutions are thorough, and rigorous, and have a zero-tolerance policy for rule violations. On top of this, they cover traders with indemnification programs for adverse events. For example, in the case of insolvency, traders of ASIC-licensed brokerage firms can be reimbursed up to 100,000 AUD.`
+            },
+            rev3: {
+                heading: '​​Is AXCapital a Legit Broker or a Scam?',
+                desc:`AXCapital is allegedly a US-based broker with no trading credentials and regulations, weak trading software, and unfavorable terms of exchange–thus, take no chance with a such fraudulent company.`
+            },
+            rev4: {
+                heading: 'Scammed by AXCapital Broker? – Let Us Hear Your Story',
+                desc: `Every victim of the AXCapital trading scam should realize that it is possible to get money back. However, it can only be achieved by undertaking the right actions. First, don’t feel embarrassed about reporting scams; do it as soon as possible. Second, leave negative AXCapital reviews on relevant web pages to alert others. Finally, you should seek advice on chargebacks from cyber security experts. `,
+            },
+        },
+        image: axcapital,
+        path: '/blog/AXCapital'
+    },
+    {
+        name: 'FXGiants',
+        shortHeading: 'Is FXGiants a Legit Broker?',
+        fullDescription: `FXGiants is a run-of-the-mill forex and CFD broker. Our FXGiants review didn’t find anything to sing home about, with a mediocre selection of assets from the broker. The most troubling aspect is that they have the same parent company as another broker that has been in serious trouble for withholding trader withdrawals in the past.`,
+        heading: 'Is FXGiants a Legit Broker?',
+        descriptionLvl: {
+            image: fxgiantsPage,
+            rev1: {
+                heading: 'FXGiants Review: Regulation and Security',
+                desc: `There are actually two brokers operating under the brand FXGiants. Our FXGiants review took a look at both of these entities to see if they’re properly regulated. There is both the UK and an Australian version of this broker. Their UK branch is under the parent company 8Safe UK Ltd.  This is the same company that owns and operates IronFX. The company was once called IronFX but changed its name after their Cypriot branch had to pay fines and was put under investigation for denying traders access to their funds.`,
+                desc1:`FXGiants registration is with both the FCA in the UK and ASIC in Australia. Their operating company in Australia is GVS (AU) PTY Limited. While FXGiants regulation from two competent financial regulators makes the broker appear very trustworthy, we already know that other brokers run by the same operating company have had a history of denying trader withdrawals without any valid reason.`
+            },
+            rev2: {
+                heading: 'What Can You Trade With FXGiants?',
+                desc: 'FXGiants account types come in both STP and ECN varieties. The FXGiants minimum deposit to open an account is $500. Our FXGiants review found the spreads on most of their accounts to be too high, with up to 2.2 pips on the standard EUR/USD pair. Although the broker also has spread-free commission accounts, high commissions mean traders are going to be paying about the same anyway.',
+                desc1: `Traders with this broker have access to the standard MetaTrader 4 platform. This is the most widely used platform among online brokers, with traders from many different brokers being familiar with the platform. The broker’s forex selection is somewhat lacking, with only a few major currency pairs available. Their CFD options are a bit more varied, with stocks, commodities, and more available.`
+            },
+            rev3: {
+                heading: 'Where Does FXGiants Accept Traders From?',
+                desc:`Between having registration in both the UK and Australia, the FXGiants broker has the authorization to provide financial services to a wide variety of countries through mutual authorization agreements. There are a few particular countries where the broker does not offer any services, including the United States, Cuba, North Korea, and Cuba.`
+            },
+            rev4: {
+                heading: 'Get Your Funds Back Before It’s Too Late',
+                desc: `Please don’t wait until it’s too late and you’ve fallen for the FXGiants scam. When its sister broker IronFX withheld withdrawals from their clients, they had to wait for financial regulators to act to get their money back. Act now, while you can still recover your funds. Contact the team of professionals here today to get a chargeback rolling and get your money back into your bank account.`,
+            },
+        },
+        image: fxgiants,
+        path: '/blog/FXGiants'
+    },
+    {
+        name: 'FxGrow',
+        shortHeading: 'FxGrow Review: Is FXGrow Legit?',
+        fullDescription: `FxGrow is a brand name of Growell Capital, authorized and regulated by the Cyprus Securities and Exchange Commission, CySEC. This means that FXGrow has the authority to offer trading services to all the clients in Europe, based on CySEC license. Therefore, we can conclude that FXGrow is safe for European clients.`,
+        heading: 'FxGrow Review: Is FXGrow Legit?',
+        descriptionLvl: {
+            image: fxgrowPage,
+            rev1: {
+                heading: 'Regulation and security',
+                desc: `FXGrow broker can offer services to citizens other than Europeans as well, thanks to their entity in Vanuatu, but with no specific regulation for those countries.`,
+                desc1:`When it comes to the security of the funds, our FXGrow review showed that their payment provider DotPay is regulated in Poland, not Cyprus which is the location of the company itself.`
+            },
+            rev2: {
+                heading: 'In which countries does FXGrow broker operate?',
+                desc: 'FXGrow broker can operate with European clients based on their CySEC license. Also, they can provide services to other countries as well, with no specific regulation, thanks to their offshore entity in Vanuatu. However, on their website is specifically listed that they do not provide services to clients with US or Australian citizenship.',
+            },
+            rev3: {
+                heading: 'Which instruments can you trade with FXGrow broker?',
+                desc:`FXGrow broker does not offer such a various specter of instruments as other brokers, according to our review. Clients can invest in 60 Forex currencies, Indicies, and Commodities.
+                Leverage is determined by CySEC license for European clients and goes up to 1:30 for Forex instruments. For international traders that belong under Vanuatu registration, leverage can go as high as 1:300.
+                The minimum deposit in FXGrow for credit/debit cards and E-Wallets is 1$, while for bank transfer is 100$.
+                FXGrow broker offers MT5 trading platform, along with mobile and web trader.
+                According to our review, the company claims to offer an automated trading system as well, along with classical manual trading.`
+            },
+            rev4: {
+                heading: 'Scammed by FXGrow broker? Here is what to do!',
+                desc: `Got scammed by FXGrow? Can’t reach them? Can’t get your withdrawal? As stated before, this broker does not have a specific license for any country other than Europe. Yet, many people have fallen for their scam. Let our professional team evaluate the situation. It might not be too late to get your funds back. You can contact us today, so we can start working!`,
+            },
+        },
+        image: fxgrow,
+        path: '/blog/FxGrow'
+    },
+    {
+        name: 'ProfitLevel',
+        shortHeading: 'ProfitLevel Review',
+        fullDescription: `ProfitLevel is a company owned by BCM Begin Capital Markets CY Ltd, based in Cyprus. Besides this brand, the company has another two brands – CapitalPanda and Begin Capital Markets. Since the other two brands are a scam, we do not see a reason to trust Profit Level as well. For more details on BCM Begin Capital Markets, you can read our CapitalPanda review.`,
+        heading: 'ProfitLevel Review',
+        descriptionLvl: {
+            image: profitlevelPage,
+            rev1: {
+                heading: 'ProfitLevel Regulation and Security',
+                desc: `BCM Begin Capital Markets CY Ltd is a company based in Cyprus and regulated by CySEC. According to our review, the company was established in 2015 under the name OX Capital Markets Limited. Whenever the company changes its name, it’s obvious why. Something was wrong with the OX Capital Markets broker. As mentioned previously, the company owns two other scam brands.`,
+                desc1:`When it comes to the funds’ security, there is an extensive list of EU banks where the funds are allegedly held. We can only hope.`
+            },
+            rev2: {
+                heading: 'Scammed by ProfitLevel?',
+                desc: 'If you were misled or scammed by a ProfitLevel broker, you need to know you are not the only one. This scam broker is operating for a long time and has many victims. A good thing, there is a possibility to get the money back. All you need to do is file a dispute and request a chargeback. Do not let the scam broker go away for free! Contact our support now, and let’s get your money back!',
+            },
+            rev3: {
+                heading: '',
+                desc:``
+            },
+            rev4: {
+                heading: '',
+                desc: ``,
+            },
+        },
+        image: profitlevel,
+        path: '/blog/ProfitLevel'
+    },
+    {
+        name: 'Axiom Trade',
+        shortHeading: 'Axiom Trade Detailed Review',
+        fullDescription: `Axiom Trade is a brand of a company we’ve already met, Widdershins Group Ltd. For more details about the company, you can read our InvestBoost review.
+        However, we’ve researched the Axiom Trade broker as well to make sure the company is following the same scam path with all the brands. Read our Axiom Trade review and find out everything about the brokerage`,
+        heading: 'Axiom Trade Detailed Review',
+        descriptionLvl: {
+            image: axiomlawPage,
+            rev1: {
+                heading: 'Axiom Trade Regulation and Security',
+                desc: `As mentioned, Axiom Trade is a brand of Widdershins Group Ltd. The company owns several other brands, including InvestBoost, TopTrade, and 24FinTime. The company also held a brand Finlay.io that was shut down due to too many complaints.`,
+                desc1:`The broker is based in the Commonwealth of Dominica and operates with no regulation whatsoever. This is probably why there are many negative reviews by other traders and many security warnings about the broker.`,
+                desc2: `Axiom Trade is not legit and not safe to trade with!`
+            },
+            rev2: {
+                heading: 'Warnings From Financial Regulators',
+                desc: 'The company owner of Axiom Trade has many security warnings for several different brands. The company has warnings from Lithuanian LB, the Italian CONSOB, and Spanish CNMV. Since all these brands are not legit, we can conclude the same about Axiom Trade. It’s an unregulated offshore entity conducting a scam. Be aware of this broker!',
+            },
+            rev3: {
+                heading: 'Can I make money with Axiom Trade?',
+                desc:`Long story short, no. You cannot make money with an unregulated company. Since nobody is watching over the broker, it can easily conduct a scam. `,
+                desc1: `The broker is using a web trader, which gives it more access to clients’ trades. Also, the minimum deposit is $250, which is very high for an unregulated offshore brokerage. If you compare it to other FCA, CySEC, or ASIC regulated brokers allowing you to start with $10, you will see that there is no reason to have an account with Axiom Trade.`,
+                desc2: `The spread this broker offers is higher than most regulated brokers, starting from 1.18 pips, while the leverage is 1:100. 
+                All this does not matter since the broker has no regulation and many clients experienced withdrawal issues, according to Axiom Trade reviews we found.`
+            },
+            rev4: {
+                heading: 'Scammed by Axiom Trade?',
+                desc: `If you were scammed by Axiom Trade, you need to know you’re not the only victim of this broker. You need to file a dispute and request a chargeback.
+                But what is a chargeback? It’s a way to refund your card in case you were a victim of an online scam. Contact our support team via chat immediately, and they will guide you through this procedure!`,
+            },
+        },
+        image: axiomlaw,
+        path: '/blog/Axiom Trade'
+    },
+    {
+        name: 'Trustpac',
+        shortHeading: 'Trustpac Review',
+        fullDescription: `The worst companies to review – anonymous ones. When we have nothing to verify, it’s extremely hard to even go into any details. Imagine being scammed by such a broker. You have no idea where to go and to whom to complain. However, there are a couple of things we would like to point out in our Trustpac review. Let’s start.`,
+        heading: 'Trustpac Review',
+        descriptionLvl: {
+            image: trustpacPage,
+            rev1: {
+                heading: 'Trustpac Regulation and Security',
+                desc: `As mentioned, this brand is a completely anonymous one. Nowhere is listed who is the owner of the brand or where it is located. We can only assume that the broker is in some offshore country since only those countries would accept a company with no regulation, no official headquarters, and no transparent information about all the processes. `,
+                desc1:`When there is no regulation, there is no mention of security. There is a reason why regulatory bodies are requiring companies to have a certain amount deposited to them. In order to be able to give you money back if you get scammed by this same broker.`,
+                desc2: `Be aware of the Trustpac scam!`
+            },
+            rev2: {
+                heading: 'Warnings From Financial Regulators',
+                desc: 'As we noticed this shady brokerage, so did FCA, the UK regulatory body. The FCA issued a warning against Trustpac stating that the company has no regulation. Everyone being scammed by Trustpac should report it immediately!',
+            },
+            rev3: {
+                heading: 'Can I make money with Trustpac?',
+                desc:`You wouldn’t start trading if you didn’t want to make a profit. So, obviously, you would like to know if that is possible. Now, imagine the situation that you have invested with Trustpac and now you want that money back. You can’t make a withdrawal and there is no regulatory body to complain to. Making money with unregulated offshore brokers is extremely uncertain.`,
+                desc1: `This particular broker is using a web trader – tool for scams. The broker can access your trades and funds easily. Moreover, the minimum deposit is $250, which is at least 10 times higher than other, regulated brokerages. Many of them are offering Micro accounts starting from $10 or $20. If you check payment methods, for some reason, the broker added McAfee, which is an anti-virus. Was it an attempt to sound more professional or what? No idea.`,
+                desc2: `The broker does not give information about the leverage. However, we can assume it’s more than it should be as per any regulation in the world. `
+            },
+            rev4: {
+                heading: 'Scammed by Trustpac?',
+                desc: `After everything being said, you should not even consider having an account with Trustpac. Yet, if you have it and you get scammed, there is a possibility to get your money back. You need to file a dispute and request a chargeback.`,
+                desc1: `But what is a chargeback? It’s a way of refunding your card in case you were scammed online. Contact our support via chat now, they will guide you throughout the procedure!`
+            },
+        },
+        image: trustpac,
+        path: '/blog/Trustpac'
     },
     // {
     //     name: 'FxRevenues',

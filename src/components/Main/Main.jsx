@@ -16,7 +16,7 @@ export default function Main() {
             <div className="container">
                 <div className={styles.main_page}>
                     <h1 className={styles.heading}>
-                        The place that united us
+                        The place that unite us
                     </h1>
                     <h4 className={styles.heading__description}>
                         Everything you need to find a reputation.

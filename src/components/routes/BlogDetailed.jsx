@@ -26,6 +26,20 @@ export default function BlogDetailed() {
                   <h2>{elem.descriptionLvl?.rev2?.heading}</h2>
                   <p>{elem.descriptionLvl?.rev2?.desc}</p>
                   <p>{elem.descriptionLvl?.rev2?.desc1}</p>
+                  {elem?.descriptionLvl?.rev2?.ul ? 
+                    <ul>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line1}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line2}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line3}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line4}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line5}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line6}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line7}</li>
+                      <li>{elem?.descriptionLvl?.rev2?.ul?.line8}</li>
+                    </ul> : 
+                    <p></p>
+                    }
+                            
                   <p>{elem.descriptionLvl?.rev2?.desc2}</p>
                   {elem.descriptionLvl?.image ? <img src={elem.descriptionLvl?.image} style={{margin: '20px 0px'}} alt="img" /> : null}
                   <h2>{elem.descriptionLvl?.rev3?.heading}</h2>
@@ -43,7 +57,7 @@ export default function BlogDetailed() {
           {isAuthenticated && (
               <Reviews/>
           )}
-          <Reviews/>
+          {/* <Reviews/> */}
       </div>
     </section>
   )

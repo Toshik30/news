@@ -6,32 +6,35 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className="container">
-        <div className={styles.footer__nav}>
+        {/* <div className={styles.footer__nav}>
+         
+          
+        </div> */}
+        <div className={styles.footer__body}>
+          <div className={styles.footer__check}>
           <div className={styles.logo}>
             <img src={LOGO_FOOTER} alt="logo" />
           </div>
-          <Link className={styles.button_primary__blue} to='/blog'> Go reviews</Link>
-        </div>
-        <div className={styles.footer__body}>
-          <div className={styles.footer__check}>
+          <div className={styles.ul_list}>
             <ul>
-              <h5>About:</h5>
-              <li>
-                <Link to='/blog'>Reviews</Link>
-              </li>
-              <li>
-                <Link to='/contacts'>Contacts</Link>
-              </li>
-            </ul>
-            <ul>
-              <h5>Legal:</h5>
-              <li>
-                <Link to='/terms'>Terms</Link>
-              </li>
-              <li>
-                <Link to='/policy'>Privacy</Link>
-              </li>
-            </ul>
+                <h5>About:</h5>
+                <li>
+                  <Link to='/blog'>Reviews</Link>
+                </li>
+                <li>
+                  <Link to='/contacts'>Contacts</Link>
+                </li>
+              </ul>
+              <ul>
+                <h5>Legal:</h5>
+                <li>
+                  <Link to='/terms'>Terms</Link>
+                </li>
+                <li>
+                  <Link to='/policy'>Privacy</Link>
+                </li>
+              </ul>
+          </div>
             {/* <ul>
               <h5>Social:</h5>
               <li>Telegram</li>
@@ -39,6 +42,7 @@ export default function Footer() {
               <li>LinkedIn</li>
             </ul> */}
           </div>
+          <Link className={styles.button_primary__blue} to='/blog'> Go reviews</Link>
           <div className={styles.contacts}>
             <p>Receive must-read articles and trends on company culture.</p>
             <p>Address:</p>

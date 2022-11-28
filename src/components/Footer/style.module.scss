@@ -7,19 +7,23 @@
     &__nav {
         @extend %flex-between;
         margin-bottom: 20px;
-        .logo {
-            font-size: 40px;
-            img {
-                max-width: 100px;
-                object-fit: contain;
-            }
-        }
     }
     &__body {
         display: flex;
         @extend %flex-between;
         flex-wrap: wrap;
         align-items: flex-start;
+        .ul_list {
+            display: flex;
+        }
+        .logo {
+            font-size: 40px;
+            margin-right: 30px;
+            img {
+                max-width: 100px;
+                object-fit: contain;
+            }
+        }
         .contacts {
             max-width: 300px;
             p {
@@ -33,6 +37,7 @@
         @include xs {
             flex-wrap: wrap;
             margin-bottom: 15px;
+            flex-direction: column;
         }
         ul {
             min-width: 150px;
